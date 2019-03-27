@@ -36,9 +36,17 @@ Route::get('/tambahuser', function () {
     return view('login/tambahuser',['namaku' => 'oces' ]);
 })->name('tambahuser');
 
-Route::get('/tambahtag', function () {
-    return view('login/tambahtag',['namaku' => 'oces' ]);
-})->name('tambahtag');
+// Route::get('/tambah', function () {
+// })->name('tambah');
+
+Route::get('/tambah', 'TagController@add' )->name('tambah');
+
+Route::get('/tambahuser', 'UserController@add' )->name('tambahuser');
+
+Route::post('/store', 'TagController@store' )->name('store');
+
+
+
 
 
 

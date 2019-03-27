@@ -76,7 +76,7 @@
                   </a>
                   <ul class="treeview-menu"> 
                     <li><a href="{{route('tag')}}"><i class="fa fa-tags"></i> Data Tag</a></li>
-                    <li><a href="{{route('tambahtag')}}"><i class="fa fa-plus"></i> Tambah Tag</a></li>
+                    <li><a href="{{route('tambah')}}"><i class="fa fa-plus"></i> Tambah Tag</a></li>
                   </ul>
                 </li>
 

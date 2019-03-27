@@ -17,4 +17,11 @@ class UserController extends Controller
         return view('content/user',['namaku' => $mhs ]);
 
     }
+
+    public function add() {
+        
+         return view('content/tag/tambahuser',['namaku' => 'oces' ]);
+        
+
+    }
 }
