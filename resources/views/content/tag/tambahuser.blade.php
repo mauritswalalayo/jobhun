@@ -13,27 +13,30 @@
           </div>
         </div>
             <div class="box-body">
+                <form action="{{route('storeuser')}}" method="post">
+                <input type="hidden" name="_token" value="{{ csrf_token()}}">
+                <form role="form">
                 <form role="form">
                   <!-- text input -->
                   <div class="form-group has-feedback">
                     <label>User</label>
-                    <input type="text" class="form-control" placeholder="Masukan Nama Lengkap">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Masukan Nama Lengkap">
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>
                   </div>
 
                   <div class="form-group has-feedback">
-                    <input type="text" class="form-control" placeholder="Masukan Nomor Hp">
+                    <input type="text" class="form-control" name="phone" placeholder="Masukan Nomor Hp">
                     <span class="glyphicon glyphicon-phone form-control-feedback"></span>
                   </div>
 
                   <div class="form-group has-feedback">
-                    <input type="text" class="form-control" placeholder="Jenis Kelamin">
+                    <input type="text" class="form-control" name="sex" placeholder="Jenis Kelamin">
                     <span class="fa fa-intersex form-control-feedback"></span>
 
                   </div>
 
                   <div class="form-group has-feedback">
-                    <input type="text" class="form-control" placeholder="E-mail">
+                    <input type="text" class="form-control" name="email" placeholder="E-mail">
                     <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
 
                   </div>

@@ -11,11 +11,12 @@
             <table id="example2" class="table table-bordered table-hover">
               <thead>
               <tr>
-                
+                <th>Id</th>
                 <th>Nama</th>
                 <th>Phone</th>
-                <th>Sex</th>
-                <th>Email</th>
+                <th>Gender</th>
+                <th>E-mail</th>
+          
                 
               </tr>
               </thead>
@@ -23,10 +24,12 @@
 
                 @foreach ($namaku as $name)
               <tr>
-                <td><?= $name ['nama']; ?></td>
+                <td><?= $name ['id']; ?></td>
+                <td><?= $name ['name']; ?></td>
                 <td><?= $name ['phone']; ?></td>
                 <td><?= $name ['sex']; ?></td>
                 <td><?= $name ['email']; ?></td>
+
 
               </tr>
               @endforeach
