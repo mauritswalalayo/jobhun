@@ -12,11 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('content/home',['namaku' => 'oces' ]); 
+    return view('content/home'); 
 })->name('home');
 
 Route::get('/setting', function () {
-    return view('content/setting',['namaku' => 'oces']);
+    return view('content/setting');
 })->name('setting');
 
 Route::get('/profil', function () {

@@ -18,15 +18,17 @@
             <input type="hidden" name="_token" value="{{ csrf_token()}}">
                 <form role="form">
                   <!-- text input -->
-                  <div class="form-group">
+                  <div class="form-group has-feedback">
                     <label>Tag</label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Masukan Nama Tag">
+                    <span class="fa fa-plus form-control-feedback"></span>
                   </div>
                   <div class="row">
                   <div class="col-xs-2">
                     <button type="submit" class="btn btn-warning btn-block btn-flat">Tambah</button>
                   </div>
                   </div>
+                  
                   
           
         </div>

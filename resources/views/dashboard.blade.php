@@ -36,7 +36,7 @@
     <section class="content">
 
       <!-- Default box -->
-    
+     @include('pesan/sukses')
      @yield('cumi')
       <!-- /.box -->
 

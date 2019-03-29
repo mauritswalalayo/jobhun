@@ -31,14 +31,14 @@
 
                   <div class="form-group has-feedback">
                     <input type="text" class="form-control" name="sex" placeholder="Jenis Kelamin">
-                    <span class="fa fa-intersex form-control-feedback"></span>
+                    <span class="fas fa-transgender form-control-feedback"></span>
 
                   </div>
 
                   <div class="form-group has-feedback">
                     <input type="text" class="form-control" name="email" placeholder="E-mail">
                     <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-
+                  
                   </div>
 
                   <div class="row">

@@ -13,6 +13,7 @@
           </div>
         </div>
         <div class="box-body">
+          
           @include('tabel/tagtabel')
           
         </div>

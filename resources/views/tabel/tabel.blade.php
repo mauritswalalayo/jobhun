@@ -16,6 +16,7 @@
                 <th>Phone</th>
                 <th>Gender</th>
                 <th>E-mail</th>
+                <th>Action</th>
           
                 
               </tr>
@@ -29,7 +30,9 @@
                 <td><?= $name ['phone']; ?></td>
                 <td><?= $name ['sex']; ?></td>
                 <td><?= $name ['email']; ?></td>
-
+                <td><button type="button" class="	glyphicon glyphicon-pencil btn btn-primary"></button>
+                    <button type="button" class="	glyphicon glyphicon-trash btn btn-danger"></button>
+                </td>
 
               </tr>
               @endforeach

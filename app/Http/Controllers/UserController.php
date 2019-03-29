@@ -32,6 +32,6 @@ class UserController extends Controller
 
         $dataku->save();
 
-    return redirect()->route('user');
+    return redirect()->route('user')->with('user', 'User Berhasil Ditambahkan');
     }
 }

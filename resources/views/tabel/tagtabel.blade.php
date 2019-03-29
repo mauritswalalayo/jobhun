@@ -16,17 +16,25 @@
                 <th>Name</th>
                 <th>Waktu buat</th>
                 <th>Waktu Edit</th>
+                <th>Action</th>
                 
               </tr>
               </thead>
               <tbody>
-
+                <!-- jadi, pertama variable i kita kasih angkat first index tadi
+                -->
+                  @php $i = $first_index; @endphp
                 @foreach ($data as $tag)
+               
               <tr>
-                <td>{{ $tag ['id'] }}</td>
+                <td>{{ $i++ }}</td><!-- lalu disetiap foreachnya, kita tambah 1 sekalian di echo -->
+                <!-- kode di atas ini artinya echo dulu i baru i ditambah 1 untuk row berikutnya -->
                 <td>{{ $tag ['name'] }}</td>
                 <td>{{ $tag ['created_at'] }}</td>
                 <td>{{ $tag ['updated_at'] }}</td>
+                <td><button type="button" class="	glyphicon glyphicon-pencil btn btn-primary"></button>
+                  <button type="button" class="	glyphicon glyphicon-trash btn btn-danger"></button>
+              </td>
 
               </tr>
               @endforeach
