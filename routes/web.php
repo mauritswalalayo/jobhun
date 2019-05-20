@@ -16,7 +16,7 @@ use App\User;
 */
 
 Route::get('/', function () {
-    return view('content/home'); 
+    return view('content/home');
 })->name('home');
 
 Route::get('/setting', function () {
@@ -77,6 +77,9 @@ Route::get('/post/edit/{id}', 'PostController@editpost');
 
 Route::patch('/post/update/{id}', 'PostController@update');
 
+
+
+// OCES GITHUB COBA
 
 
 
