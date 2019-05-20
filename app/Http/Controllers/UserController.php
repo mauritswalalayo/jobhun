@@ -107,8 +107,8 @@ class UserController extends Controller
         return redirect()->route('user')->with('delete', 'Delete User Berhasil');
     }
 
-    public function apa()
+    public function apalho()
     {
-        
+
     }
 }
