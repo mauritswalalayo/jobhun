@@ -18,7 +18,6 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->string('url');
             $table->text('content');
-            $table->integer('author_id')->nullable();
             $table->timestamps();
         });
     }
