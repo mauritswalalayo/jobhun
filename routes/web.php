@@ -85,6 +85,11 @@ Route::patch('/post/update/{id}', 'PostController@update');
 
 // Gusti edit route user
 
+// OCES BANGSAT
+
+// Gusti edit 1
+// Gusti edit route user 2
+
 
 
 
