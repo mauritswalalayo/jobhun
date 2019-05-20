@@ -76,7 +76,20 @@
                   </a>
                   <ul class="treeview-menu"> 
                     <li><a href="{{route('tag')}}"><i class="fa fa-tags"></i> Data Tag</a></li>
-                    <li><a href="{{route('tambah')}}"><i class="fa fa-plus"></i> Tambah Tag</a></li>
+                    <li><a href="{{route('tag.tambah')}}"><i class="fa fa-plus"></i> Tambah Tag</a></li>
+                  </ul>
+                </li>
+
+                <li class="treeview">
+                  <a href="{{route('post')}}">
+                    <i class="fa fa-tag"></i> <span>Post</span>
+                    <span class="pull-right-container"> 
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                  </a>
+                  <ul class="treeview-menu"> 
+                    <li><a href="{{route('post')}}"><i class="fa fa-tags"></i> Daftar Post</a></li>
+                    <li><a href="{{route('tambahpost')}}"><i class="fa fa-plus"></i> Tambah Post</a></li>
                   </ul>
                 </li>
 

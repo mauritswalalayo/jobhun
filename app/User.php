@@ -15,8 +15,12 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'sex', 'phone', 
     ];
+
+    public function author (){
+        return $this->hasOne('App\Author');
+    }
 
     // /**
     //  * The attributes that should be hidden for arrays.

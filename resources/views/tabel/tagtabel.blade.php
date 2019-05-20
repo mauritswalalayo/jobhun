@@ -23,7 +23,7 @@
               <tbody>
                 <!-- jadi, pertama variable i kita kasih angkat first index tadi
                 -->
-                  @php $i = $first_index; @endphp
+                @php $i = $first_index; @endphp
                 @foreach ($data as $tag)
                
               <tr>
@@ -32,8 +32,9 @@
                 <td>{{ $tag ['name'] }}</td>
                 <td>{{ $tag ['created_at'] }}</td>
                 <td>{{ $tag ['updated_at'] }}</td>
-                <td><button type="button" class="	glyphicon glyphicon-pencil btn btn-primary"></button>
-                  <button type="button" class="	glyphicon glyphicon-trash btn btn-danger"></button>
+                <td>
+                <a href="{{url ('tag/'.'edit/'.$tag->id)}}" class="glyphicon glyphicon-pencil btn-xs btn btn-primary">Edit</a>
+                <a href="{{url ('tag/'.'delete/'.$tag->id)}}" class="	glyphicon glyphicon-trash btn-xs btn btn-danger">Hapus</a>
               </td>
 
               </tr>

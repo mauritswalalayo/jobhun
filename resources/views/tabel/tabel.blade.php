@@ -1,5 +1,4 @@
   <!-- Main content -->
-  <section class="content">
     <div class="row">
       <div class="col-xs-12">
         <div class="box">
@@ -15,7 +14,8 @@
                 <th>Nama</th>
                 <th>Phone</th>
                 <th>Gender</th>
-                <th>E-mail</th>
+                <th>Konten</th>
+                <th>Education</th>                
                 <th>Action</th>
           
                 
@@ -23,15 +23,30 @@
               </thead>
               <tbody>
 
-                @foreach ($namaku as $name)
+                @php $i = $first_index; @endphp                
+                @foreach ($namaku as $user)
               <tr>
-                <td><?= $name ['id']; ?></td>
-                <td><?= $name ['name']; ?></td>
-                <td><?= $name ['phone']; ?></td>
-                <td><?= $name ['sex']; ?></td>
-                <td><?= $name ['email']; ?></td>
-                <td><button type="button" class="	glyphicon glyphicon-pencil btn btn-primary"></button>
-                    <button type="button" class="	glyphicon glyphicon-trash btn btn-danger"></button>
+                <td>{{ $i++ }}</td>
+                
+                <td>{{$user->name}}</td>
+                <td>{{$user->phone}}</td>
+                <td>{{$user->sex}}</td>
+                <td><ul>
+                  @foreach($user->author->posts as $post)
+                    <li>{{$post->title}}</li>
+                  @endforeach
+                  </ul>
+                </td>
+                @if ($user->author==null)
+                <td>-</td> --}}
+                @else
+                <td>{{$user->author->education}}</td>
+                @endif
+
+                <td>
+                    <a href= "{{url ('user/'.'edit/'.$user->id)}}" class="	glyphicon glyphicon-pencil btn-xs btn btn-primary">Edit</a>
+                    
+                    <a href="{{url ('user/'.'delete/'.$user->id)}}" class="	glyphicon glyphicon-trash btn-xs btn btn-danger">Hapus</a>
                 </td>
 
               </tr>

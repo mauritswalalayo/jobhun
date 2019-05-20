@@ -14,14 +14,36 @@
         </div>
 
             <div class="box-body">
-            <form action="{{route('store')}}" method="post">
+
+                @if($errors->any())
+                <div class="alert alert-danger">
+                  <ul>
+                    @foreach($errors->all() as $error)
+                      <li>{{ $error }}</li>
+                    @endforeach
+                    
+                  </ul>
+                </div>
+              @endif
+
+            @if (isset($tag))
+            <form action="{{url ('tag/'.'update/'.$tag->id)}}" method="POST">
+            <input type="hidden" name="_method" value="PATCH">
+
+            @else
+            <form action="{{route('store')}}" method="POST">
+            @endif
+
             <input type="hidden" name="_token" value="{{ csrf_token()}}">
                 <form role="form">
                   <!-- text input -->
                   <div class="form-group has-feedback">
                     <label>Tag</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Masukan Nama Tag">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Masukan Nama Tag"
+                    @if(isset($tag)) value="{{ $tag->name}}" @endif>
                     <span class="fa fa-plus form-control-feedback"></span>
+
+                    
                   </div>
                   <div class="row">
                   <div class="col-xs-2">

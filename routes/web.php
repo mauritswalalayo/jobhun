@@ -1,5 +1,9 @@
 <?php
 
+use Illuminate\Routing\Router;
+use App\Http\Controllers\TagController;
+use App\User;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,18 +38,47 @@ Route::get('/tambahuser', function () {
 // Route::get('/tambah', function () {
 // })->name('tambah');
 
+//===================================== TAG ==================================================================
 Route::get('/tag', 'TagController@index' )->name('tag');
 
-Route::get('/tambah', 'TagController@add' )->name('tambah'); //menampilkan form tambah tag
+Route::get('/tag/tambah', 'TagController@add' )->name('tag.tambah'); //menampilkan form tambah tag
 
-Route::post('/store', 'TagController@store' )->name('store'); //mengirim data tag ke server
+Route::post('/tag/store', 'TagController@store' )->name('store'); //mengirim data tag ke server
+
+Router::get('/tag/edit/{id}', 'TagController@edit'); //menampilakan halaman untuk edit tag
+
+Router::patch('/tag/update/{id}', 'TagController@update'); //mengupdate data tag (dgn aucuannya adalah id)
+
+Router::get('/tag/delete/{id}', 'TagController@delete'); //menampilakan halaman untuk update tag
 
 
+//===================================== USER ==================================================================
 Route::get('/user', 'UserController@index' )->name('user');
 
-Route::get('/tambahuser', 'UserController@add' )->name('tambahuser');
+Route::get('/user/tambah', 'UserController@add' )->name('tambahuser');
 
-Route::post('/storeuser', 'UserController@storeuser' )->name('storeuser'); //mengirim data user ke server
+Route::post('/user/store', 'UserController@storeuser' )->name('storeuser'); //mengirim data user ke server
+
+Route::get('/user/edit/{id}', 'UserController@edit');
+
+Route::patch('/user/update/{id}', 'UserController@update');
+
+Route::get('/user/delete/{id}', 'UserController@delete');
+
+//==================================== POST ====================================================================
+
+Route::get('/post', 'PostController@index' )->name('post');
+
+Route::get('/post/tambah', 'PostController@add' )->name('tambahpost');
+
+Route::post('/post/store', 'PostController@storepost' )->name('storepost'); //mengirim data user ke server
+
+Route::get('/post/edit/{id}', 'PostController@editpost');
+
+Route::patch('/post/update/{id}', 'PostController@update');
+
+
+
 
 
 

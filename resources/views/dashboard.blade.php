@@ -59,6 +59,7 @@
 <!-- ./wrapper -->
 
 @include('partial/foot')
+@yield('javascriptku')
 
 </body>
 </html>

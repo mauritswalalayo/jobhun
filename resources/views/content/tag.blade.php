@@ -25,3 +25,10 @@
       </div>
 
 @endsection
+@section('javascriptku')
+<script>
+$(document).ready( function () {
+  $('#example2').DataTable();
+} );
+</script>
+@endsection
