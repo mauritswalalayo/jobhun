@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title','Post')
+@section('title','Tag')
 
 @section('content')
 <div class="box box-primary">
