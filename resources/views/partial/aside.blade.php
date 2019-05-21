@@ -16,7 +16,7 @@
             <li class="header">MAIN NAVIGATION</li>
             <li class="treeview">
                 <a href="{{route('home')}}">
-                    <i class="glyphicon glyphicon-home"></i> <span>Home</span>
+                    <i class="glyphicon glyphicon-home"></i> <span>Beranda</span>
                     <span class="pull-right-container">
                     </span>
                 </a>
@@ -24,7 +24,15 @@
 
             <li class="treeview">
                 <a href="{{route('user.table')}}">
-                    <i class="glyphicon glyphicon-user"></i> <span>User</span>
+                    <i class="glyphicon glyphicon-user"></i> <span>Pengguna</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
+
+            <li class="treeview">
+                <a href="{{route('post.table')}}">
+                    <i class="glyphicon glyphicon-list-alt"></i> <span>Post</span>
                     <span class="pull-right-container">
                     </span>
                 </a>

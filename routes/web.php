@@ -23,3 +23,13 @@ Route::get('/user/table', function () {
 Route::get('/user/form', function () {
     return view('content.user.form');
 })->name('user.form');
+
+
+
+Route::get('/post/table', function () {
+    return view('content.post.table');
+})->name('post.table');
+
+Route::get('/post/form', function () {
+    return view('content.post.form');
+})->name('post.form');
