@@ -25,12 +25,12 @@
               {{ csrf_field() }}
             <div class="box-body">
                 <div class="form-group">
-                  <label for="Name">Tittle</label>
+                  <label for="tittle">Tittle</label>
                   <input type="text" class="form-control" name="tittle" id="Tittle" placeholder="Enter tittle">
                 </div>
 
                 <div class="form-group">
-                  <label for="Name">Content</label>
+                  <label for="content">Content</label>
                   <input type="text" class="form-control" name="content" id="Content" placeholder="Enter content">
                 </div>
 

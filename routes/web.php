@@ -15,6 +15,8 @@ use App\Tag;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+//Route User
 Route::get('user', function () {
     return view('user.index');
 })->name('user.index');
@@ -32,6 +34,16 @@ Route::get('tag', function () {
 Route::get('tag/create', function () {
     return view('tag.create');
 })->name('tag.create');
+
+//Route Post
+Route::get('post', function(){
+    return view ('post.index');
+})->name('post.index');
+
+
+Route::get('post/create', function(){
+    return view ('post.create');
+})->name('post.create');
 
 //Route Logout
 Route::get('/', function () {

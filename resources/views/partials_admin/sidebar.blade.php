@@ -47,7 +47,21 @@
             </span>
           </a>
           <ul class="treeview-menu">
+            <li><a href="{{route('tag.create')}}"><i class="fa fa-circle-o"></i> Add Tag</a></li>
             <li><a href="{{route('tag.index')}}"><i class="fa fa-circle-o"></i> Show Tag</a></li>
+          </ul>
+        </li> 
+
+          <li class="treeview">
+          <a href="#">
+            <span>Post</span>
+            <span class="pull-right-container">
+              <span class="fa fa-angle-left pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{route('post.create')}}"><i class="fa fa-circle-o"></i> Add Post</a></li>
+            <li><a href="{{route('post.index')}}"><i class="fa fa-circle-o"></i> Show Post</a></li>
           </ul>
         </li> 
 
