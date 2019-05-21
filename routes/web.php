@@ -20,6 +20,6 @@ Route::get('/user/table', function () {
     return view('content.user.table');
 })->name('user.table');
 
-Route::get('/user/form', function ($id) {
+Route::get('/user/form', function () {
     return view('content.user.form');
 })->name('user.form');

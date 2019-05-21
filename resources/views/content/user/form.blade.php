@@ -5,7 +5,7 @@
 @section('content')
     <div class="box box-primary">
         <div class="box-header with-border">
-            <a href="" class="btn btn-danger">Kembali</a>
+            <a href="{{route('user.table')}}" class="btn btn-danger">Kembali</a>
         </div>
         <div class="box-body">
 
@@ -29,11 +29,10 @@
                     <input name="password" type="password" id="password" class="form-control" placeholder="Masukan Password Anda......">
                 </div>
             </div>
+            <div class="box-footer">
+                <button type="submit" class="btn btn-info pull-right">Submit</button>
+            </div>
         </form>
-        <!-- /.box-body -->
-        <div class="box-footer">
-            Footer
-        </div>
         <!-- /.box-footer-->
     </div>
 @endsection

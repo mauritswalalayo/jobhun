@@ -31,14 +31,6 @@
             </li>
 
             <li class="treeview">
-                <a href="{{route('user.table')}}">
-                    <i class="glyphicon glyphicon-user"></i> <span>User</span>
-                    <span class="pull-right-container">
-                    </span>
-                </a>
-            </li>
-
-            <li class="treeview">
                 <a href="#">
                     <i class="fa fa-share"></i> <span>Multilevel</span>
                     <span class="pull-right-container">

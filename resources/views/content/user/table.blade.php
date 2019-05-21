@@ -5,7 +5,7 @@
 @section('content')
     <div class="box box-primary">
         <div class="box-header with-border">
-            <a href="" class="btn btn-primary">Tambah User</a>
+            <a href="{{route('user.form')}}" class="btn btn-primary">Tambah User</a>
         </div>
         <div class="box-body">
             <table class="table table-bordered">
