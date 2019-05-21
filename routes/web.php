@@ -16,6 +16,12 @@ use App\Tag;
 |
 */
 
+// Home
+Route::get('/', function ($id) {
+    return view('content.home');
+});
+
+
 //Route User
 Route::get('user', function () {
     return view('user.index');
@@ -45,10 +51,7 @@ Route::get('post/create', function(){
     return view ('post.create');
 })->name('post.create');
 
-//Route Logout
-Route::get('/', function () {
-    return view('welcome');
-})->name('logout');
+
 
 
 
