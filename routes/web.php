@@ -10,12 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//Route Home
 Route::get('/', function () {
     return view('content.home');
 })->name('home');
 
 
+
+//Route User
 Route::get('/user/table', function () {
     return view('content.user.table');
 })->name('user.table');
@@ -25,7 +27,7 @@ Route::get('/user/form', function () {
 })->name('user.form');
 
 
-
+//Route Post
 Route::get('/post/table', function () {
     return view('content.post.table');
 })->name('post.table');
@@ -33,3 +35,12 @@ Route::get('/post/table', function () {
 Route::get('/post/form', function () {
     return view('content.post.form');
 })->name('post.form');
+
+//Route Tag
+Route::get('/tag/table', function () {
+    return view('content.tag.table');
+})->name('tag.table');
+
+Route::get('/tag/form', function () {
+    return view('content.tag.form');
+})->name('tag.form');
