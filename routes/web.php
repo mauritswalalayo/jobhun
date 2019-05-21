@@ -3,6 +3,7 @@
 use Illuminate\Routing\Router;
 use App\Http\Controllers\TagController;
 use App\User;
+use App\Tag;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,10 +24,14 @@ Route::get('user/create', function () {
 })->name('user.create');
 
 
-//Route Biodata
-Route::get('biodata', function () {
-    return view('biodata.index');
-})->name('biodata.index');
+//Route Tag
+Route::get('tag', function () {
+    return view('tag.index');
+})->name('tag.index');
+
+Route::get('tag/create', function () {
+    return view('tag.create');
+})->name('tag.create');
 
 //Route Logout
 Route::get('/', function () {

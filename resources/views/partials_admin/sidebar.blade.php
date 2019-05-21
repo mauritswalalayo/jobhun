@@ -41,13 +41,13 @@
 
         <li class="treeview">
           <a href="#">
-            <span>Biodata</span>
+            <span>Tag</span>
             <span class="pull-right-container">
               <span class="fa fa-angle-left pull-right"></span>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{route('biodata.index')}}"><i class="fa fa-circle-o"></i> Show Biodata</a></li>
+            <li><a href="{{route('tag.index')}}"><i class="fa fa-circle-o"></i> Show Tag</a></li>
           </ul>
         </li> 
 
