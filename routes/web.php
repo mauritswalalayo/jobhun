@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('master');
-});
+    return view('content.home');
+})->name('home');
+
+
+Route::get('/user/table', function () {
+    return view('content.user.table');
+})->name('user.table');
+
+Route::get('/user/form', function ($id) {
+    return view('content.user.form');
+})->name('user.form');

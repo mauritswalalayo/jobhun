@@ -15,16 +15,27 @@
         <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                <a href="{{route('home')}}">
+                    <i class="glyphicon glyphicon-home"></i> <span>Home</span>
                     <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
-                <ul class="treeview-menu">
-                    <li><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                    <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="{{route('user.table')}}">
+                    <i class="glyphicon glyphicon-user"></i> <span>User</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
+
+            <li class="treeview">
+                <a href="{{route('user.table')}}">
+                    <i class="glyphicon glyphicon-user"></i> <span>User</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
             </li>
 
             <li class="treeview">
