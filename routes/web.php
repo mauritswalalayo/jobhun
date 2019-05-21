@@ -18,7 +18,7 @@ use App\Tag;
 
 // Home
 Route::get('/', function ($id) {
-    return view('content.home');
+    return view('welcome');
 });
 
 
