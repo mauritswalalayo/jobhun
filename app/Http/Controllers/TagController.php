@@ -45,7 +45,7 @@ class TagController extends Controller
     public function edit ($id)
     {
         $tag = Tag::find($id);
-        return view('content.tag.form');
+        return view('content.tag.form', ['daftar_tag' => $tag]);
     }
 
 //=====================================================
