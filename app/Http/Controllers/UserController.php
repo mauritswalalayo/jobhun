@@ -11,7 +11,8 @@ class UserController extends Controller
     //
     public function index ()
     {
-        return view ('content.user.table');
+        $user = user::all();
+        return view ('content.user.table', ['daftar_user' => $user]);
     }
 
     public function form ()
