@@ -19,12 +19,19 @@
             @endif
 
     </div>
+
+    @if (isset($daftar_tag))
+        <form action="{{url('tag/'.'update/'.$daftar_tag->id)}}" method="POST">
+        <input type="hidden" name="_method" value="PATCH">
+    @else
     <form action="{{route('tag.add')}}" method="POST">
+    @endif
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
+
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Nama Tag:</label>
-                <input name="name" type="text" id="name" class="form-control" placeholder="Masukan Tag Anda......">
+                <input name="name" type="text" id="name" value="name" class="form-control" placeholder="Masukan Tag Anda......">
             </div>
         </div>
         <div class="box-footer">
