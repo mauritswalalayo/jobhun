@@ -18,6 +18,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach ($collection as $item)
                     <tr>
                         <td></td>
                         <td></td>
@@ -27,6 +28,7 @@
                             <a href="" class="btn btn-danger btn-sm glyphicon glyphicon-trash"></a>
                         </td>
                     </tr>
+                    @endforeach
                 </tbody>
             </table>
         </div>
