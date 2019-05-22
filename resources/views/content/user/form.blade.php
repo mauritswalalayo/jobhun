@@ -55,7 +55,11 @@
                 </div>
             </div>
             <div class="box-footer">
-                <button type="submit" class="btn btn-info pull-right">Submit</button>
+                @if (isset($edituser))
+                    <button type="submit" class="btn btn-warning pull-right">Update</button>
+                @else
+                    <button type="submit" class="btn btn-info pull-right">Submit</button>
+                @endif
             </div>
         </form>
         <!-- /.box-footer-->
