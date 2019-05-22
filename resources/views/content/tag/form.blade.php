@@ -5,12 +5,12 @@
 @section('content')
 <div class="box box-primary">
     <div class="box-header with-border">
-        <a href="{{route('post.table')}}" class="btn btn-danger">Kembali</a>
+        <a href="{{route('tag.table')}}" class="btn btn-danger">Kembali</a>
     </div>
     <div class="box-body">
 
     </div>
-    <form action="">
+    <form action="{{route('tag.add'))" method="POST" }}>
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Nama Tag:</label>
