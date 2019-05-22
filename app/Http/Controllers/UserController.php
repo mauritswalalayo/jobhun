@@ -59,7 +59,7 @@ class UserController extends Controller
         }
 
         $user = user::find($id);
-        $user->update($request->all())->save();
+        $user->update($request->all());
         return redirect()->route('user.table');
     }
 }
