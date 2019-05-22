@@ -20,7 +20,7 @@
 
     </div>
 
-    @if (isset($daftar_tag))
+    @if (isset($edit_tag))
         <form action="{{url('tag/'.'update/'.$daftar_tag->id)}}" method="POST">
         <input type="hidden" name="_method" value="PATCH">
     @else
@@ -34,8 +34,13 @@
                 <input name="name" type="text" id="name" value="{{$daftar_tag->name}}" class="form-control" placeholder="Masukan Tag Anda......">
             </div>
         </div>
+
         <div class="box-footer">
+        @if(isser($edit_tag))
             <button type="submit" class="btn btn-info pull-right">Submit</button>
+        @else
+        <button type="submit" class="btn btn-info pull-right">Update</button>
+        @endif
         </div>
     </form>
     <!-- /.box-footer-->
