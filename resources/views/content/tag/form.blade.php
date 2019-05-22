@@ -31,7 +31,7 @@
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Nama Tag:</label>
-                <input name="name" type="text" id="name" value="name" class="form-control" placeholder="Masukan Tag Anda......">
+                <input name="name" type="text" id="name" value="{{$daftar_tag->name}}" class="form-control" placeholder="Masukan Tag Anda......">
             </div>
         </div>
         <div class="box-footer">
