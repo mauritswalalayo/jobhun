@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,7 @@ Route::get('/', function () {
 
 
 
-//Route User
+//========================== Route User =============================
 
 Route::get('user/table', 'UserController@index')->name('user.table');
 
@@ -33,7 +34,8 @@ Route::get('user/hapus/{id}', 'UserController@delete');
 
 
 
-//Route Post
+//========================== Route Post =============================
+
 Route::get('/post/table', function () {
     return view('content.post.table');
 })->name('post.table');
@@ -42,10 +44,10 @@ Route::get('/post/form', function () {
     return view('content.post.form');
 })->name('post.form');
 
-//Route Tag
-Route::get('/tag/table', function () {
-    return view('content.tag.table');
-})->name('tag.table');
+//=========================== Route Tag ==============================
+
+Route::get('tag/table', 'TagController@index')->name('tag.table');
+
 
 Route::get('/tag/form', function () {
     return view('content.tag.form');

@@ -68,5 +68,6 @@ class UserController extends Controller
         $user = user::find($id);
         $user->delete();
         return redirect()->route('user.table');
+        
     }
 }
