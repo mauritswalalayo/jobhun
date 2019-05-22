@@ -56,9 +56,9 @@
             </div>
             <div class="box-footer">
                 @if (isset($edituser))
-                    <button type="submit" class="btn btn-warning pull-right">Update</button>
+                    <button type="submit" class="btn btn-warning pull-right">Perbarui Data</button>
                 @else
-                    <button type="submit" class="btn btn-info pull-right">Submit</button>
+                    <button type="submit" class="btn btn-info pull-right">Tambah Data</button>
                 @endif
             </div>
         </form>

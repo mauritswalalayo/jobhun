@@ -21,8 +21,8 @@
                     <td></td>
                     <td></td>
                     <td>
-                        <a href="" class="btn btn-warning btn-sm glyphicon glyphicon-pencil"></a>
-                        <a href="" class="btn btn-danger btn-sm glyphicon glyphicon-trash"></a>
+                        <a href="{{url('tag/'.'edit/'.$tag->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
+                        <a href="{{url('tag/'.'edit/'.$tag->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
                     </td>
                 </tr>
             </tbody>
