@@ -18,11 +18,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($collection as $item)
+                    @foreach ($daftar_user as $user)
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>{{$user->name}}</td>
+                        <td>{{$user->phone}}</td>
+                        <td>{{$user->email}}</td>
                         <td>
                             <a href="" class="btn btn-warning btn-sm glyphicon glyphicon-pencil"></a>
                             <a href="" class="btn btn-danger btn-sm glyphicon glyphicon-trash"></a>
