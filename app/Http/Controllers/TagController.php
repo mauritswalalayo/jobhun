@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Tag;
-use validator;
+use Validator;
 
 class TagController extends Controller
 {
@@ -27,9 +27,7 @@ class TagController extends Controller
     public function add (Request $request)
     {
         $validator = validator::make($request->all(),
-        [
-            'name' => 'required'
-        ]);
+        ['name' => 'required']);
 
         if ($validator->fails())
         {
