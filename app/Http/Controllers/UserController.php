@@ -62,4 +62,11 @@ class UserController extends Controller
         $user->update($request->all());
         return redirect()->route('user.table');
     }
+
+    public function delete ($id)
+    {
+        $user = user::find($id);
+        $user->delete();
+        return redirect()->route('user.table');
+    }
 }
