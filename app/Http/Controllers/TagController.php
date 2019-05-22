@@ -48,6 +48,8 @@ class TagController extends Controller
         return view('content.tag.form');
     }
 
+//=====================================================
+
     public function update (Request $request, $id)
     {
         $validator = validator::make($request->all(),
