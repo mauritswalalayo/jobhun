@@ -36,7 +36,8 @@ class UserController extends Controller
 
         $user = user::create($request->all());
         $user->save();
-        return redirect()->route('user.table');
+        return redirect()->route('user.table
+        ');
     }
 //================================================
     public function edit ($id)

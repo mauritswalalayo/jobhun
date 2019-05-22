@@ -42,6 +42,25 @@ class TagController extends Controller
 
 //=====================================================
 
-    public function edit ()
-    {}
+    public function edit ($id)
+    {
+        $tag = Tag::find($id);
+        return view('content.tag.form');
+    }
+
+    public function update (Request $request, $id)
+    {
+        $validator = validator::make($request->all(),
+        ['name' => 'required']);
+
+        if ($validator->fails())
+        {
+            return back()->withErrors($validator)->withInput();
+        }
+
+        $tag = Tag::find($id);
+        $tag->update($request->all());
+
+        return redirect()->route('tag.table');
+    }
 }
