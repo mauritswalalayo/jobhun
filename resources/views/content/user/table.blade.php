@@ -19,9 +19,16 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @php
+                        $i = $first_index;
+                    @endphp
                     @foreach ($daftar_user as $user)
                     <tr>
+<<<<<<< HEAD
                         <td>{{$user->id}}</td>
+=======
+                        <td>{{$i++}}</td>
+>>>>>>> origin/master
                         <td>{{$user->name}}</td>
                         <td>{{$user->phone}}</td>
                         <td>{{$user->email}}</td>

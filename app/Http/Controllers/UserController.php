@@ -11,8 +11,9 @@ class UserController extends Controller
     //
     public function index ()
     {
-        $user = user::all();
-        return view ('content.user.table', ['daftar_user' => $user]);
+        $user = user::paginate(3);
+        $first_index = $user->currentPage() * $user->perPage() - $user->perPage() + 1;
+        return view ('content.user.table', ['daftar_user' => $user, 'first_index' => $first_index]);
     }
 
     public function form ()
