@@ -11,9 +11,12 @@ class TagController extends Controller
     //
     public function index ()
     {
-        return view('content.tag.table');
+        $tag = Tag::paginate(3);
+        $first_index = $tag->currentPage() * $tag->perPage() - $tag->perPage() + 1;
+        return view('content.tag.table', ['daftar_tag' => $tag, 'first_index' => $first_index]);
     }
 
+//================================================
     public function form ()
     {
         return view('content.tag.form');
@@ -42,7 +45,5 @@ class TagController extends Controller
 //=====================================================
 
     public function edit ()
-    {
-        
-    }
+    {}
 }
