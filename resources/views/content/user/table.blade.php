@@ -11,6 +11,7 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
+                        <th>No.</th>
                         <th>Nama</th>
                         <th>No. Telp</th>
                         <th>Email</th>
