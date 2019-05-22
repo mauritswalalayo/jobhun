@@ -19,8 +19,12 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @php
+                        $i = $first_index;
+                    @endphp
                     @foreach ($daftar_user as $user)
                     <tr>
+                        <td>{{$i++}}</td>
                         <td>{{$user->name}}</td>
                         <td>{{$user->phone}}</td>
                         <td>{{$user->email}}</td>
