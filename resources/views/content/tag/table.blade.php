@@ -22,7 +22,7 @@
                     <td>Kariepedia</td>
                     <td>
                         <a href="{{url('tag/'.'edit/'.$tag->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
-                        <a href="{{url('tag/'.'edit/'.$tag->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
+                        <a href="{{url('tag/'.'delete/'.$tag->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
                     </td>
                 </tr>
             </tbody>
