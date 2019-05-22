@@ -24,8 +24,8 @@
                         <td>{{$user->phone}}</td>
                         <td>{{$user->email}}</td>
                         <td>
-                            <a href="" class="btn btn-warning btn-sm glyphicon glyphicon-pencil"></a>
-                            <a href="" class="btn btn-danger btn-sm glyphicon glyphicon-trash"></a>
+                            <a href="{{url('user/'.'edit/'.$user->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil"></a>
+                            <a href="{{url('user/'.'hapus/'.$user->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash"></a>
                         </td>
                     </tr>
                     @endforeach

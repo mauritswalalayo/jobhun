@@ -25,6 +25,12 @@ Route::get('user/form', 'UserController@form')->name('user.form');
 
 Route::post('user/add', 'UserController@add')->name('user.add');
 
+Route::get('user/edit/{id}', 'UserController@edit');
+
+Route::patch('user/update/{id}', 'UserController@update');
+
+Route::get('user/hapus/{id}', 'UserController@delete');
+
 
 
 //Route Post
