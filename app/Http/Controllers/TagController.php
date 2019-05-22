@@ -65,4 +65,12 @@ class TagController extends Controller
 
         return redirect()->route('tag.table');
     }
+
+//======================================================
+    public function delete ($id)
+    {
+        $tag = Tag::find($id);
+        $tag->delete();
+        return redirect()->route('tag.table');
+    }
 }
