@@ -17,14 +17,20 @@
                 </tr>
             </thead>
             <tbody>
+            @php
+                $i = $first_index;
+            @endphp
+            @foreach($daftar_tag as $tag)
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>{{$i++}}</td>
+                    <td>{{$tag->name}}</td>
                     <td>
                         <a href="{{url('tag/'.'edit/'.$tag->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
                         <a href="{{url('tag/'.'delete/'.$tag->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
                     </td>
                 </tr>
+
+            @endforeach
             </tbody>
         </table>
     </div>
