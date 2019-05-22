@@ -18,13 +18,10 @@ Route::get('/', function () {
 
 
 //Route User
-Route::get('/user/table', function () {
-    return view('content.user.table');
-})->name('user.table');
 
-Route::get('/user/form', function () {
-    return view('content.user.form');
-})->name('user.form');
+Route::get('user/table', 'UserController@index')->name('user.table');
+Route::get('user/form', 'UserController@form')->name('user.form');
+Route::get('user/add', 'UserController@add')->name('user.add');
 
 
 //Route Post
