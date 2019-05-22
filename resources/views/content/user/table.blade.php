@@ -21,6 +21,7 @@
                 <tbody>
                     @foreach ($daftar_user as $user)
                     <tr>
+                        <td>{{$user->id}}</td>
                         <td>{{$user->name}}</td>
                         <td>{{$user->phone}}</td>
                         <td>{{$user->email}}</td>
