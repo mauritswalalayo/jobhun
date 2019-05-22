@@ -20,6 +20,7 @@
             @endif
 
         </div>
+        
     <form action="{{route('user.add')}}" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
             <div class="box-body">

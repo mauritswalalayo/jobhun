@@ -20,8 +20,11 @@ Route::get('/', function () {
 //Route User
 
 Route::get('user/table', 'UserController@index')->name('user.table');
+
 Route::get('user/form', 'UserController@form')->name('user.form');
+
 Route::post('user/add', 'UserController@add')->name('user.add');
+
 
 
 //Route Post
