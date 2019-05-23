@@ -15,6 +15,10 @@
        folder instead of downloading all of them to reduce the load. -->
 <link rel="stylesheet" href="{{asset('admin/dist/css/skins/_all-skins.min.css')}}">
 
+ <!-- Select2 -->
+ <link rel="stylesheet" href="{{asset('admin/select2/dist/css/select2.min.css')}}">
+  
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>

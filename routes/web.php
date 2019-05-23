@@ -36,13 +36,18 @@ Route::get('user/hapus/{id}', 'UserController@delete');
 
 //========================== Route Post =============================
 
-Route::get('/post/table', function () {
-    return view('content.post.table');
-})->name('post.table');
+Route::get('/post/table', 'PostController@index')->name('post.table');
 
-Route::get('/post/form', function () {
-    return view('content.post.form');
-})->name('post.form');
+Route::get('/post/form', 'PostController@form')->name('post.form');
+
+Route::post('post/add', 'PostController@add')->name('post.add');
+
+Route::get('post/edit/{id}', 'PostController@edit');
+
+Route::patch('post/update/{id}', 'PostController@update');
+
+Route::get('post/hapus/{id}', 'PostController@delete');
+
 
 //=========================== Route Tag ==============================
 

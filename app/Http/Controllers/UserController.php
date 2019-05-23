@@ -36,8 +36,7 @@ class UserController extends Controller
 
         $user = user::create($request->all());
         $user->save();
-        return redirect()->route('user.table
-        ');
+        return redirect()->route('user.table');
     }
 //================================================
     public function edit ($id)
@@ -69,6 +68,6 @@ class UserController extends Controller
         $user = user::find($id);
         $user->delete();
         return redirect()->route('user.table');
-        
+
     }
 }

@@ -19,6 +19,7 @@ class TagController extends Controller
 //================================================
     public function form ()
     {
+        
         return view('content.tag.form');
     }
 
