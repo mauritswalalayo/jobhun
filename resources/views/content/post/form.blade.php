@@ -43,7 +43,7 @@
 
             <div class="form-group">
                 <label>Tag</label>
-                <select class="form-control select2" name="tags[]" multiple="multiple" data-placeholder="Select tag" style="width: 100%;">
+                <select class="form-control select2" name="tags[]" multiple="multiple" data-placeholder="Select tag" style="width: 100%;"> 
                 @foreach($tags as $tag)
                   <option value="{{$tag->id}}">{{$tag->name}}</option>
                 @endforeach
