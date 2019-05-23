@@ -38,10 +38,9 @@ Route::get('user/hapus/{id}', 'UserController@delete');
 
 Route::get('/post/table', 'PostController@index')->name('post.table');
 
+Route::get('/post/form', 'PostController@form')->name('post.form');
 
-Route::get('/post/form', function () {
-    return view('content.post.form');
-})->name('post.form');
+
 
 //=========================== Route Tag ==============================
 
