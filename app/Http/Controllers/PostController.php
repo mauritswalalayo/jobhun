@@ -65,4 +65,12 @@ class PostController extends Controller
         $post->update ($request->all());
         return redirect()->route('post.table');
     }
+
+//================================================
+    public function delete($id)
+    {
+        $post = Post::find($id);
+        $post->delete();
+        return redirect()->route('post.table');
+    }
 }

@@ -9,8 +9,19 @@
     </div>
     <div class="box-body">
 
+        @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                <li>{{$error}}</li>
+                @endforeach
+            </ul>
+        </div>
+        @endif
+
     </div>
-    <form action="">
+    <form action="{{route('user.add')}}" method="POST">
+        <input type="hidden" name="_token" value="{{ csrf_token()}}">
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Judul :</label>
