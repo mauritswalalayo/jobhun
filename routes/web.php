@@ -36,9 +36,8 @@ Route::get('user/hapus/{id}', 'UserController@delete');
 
 //========================== Route Post =============================
 
-Route::get('/post/table', function () {
-    return view('content.post.table');
-})->name('post.table');
+Route::get('/post/table', 'PostController@index')->name('post.table');
+
 
 Route::get('/post/form', function () {
     return view('content.post.form');

@@ -11,6 +11,7 @@
         <table class="table table-bordered">
             <thead>
                 <tr>
+                    <th>No.</th>
                     <th>Judul</th>
                     <th>Url</th>
                     <th>Isi Konten</th>
