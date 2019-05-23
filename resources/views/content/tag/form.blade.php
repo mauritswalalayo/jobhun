@@ -21,7 +21,7 @@
     </div>
 
     @if (isset($edit_tag))
-        <form action="{{url('tag/'.'update/'.$daftar_tag->id)}}" method="POST">
+        <form action="{{url('tag/'.'update/'.$edit_tag->id)}}" method="POST">
         <input type="hidden" name="_method" value="PATCH">
     @else
     <form action="{{route('tag.add')}}" method="POST">
@@ -31,12 +31,12 @@
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Nama Tag:</label>
-                <input name="name" type="text" id="name" value="{{$daftar_tag->name}}" class="form-control" placeholder="Masukan Tag Anda......">
+                <input name="name" type="text" id="name" @if (isset($edit_tag)) value="{{$edit_tag->name}}" @endif class="form-control" placeholder="Masukan Tag Anda......">
             </div>
         </div>
 
         <div class="box-footer">
-        @if(isser($edit_tag))
+        @if(isset($edit_tag))
             <button type="submit" class="btn btn-info pull-right">Submit</button>
         @else
         <button type="submit" class="btn btn-info pull-right">Update</button>
