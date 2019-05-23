@@ -20,20 +20,33 @@
         @endif
 
     </div>
-    <form action="{{route('user.add')}}" method="POST">
+
+    @if (isset($editpost))
+        <form action="{{url('post/'.'update/'.$editpost->id)}}" method="POST">
+            <input type="hidden" name="_method" value="PATCH">
+    @else
+        <form action="{{route('post.add')}}" method="POST">
+    @endif
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Judul :</label>
-                <input name="title" type="text" id="title" class="form-control" placeholder="Masukan Title Anda......">
+                <input name="title" type="text" id="title" class="form-control" placeholder="Masukan Title Anda......"
+                @if (isset($editpost)) value="{{$editpost->title}}"
+                        @endif>
             </div>
             <div class="form-group">
                 <label for="content">Isi Konten :</label>
-                <textarea name="content" id="content" cols="30" rows="10" class="form-control"></textarea>
+                <textarea name="content" id="content" cols="30" rows="10" class="form-control">@if (isset($editpost)) {{$editpost->content}}
+                @endif</textarea>
             </div>
         </div>
         <div class="box-footer">
-            <button type="submit" class="btn btn-info pull-right">Submit</button>
+            @if (isset($editpost))
+                <button type="submit" class="btn btn-warning pull-right">Perbarui Data</button>
+            @else
+                <button type="submit" class="btn btn-info pull-right">Tambah Data</button>
+            @endif
         </div>
     </form>
     <!-- /.box-footer-->

@@ -9,23 +9,26 @@ use Validator;
 class PostController extends Controller
 {
 //================================================
-    public function index(){
-        return view('content.post.table');
+    public function index()
+    {
+        $post = Post::paginate(2);
+        $first_index = $post->currentPage() * $post->perPage() - $post->perPage() + 1;
+        return view('content.post.table',['daftar_post' => $post, 'first_index' => $first_index]);
     }
 
 //================================================
-    public function form(){
+    public function form()
+    {
         return view('content.post.form');
     }
 
-//================================================
+//============================================
     public function add(Request $request)
     {
         $validator = validator::make(
             $request->all(),
             [
                 'title' => 'required',
-                'url' => 'required',
                 'content' => 'required',
             ]
         );
@@ -33,16 +36,15 @@ class PostController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
-        $post = Post::create($request->all());
-        $post->save();
-
+        $user = post::create($request->all());
+        $user->save();
         return redirect()->route('post.table');
     }
 
 //================================================
     public function edit($id)
     {
-        $post = Post::find(id);
+        $post = post::find($id);
         return view('content.post.form',['editpost' => $post]);
     }
 
@@ -53,7 +55,6 @@ class PostController extends Controller
             $request->all(),
             [
                 'title' => 'required',
-                'url' => 'required',
                 'content' => 'required',
             ]
         );
@@ -69,7 +70,7 @@ class PostController extends Controller
 //================================================
     public function delete($id)
     {
-        $post = Post::find($id);
+        $post = post::find($id);
         $post->delete();
         return redirect()->route('post.table');
     }

@@ -19,20 +19,26 @@
                 </tr>
             </thead>
             <tbody>
+                @php
+                    $i = $first_index;
+                @endphp
+
+                @foreach ($daftar_post as $post)
                 <tr>
+                    <td>{{$i++}}</td>
+                    <td>{{$post->title}}</td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>{{$post->content}}</td>
                     <td>
-                        <a href="" class="btn btn-warning btn-sm glyphicon glyphicon-pencil"></a>
+                        <a href="{{url('post/'.'edit/'.$post->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil"></a>
                         <a href="" class="btn btn-danger btn-sm glyphicon glyphicon-trash"></a>
                     </td>
                 </tr>
+                @endforeach
             </tbody>
         </table>
     </div>
     <div class="box-footer">
-        Footer
     </div>
 </div>
 @endsection
