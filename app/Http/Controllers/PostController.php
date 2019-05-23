@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Post;
 use Validator;
 use DB;
+use App\Tag;
 
 class PostController extends Controller
 {
@@ -52,8 +53,11 @@ class PostController extends Controller
 //================================================
     public function edit($id)
     {
+       
         $post = post::find($id);
-        return view('content.post.form',['editpost' => $post]);
+        $daftar_tag = Tag::all();
+        //$chosen_tags = $post->tags->pluck('id')->all();
+        return view('content.post.form',['editpost' => $post, 'tags'=>$daftar_tag]);
     }
 
 //================================================
@@ -70,7 +74,6 @@ class PostController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
-        $daftar_tag = DB::table('tags')->get();
 
         $post = Post::find($id);
         $post->update ($request->all());
