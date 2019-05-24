@@ -44,6 +44,5 @@
         @endif
         </div>
     </form>
-    <!-- /.box-footer-->
 </div>
 @endsection
