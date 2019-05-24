@@ -7,6 +7,7 @@ use App\Post;
 use Validator;
 use DB;
 use App\Tag;
+use App\User;
 
 class PostController extends Controller
 {
@@ -21,7 +22,7 @@ class PostController extends Controller
 //================================================
     public function form()
     {
-        $daftar_tag = DB::table('tags')->get();
+        $daftar_tag = Tag::all();
         return view('content.post.form', ['tags'=>$daftar_tag]);
     }
 
@@ -40,12 +41,17 @@ class PostController extends Controller
         }
 
         $url = str_replace(' ','-',$request->title);
+        $user = User::where('id',1)->first();
+
 
         $post = new Post;
         $post->title = $request->title;
         $post->url = $url;
         $post->content = $request->content;
+        $post->user_id = $user->id;
         $post->save();
+
+        $post->tags()->sync($request->tags);
        
         return redirect()->route('post.table');
     }
@@ -54,10 +60,11 @@ class PostController extends Controller
     public function edit($id)
     {
        
-        $post = post::find($id);
+        $post = Post::find($id);
         $daftar_tag = Tag::all();
-        //$chosen_tags = $post->tags->pluck('id')->all();
-        return view('content.post.form',['editpost' => $post, 'tags'=>$daftar_tag]);
+        $chosen_tags = $post->tags->pluck('id')->all();
+        return view('content.post.form',['editpost' => $post, 'tags'=>$daftar_tag, 
+        'chosen_tags' => $chosen_tags]);
     }
 
 //================================================
@@ -74,9 +81,11 @@ class PostController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
+        $post = Post::findOrFail($id);
+        $post->fill($request->all())->save();
+        $post->tags()->sync($request->tags);
 
-        $post = Post::find($id);
-        $post->update ($request->all());
+        
         return redirect()->route('post.table');
     }
 

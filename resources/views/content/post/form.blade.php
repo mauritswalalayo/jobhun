@@ -45,8 +45,18 @@
                 <label>Tag</label>
                 <select class="form-control select2" name="tags[]" multiple="multiple" data-placeholder="Select tag" style="width: 100%;"> 
                 @foreach($tags as $tag)
-                  <option value="{{$tag->id}}">{{$tag->name}}</option>
-                @endforeach
+                <option value="{{$tag->id}}"
+
+                    @if(isset($editpost))
+
+                      @if(in_array($tag->id, $chosen_tags))
+                        selected="selected"
+                      @endif
+
+                    @endif
+
+                    >{{$tag->name}}</option>
+                  @endforeach
                 </select>
             </div>
             
