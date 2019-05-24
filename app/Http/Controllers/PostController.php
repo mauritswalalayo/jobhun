@@ -81,11 +81,10 @@ class PostController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
-        $post = Post::findOrFail($id);
+        $post = Post::find($id);
         $post->fill($request->all())->save();
-        $post->tags()->sync($request->tags);
 
-        
+        $post->tags()->sync($request->tags);
         return redirect()->route('post.table');
     }
 

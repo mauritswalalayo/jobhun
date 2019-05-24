@@ -13,7 +13,7 @@ class CreatePostsTagsTable extends Migration
      */
     public function up()
     {
-        Schema::create('posts_tags', function (Blueprint $table) {
+        Schema::create('post_tag', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('post_id')->nullable();
             $table->integer('tag_id')->nullable();
@@ -27,6 +27,6 @@ class CreatePostsTagsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('posts_tags');
+        Schema::dropIfExists('post_tag');
     }
 }
