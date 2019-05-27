@@ -51,18 +51,18 @@ class PostController extends Controller
         $post->save();
 
         $post->tags()->sync($request->tags);
-       
+
         return redirect()->route('post.table');
     }
 
 //================================================
     public function edit($id)
     {
-       
+
         $post = Post::findOrFail($id);
         $daftar_tag = Tag::all();
         $chosen_tags = $post->tags->pluck('id')->all();
-        return view('content.post.form',['editpost' => $post, 'tags'=>$daftar_tag, 
+        return view('content.post.form',['editpost' => $post, 'tags'=>$daftar_tag,
         'chosen_tags' => $chosen_tags]);
     }
 
