@@ -4,10 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
-use Validator;
-use DB;
 use App\Tag;
 use App\User;
+use Validator;
 
 class PostController extends Controller
 {
@@ -41,7 +40,7 @@ class PostController extends Controller
         }
 
         $url = str_replace(' ','-',$request->title);
-        $user = User::where('id',1)->first();
+        $user = User::where('id',2)->first();
 
 
         $post = new Post;
@@ -60,7 +59,7 @@ class PostController extends Controller
     public function edit($id)
     {
        
-        $post = Post::find($id);
+        $post = Post::findOrFail($id);
         $daftar_tag = Tag::all();
         $chosen_tags = $post->tags->pluck('id')->all();
         return view('content.post.form',['editpost' => $post, 'tags'=>$daftar_tag, 
@@ -81,7 +80,7 @@ class PostController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
-        $post = Post::find($id);
+        $post = Post::findOrFail($id);
         $post->fill($request->all())->save();
 
         $post->tags()->sync($request->tags);
@@ -91,7 +90,7 @@ class PostController extends Controller
 //================================================
     public function delete($id)
     {
-        $post = post::find($id);
+        $post = post::findOrFail($id);
         $post->delete();
         return redirect()->route('post.table');
     }
