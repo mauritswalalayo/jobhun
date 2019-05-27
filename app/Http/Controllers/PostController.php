@@ -80,8 +80,15 @@ class PostController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
+        // $post = Post::findOrFail($id);
+        // $post->fill($request->all())->save();
+        $url = str_replace(' ','-',$request->title);
+
         $post = Post::findOrFail($id);
-        $post->fill($request->all())->save();
+        $post->title = ($request->title);
+        $post->url = $url;
+        $post->content = ($request->content);
+        $post->save();
 
         $post->tags()->sync($request->tags);
         return redirect()->route('post.table');
