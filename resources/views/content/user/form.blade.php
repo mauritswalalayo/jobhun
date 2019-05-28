@@ -47,12 +47,6 @@
                     @if (isset($edituser)) value="{{$edituser->email}}"
                         @endif>
                 </div>
-                <div class="form-group">
-                    <label for="password">Password :</label>
-                    <input name="password" type="password" id="password" class="form-control" placeholder="Masukan Password Anda......"
-                    @if (isset($edituser)) value="{{$edituser->password}}"
-                        @endif>
-                </div>
             </div>
             <div class="box-footer">
                 @if (isset($edituser))
