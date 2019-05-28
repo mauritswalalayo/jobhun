@@ -49,7 +49,6 @@ class UserController extends Controller
         ['name' => 'required',
         'phone' => 'required',
         'email' => 'required',
-        'password' => 'required'
         ]);
         if ($validator->fails())
         {
