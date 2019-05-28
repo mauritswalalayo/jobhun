@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use Illuminate\Routing\Console\MiddlewareMakeCommand;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,13 +17,19 @@ Route::get('/', function () {
     return view('content.home');
 })->name('home');
 
+Route::get('user/logout', 'UserController@logout')->name('user.logout');
+
+Route::group(["middleware" => ['login']],function (){
+    
+    Route::get('user/table', 'UserController@index')->name('user.table');
+    Route::get('user/form', 'UserController@form')->name('user.form');
+});
 
 
 //========================== Route User =============================
 
-Route::get('user/table', 'UserController@index')->name('user.table');
 
-Route::get('user/form', 'UserController@form')->name('user.form');
+
 
 Route::post('user/add', 'UserController@add')->name('user.add');
 
