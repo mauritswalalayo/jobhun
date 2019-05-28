@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Support\Facades\Auth;
 use Validator;
 
 
@@ -34,6 +35,8 @@ class UserController extends Controller
 
         $user = user::create($request->all());
         $user->password = bcrypt('12345');
+        $user->save();
+
         return redirect()->route('user.table');
     }
 //================================================
@@ -66,5 +69,10 @@ class UserController extends Controller
         $user->delete();
         return redirect()->route('user.table');
 
+    }
+
+    public function logout(){
+        Auth::logout();
+        return redirect()->route('home');
     }
 }
