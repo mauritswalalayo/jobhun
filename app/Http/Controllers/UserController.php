@@ -26,16 +26,14 @@ class UserController extends Controller
         $validator = validator::make($request->all(),
         ['name' => 'required',
         'phone' => 'required',
-        'email' => 'required',
-        'password' => 'required'
-        ]);
+        'email' => 'required',]);
         if ($validator->fails())
         {
             return back ()-> withErrors($validator)->withInput();
         }
 
         $user = user::create($request->all());
-        $user->save();
+        $user->password = bcrypt('12345');
         return redirect()->route('user.table');
     }
 //================================================
@@ -51,7 +49,6 @@ class UserController extends Controller
         ['name' => 'required',
         'phone' => 'required',
         'email' => 'required',
-        'password' => 'required'
         ]);
         if ($validator->fails())
         {
