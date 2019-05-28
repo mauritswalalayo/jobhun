@@ -14,14 +14,21 @@ use Illuminate\Routing\Console\MiddlewareMakeCommand;
 */
 //----------------  Route Home
 Route::get('/', function () {
-    return view('content.home');
-})->name('home');
+    return redirect()->route('beranda');
+});
 
 Route::get('user/logout', 'UserController@logout')->name('user.logout');
 
 Route::group(["middleware" => ['login']],function (){
+
+    Route::get('/beranda', function () {
+        return view('content.home');
+    })->name('beranda');
     
     Route::get('user/table', 'UserController@index')->name('user.table');
+});
+
+Route::group(["middleware" => ['admin']],function (){
     Route::get('user/form', 'UserController@form')->name('user.form');
 });
 

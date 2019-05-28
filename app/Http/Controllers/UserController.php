@@ -34,6 +34,7 @@ class UserController extends Controller
         }
 
         $user = user::create($request->all());
+        $user->role = 'author';
         $user->password = bcrypt('12345');
         $user->save();
 
