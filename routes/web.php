@@ -65,3 +65,4 @@ Route::get('tag/delete/{id}', 'TagController@delete');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
