@@ -33,7 +33,7 @@ class UserController extends Controller
         }
 
         $user = user::create($request->all());
-        $user->save();
+        $user->password = bcrypt('12345');
         return redirect()->route('user.table');
     }
 //================================================
