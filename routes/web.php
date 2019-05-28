@@ -62,3 +62,6 @@ Route::get('tag/edit/{id}', 'TagController@edit');
 Route::patch('tag/update/{id}', 'TagController@update');
 
 Route::get('tag/delete/{id}', 'TagController@delete');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
