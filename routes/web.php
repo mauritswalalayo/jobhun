@@ -15,15 +15,17 @@ use Illuminate\Routing\Console\MiddlewareMakeCommand;
 //----------------  Route Home
 Route::get('/', function () {
     return redirect()->route('beranda');
-});
+})->name('beranda');
+
 
 Route::get('register', function(){
     return view (auth.register);
 })->name('register');
 
 
-
 Route::get('user/logout', 'UserController@logout')->name('user.logout');
+
+//========================= Middleware ===============================================
 
 Route::group(["middleware" => ['login']],function (){
 
@@ -34,13 +36,13 @@ Route::group(["middleware" => ['login']],function (){
     Route::get('user/table', 'UserController@index')->name('user.table');
 });
 
+
 Route::group(["middleware" => ['admin']],function (){
     Route::get('user/form', 'UserController@form')->name('user.form');
 });
 
 
 //========================== Route User =============================
-
 
 
 
@@ -83,6 +85,7 @@ Route::patch('tag/update/{id}', 'TagController@update');
 
 Route::get('tag/delete/{id}', 'TagController@delete');
 Auth::routes();
+
 
 Route::get('/home', 'HomeController@index')->name('home');
 
