@@ -17,6 +17,12 @@ Route::get('/', function () {
     return redirect()->route('beranda');
 });
 
+Route::get('register', function(){
+    return view (auth.register);
+})->name('register');
+
+
+
 Route::get('user/logout', 'UserController@logout')->name('user.logout');
 
 Route::group(["middleware" => ['login']],function (){

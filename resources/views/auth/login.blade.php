@@ -70,7 +70,7 @@
       </div>
     </form>
 
-    <a href="register.blade.php" class="text-center">Register a new membership</a>
+    <a href="{{route('register')}}" class="text-center">Register a new membership</a>
 
   </div>
   <!-- /.login-box-body -->
