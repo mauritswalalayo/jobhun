@@ -32,27 +32,31 @@ Route::group(["middleware" => ['login']],function (){
     Route::get('/beranda', function () {
         return view('content.home');
     })->name('beranda');
-    
+
     Route::get('user/table', 'UserController@index')->name('user.table');
 });
 
 
 Route::group(["middleware" => ['admin']],function (){
+    
+    //========================== Route User =============================
     Route::get('user/form', 'UserController@form')->name('user.form');
+
+    Route::post('user/add', 'UserController@add')->name('user.add');
+
+    Route::get('user/edit/{id}', 'UserController@edit');
+
+    Route::patch('user/update/{id}', 'UserController@update');
+
+    Route::get('user/hapus/{id}', 'UserController@delete');
 });
 
 
-//========================== Route User =============================
 
 
 
-Route::post('user/add', 'UserController@add')->name('user.add');
 
-Route::get('user/edit/{id}', 'UserController@edit');
 
-Route::patch('user/update/{id}', 'UserController@update');
-
-Route::get('user/hapus/{id}', 'UserController@delete');
 
 
 

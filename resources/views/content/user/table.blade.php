@@ -31,8 +31,10 @@
                         <td>{{$user->phone}}</td>
                         <td>{{$user->email}}</td>
                         <td>
-                            <a href="{{url('user/'.'edit/'.$user->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
-                            <a href="{{url('user/'.'hapus/'.$user->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
+                            @if(Auth::user()->role == 'admin')
+                                <a href="{{url('user/'.'edit/'.$user->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
+                                <a href="{{url('user/'.'hapus/'.$user->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
+                            @endif
                         </td>
                     </tr>
                     @endforeach
