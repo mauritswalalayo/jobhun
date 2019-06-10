@@ -38,7 +38,7 @@ Route::group(["middleware" => ['login']],function (){
 
 
 Route::group(["middleware" => ['admin']],function (){
-    
+
     //========================== Route User =============================
     Route::get('user/form', 'UserController@form')->name('user.form');
 
@@ -50,15 +50,6 @@ Route::group(["middleware" => ['admin']],function (){
 
     Route::get('user/hapus/{id}', 'UserController@delete');
 });
-
-
-
-
-
-
-
-
-
 
 //========================== Route Post =============================
 
