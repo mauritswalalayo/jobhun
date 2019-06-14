@@ -85,3 +85,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 // Test Saja
+
+//=========================== Route Testimoni ==============================
+Route::get('testimoni/table', 'TestimoniController@index')->name('testimoni.table');
+
+Route::get('/testimoni/form', 'TestimoniController@form')->name('testimoni.form');

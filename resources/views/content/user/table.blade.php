@@ -15,7 +15,6 @@
                     <tr>
                         <th>No.</th>
                         <th>Nama</th>
-                        <th>No. Telp</th>
                         <th>Email</th>
                         <th>Opsi</th>
                     </tr>
@@ -28,7 +27,6 @@
                     <tr>
                         <td>{{$i++}}</td>
                         <td>{{$user->name}}</td>
-                        <td>{{$user->phone}}</td>
                         <td>{{$user->email}}</td>
                         <td>
                             @if(Auth::user()->role == 'admin')

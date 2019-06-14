@@ -35,12 +35,7 @@
                     @if (isset($edituser)) value="{{$edituser->name}}"
                         @endif>
                 </div>
-                <div class="form-group">
-                    <label for="phone">No. Telp :</label>
-                    <input name="phone" type="text" id="phone" class="form-control" placeholder="Masukan Nomor HP Anda......"
-                    @if (isset($edituser)) value="{{$edituser->phone}}"
-                        @endif>
-                </div>
+    
                 <div class="form-group">
                     <label for="email">Email :</label>
                     <input name="email" type="email" id="email" class="form-control" placeholder="Masukan Email Anda......"

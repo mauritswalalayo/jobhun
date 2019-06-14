@@ -46,6 +46,23 @@
                 </a>
             </li>
 
+            <li class="treeview">
+                <a href="{{route('testimoni.table')}}">
+                    <i class="glyphicon glyphicon-comment"></i> <span>Testimoni</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
+
+
+            <li class="treeview">
+                <a href="">
+                    <i class="glyphicon glyphicon-envelope"></i> <span>Collaborate</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
+
         </ul>
     </section>
     <!-- /.sidebar -->
