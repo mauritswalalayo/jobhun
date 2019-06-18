@@ -18,7 +18,7 @@
  <!-- Select2 -->
  <link rel="stylesheet" href="{{asset('admin/select2/dist/css/select2.min.css')}}">
 
-<link rel="icon" href="{{asset('img/jobhun.png')}}" type="image/x-icon">
+<link rel="icon" href="{{asset('img/jobhun.jpg')}}" type="image/x-icon">
 
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
