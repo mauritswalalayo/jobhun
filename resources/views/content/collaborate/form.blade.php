@@ -1,11 +1,11 @@
 @extends('master')
 
-@section('title', 'Form Testimoni')
+@section('title', 'Form Collaborate')
 
 @section('content')
 <div class="box box-primary">
     <div class="box-header with-border">
-        <a href="{{route('testimoni.table')}}" class="btn btn-danger">Kembali</a>
+        <a href="{{route('collaborate.table')}}" class="btn btn-danger">Kembali</a>
     </div>
     <div class="box-body">
             @if ($errors->any())
@@ -20,20 +20,12 @@
 
     </div>
 
-    <form action="{{route('testimoni.add')}}" method="POST">
+    <form action="" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
         <div class="box-body">
             <div class="form-group">
-                <label for="title">Nama :</label>
-                <input name="name" type="text" id="name" class="form-control" placeholder="Masukan Nama Anda......">
-            </div>
-        </div>
-
-        <div class="box-body">
-            <div class="form-group">
-                <label for="title">Testimoni :</label>
-                <textarea name="testimoni" id="testimoni" cols="30" rows="10" class="form-control">
-                </textarea>
+                <label for="title">Nama Perusahaan :</label>
+                <input name="name" type="text" id="name" class="form-control" placeholder="Masukan Nama Perusahaan Anda......">
             </div>
         </div>
 

@@ -56,7 +56,7 @@
 
 
             <li class="treeview">
-                <a href="">
+                <a href="{{route('collaborate.table')}}">
                     <i class="glyphicon glyphicon-envelope"></i> <span>Collaborate</span>
                     <span class="pull-right-container">
                     </span>

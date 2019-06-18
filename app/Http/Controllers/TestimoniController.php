@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Testimoni;
 
 class TestimoniController extends Controller
 {
@@ -16,13 +17,32 @@ class TestimoniController extends Controller
 
     public function index()
     {
-    
-        return view('content.testimoni.table');
+        $testimoni = Testimoni::paginate(3);
+        return view('content.testimoni.table',['daftar_testimoni' => $testimoni]);
     }
  
     public function form ()
     {
         return view ('content.testimoni.form');
     }
+
+    public function add (Request $request)
+    {
+        $testimoni = Testimoni::create($request->all());
+        $testimoni->save();
+        return redirect()->route('testimoni.table');
+    }
+
+    public function delete ($id)
+    {
+        $testimoni = testimoni::find($id);
+        $testimoni->delete();
+        
+        return redirect()->route('testimoni.table');
+
+    }
+
+
+
 
 }
