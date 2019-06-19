@@ -170,63 +170,35 @@
 				</div><!-- Btn Extras -->
 				<nav>
 					<ul>
-						<li class="menu-item-has-children">
+						<li class="">
 							<a href="#" title="">Tentang Jobhun</a>
-							<ul>
-								<li><a href="candidates_list.html" title="">Candidates List 1</a></li>
-								<li><a href="candidates_list2.html" title="">Candidates List 2</a></li>
-								<li><a href="candidates_list3.html" title="">Candidates List 3</a></li>
-								<li><a href="candidates_single.html" title="">Candidates Single 1</a></li>
-								<li><a href="candidates_single2.html" title="">Candidates Single 2</a></li>
-								<li class="menu-item-has-children">
-									<a href="#" title="">Candidates Dashboard</a>
-									<ul>
-										<li><a href="candidates_my_resume.html" title="">Candidates Resume</a></li>
-										<li><a href="candidates_my_resume_add_new.html" title="">Candidates Resume new</a></li>
-										<li><a href="candidates_profile.html" title="">Candidates Profile</a></li>
-										<li><a href="candidates_shortlist.html" title="">Candidates Shortlist</a></li>
-										<li><a href="candidates_job_alert.html" title="">Candidates Job Alert</a></li>
-										<li><a href="candidates_dashboard.html" title="">Candidates Dashboard</a></li>
-										<li><a href="candidates_cv_cover_letter.html" title="">CV Cover Letter</a></li>
-										<li><a href="candidates_change_password.html" title="">Change Password</a></li>
-										<li><a href="candidates_applied_jobs.html" title="">Candidates Applied Jobs</a></li>
-									</ul>
-								</li>
-							</ul>
 						</li>
+
 						<li class="menu-item-has-children">
 							<a href="#" title="">Layanan</a>
 							<ul>
-								<li><a href="blog_list.html"> Blog List 1</a></li>
-								<li><a href="blog_list2.html">Blog List 2</a></li>
-								<li><a href="blog_list3.html">Blog List 3</a></li>
-								<li><a href="blog_single.html">Blog Single</a></li>
+								<li><a href="#"> Jobhun Career Hub</a></li>
+								<li><a href="#">Jobhun Academy</a></li>
+								<li><a href="#">Media Partner</a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
 							<a href="#" title="">Program</a>
 							<ul>
-								<li><a href="job_list_classic.html">Job List Classic</a></li>
-								<li><a href="job_list_grid.html">Job List Grid</a></li>
-								<li><a href="job_list_modern.html">Job List Modern</a></li>
-								<li><a href="job_single1.html">Job Single 1</a></li>
-								<li><a href="job_single2.html">Job Single 2</a></li>
-								<li><a href="job-single3.html">Job Single 3</a></li>
+								<li><a href="#">Jobhun Internship</a></li>
+								<li><a href="#">Jobhun Talks</a></li>
+								<li><a href="#">Jobhun Visit</a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
 							<a href="#" title="">Blog</a>
 							<ul>
-								<li><a href="about.html" title="">About Us</a></li>
-								<li><a href="404.html" title="">404 Error</a></li>
-								<li><a href="contact.html" title="">Contact Us 1</a></li>
-								<li><a href="contact2.html" title="">Contact Us 2</a></li>
-								<li><a href="faq.html" title="">FAQ's</a></li>
-								<li><a href="how_it_works.html" title="">How it works</a></li>
-								<li><a href="login.html" title="">Login</a></li>
-								<li><a href="pricing.html" title="">Pricing Plans</a></li>
-								<li><a href="register.html" title="">Register</a></li>
-								<li><a href="terms_and_condition.html" title="">Terms & Condition</a></li>
+								<li><a href="#" title="">Cerita Karier</a></li>
+								<li><a href="#" title="">Infografik</a></li>
+								<li><a href="#" title="">Karierpedia</a></li>
+								<li><a href="#" title="">Artikel</a></li>
+								<li><a href="#" title="">Berita</a></li>
+								<li><a href="#" title="">Info Acara</a></li>
 							</ul>
 						</li>
 					</ul>
