@@ -17,14 +17,19 @@
                 </tr>
             </thead>
             <tbody>
+
+                    @php $i = $first_index; @endphp  
+                    @foreach ($datacollaborate as $collaborate)
                 <tr>
-                    <td>1</td>
-                    <td>TVRI</td>
+                    <td>{{ $i++ }}</td>
+                    <td>{{ $collaborate->name }}</td>
                     <td>
-                        <a href="" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
-                        <a href="" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
+                        <a href="{{url('collaborate/'.'edit/'.$collaborate->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
+                        <a href="{{url('collaborate/'.'delete/'.$collaborate->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
                     </td>
                 </tr>
+
+                @endforeach
 
             </tbody>
         </table>

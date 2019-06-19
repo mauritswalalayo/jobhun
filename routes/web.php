@@ -1,6 +1,8 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use Illuminate\Routing\Console\MiddlewareMakeCommand;
+use App\Collaborate;
+use App\Http\Controllers\CollaborateController;
 
 /*
 |--------------------------------------------------------------------------
@@ -79,12 +81,11 @@ Route::get('tag/edit/{id}', 'TagController@edit');
 Route::patch('tag/update/{id}', 'TagController@update');
 
 Route::get('tag/delete/{id}', 'TagController@delete');
-Auth::routes();
 
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// Test Saja
 
 //=========================== Route Testimoni ==============================
 Route::get('testimoni/table', 'TestimoniController@index')->name('testimoni.table');
@@ -97,7 +98,14 @@ Route::get('testimoni/delete/{id}', 'TestimoniController@delete');
 
 //=========================== Route Collaborate ==============================
 Route::get('collaborate/table', 'CollaborateController@index')->name('collaborate.table');
+
 Route::get('collaborate/form', 'CollaborateController@form')->name('collaborate.form');
+
+Route::post('collaborate/add', 'CollaborateController@add')->name('collaborate.add');
+
+Route::get('collaborate/delete/{id}', 'CollaborateController@delete')->name('collaborate.delete');
+
+Route::get('collaborate/edit/{id}', 'CollaborateController@edit')->name('collaborate.edit');
 
 
 //=========================== Route Homepage ==============================

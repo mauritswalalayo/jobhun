@@ -20,7 +20,7 @@
 
     </div>
 
-    <form action="" method="POST">
+<form action="{{route('collaborate.add')}}" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
         <div class="box-body">
             <div class="form-group">
