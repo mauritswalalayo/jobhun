@@ -98,3 +98,7 @@ Route::get('testimoni/delete/{id}', 'TestimoniController@delete');
 //=========================== Route Collaborate ==============================
 Route::get('collaborate/table', 'CollaborateController@index')->name('collaborate.table');
 Route::get('collaborate/form', 'CollaborateController@form')->name('collaborate.form');
+
+
+//=========================== Route Homepage ==============================
+Route::get('user/homepage', 'HomepageController@index')->name('user.homepage');
