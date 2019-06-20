@@ -1,24 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Job Hunt</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="CreativeLayers">
 
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="{{asset('user/css/bootstrap-grid.css')}}" />
-	<link rel="stylesheet" href="{{asset('user/css/icons.css')}}">
-	<link rel="stylesheet" href="{{asset('user/ss/animate.min.css')}}c">
-	<link rel="stylesheet" type="text/css" href="{{asset('user/css/style.css')}}" />
-	<link rel="stylesheet" type="text/css" href="{{asset('user/css/responsive.css')}}" />
-	<link rel="stylesheet" type="text/css" href="{{asset('user/css/chosen.css')}}" />
-	<link rel="stylesheet" type="text/css" href="{{asset('user/css/colors/colors.css')}}" />
-	<link rel="stylesheet" type="text/css" href="{{asset('user/css/bootstrap.css')}}" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-	
+	@include('partial.head')
+
 </head>
 <body class="newbg">
 
@@ -27,7 +12,7 @@
 </div>
 
 <div class="theme-layout" id="scrollup">
-	
+
 	<div class="responsive-header">
 		<div class="responsive-menubar">
 			<div class="res-logo"><a href="index.html" title=""><img src="http://placehold.it/178x40" alt="" /></a></div>
@@ -154,7 +139,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<header class="stick-top forsticky new-header">
 		<div class="menu-sec">
 			<div class="container">
@@ -273,7 +258,7 @@
 						</div>
 					</div>
 				</div>
-			</div>	
+			</div>
 		</div>
 	</section>
 
@@ -400,7 +385,7 @@
 						</div>
 					</div>
 				</div>
-			</div>	
+			</div>
 		</div>
 	</section>
 
@@ -536,7 +521,7 @@
 										<a href="#" title="">Syarat dan Ketentuan</a>
 										<a href="#" title="">Kebijakan Privasi </a>
 										<a href="#" title="">Karier di Jobhun </a>
-								
+
 									</div>
 								</div>
 							</div>
@@ -548,12 +533,12 @@
 							<div class="link_widgets">
 								<div class="row">
 									<div class="col-lg-12">
-										<a href="#" title="">Jobhun – CV Sindikat Kreasi Digital</a>	
-										<a href="#" title="">Geco Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel, Wonokromo, Surabaya, Jawa Timur, Indonesia 60246</a>	
-										<a href="#" title="">E-mail: info@jobhun.id</a>	
-										<a href="#" title="">Telp. & WA: 08113235533</a>	
-										<a href="#" title="">Jobs in Deuts</a>	
-										<a href="#" title="">Vacatures China</a>	
+										<a href="#" title="">Jobhun – CV Sindikat Kreasi Digital</a>
+										<a href="#" title="">Geco Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel, Wonokromo, Surabaya, Jawa Timur, Indonesia 60246</a>
+										<a href="#" title="">E-mail: info@jobhun.id</a>
+										<a href="#" title="">Telp. & WA: 08113235533</a>
+										<a href="#" title="">Jobs in Deuts</a>
+										<a href="#" title="">Vacatures China</a>
 									</div>
 								</div>
 							</div>
