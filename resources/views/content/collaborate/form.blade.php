@@ -20,6 +20,12 @@
 
     </div>
 
+@if(@isset($editcollaborate))
+
+
+    
+@endisset
+
 <form action="{{route('collaborate.add')}}" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
         <div class="box-body">
