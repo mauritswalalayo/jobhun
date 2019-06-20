@@ -107,6 +107,7 @@ Route::get('collaborate/delete/{id}', 'CollaborateController@delete')->name('col
 
 Route::get('collaborate/edit/{id}', 'CollaborateController@edit')->name('collaborate.edit');
 
+Route::get('collaborate/update/{id}', 'CollaborateController@update')->name('collaborate.update');
 
 //=========================== Route Homepage ==============================
 Route::get('user/homepage', 'HomepageController@index')->name('user.homepage');
