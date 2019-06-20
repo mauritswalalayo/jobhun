@@ -1,3 +1,15 @@
+<div class="responsive-menubar">
+    <div class="res-logo"><a href="index.html" title=""><img src="http://placehold.it/178x40" alt="" /></a>
+    </div>
+    <div class="menu-resaction">
+        <div class="res-openmenu">
+            <img src="{{asset('user/images/icon.png')}}" alt="" /> Menu
+        </div>
+        <div class="res-closemenu">
+            <img src="{{asset('user/images/icon2.png')}}" alt="" /> Close
+        </div>
+    </div>
+</div>
 <div class="responsive-opensec">
     <div class="btn-extars">
         <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Posting Job</a>

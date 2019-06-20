@@ -14,18 +14,7 @@
 	<div class="theme-layout" id="scrollup">
 
 		<div class="responsive-header">
-			<div class="responsive-menubar">
-				<div class="res-logo"><a href="index.html" title=""><img src="http://placehold.it/178x40" alt="" /></a>
-				</div>
-				<div class="menu-resaction">
-					<div class="res-openmenu">
-						<img src="{{asset('user/images/icon.png')}}" alt="" /> Menu
-					</div>
-					<div class="res-closemenu">
-						<img src="{{asset('user/images/icon2.png')}}" alt="" /> Close
-					</div>
-				</div>
-			</div>
+			
 
 			@include('user_front.partial.responsive')
 		</div>
