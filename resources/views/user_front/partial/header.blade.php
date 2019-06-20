@@ -1,7 +1,7 @@
 <div class="container">
     <div class="logo">
-        <a href="index.html" title=""><img class="hidesticky" src="{{asset('user/images/jobhun1.png')}}" alt="" /><img
-                class="showsticky" src="{{asset('user/images/jobhun1.jpg')}}" alt="" /></a>
+        <a href="index.html" title=""><img class="hidesticky" width="60px" src="{{asset('user/images/jobhun1.png')}}" alt="" /><img
+                class="showsticky"  width="60px" src="{{asset('user/images/jobhun1.jpg')}}" alt="" /></a>
     </div><!-- Logo -->
     <div class="btn-extars">
         <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Post Jobs</a>
