@@ -14,8 +14,6 @@
 	<div class="theme-layout" id="scrollup">
 
 		<div class="responsive-header">
-			
-
 			@include('user_front.partial.responsive')
 		</div>
 
