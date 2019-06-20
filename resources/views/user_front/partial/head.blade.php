@@ -4,7 +4,6 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="CreativeLayers">
-
 <!-- Styles -->
 <link rel="stylesheet" type="text/css" href="{{asset('user/css/bootstrap-grid.css')}}" />
 <link rel="stylesheet" href="{{asset('user/css/icons.css')}}">
