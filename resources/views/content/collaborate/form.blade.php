@@ -22,7 +22,7 @@
 
 @if(@isset($editcollaborate))
 
-<form action="{{route('collaborate.update')}}" method="PATCH">
+<form action="{{url('collaborate/'.'update/'.$editcollaborate->id)}}" method="PATCH">
 <input type="hidden" name="_method" value="PATCH">
 
 @else

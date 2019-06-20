@@ -42,4 +42,12 @@ class CollaborateController extends Controller
         return view('content.collaborate.form',['editcollaborate'=> $collaborate]);
     }
 
+    public function update (Request $request, $id)
+    {
+        $collaborate = Collaborate::find($id);
+        $collaborate->update($request->all());
+        $collaborate->save();
+        return redirect()->route('collaborate.table');
+    }
+
 }
