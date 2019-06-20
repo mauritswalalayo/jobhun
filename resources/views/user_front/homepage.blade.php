@@ -57,7 +57,7 @@
 				<div class="responsivemenu">
 					<ul>
 						<li class="menu-item-has-children">
-							<a href="#" title="">Home</a>
+							<a href="#" title="">Tentang</a>
 							<ul>
 								<li><a href="index.html" title="">Home Layout 1</a></li>
 								<li><a href="index2.html" title="">Home Layout 2</a></li>
