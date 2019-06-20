@@ -63,36 +63,12 @@
 						<li class="menu-item-has-children">
 							<a href="#" title="">Blog</a>
 							<ul>
-								<li><a href="blog_list.html"> Blog List 1</a></li>
-								<li><a href="blog_list2.html">Blog List 2</a></li>
-								<li><a href="blog_list3.html">Blog List 3</a></li>
-								<li><a href="blog_single.html">Blog Single</a></li>
-							</ul>
-						</li>
-						<li class="menu-item-has-children">
-							<a href="#" title="">Job</a>
-							<ul>
-								<li><a href="job_list_classic.html">Job List Classic</a></li>
-								<li><a href="job_list_grid.html">Job List Grid</a></li>
-								<li><a href="job_list_modern.html">Job List Modern</a></li>
-								<li><a href="job_single1.html">Job Single 1</a></li>
-								<li><a href="job_single2.html">Job Single 2</a></li>
-								<li><a href="job-single3.html">Job Single 3</a></li>
-							</ul>
-						</li>
-						<li class="menu-item-has-children">
-							<a href="#" title="">Pages</a>
-							<ul>
-								<li><a href="about.html" title="">About Us</a></li>
-								<li><a href="404.html" title="">404 Error</a></li>
-								<li><a href="contact.html" title="">Contact Us 1</a></li>
-								<li><a href="contact2.html" title="">Contact Us 2</a></li>
-								<li><a href="faq.html" title="">FAQ's</a></li>
-								<li><a href="how_it_works.html" title="">How it works</a></li>
-								<li><a href="login.html" title="">Login</a></li>
-								<li><a href="pricing.html" title="">Pricing Plans</a></li>
-								<li><a href="register.html" title="">Register</a></li>
-								<li><a href="terms_and_condition.html" title="">Terms & Condition</a></li>
+								<li><a href="#" title="">Cerita Karier</a></li>
+								<li><a href="#" title="">Infografik</a></li>
+								<li><a href="#" title="">Karierpedia</a></li>
+								<li><a href="#" title="">Artikel</a></li>
+								<li><a href="#" title="">Berita</a></li>
+								<li><a href="#" title="">Info Acara</a></li>
 							</ul>
 						</li>
 					</ul>
