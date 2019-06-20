@@ -42,7 +42,7 @@
 				<div class="responsivemenu">
 					<ul>
 						<li class="">
-							<a href="#" title="">Tentang</a>
+							<a href="#" title="">Tentang Jobhun</a>
 						</li>
 						<li class="menu-item-has-children">
 							<a href="#" title="">Employers</a>
