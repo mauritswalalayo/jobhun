@@ -45,54 +45,19 @@
 							<a href="#" title="">Tentang Jobhun</a>
 						</li>
 						<li class="menu-item-has-children">
-							<a href="#" title="">Employers</a>
+							<a href="#" title="">Layanan</a>
 							<ul>
-								<li><a href="employer_list1.html" title=""> Employer List 1</a></li>
-								<li><a href="employer_list2.html" title="">Employer List 2</a></li>
-								<li><a href="employer_list3.html" title="">Employer List 3</a></li>
-								<li><a href="employer_list4.html" title="">Employer List 4</a></li>
-								<li><a href="employer_single1.html" title="">Employer Single 1</a></li>
-								<li><a href="employer_single2.html" title="">Employer Single 2</a></li>
-								<li class="menu-item-has-children">
-									<a href="#" title="">Employer Dashboard</a>
-									<ul>
-										<li><a href="employer_manage_jobs.html" title="">Employer Job Manager</a></li>
-										<li><a href="employer_packages.html" title="">Employer Packages</a></li>
-										<li><a href="employer_post_new.html" title="">Employer Post New</a></li>
-										<li><a href="employer_profile.html" title="">Employer Profile</a></li>
-										<li><a href="employer_resume.html" title="">Employer Resume</a></li>
-										<li><a href="employer_transactions.html" title="">Employer Transaction</a></li>
-										<li><a href="employer_job_alert.html" title="">Employer Job Alert</a></li>
-										<li><a href="employer_change_password.html" title="">Employer Change
-												Password</a></li>
-									</ul>
-								</li>
+								<li><a href="#"> Jobhun Career Hub</a></li>
+								<li><a href="#">Jobhun Academy</a></li>
+								<li><a href="#">Media Partner</a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
-							<a href="#" title="">Candidates</a>
+							<a href="#" title="">Program</a>
 							<ul>
-								<li><a href="candidates_list.html" title="">Candidates List 1</a></li>
-								<li><a href="candidates_list2.html" title="">Candidates List 2</a></li>
-								<li><a href="candidates_list3.html" title="">Candidates List 3</a></li>
-								<li><a href="candidates_single.html" title="">Candidates Single 1</a></li>
-								<li><a href="candidates_single2.html" title="">Candidates Single 2</a></li>
-								<li class="menu-item-has-children">
-									<a href="#" title="">Candidates Dashboard</a>
-									<ul>
-										<li><a href="candidates_my_resume.html" title="">Candidates Resume</a></li>
-										<li><a href="candidates_my_resume_add_new.html" title="">Candidates Resume
-												new</a></li>
-										<li><a href="candidates_profile.html" title="">Candidates Profile</a></li>
-										<li><a href="candidates_shortlist.html" title="">Candidates Shortlist</a></li>
-										<li><a href="candidates_job_alert.html" title="">Candidates Job Alert</a></li>
-										<li><a href="candidates_dashboard.html" title="">Candidates Dashboard</a></li>
-										<li><a href="candidates_cv_cover_letter.html" title="">CV Cover Letter</a></li>
-										<li><a href="candidates_change_password.html" title="">Change Password</a></li>
-										<li><a href="candidates_applied_jobs.html" title="">Candidates Applied Jobs</a>
-										</li>
-									</ul>
-								</li>
+								<li><a href="#">Jobhun Internship</a></li>
+								<li><a href="#">Jobhun Talks</a></li>
+								<li><a href="#">Jobhun Visit</a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
