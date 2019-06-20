@@ -3,7 +3,6 @@
 
 <head>
 	@include('user_front.partial.css')
-
 </head>
 
 <body class="newbg">
