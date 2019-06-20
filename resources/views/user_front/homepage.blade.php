@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	@include('partial.head')
+	@include('user_front.partial.head')
 
 </head>
 
