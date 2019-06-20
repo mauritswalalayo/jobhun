@@ -27,7 +27,7 @@
 				</div>
 			</div>
 
-			@include('user_front.partial.header')
+			@include('user_front.partial.responsive')
 		</div>
 
 		<header class="stick-top forsticky new-header">
