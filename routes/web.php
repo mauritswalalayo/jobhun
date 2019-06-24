@@ -96,6 +96,10 @@ Route::post('testimoni/add', 'TestimoniController@add')->name('testimoni.add');
 
 Route::get('testimoni/delete/{id}', 'TestimoniController@delete');
 
+Route::get('testimoni/edit/{id}', 'TestimoniController@edit');
+
+Route::get('testimoni/update/{id}', 'TestimoniController@update');
+
 
 
 //=========================== Route Collaborate ==============================
