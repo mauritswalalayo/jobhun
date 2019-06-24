@@ -26,6 +26,11 @@ class ProgramController extends Controller
         return view('user_front.content.program.talk');
     }
 
+    public function indexdetail()
+    {
+        return view('user_front.content.program.detail');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

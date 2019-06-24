@@ -122,3 +122,4 @@ Route::get('user/homepage', 'HomepageController@index')->name('user.homepage');
 Route::get('user/program/internship', 'ProgramController@indexinternship')->name('program.internship');
 Route::get('user/program/visit', 'ProgramController@indexvisit')->name('program.visit');
 Route::get('user/program/talk', 'ProgramController@indextalk')->name('program.talk');
+Route::get('user/program/detail', 'ProgramController@indexdetail')->name('program.detail');

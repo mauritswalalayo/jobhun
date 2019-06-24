@@ -48,7 +48,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
@@ -64,7 +64,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
@@ -80,7 +80,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
@@ -96,7 +96,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
@@ -112,7 +112,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
@@ -128,7 +128,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
@@ -144,7 +144,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
@@ -160,7 +160,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
@@ -176,7 +176,7 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
 										<div class="blog-thumb">
-											<a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+											<a href="#" title=""><img src="{{asset('user/images/artikel.jpg')}}" width="360px" height="200px" alt="" /></a>
 											<div class="blog-metas">
 												<a href="#" title="">March 29, 2017</a>
 												<a href="#" title="">0 Comments</a>
