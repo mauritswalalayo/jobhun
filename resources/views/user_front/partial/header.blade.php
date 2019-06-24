@@ -28,9 +28,9 @@
             <li class="menu-item-has-children">
                 <a href="#" title="">Program</a>
                 <ul>
-                    <li><a href="#">Jobhun Internship</a></li>
-                    <li><a href="#">Jobhun Talks</a></li>
-                    <li><a href="#">Jobhun Visit</a></li>
+                    <li><a href="{{route('program.internship')}}">Jobhun Internship</a></li>
+                    <li><a href="{{route('program.talk')}}">Jobhun Talks</a></li>
+                    <li><a href="{{route('program.visit')}}">Jobhun Visit</a></li>
                 </ul>
             </li>
             <li class="menu-item-has-children">

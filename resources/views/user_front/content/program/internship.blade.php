@@ -17,7 +17,9 @@
 	</div>
 	
 	<header class="stick-top">
+	<div class="menu-sec">
 		@include('user_front.partial.header')
+	</div>
 	</header>
 
 	<section class="overlape">
@@ -27,7 +29,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="inner-header">
-							<h3>Blog</h3>
+							<h3>Jobhun Internship</h3>
 						</div>
 					</div>
 				</div>
@@ -41,6 +43,7 @@
 				 <div class="row">
 				 	<div class="col-lg-12">
 				 		<div class="blog-sec">
+							 <h6>Sebuah program magang dari Jobhun yang ditujukan bagi para pelajar atau mahasiswa, dengan rentang usia 15-22 tahun. Posisi magang yang dibuka biasanya menyesuaikan kebutuhan proyek Jobhun, seperti content writer, social media specialist, graphic designer, videographer, creative team, business development, marketing, hingga technical. Dalam program ini, mereka akan mendapatkan pelatihan atau mentoring beberapa topik (kepenulisan, desain, social media management, pembuatan acara, dll). Mereka juga berkesempatan untuk membantu tim inti Jobhun mengerjakan beberapa proyek dan pekerjaan rutin. Para pemagang juga berkesempatan untuk menjadi tim Jobhun setelah program selesai, apabila memenuhi kriteria. Untuk mengetahui informasi Jobhun Internship lebih detail, kamu bisa melihat update konten di bawah ini.</h6>
 							<div class="row" id="masonry">
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="my-blog">
@@ -206,84 +209,7 @@
 	</section>
 
 	<footer>
-		<div class="block">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 column">
-						<div class="widget">
-							<div class="about_widget">
-								<div class="logo">
-									<a href="#" title=""><img src="http://placehold.it/178x40" alt="" /></a>
-								</div>
-								<span>Collin Street West, Victor 8007, Australia.</span>
-								<span>+1 246-345-0695</span>
-								<span>info@jobhunt.com</span>
-								<div class="social">
-									<a href="#" title=""><i class="fa fa-facebook"></i></a>
-									<a href="#" title=""><i class="fa fa-twitter"></i></a>
-									<a href="#" title=""><i class="fa fa-linkedin"></i></a>
-									<a href="#" title=""><i class="fa fa-pinterest"></i></a>
-									<a href="#" title=""><i class="fa fa-behance"></i></a>
-								</div>
-							</div><!-- About Widget -->
-						</div>
-					</div>
-					<div class="col-lg-4 column">
-						<div class="widget">
-							<h3 class="footer-title">Frequently Asked Questions</h3>
-							<div class="link_widgets">
-								<div class="row">
-									<div class="col-lg-6">
-										<a href="#" title="">Privacy & Seurty </a>
-										<a href="#" title="">Terms of Serice</a>
-										<a href="#" title="">Communications </a>
-										<a href="#" title="">Referral Terms </a>
-										<a href="#" title="">Lending Licnses </a>
-										<a href="#" title="">Disclaimers </a>	
-									</div>
-									<div class="col-lg-6">
-										<a href="#" title="">Support </a>
-										<a href="#" title="">How It Works </a>
-										<a href="#" title="">For Employers </a>
-										<a href="#" title="">Underwriting </a>
-										<a href="#" title="">Contact Us</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2 column">
-						<div class="widget">
-							<h3 class="footer-title">Find Jobs</h3>
-							<div class="link_widgets">
-								<div class="row">
-									<div class="col-lg-12">
-										<a href="#" title="">US Jobs</a>	
-										<a href="#" title="">Canada Jobs</a>	
-										<a href="#" title="">UK Jobs</a>	
-										<a href="#" title="">Emplois en Fnce</a>	
-										<a href="#" title="">Jobs in Deuts</a>	
-										<a href="#" title="">Vacatures China</a>	
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 column">
-						<div class="widget">
-							<div class="download_widget">
-								<a href="#" title=""><img src="http://placehold.it/230x65" alt="" /></a>
-								<a href="#" title=""><img src="http://placehold.it/230x65" alt="" /></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bottom-line">
-			<span>© 2018 Jobhunt All rights reserved. Design by Creative Layers</span>
-			<a href="#scrollup" class="scrollup" title=""><i class="la la-arrow-up"></i></a>
-		</div>
+		@include('user_front.partial.footer')
 	</footer>
 
 </div>
