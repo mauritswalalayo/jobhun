@@ -30,13 +30,13 @@
 						<div class="col-lg-12">
 							<div class="main-featured-sec">
 								<div class="new-slide-3">
-									<img src="http://placehold.it/600x550" alt="" />
+									<img src="{{asset('user/images/vector-4.png')}}" width="600px" height="550" alt="" />
 								</div>
 								<div class="job-search-sec">
 									<div class="job-search">
 										<h3>Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</h3>
-										<span>Dapatkan pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
-											berbagai skill melalui Jobhun Academy</span>
+										<span>Dapatkan pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan berbagai skill </span>
+										<span> melalui Jobhun Academy</span>
 										<form>
 											<div class="row">
 												<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -82,7 +82,7 @@
 		<section>
 			<div class="block double-gap-top double-gap-bottom">
 				<div data-velocity="-.1"
-					style="background: url(http://placehold.it/1920x1000) repeat scroll 50% 422.28px transparent;"
+					style="background: url(https://jobhun.id/wp-content/uploads/2019/05/cropped-IMG_9081.jpg) repeat scroll 50% 422.28px transparent;"
 					class="parallax scrolly-invisible layer color"></div><!-- PARALLAX BACKGROUND IMAGE -->
 				<div class="container">
 					<div class="row">
