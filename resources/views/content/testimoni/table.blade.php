@@ -14,6 +14,7 @@
                     <th>No</th>
                     <th>Name</th>
                     <th>Testimoni</th>
+                    <th>Profesi</th>
                     <th>Opsi</th>
                 </tr>
             </thead>
@@ -24,6 +25,7 @@
                     <td>{{$i++}}</td>
                     <td>{{$testimoni->name}}</td>
                     <td>{{$testimoni->testimoni}}</td>
+                    <td>{{$testimoni->profesi}}</td>
                     <td>
                         <a href="{{url('testimoni/'.'edit/'.$testimoni->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
                         <a href="{{url('testimoni/'.'delete/'.$testimoni->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
