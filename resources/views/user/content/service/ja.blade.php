@@ -42,6 +42,19 @@
                                     menjadi seorang entrepreneur.
                                 </p>
                             </div>
+                            <div class="col-lg-12">
+                                <h2 align="center">Mengapa harus mengikuti Jobhun Academy</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="job-grid border">
+                                        <div class="job-title-sec">
+                                            <h3>Belajar dengan formula khusus untuk persiapan karier</h3>
+                                            <p align="left">Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun juga akan praktek secara langsung untuk menghasilkan portfolio penunjang karier. Kamu juga bisa sharing bersama mentor untuk membahas persiapan karier.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
