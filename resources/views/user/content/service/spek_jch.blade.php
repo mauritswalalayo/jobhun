@@ -27,25 +27,26 @@
                         <div class="job-details">
                             <h3>Job Description</h3>
                             <p>
-                                Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan Anda dengan berbagai penyedia jasa profesional tanpa melalui perantara. Saat ini Tuupai sedang membuka program magang untuk beberapa posisi:
-                                <pre>
-                                    <ol type="1">
-                                        <li>Account Executive</li>
-                                    </ol>
-                                </pre>
+                                Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional
+                                di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung
+                                bisa menghubungkan Anda dengan berbagai penyedia jasa profesional tanpa melalui
+                                perantara. Saat ini Tuupai sedang membuka program magang untuk beberapa posisi:
+
 
                             </p>
                             <p>
                                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                                1. Account Executive <br>
-                                2.
+                                <ol type="1">
+                                    <li>Account Executive</li>
+                                </ol>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 column">
                     <div class="job-single-head style2">
-                        <div class="job-thumb"> <img src="{{ asset ('user/images/job1.jpg')}}" width="124" height="124" alt="" /> </div>
+                        <div class="job-thumb"> <img src="{{ asset ('user/images/job1.jpg')}}" width="124" height="124"
+                                alt="" /> </div>
                         <div class="job-head-info">
                             <h4>Magang di Tuupai</h4>
                             <span>274 Seven Sisters Road, London, N4 2HY</span>
