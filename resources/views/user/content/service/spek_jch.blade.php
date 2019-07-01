@@ -16,7 +16,7 @@
                     <div class="job-single-sec">
                         <div class="job-single-head2">
                             <div class="job-title2">
-                                <h3>Magang di Tuupai</h3><span class="job-is ft">Full time</span>
+                                <h3>Magang di Tuupai</h3><span class="job-is ft">Internship</span>
                             </div>
                             <ul class="tags-jobs">
                                 <li><i class="la la-map-marker"></i>Surabaya</li>
