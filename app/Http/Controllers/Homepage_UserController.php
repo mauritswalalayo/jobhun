@@ -9,7 +9,7 @@ class Homepage_UserController extends Controller
 {
     public function index()
     {
-        $testimoni = Testimoni::paginate(3);
+        $testimoni = Testimoni::paginate();
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
         return view('user.content.home.home_user',['daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }
