@@ -115,8 +115,32 @@ Route::get('collaborate/edit/{id}', 'CollaborateController@edit')->name('collabo
 
 Route::get('collaborate/update/{id}', 'CollaborateController@update')->name('collaborate.update');
 
-//=========================== Route Homepage ==============================
-Route::get('user/homepage', 'HomepageController@index')->name('user.homepage');
+// =========================== Route Homepage User Bagian Depan ===========================
+
+Route::get('/', 'Homepage_UserController@index')->name('index');
+
+Route::get('/about', 'Homepage_UserController@tentang')->name('about');
+
+// Layanan
+Route::get('/jobhuncareerhub', 'Homepage_UserController@jch')->name('jch');
+
+// Program
+Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');
+Route::get('/jobhun-talks', 'Homepage_UserController@jt')->name('jt');
+Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');
+
+// Blog
+Route::get('/cerita-karier', 'Homepage_UserController@ck')->name('ck');
+Route::get('/infografik', 'Homepage_UserController@infografik')->name('infografik');
+Route::get('/karier-pedia', 'Homepage_UserController@kp')->name('kp');
+Route::get('/artikel', 'Homepage_UserController@artikel')->name('artikel');
+Route::get('/berita', 'Homepage_UserController@berita')->name('berita');
+Route::get('/info-acara', 'Homepage_UserController@ia')->name('ia');
+
+
+
+
+
 
 //=========================== Route Program ==============================
 Route::get('user/program/internship', 'ProgramController@indexinternship')->name('program.internship');
