@@ -31,15 +31,20 @@
                                 di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung
                                 bisa menghubungkan Anda dengan berbagai penyedia jasa profesional tanpa melalui
                                 perantara. Saat ini Tuupai sedang membuka program magang untuk beberapa posisi:
-
-
                             </p>
                             <p>
-                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                                <ol type="1">
+                                <ul>
                                     <li>Account Executive</li>
-                                </ol>
+                                    <li>Copywriter</li>
+                                    <li>Client Relation</li>
+                                    <li>Fotografer Indoor</li>
+                                    <li>Mobile Developer</li>
+                                    <li>UI Designer</li>
+                                    <li>Ilustrator</li>
+                                    <li>Videographer</li>
+                                </ul>
                             </p>
+                            <p>Cek bit.ly/tuupailab untuk cek kualifikasi dan pendaftaran.</p>
                         </div>
                     </div>
                 </div>
@@ -49,8 +54,8 @@
                                 alt="" /> </div>
                         <div class="job-head-info">
                             <h4>Magang di Tuupai</h4>
-                            <span>274 Seven Sisters Road, London, N4 2HY</span>
-                            <p><i class="la la-unlink"></i> www.jobhunt.com</p>
+                            <span>#Duduk Santai Panggil Tuupai</span>
+                            <p><i class="la la-unlink"></i>https://www.tuupai.com/</p>
                             <p><i class="la la-phone"></i> +90 538 963 54 87</p>
                             <p><i class="la la-envelope-o"></i> ali.tufan@jobhunt.com</p>
                         </div>
@@ -58,7 +63,7 @@
                             job</a>
                         <a href="#" title="" class="apply-job-linkedin"><i class="la la-linkedin"></i>Apply with
                             Linkedin</a>
-                        <a href="#" title="" class="viewall-jobs">View all Jobs</a>
+                        <a href="{{ route ('jch')}}" title="" class="viewall-jobs">View all Jobs</a>
                     </div><!-- Job Head -->
                 </div>
             </div>
