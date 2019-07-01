@@ -29,30 +29,30 @@
                     <a href="{{route('about')}}" title="">Tentang Jobhun</a>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#" title="">Layanan</a>
+                    <a href="" title="">Layanan</a>
                     <ul>
-                        <li><a href="employer_list1.html" title=""> Jobhun Career Hub</a></li>
-                        <li><a href="employer_list2.html" title="">Jobhun Academy</a></li>
-                        <li><a href="employer_list3.html" title="">Media Partner</a></li>
+                        <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
+                        <li><a href="" title="">Jobhun Academy</a></li>
+                        <li><a href="" title="">Media Partner</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#" title="">Program</a>
+                    <a href="" title="">Program</a>
                     <ul>
-                        <li><a href="candidates_list.html" title="">Jobhun Internship</a></li>
-                        <li><a href="candidates_list2.html" title="">Jobhun Talks</a></li>
-                        <li><a href="candidates_list3.html" title="">Jobhun Visit</a></li>
+                        <li><a href="{{ route ('ji')}}" title="">Jobhun Internship</a></li>
+                        <li><a href="{{ route ('jt')}}" title="">Jobhun Talks</a></li>
+                        <li><a href="{{ route ('jv')}}" title="">Jobhun Visit</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
                     <a href="#" title="">Blog</a>
                     <ul>
-                        <li><a href="blog_list.html">Cerita Karier</a></li>
-                        <li><a href="blog_list2.html">Infografik</a></li>
-                        <li><a href="blog_list3.html">Karierpedia</a></li>
-                        <li><a href="blog_single.html">Artikel</a></li>
-                        <li><a href="blog_single.html">Berita</a></li>
-                        <li><a href="blog_single.html">Info Acara</a></li>
+                        <li><a href="{{ route ('ck')}}">Cerita Karier</a></li>
+                        <li><a href="{{ route ('infografik')}}">Infografik</a></li>
+                        <li><a href="{{ route ('kp')}}">Karierpedia</a></li>
+                        <li><a href="{{ route ('artikel')}}">Artikel</a></li>
+                        <li><a href="{{ route ('berita')}}">Berita</a></li>
+                        <li><a href="{{ route ('ia')}}">Info Acara</a></li>
                     </ul>
                 </li>
             </ul>
@@ -80,7 +80,7 @@
                         <a href="{{route('about')}}" title="">Tentang Jobhun</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#" title="">Layanan</a>
+                        <a href="" title="">Layanan</a>
                         <ul>
                             <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
                             <li><a href="" title="">Jobhun Academy</a></li>
@@ -88,7 +88,7 @@
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#" title="">Program</a>
+                        <a href="" title="">Program</a>
                         <ul>
                             <li><a href="{{ route ('ji')}}" title="">Jobhun Internship</a></li>
                             <li><a href="{{ route ('jt')}}" title="">Jobhun Talks</a></li>
