@@ -3,8 +3,7 @@
 @section('content')
 <section class="overlape">
 	<div class="block no-padding">
-		<div data-velocity="-.1"
-			style="background: url({{ asset ('user/images/depan.jpg')}});"
+		<div data-velocity="-.1" style="background: url({{ asset ('user/images/depan.jpg')}});"
 			class="parallax scrolly-invisible no-parallax">
 		</div><!-- PARALLAX BACKGROUND IMAGE -->
 		<div class="container fluid">
@@ -77,8 +76,10 @@
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -86,15 +87,19 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -102,15 +107,19 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -118,15 +127,19 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -134,15 +147,19 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -150,15 +167,19 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -166,15 +187,19 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -182,15 +207,19 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -198,15 +227,19 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
-										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+										<div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150"
+												alt="" /> </div>
+										<h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai
+												App</a></h3>
 										<ul class="tags-jobs">
 											<li><i class="la la-map-marker"></i> Surabaya</li>
 											<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -214,7 +247,9 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+										macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+										marketplace yang mana secara langsung bisa menghubungkan ...... </span>
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
