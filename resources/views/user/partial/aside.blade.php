@@ -32,7 +32,7 @@
                     <a href="" title="">Layanan</a>
                     <ul>
                         <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
-                        <li><a href="" title="">Jobhun Academy</a></li>
+                        <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
                         <li><a href="" title="">Media Partner</a></li>
                     </ul>
                 </li>
@@ -83,7 +83,7 @@
                         <a href="" title="">Layanan</a>
                         <ul>
                             <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
-                            <li><a href="" title="">Jobhun Academy</a></li>
+                            <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
                             <li><a href="" title="">Media Partner</a></li>
                         </ul>
                     </li>
