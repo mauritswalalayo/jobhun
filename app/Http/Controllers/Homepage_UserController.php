@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Testimoni;
 
 class Homepage_UserController extends Controller
 {
     public function index()
     {
-        return view('user.content.home.home_user');
+        $testimoni = Testimoni::paginate(3);
+        $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
+        return view('user.content.home.home_user',['daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }
 
     public function tentang()
