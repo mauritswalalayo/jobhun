@@ -16,6 +16,7 @@ class CreateTestimonisTable extends Migration
         Schema::create('testimonis', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->text('profesi');
             $table->text('testimoni');
             $table->timestamps();
         });
