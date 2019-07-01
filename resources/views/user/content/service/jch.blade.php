@@ -87,7 +87,7 @@
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
 									<span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung bisa menghubungkan ...... </span>
-									<a href="" title="">Read More</a>
+									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">

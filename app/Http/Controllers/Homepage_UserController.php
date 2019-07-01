@@ -22,6 +22,11 @@ class Homepage_UserController extends Controller
         return view('user.content.service.jch');
     }
 
+    public function spek_jch()
+    {
+        return view('user.content.service.spek_jch');
+    }
+
     // Program
     public function ji()
     {

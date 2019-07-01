@@ -123,6 +123,7 @@ Route::get('/about', 'Homepage_UserController@tentang')->name('about');
 
 // Layanan
 Route::get('/jobhuncareerhub', 'Homepage_UserController@jch')->name('jch');
+Route::get('/spek_jobhuncareerhub', 'Homepage_UserController@spek_jch')->name('spek_jch');
 
 // Program
 Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');
