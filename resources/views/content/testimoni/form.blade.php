@@ -26,7 +26,7 @@
         <input type="hidden" name="_method" value="PATCH">
 
     @else
-    <form action="{{route('testimoni.add')}}" method="POST">
+    <form action="{{route('testimoni.add')}}" method="POST" enctype="multipart/form-data">
         
     @endisset
 
