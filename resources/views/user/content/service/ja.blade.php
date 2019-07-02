@@ -137,4 +137,21 @@
         </div>
     </div>
 </section>
+<section>
+    <div class="block ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="how-works">
+                        <div class="row">
+                            <a href="https://jobhun.id/jobhun-academy/" target="_blank">
+                                <img src="{{asset ('user/images/ja.jpeg')}}" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
