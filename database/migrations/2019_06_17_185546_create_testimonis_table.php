@@ -17,6 +17,7 @@ class CreateTestimonisTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('profesi');
+            $table->string('foto');
             $table->text('testimoni');
             $table->timestamps();
         });
