@@ -177,7 +177,7 @@
                                 <p>{{$testimoni->testimoni}}</p>
                             </div><!-- Reviews -->
                         </div>
-                        
+
                         @endforeach
                     </div>
                 </div>
@@ -232,6 +232,7 @@
                         <span>Baca berbagai konten seputar karier yang dapat menambah pengetahuanmu dalam dunia
                             kerja</span>
                     </div><!-- Heading -->
+
                     <div class="blog-sec">
                         <div class="row">
                             <div class="col-lg-4">
@@ -252,6 +253,7 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col-lg-4">
                                 <div class="my-blog">
                                     <div class="blog-thumb">
