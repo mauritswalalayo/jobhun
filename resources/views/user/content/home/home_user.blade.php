@@ -54,25 +54,6 @@
 </section>
 
 <section>
-    <div class="block double-gap-top double-gap-bottom">
-        <div data-velocity="-.1"
-            style="background: url(http://placehold.it/1920x1000) repeat scroll 50% 422.28px transparent;"
-            class="parallax scrolly-invisible layer color"></div><!-- PARALLAX BACKGROUND IMAGE -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="simple-text-block">
-                        <h3>Belajar kemampuan baru untuk karier impian di Jobhun Academy</h3>
-                        <span>Materi sesuai dengan persiapan karier dan biaya bisa dicicil!</span>
-                        <a href="#" title="">Lihat Kelas</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
     <div class="block">
         <div class="container">
             <div class="row">
@@ -155,85 +136,17 @@
 </section>
 
 <section>
-    <div class="block">
+    <div class="block double-gap-top double-gap-bottom">
         <div data-velocity="-.1"
             style="background: url(http://placehold.it/1920x1000) repeat scroll 50% 422.28px transparent;"
-            class="parallax scrolly-invisible layer color light"></div><!-- PARALLAX BACKGROUND IMAGE -->
+            class="parallax scrolly-invisible layer color"></div><!-- PARALLAX BACKGROUND IMAGE -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="heading light">
-                        <h2>Testimoni</h2>
-                        <span>Kami mempertemukan perusahaan dan pencari kerja, sekaligus membantu pekerja
-                            mengembangkan skill.</span>
-                    </div><!-- Heading -->
-                    <div class="reviews-sec" id="reviews-carousel">
-                        @foreach($daftar_testimoni as $testimoni)
-
-                        <div class="col-lg-6">
-                            <div class="reviews">
-                                <img src="{{ asset ('user/images/testo.jpg')}}" alt="" />
-                            <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
-                                <p>{{$testimoni->testimoni}}</p>
-                            </div><!-- Reviews -->
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="reviews">
-                                <img src="http://placehold.it/101x101" alt="" />
-                                <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
-                                <p>{{$testimoni->testimoni}}</p>
-                            </div><!-- Reviews -->
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="reviews">
-                                <img src="http://placehold.it/101x101" alt="" />
-                                <h3>Augusta Silva <span>Web designer</span></h3>
-                                <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out
-                                    quickly with everything! Can’t quite believe the service</p>
-                            </div><!-- Reviews -->
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="reviews">
-                                <img src="http://placehold.it/101x101" alt="" />
-                                <h3>Ali Tufan <span>Web designer</span></h3>
-                                <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out
-                                    quickly with everything! Can’t quite believe the service</p>
-                            </div><!-- Reviews -->
-                        </div>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="block">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="heading">
-                        <h2>Pernah diliput di</h2>
-                        <span>Beberapa perusahaan telah membantu merekrut pelamar yang sangat baik selama
-                            bertahun-tahun.</span>
-                    </div><!-- Heading -->
-                    <div class="comp-sec">
-                        <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
-                        </div><!-- Client  -->
-                        <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
-                        </div><!-- Client  -->
-                        <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
-                        </div><!-- Client  -->
-                        <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
-                        </div><!-- Client  -->
-                        <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
-                        </div><!-- Client  -->
+                    <div class="simple-text-block">
+                        <h3>Belajar kemampuan baru untuk karier impian di Jobhun Academy</h3>
+                        <span>Materi sesuai dengan persiapan karier dan biaya bisa dicicil!</span>
+                        <a href="#" title="">Lihat Kelas</a>
                     </div>
                 </div>
             </div>
@@ -309,6 +222,92 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="block">
+        <div data-velocity="-.1"
+            style="background: url(http://placehold.it/1920x1000) repeat scroll 50% 422.28px transparent;"
+            class="parallax scrolly-invisible layer color light"></div><!-- PARALLAX BACKGROUND IMAGE -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading light">
+                        <h2>Testimoni</h2>
+                        <span>Kami mempertemukan perusahaan dan pencari kerja, sekaligus membantu pekerja
+                            mengembangkan skill.</span>
+                    </div><!-- Heading -->
+                    <div class="reviews-sec" id="reviews-carousel">
+                        @foreach($daftar_testimoni as $testimoni)
+                        <div class="col-lg-6">
+                            <div class="reviews">
+                                <img src="{{ asset ('user/images/testo.jpg')}}" alt="" />
+                                <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
+                                <p>{{$testimoni->testimoni}}</p>
+                            </div><!-- Reviews -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="reviews">
+                                <img src="http://placehold.it/101x101" alt="" />
+                                <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
+                                <p>{{$testimoni->testimoni}}</p>
+                            </div><!-- Reviews -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="reviews">
+                                <img src="http://placehold.it/101x101" alt="" />
+                                <h3>Augusta Silva <span>Web designer</span></h3>
+                                <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out
+                                    quickly with everything! Can’t quite believe the service</p>
+                            </div><!-- Reviews -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="reviews">
+                                <img src="http://placehold.it/101x101" alt="" />
+                                <h3>Ali Tufan <span>Web designer</span></h3>
+                                <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out
+                                    quickly with everything! Can’t quite believe the service</p>
+                            </div><!-- Reviews -->
+                        </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading">
+                        <h2>Pernah diliput di</h2>
+                        <span>Beberapa perusahaan telah membantu merekrut pelamar yang sangat baik selama
+                            bertahun-tahun.</span>
+                    </div><!-- Heading -->
+                    <div class="comp-sec">
+                        <div class="company-img">
+                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                        </div><!-- Client  -->
                     </div>
                 </div>
             </div>

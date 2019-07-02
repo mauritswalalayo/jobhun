@@ -79,7 +79,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                     <div class="job-grid border">
@@ -144,7 +143,7 @@
                 <div class="col-lg-12">
                     <div class="how-works">
                         <div class="row">
-                            <a href="https://jobhun.id/jobhun-academy/" target="_blank">
+                            <a href="{{ route ('spek_ja')}}" target="_blank">
                                 <img src="{{asset ('user/images/ja.jpeg')}}" alt="" />
                             </a>
                         </div>
