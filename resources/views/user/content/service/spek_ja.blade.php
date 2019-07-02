@@ -46,10 +46,6 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                            </div>
-                            <div class="col-lg-7">
-                            </div>
-                            <div class="col-lg-12">
                                 <p align="left">
                                     Content writer merupakan salah satu profesi yang saat ini menjamur di dunia kerja,
                                     karena kebutuhannya yang semakin meningkat di kalangan perusahaan. Tugasnya membuat
@@ -96,6 +92,28 @@
                                     sangat membantu.
                                 </p>
                             </div>
+
+                            <div class="col-lg-8 column">
+                                <div class="job-single-sec">
+                                    <div class="job-details">
+                                        <h3>Materi yang akan kamu pelajari</h3>
+                                        <p>
+                                            <ul>
+                                                <li>Mengenal content writing dan mengapa penting untuk mempelajarinya</li>
+                                                <li>Mengetahui apa saja tugas dan tanggung jawab seorang content writer. Apa bedanya dengan profesi lain yang berkaitan dengan kepenulisan.</li>
+                                                <li>Mengetahui urutan jabatan untuk berkarier sebagai content writer</li>
+                                                <li>Mengetahui prospek kerja dan peluang-peluang bekerja sebagai content writer</li>
+                                                <li>Mengetahui pengetahuan dan keterampilan apa saja yang harus dimiliki oleh seorang content writer</li>
+                                                <li>Mengetahui keterkaitan antara content writing dengan kebutuhan promosi komersial pada sebuah merek. Apa yang membedakan dengan content writing untuk kebutuhan bukan untuk komersial.</li>
+                                                <li>Starter kit for content writer</li>
+                                                <li>Essential for skillsets for content writer</li>
+                                                <li>Mengetahui cara menulis konten yang sesuai dengan target audience</li>
+                                                <li>Mengetahui cara menulis konten yang dapat menaikkan trafik</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,56 +122,4 @@
     </div>
 </section>
 
-<section>
-    <div class="block">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 column">
-                    <div class="job-single-sec">
-                        <div class="job-details">
-                            <h3>Job Description</h3>
-                            <p>
-                                Tuupai adalah cara baru dan praktis untuk mencari segala macam penyedia jasa profesional
-                                di sekitar Anda. Tuupai berbasismobile service marketplace yang mana secara langsung
-                                bisa menghubungkan Anda dengan berbagai penyedia jasa profesional tanpa melalui
-                                perantara. Saat ini Tuupai sedang membuka program magang untuk beberapa posisi:
-                            </p>
-                            <p>
-                                <ul>
-                                    <li>Account Executive</li>
-                                    <li>Copywriter</li>
-                                    <li>Client Relation</li>
-                                    <li>Fotografer Indoor</li>
-                                    <li>Mobile Developer</li>
-                                    <li>UI Designer</li>
-                                    <li>Ilustrator</li>
-                                    <li>Videographer</li>
-                                </ul>
-                            </p>
-                            <p>Cek bit.ly/tuupailab untuk cek kualifikasi dan pendaftaran.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 column">
-                    <div class="job-single-head style2">
-                        <div class="job-thumb"> <img src="{{ asset ('user/images/job1.jpg')}}" width="124" height="124"
-                                alt="" /> </div>
-                        <div class="job-head-info">
-                            <h4>Magang di Tuupai</h4>
-                            <span>#Duduk Santai Panggil Tuupai</span>
-                            <p><i class="la la-unlink"></i>https://www.tuupai.com/</p>
-                            <p><i class="la la-phone"></i> +90 538 963 54 87</p>
-                            <p><i class="la la-envelope-o"></i> ali.tufan@jobhunt.com</p>
-                        </div>
-                        <a href="#" title="" class="apply-job-btn"><i class="la la-paper-plane"></i>Apply for
-                            job</a>
-                        <a href="#" title="" class="apply-job-linkedin"><i class="la la-linkedin"></i>Apply with
-                            Linkedin</a>
-                        <a href="{{ route ('jch')}}" title="" class="viewall-jobs">View all Jobs</a>
-                    </div><!-- Job Head -->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 @endsection
