@@ -139,7 +139,40 @@
     <div class="block double-gap-top double-gap-bottom">
         <div data-velocity="-.1"
             style="background: url(http://placehold.it/1920x1000) repeat scroll 50% 422.28px transparent;"
+<<<<<<< HEAD
             class="parallax scrolly-invisible layer color"></div><!-- PARALLAX BACKGROUND IMAGE -->
+=======
+            class="parallax scrolly-invisible layer color light"></div><!-- PARALLAX BACKGROUND IMAGE -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading light">
+                        <h2>Testimoni</h2>
+                        <span>Kami mempertemukan perusahaan dan pencari kerja, sekaligus membantu pekerja
+                            mengembangkan skill.</span>
+                    </div><!-- Heading -->
+                    <div class="reviews-sec" id="reviews-carousel">
+                        @foreach($daftar_testimoni as $testimoni)
+
+                        <div class="col-lg-6">
+                            <div class="reviews">
+                                <img src="{{ asset ('user/images/testo.jpg')}}" alt="" />
+                            <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
+                                <p>{{$testimoni->testimoni}}</p>
+                            </div><!-- Reviews -->
+                        </div>
+                        
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="block">
+>>>>>>> c7ebfb6fdc734139b88f1fe4f6f1ea4aa62fe3bd
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
