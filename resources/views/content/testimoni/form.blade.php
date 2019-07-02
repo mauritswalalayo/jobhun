@@ -55,6 +55,13 @@
             </div>
         </div>
 
+        <div class="box-body">
+            <div class="form-group">
+                <label for="title">Foto :</label>
+                <input type="file" name="foto" id="foto" cols="30" rows="10" class="form-control">
+            </div>
+        </div>
+
         <div class="box-footer">
             @if(isset($edittestimoni)) 
             <button type="submit" class="btn btn-info pull-right">Update</button>
