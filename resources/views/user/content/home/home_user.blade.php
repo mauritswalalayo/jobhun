@@ -177,29 +177,7 @@
                                 <p>{{$testimoni->testimoni}}</p>
                             </div><!-- Reviews -->
                         </div>
-                        <div class="col-lg-6">
-                            <div class="reviews">
-                                <img src="http://placehold.it/101x101" alt="" />
-                                <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
-                                <p>{{$testimoni->testimoni}}</p>
-                            </div><!-- Reviews -->
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="reviews">
-                                <img src="http://placehold.it/101x101" alt="" />
-                                <h3>Augusta Silva <span>Web designer</span></h3>
-                                <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out
-                                    quickly with everything! Can’t quite believe the service</p>
-                            </div><!-- Reviews -->
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="reviews">
-                                <img src="http://placehold.it/101x101" alt="" />
-                                <h3>Ali Tufan <span>Web designer</span></h3>
-                                <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out
-                                    quickly with everything! Can’t quite believe the service</p>
-                            </div><!-- Reviews -->
-                        </div>
+                        
                         @endforeach
                     </div>
                 </div>
