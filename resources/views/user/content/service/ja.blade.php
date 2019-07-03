@@ -127,7 +127,10 @@
             <div class="row">
                 <div class="col-lg-12 column">
                     <div class="blog-single">
-                        <div class="bs-thumb"><img src="{{ asset ('user/images/ja.jpeg')}}" width="1000" alt="Gambar Testimoni Jobhun Academy"/></div>
+                        <div class="bs-thumb">
+                            <img src="{{ asset ('user/images/ja.jpeg')}}" width="1000"
+                                alt="Gambar Testimoni Jobhun Academy" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -136,14 +139,15 @@
 </section>
 
 <section>
-    <div class="block ">
+    <div class="block">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="how-works">
-                        <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <div class="bs-thumb">
                             <a href="{{ route ('content-writer')}}" target="_blank">
-                                <img src="{{asset ('user/images/cw.jpeg')}}" alt="" />
+                                <img src="{{ asset ('user/images/cw.jpeg')}}" width="1250"
+                                    alt="Gambar Testimoni Jobhun Academy" />
                             </a>
                         </div>
                     </div>
@@ -152,4 +156,5 @@
         </div>
     </div>
 </section>
+
 @endsection
