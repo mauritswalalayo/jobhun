@@ -36,6 +36,7 @@ Route::group(["middleware" => ['login']],function (){
     })->name('beranda');
 
     Route::get('user/table', 'UserController@index')->name('user.table');
+
 });
 
 
@@ -51,6 +52,8 @@ Route::group(["middleware" => ['admin']],function (){
     Route::patch('user/update/{id}', 'UserController@update');
 
     Route::get('user/hapus/{id}', 'UserController@delete');
+
+
 });
 
 //========================== Route Post =============================
@@ -127,12 +130,6 @@ Route::get('collaborate/update/{id}', 'CollaborateController@update')->name('col
 
 
 
-
-
-
-
-
-
 // =========================== Route Homepage User Bagian Depan ===========================
 
 Route::get('/', 'Homepage_UserController@index')->name('index');
@@ -167,12 +164,13 @@ Route::get('/berita', 'Homepage_UserController@berita')->name('berita');
 Route::get('/info-acara', 'Homepage_UserController@ia')->name('ia');
 
 
-
-
-
-
 //=========================== Route Program ==============================
 Route::get('user/program/internship', 'ProgramController@indexinternship')->name('program.internship');
 Route::get('user/program/visit', 'ProgramController@indexvisit')->name('program.visit');
 Route::get('user/program/talk', 'ProgramController@indextalk')->name('program.talk');
 Route::get('user/program/detail', 'ProgramController@indexdetail')->name('program.detail');
+
+//================================ Route Posting Job ===============================
+
+Route::get('postingjob/form', 'PostingJobController@index')->name('formposting');
+Route::get('postingjob/type', 'PostingJobController@indextype')->name('typeposting');
