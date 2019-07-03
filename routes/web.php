@@ -178,3 +178,9 @@ Route::get('user/program/internship', 'ProgramController@indexinternship')->name
 Route::get('user/program/visit', 'ProgramController@indexvisit')->name('program.visit');
 Route::get('user/program/talk', 'ProgramController@indextalk')->name('program.talk');
 Route::get('user/program/detail', 'ProgramController@indexdetail')->name('program.detail');
+
+
+
+Route::get('/tesvuejs', function () {
+    return view('tes');
+});
