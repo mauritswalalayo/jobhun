@@ -146,7 +146,7 @@ Route::get('/spek_jobhuncareerhub', 'Homepage_UserController@spek_jch')->name('s
 
 Route::get('/jobhun_academy', 'Homepage_UserController@ja')->name('ja');
 
-Route::get('/spek_jobhunacademy', 'Homepage_UserController@spek_ja')->name('spek_ja');
+Route::get('/jobhun_academy-content-writer', 'Homepage_UserController@content_writer')->name('content-writer');
 
 // Program
 Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');

@@ -143,7 +143,7 @@
                 <div class="col-lg-12">
                     <div class="how-works">
                         <div class="row">
-                            <a href="{{ route ('spek_ja')}}" target="_blank">
+                            <a href="{{ route ('content-writer')}}" target="_blank">
                                 <img src="{{asset ('user/images/cw.jpeg')}}" alt="" />
                             </a>
                         </div>

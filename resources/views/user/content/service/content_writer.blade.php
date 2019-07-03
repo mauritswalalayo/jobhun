@@ -24,6 +24,7 @@
         </div>
     </div>
 </section>
+
 <section>
     <div class="block ">
         <div class="container">
@@ -92,7 +93,6 @@
                                     sangat membantu.
                                 </p>
                             </div>
-
                             <div class="col-lg-8 column">
                                 <div class="job-single-sec">
                                     <div class="job-details">
@@ -112,6 +112,21 @@
                                                 <li>Mengetahui cara mencari dan menentukan topik yang tepat</li>
                                                 <li>Mengetahui cara mencari topik-topik yang sedang tren dibicarakan menggunakan tools</li>
                                                 <li>Membuat struktur-struktur yang ada pada konten sebelum ditulis</li>
+                                                <li>Menulis judul yang sesuai dengan isi tulisan serta mampu menarik pembaca</li>
+                                                <li>Membuat struktur penulisan dari awal sampai akhir</li>
+                                                <li>Menulis konten yang sesuai dengan kaidah SEO</li>
+                                                <li>Menulis dengan kaidah penulisan EYD yang baik dan benar. Menulis kalimat yang strukturnya sesuai dan enak dibaca.</li>
+                                                <li>Mengetahui cara meminimalisir typo dalam penulisan</li>
+                                                <li>Menggunakan WordPress atau CMS lainnya untuk keperluan posting konten secara <i>basic</i></li>
+                                                <li>Mengecek performa konten, berdasarkan KPI dan Basic Google Analytics.</li>
+                                                <li>Mengetahui cara melakukan pengecekan orisinalitas tulisan menggunakan <i>software</i></li>
+                                                <li>Mengetahui hal-hal apa saja yang biasanya diperhatikan oleh editor saat memeriksa konten. Bagian mana saja yang biasanya sering memerlukan revisi.</li>
+                                                <li>Mengetahui kiat-kiat memilih gambar yang berkualitas dan tepat untuk konten</li>
+                                                <li>Mengetahui trik membuat tulisan yang bisa menembus editor, kemudian dimuat di media online berkualitas.</li>
+                                                <li>Mengetahui perbedaan tulisan di media cetak dan media online</li>
+                                                <li>Mengetahui cara mencari uang melalui tulisan, baik melalui pekerjaan tetap maupun freelance.</li>
+                                                <li>Mengetahui tips mencari pekerjaan sebagai content writer, baik di media maupun perusahaan non media. Mulai dari mempersiapkan CV dan portfolio, interview, tes menulis, hingga diterima.</li>
+                                                <li>Tes akhir untuk mentee (Hasil tes berupa konten yang bisa dijadikan sebagai portfolio dalam melamar pekerjaan)</li>
                                             </ul>
                                         </p>
                                     </div>
