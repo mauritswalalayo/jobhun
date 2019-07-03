@@ -251,7 +251,7 @@
                                 <p>{{$testimoni->testimoni}}</p>
                             </div><!-- Reviews -->
                         </div>
-                        
+
                         @endforeach
                     </div>
                 </div>
@@ -285,6 +285,71 @@
                         </div><!-- Client  -->
                         <div class="company-img">
                             <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                        </div><!-- Client  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading">
+                        <h2>Bekerjasama dengan</h2>
+                    </div><!-- Heading -->
+                    <div class="comp-sec">
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="comp-sec">
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img src="{{ asset('user/images/lazday.png')}}" alt=""/></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                     </div>
                 </div>
