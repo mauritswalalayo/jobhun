@@ -109,6 +109,9 @@
                                                 <li>Essential for skillsets for content writer</li>
                                                 <li>Mengetahui cara menulis konten yang sesuai dengan target audience</li>
                                                 <li>Mengetahui cara menulis konten yang dapat menaikkan trafik</li>
+                                                <li>Mengetahui cara mencari dan menentukan topik yang tepat</li>
+                                                <li>Mengetahui cara mencari topik-topik yang sedang tren dibicarakan menggunakan tools</li>
+                                                <li>Membuat struktur-struktur yang ada pada konten sebelum ditulis</li>
                                             </ul>
                                         </p>
                                     </div>
