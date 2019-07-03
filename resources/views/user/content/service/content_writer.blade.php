@@ -174,7 +174,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 column">
+                            <div class="col-lg-8 column">
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h3>Mentor yang akan mengajar</h3>
@@ -196,6 +196,24 @@
                                                 <li>Laptop</li>
                                                 <li>Alat tulis</li>
                                                 <li>MS Office yang sudag ter-install di laptop</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 column">
+                                <div class="job-single-sec">
+                                    <div class="job-details">
+                                        <h3>Fasilitas :</h3>
+                                        <p>
+                                            <ul>
+                                                <li>Makan setiap pertemuan</li>
+                                                <li>Materi dan modul</li>
+                                                <li>Certificate of Completion</li>
+                                                <li>Form penilaian yang menunjukkan perkembangan <i>skill</i> mentee</li>
+                                                <li>Block note & goodie bag Jobhun</li>
+                                                <li>Konsultasi dengan mentor</li>
+                                                <li>Ruangan ber-AC, LCD & proyektor, papan tulis, dan Wi-Fi</li>
                                             </ul>
                                         </p>
                                     </div>
