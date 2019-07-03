@@ -146,8 +146,7 @@
                     <div class="blog-single">
                         <div class="bs-thumb">
                             <a href="{{ route ('content-writer')}}" target="_blank">
-                                <img src="{{ asset ('user/images/cw.jpeg')}}" width="1250"
-                                    alt="Gambar Testimoni Jobhun Academy" />
+                                <img src="{{ asset ('user/images/cw.jpeg')}}" width="1000" alt="Gambar Testimoni Jobhun Academy" />
                             </a>
                         </div>
                     </div>

@@ -15,3 +15,5 @@
 <link rel="stylesheet" type="text/css" href="{{ asset ('user/css/colors/colors.css')}}" />
 <link rel="stylesheet" type="text/css" href="{{ asset ('user/css/bootstrap.css')}}" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+<link rel="icon" href="{{ asset ('user/images/jobhun.png')}}" type="image/png">
