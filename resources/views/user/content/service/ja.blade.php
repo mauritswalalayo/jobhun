@@ -120,22 +120,21 @@
         </div>
     </div>
 </section>
+
 <section>
-    <div class="block ">
+    <div class="block">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="how-works">
-                        <div class="row"><img src="{{asset ('user/images/ja.jpeg')}}" alt="" /></div>
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <div class="bs-thumb"><img src="{{ asset ('user/images/ja.jpeg')}}" width="1000" alt="Gambar Testimoni Jobhun Academy"/></div>
                     </div>
-                    <h2 align="center">Pilihan program</h2>
-                    <p align="center">Mana karier yang kamu pilih? Pilih program di Jobhun Academy yang sesuai dengan
-                        tujuanmu! (Klik pada gambar)</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <section>
     <div class="block ">
         <div class="container">

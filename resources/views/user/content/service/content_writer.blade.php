@@ -210,13 +210,35 @@
                                                 <li>Makan setiap pertemuan</li>
                                                 <li>Materi dan modul</li>
                                                 <li>Certificate of Completion</li>
-                                                <li>Form penilaian yang menunjukkan perkembangan <i>skill</i> mentee</li>
+                                                <li>Form penilaian yang menunjukkan perkembangan <i>skill</i> mentee
+                                                </li>
                                                 <li>Block note & goodie bag Jobhun</li>
                                                 <li>Konsultasi dengan mentor</li>
                                                 <li>Ruangan ber-AC, LCD & proyektor, papan tulis, dan Wi-Fi</li>
                                             </ul>
                                         </p>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 column">
+                                <div class="job-single-sec">
+                                    <div class="job-details">
+                                        <h2>Harga :</h2>
+                                        <h3 style="color:red;">Rp1.200.000,- (Apabila dibayar lunas)</h3>
+                                        <p>Bisa dibayar lunas atau dicicil. Jika dicicil, menggunakan skema cicilan
+                                            sebagai berikut :
+                                            <ul>
+                                                <li>DP Rp600.000,- (Dibayar sebelum kelas dimulai)</li>
+                                                <li>Pembayaran ke-1 Rp224.000,- (Dibayar saat pertemuan kedua)</li>
+                                                <li>Pembayaran ke-2 Rp224.000,- (Dibayar saat pertemuan keempat)</li>
+                                                <li>Pembayaran ke-3 Rp224.000,-. (Dibayar saat pertemuan keenam)</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="job-single-sec">
+                                    <h3>Registrasi</h3>
+                                    <p>Untuk daftar Jobhun Academy: Content Writer, silakan mengisi formulir di bawah ini.</p>
                                 </div>
                             </div>
                         </div>
