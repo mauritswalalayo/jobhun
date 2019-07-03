@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Testimoni;
+use Validator;
 
 class TestimoniController extends Controller
 {
@@ -29,8 +30,22 @@ class TestimoniController extends Controller
 
     public function add (Request $request)
     {
+        $validator = validator::make($request->all(),
+        ['name' => 'required',
+        'profesi' => 'required',
+        'foto' => 'required|image|mimes:jpeg,png,jpg|max:30',
+        'testimoni'=>'required']);
+
+        if ($validator->fails())
+        {
+            return back()->withErrors($validator)->withInput();
+        }
+
         $testimoni = Testimoni::create($request->all());
-        $testimoni->save();
+        $image = $testimoni->id.''.$request->file('foto')->getClientOriginalExtension();
+        $request->file('foto')->move(public_path('image/testimoni'),$image);
+        // $testimoni->foto = $image;
+        // $testimoni->save();
         return redirect()->route('testimoni.table');
     }
 
