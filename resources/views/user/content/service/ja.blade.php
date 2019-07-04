@@ -144,7 +144,7 @@
             <div class="row">
                 <div class="col-lg-12 column">
                     <div class="blog-single">
-                        <a href="{{ route ('content-writer')}}" target="_blank">
+                        <a href="{{ route ('content-writer')}}">
                             <div class="bs-thumb">
                                 <img src="{{ asset ('user/images/cw.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
                             </div>
@@ -152,19 +152,25 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="block">
-        <div class="container">
             <div class="row">
                 <div class="col-lg-12 column">
                     <div class="blog-single">
-                        <a href="{{ route ('graphic-designer')}}" target="_blank">
+                        <a href="{{ route ('graphic-designer')}}">
                             <div class="bs-thumb">
-                                <img src="{{ asset ('user/images/desain.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                                <img src="{{ asset ('user/images/desain.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <a href="{{ route ('videographer')}}">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/video.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
                             </div>
                         </a>
                     </div>

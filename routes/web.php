@@ -150,6 +150,8 @@ Route::get('/jobhun-academy-content-writer', 'Homepage_UserController@content_wr
 
 Route::get('/jobhun-academy-graphic-designer', 'Homepage_UserController@graphic_designer')->name('graphic-designer');
 
+Route::get('/jobhun-academy-videographer', 'Homepage_UserController@videographer')->name('videographer');
+
 // Program
 Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');
 

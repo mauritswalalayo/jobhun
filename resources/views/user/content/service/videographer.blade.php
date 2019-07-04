@@ -15,7 +15,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <br><br>
-                                <h2 align="left">Jobhun Academy : Graphic Designer</h2>
+                                <h2 align="left">Jobhun Academy : Videographer</h2>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                 <div class="col-lg-12 column">
                     <div class="blog-single">
                         <div class="bs-thumb">
-                            <img src="{{ asset ('user/images/desain.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                            <img src="{{ asset ('user/images/video.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
                         </div>
                     </div>
                 </div>
@@ -49,21 +49,8 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p align="left">
-                                    Graphic designer menjadi salah satu profesi yang terus naik daun. Hampir semua
-                                    perusahaan membutuhkan graphic designer untuk kebutuhan promosi maupun branding
-                                    perusahaan. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time,
-                                    part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat
-                                    cerah, apalagi seorang graphic designer terkadang tidak harus terikat satu
-                                    perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak
-                                    akan terbuka lebar. Seorang graphic designer harus memiliki beberapa kemampuan agar
-                                    siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang
-                                    graphic designer bersama dengan pakarnya langsung dari agency ternama. Tidak hanya
-                                    belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan
-                                    portfolio desain yang akan digunakan untuk mencari kerjaan nantinya. Selain itu,
-                                    kamu juga bisa mempersiapkan karier sebagai seorang graphic designer melalui program
-                                    ini.
-                                </p>
+                                <p align="left">Videographer menjadi salah satu profesi yang saat ini banyak dicari. Tidak hanya perusahaan saja yang membutuhkan profesi ini untuk kebutuhan marketing dan branding perusahaan, namun seorang videographer juga bisa bekerja secara mandiri. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang videographer terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar.</p>
+                                <p>Seorang videographer harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang videographer bersama dengan pakarnya langsung dari agency ternama. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio video yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang videographer melalui program ini.</p>
                                 <p>Mengapa kamu harus mengikuti Jobhun Academy: Graphic Designer ini ? <br>
                                     1. Belajar dengan formula khusus untuk persiapan karier <br>
                                     Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun juga akan
@@ -174,7 +161,8 @@
                                                 <li>Menggunakan Blur Tool atau efek Gaussian Blur pada Filter</li>
                                                 <li>Menambah shadow dengan menggunakan brush tool</li>
                                                 <li>Menggunakan Free Transfor</li>
-                                                <li>Learning by doing: Membuat digital image dengan teknik compositing</li>
+                                                <li>Learning by doing: Membuat digital image dengan teknik compositing
+                                                </li>
                                             </ul>
                                         </p>
                                         <p>
@@ -184,7 +172,9 @@
                                                 <li>Mengenal dan menggunakan Soft Light Blending Mode</li>
                                                 <li>Mengenal dan menggunakan Color Blending Mode</li>
                                                 <li>Menggunakan Brush Tool untuk colorin</li>
-                                                <li>Learning by doing: Membuat digital coloring pada foto hitam putih dan Digital Retouching (menghilangkan jerawat, mengaplikasikan make up, menngganti warna rambut, memutihkan gigi)</li>
+                                                <li>Learning by doing: Membuat digital coloring pada foto hitam putih
+                                                    dan Digital Retouching (menghilangkan jerawat, mengaplikasikan make
+                                                    up, menngganti warna rambut, memutihkan gigi)</li>
                                             </ul>
                                         </p>
                                         <p>
@@ -196,8 +186,11 @@
                                                 <li>Menambah Layer Style</li>
                                                 <li>Menambah ornament dengan Brush</li>
                                                 <li>Menggunakan Gradient Map Adjusment Layer</li>
-                                                <li>Learning by doing: Membuat 3 (dua) jenis Text Effect, yaitu Explode Text Effect, 3D Text Effect, dan Glitch Text Effect</li>
-                                                <li>Tugas (Opsional): Membuat karya poster film atau layanan masyarakat yang harus dicetak pada ukuran A3 dengan output pameran hasil karya</li>
+                                                <li>Learning by doing: Membuat 3 (dua) jenis Text Effect, yaitu Explode
+                                                    Text Effect, 3D Text Effect, dan Glitch Text Effect</li>
+                                                <li>Tugas (Opsional): Membuat karya poster film atau layanan masyarakat
+                                                    yang harus dicetak pada ukuran A3 dengan output pameran hasil karya
+                                                </li>
                                             </ul>
                                         </p>
                                     </div>
@@ -207,7 +200,8 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h3>Waktu Pelaksanaan</h3>
-                                        <p>Total 8 kali pertemuan (Jadwal pelaksanaan akan disesuaikan dengan kesepakatan antara mentor dan seluruh peserta yang nantinya sudah mendaftar)
+                                        <p>Total 8 kali pertemuan (Jadwal pelaksanaan akan disesuaikan dengan
+                                            kesepakatan antara mentor dan seluruh peserta yang nantinya sudah mendaftar)
                                         </p>
                                     </div>
                                 </div>
@@ -216,7 +210,8 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h3>Tempat Pelaksanaan</h3>
-                                        <p>Jobhun Office, Geco Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel, Wonokromo, Surabaya 60246</p>
+                                        <p>Jobhun Office, Geco Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel,
+                                            Wonokromo, Surabaya 60246</p>
                                     </div>
                                 </div>
                             </div>
@@ -227,11 +222,11 @@
                                         <p>Yussaq Ali Azlamsyah (Graphic Designer at Bima Creative)</p>
                                     </div>
                                     <div class="how-works">
-                                        <div class="row"><img src="{{asset ('user/images/mentord.jpg')}}" alt="Gambar Graphic Designer" /></div>
+                                        <div class="row"><img src="{{asset ('user/images/mentord.jpg')}}"
+                                                alt="Gambar Graphic Designer" /></div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-lg-8 column">
                                 <div class="job-single-sec">
                                     <div class="job-details">

@@ -11,7 +11,7 @@ class Homepage_UserController extends Controller
     {
         $testimoni = Testimoni::paginate();
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
-        return view('user.content.home.home_user',['daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
+        return view('user.content.home.home_user', ['daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }
 
     public function tentang()
@@ -43,6 +43,11 @@ class Homepage_UserController extends Controller
     public function graphic_designer()
     {
         return view('user.content.service.graphic_designer');
+    }
+
+    public function videographer()
+    {
+        return view('user.content.service.videographer');
     }
 
     // Program
