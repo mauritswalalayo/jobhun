@@ -106,17 +106,22 @@
                                                 <li>Mengenal jenis grafis vektor</li>
                                                 <li> Mengenal software pengolah grafis vektor Adobe Illustrator</li>
                                                 <li>Mengetahui lembar kerja Adobe Illustrator</li>
+                                                <li>Mengenal sistem layering pada Adobe Illustrator</li>
+                                                <li>Mampu meggunakan basic tools pada Adobe Illustrator (Selection Tool, Direct Selection Tool, Pen Tool, Text Tool, Line Segment Tool, Shape Tool, Paintbrush Tool, Eyedropper Tool, Gradient Tool, Hand Tool, Zoom Tool)</li>
+                                                <li>Mampu mengaplikasikan basic coloring pada karya menggunakan Solid Color dan Gradient Color</li>
+                                                <li>Learning by doing: Membuat wallpaper Desktop / Smartphone menggunakan Adobe Illustrator (Space and Rocket)</li>
                                             </ul>
-
-                                            Mengenal sistem layering pada Adobe Illustrator
-                                            Mampu meggunakan basic tools pada Adobe Illustrator (Selection Tool, Direct
-                                            Selection Tool, Pen Tool, Text Tool, Line Segment Tool, Shape Tool,
-                                            Paintbrush Tool, Eyedropper Tool, Gradient Tool, Hand Tool, Zoom Tool)
-                                            Mampu mengaplikasikan basic coloring pada karya menggunakan Solid Color dan
-                                            Gradient Color
-                                            Learning by doing: Membuat wallpaper Desktop / Smartphone menggunakan Adobe
-                                            Illustrator (Space and Rocket)
-
+                                        </p>
+                                        <p>
+                                            B. Pengolah vector: Adobe Illustrator
+                                            <ul>
+                                                <li>Mengolah tipografi agar terlihat lebih fancy</li>
+                                                <li>Mampu menggunakan fungsi efek 3D Extrude & Bevel</li>
+                                                <li>Mampu menggunakan fungsi Offset Path</li>
+                                                <li>Mampu menggunakan fungsi efek Drop Shadow</li>
+                                                <li>Memahami basic Highlight dan Shadow pada suatu karya</li>
+                                                <li>Learning by doing: Membuat 3 (tiga) jenis text effect, yaitu : 3D Look Text Effect, Neon Text Effect, Chiseled Text Effect</li>
+                                            </ul>
                                         </p>
                                     </div>
                                 </div>
