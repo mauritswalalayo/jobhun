@@ -140,13 +140,15 @@ Route::get('/', 'Homepage_UserController@index')->name('index');
 Route::get('/about', 'Homepage_UserController@tentang')->name('about');
 
 // Layanan
-Route::get('/jobhuncareerhub', 'Homepage_UserController@jch')->name('jch');
+Route::get('/jobhun-careerhub', 'Homepage_UserController@jch')->name('jch');
 
-Route::get('/spek_jobhuncareerhub', 'Homepage_UserController@spek_jch')->name('spek_jch');
+Route::get('/spek-jobhuncareerhub', 'Homepage_UserController@spek_jch')->name('spek_jch');
 
-Route::get('/jobhun_academy', 'Homepage_UserController@ja')->name('ja');
+Route::get('/jobhun-academy', 'Homepage_UserController@ja')->name('ja');
 
-Route::get('/jobhun_academy-content-writer', 'Homepage_UserController@content_writer')->name('content-writer');
+Route::get('/jobhun-academy-content-writer', 'Homepage_UserController@content_writer')->name('content-writer');
+
+Route::get('/jobhun-academy-graphic-designer', 'Homepage_UserController@graphic_designer')->name('graphic-designer');
 
 // Program
 Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');

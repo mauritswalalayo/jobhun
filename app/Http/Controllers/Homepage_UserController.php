@@ -40,6 +40,11 @@ class Homepage_UserController extends Controller
         return view('user.content.service.content_writer');
     }
 
+    public function graphic_designer()
+    {
+        return view('user.content.service.graphic_designer');
+    }
+
     // Program
     public function ji()
     {
