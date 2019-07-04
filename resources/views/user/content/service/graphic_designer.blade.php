@@ -49,7 +49,7 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p align="left">
+                                <p align="justify">
                                     Graphic designer menjadi salah satu profesi yang terus naik daun. Hampir semua
                                     perusahaan membutuhkan graphic designer untuk kebutuhan promosi maupun branding
                                     perusahaan. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time,
@@ -269,7 +269,7 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h2>Harga :</h2>
-                                        <h3 style="color:red;">Rp1.500.000,- (Apabila dibayar lunas)</h3>
+                                        <h3 style="color:red;">Rp. 1.500.000,- (Apabila dibayar lunas)</h3>
                                         <p>Bisa dibayar lunas atau dicicil. Jika dicicil, menggunakan skema cicilan
                                             sebagai berikut :
                                             <ul>
@@ -283,8 +283,7 @@
                                 </div>
                                 <div class="job-single-sec">
                                     <h3>Registrasi</h3>
-                                    <p>Untuk daftar Jobhun Academy: Content Writer, silakan mengisi formulir di bawah
-                                        ini.</p>
+                                    <p>Untuk daftar Jobhun Academy: Graphic Designer, silakan mengisi formulir di bawah ini.</p>
                                 </div>
                             </div>
                         </div>

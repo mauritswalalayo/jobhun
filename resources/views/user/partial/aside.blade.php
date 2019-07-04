@@ -33,7 +33,7 @@
                     <ul>
                         <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
                         <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
-                        <li><a href="" title="">Media Partner</a></li>
+                        <li><a href="{{ route ('media')}}" title="">Media Partner</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
@@ -106,5 +106,4 @@
                 </ul>
             </nav><!-- Menus -->
         </div>
-    </div>
-</header>
+    </header>

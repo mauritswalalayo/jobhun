@@ -50,6 +50,26 @@ class Homepage_UserController extends Controller
         return view('user.content.service.videographer');
     }
 
+    public function web()
+    {
+        return view('user.content.service.web');
+    }
+
+    public function android()
+    {
+        return view('user.content.service.android');
+    }
+
+    public function copywriter()
+    {
+        return view('user.content.service.copywriter');
+    }
+
+    public function media()
+    {
+        return view('user.content.service.mediapartner');
+    }
+
     // Program
     public function ji()
     {

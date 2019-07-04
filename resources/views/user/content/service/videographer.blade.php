@@ -49,31 +49,36 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p align="left">Videographer menjadi salah satu profesi yang saat ini banyak dicari. Tidak hanya perusahaan saja yang membutuhkan profesi ini untuk kebutuhan marketing dan branding perusahaan, namun seorang videographer juga bisa bekerja secara mandiri. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang videographer terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar.</p>
-                                <p>Seorang videographer harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang videographer bersama dengan pakarnya langsung dari agency ternama. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio video yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang videographer melalui program ini.</p>
-                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Graphic Designer ini ? <br>
+                                <p align="justify">Videographer menjadi salah satu profesi yang saat ini banyak dicari. Tidak hanya perusahaan saja yang membutuhkan profesi ini untuk kebutuhan marketing dan branding perusahaan, namun seorang videographer juga bisa bekerja secara mandiri. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang videographer terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar.</p>
+                                <p align="justify">Seorang videographer harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang videographer bersama dengan pakarnya langsung dari agency ternama. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio video yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang videographer melalui program ini.</p>
+                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Videographer ini ? <br>
                                     1. Belajar dengan formula khusus untuk persiapan karier <br>
                                     Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun juga akan
                                     praktek secara langsung untuk menghasilkan portfolio penunjang karier. Kamu juga
                                     bisa sharing bersama mentor untuk membahas persiapan karier.<br>
+
                                     2. Berkesempatan untuk mendapatkan pekerjaan <br>
                                     Jobhun bekerjasama dengan berbagai perusahaan dalam mencari kandidat terbaik.
                                     Apabila kamu berhasil menyelesaikan program di Jobhun Academy dengan baik dan sesuai
                                     dengan kriteria yang sedang dicari oleh perusahaan, maka Jobhun akan
                                     merekomendasikan kamu agar bisa bekerja di beberapa company partner Jobhun tersebut.
                                     <br>
+
                                     3. Dibimbing oleh mentor-mentor berkualitas dan berpengalaman <br>
                                     Jobhun selalu berupaya menghadirkan mentor berkualitas dan berpengalaman
                                     dibidangnya, serta memiliki prestasi di bidang tersebut. <br>
+
                                     4. Belajar secara optimal dan kondusif Agar belajar bisa lebih optimal dan kondusif
                                     <br>
                                     Jobhun Academy hanya bisa diikuti 3-5 orang setiap kelas. Kami percaya bahwa
                                     kapasitas kelas yang sedikit akan membuat interaksi antara mentor dan mentee menjadi
                                     lebih intens. <br>
+
                                     5. Menghasilkan portfolio yang berguna untuk karier <br> Setelah program Jobhun
                                     Academy ini berakhir, mentee akan mendapatkan hasil tes, penilaian secara
                                     keseluruhan, sertifikat, dan portfolio atau karya di masing-masing bidang yang telah
                                     dilakukan selama pembelajaran dilakukan. <br>
+
                                     6. Biaya terjangkau dan bisa dicicil <br>
                                     Kamu tidak perlu pusing masalah biaya. Program-program yang ada di Jobhun Academy
                                     dipatok dengan harga yang terjangkau dan bisa kamu cicil dengan skema cicilan yang
@@ -84,113 +89,78 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h3>Materi yang akan kamu pelajari</h3>
+                                        <p>Tujuan : Mampu membuat karya dengan menggunakan dan mengkombinasikan prinsip-prinsip dasar dalam videografi</p>
                                         <p>
-                                            Basic Graphic Design <br>
-                                            Tujuan: Mampu membuat karya desain yang memiliki nilai jual di masyarakat
-                                            <br>
-                                            A. Pengolah vector: Adobe Illustrator
+                                            Peralatan videografi
                                             <ul>
-                                                <li>Mengenal jenis grafis vektor</li>
-                                                <li> Mengenal software pengolah grafis vektor Adobe Illustrator</li>
-                                                <li>Mengetahui lembar kerja Adobe Illustrator</li>
-                                                <li>Mengenal sistem layering pada Adobe Illustrator</li>
-                                                <li>Mampu meggunakan basic tools pada Adobe Illustrator (Selection Tool,
-                                                    Direct Selection Tool, Pen Tool, Text Tool, Line Segment Tool, Shape
-                                                    Tool, Paintbrush Tool, Eyedropper Tool, Gradient Tool, Hand Tool,
-                                                    Zoom Tool)</li>
-                                                <li>Mampu mengaplikasikan basic coloring pada karya menggunakan Solid
-                                                    Color dan Gradient Color</li>
-                                                <li>Learning by doing: Membuat wallpaper Desktop / Smartphone
-                                                    menggunakan Adobe Illustrator (Space and Rocket)</li>
+                                                <li>Mengenal karakteristik kamera – kamera yang sering digunakan dalam videografi</li>
+                                                <li>Membedakan mirrorless dan DSLR</li>
+                                                <li>Mengenal jenis – jenis lensa yang sering dipakai dalam pembuatan video</li>
+                                                <li>Mengenal dan mengaplikasikan aksesoris yang digunakan untuk menunjang kualitas videografi</li>
                                             </ul>
                                         </p>
                                         <p>
-                                            B. Pengolah vector: Adobe Illustrator
+                                            Camera Settings
                                             <ul>
-                                                <li>Mengolah tipografi agar terlihat lebih fancy</li>
-                                                <li>Mampu menggunakan fungsi efek 3D Extrude & Bevel</li>
-                                                <li>Mampu menggunakan fungsi Offset Path</li>
-                                                <li>Mampu menggunakan fungsi efek Drop Shadow</li>
-                                                <li>Memahami basic Highlight dan Shadow pada suatu karya</li>
-                                                <li>Learning by doing: Membuat 3 (tiga) jenis text effect, yaitu : 3D
-                                                    Look Text Effect, Neon Text Effect, Chiseled Text Effect</li>
+                                                <li>Memahami konsep frame per second</li>
+                                                <li>Mengaplikasi satuan frame per second sesuai dengan kebutuhan gambar dengan tepat</li>
+                                                <li>Mengenal mode-mode yang ada dalam kamera</li>
+                                                <li>Memahami pengaturan aperture, shutter speed, ISO dan white balance dalam videografi</li>
                                             </ul>
                                         </p>
                                         <p>
-                                            C. Pengolah vector: Adobe Illustrator
+                                            Type of Shoot
                                             <ul>
-                                                <li>Mampu melakukan tracing pada sebuah foto</li>
-                                                <li>Dapat menggunakan pen tool secara maksimal</li>
-                                                <li>Memahami pemilihan warna untuk Shadow dan Highlight agar suatu karya
-                                                    dapat terlihat lebih nyata atau mendekati aslinya</li>
-                                                <li>Learning by doing: Membuat karya Vexel</li>
+                                                <li>Mengenal macam-macam tipe dalam pengambilan gambar</li>
+                                                <li>Mengetahui perbedaan dan kegunaan dari masing-masing type of shoot</li>
+                                                <li>Mampu mengaplikasikan masing-masing type of shoot</li>
+                                                <li>Menganalisis aplikasi type of shoot dalam film-film mainstream</li>
                                             </ul>
                                         </p>
                                         <p>
-                                            D. Pengolah vector: Adobe Illustrator
+                                            Camera Angle
                                             <ul>
-                                                <li>Mampu mengombinasikan fitur-fitur pada Adobe Illustrator menjadi
-                                                    satu karya yang utuh</li>
-                                                <li>Learning by doing: Membuat infografis</li>
-                                                <li>Tugas (Opsional): Membuat poster infografis berukuran A3 yang harus
-                                                    dicetak sebagai hasil karya selama pembelajaran dengan output
-                                                    pameran hasil karya</li>
+                                                <li>Mengenal macam-macam camera angle</li>
+                                                <li>Mengetahui perbedaan dan kegunaan dari masing-masing camera angle</li>
+                                                <li>Mampu mengaplikasikan masing-masing camera angle berdasarkan kegunaanya</li>
+                                                <li>Menganalisis penggunaan camera angle dalam film-film mainstream</li>
                                             </ul>
                                         </p>
                                         <p>
-                                            E. Pengolah Bitmap: Adobe Photoshop
+                                            Camera Movement
                                             <ul>
-                                                <li>Mengenal jenis grafis bitmap</li>
-                                                <li>Mengenal software pengolah grafis bitmap Adobe Photoshop</li>
-                                                <li>Mengenal dan mampu menggunakan Selection Tool pada Adobe Photoshop
-                                                </li>
-                                                <li>Mengenal dan mampu menggunakan Select and Mask Tool untuk menyeleksi
-                                                    area seleksi yang rumit</li>
-                                                <li>Learning by doing: Membuat poster sederhana dari penggabungan
-                                                    beberapa objek yang telah diseleksi</li>
+                                                <li>Mengenal macam-macam camera movement</li>
+                                                <li>Mengetahui perbedaan dan kegunaan dari masing-masing camera movement</li>
+                                                <li>Mampu mengaplikasikan masing-masing camera movement berdasarkan kegunaanya</li>
+                                                <li>Menganalisis penggunaan camera movement dalam film-film mainstream</li>
                                             </ul>
                                         </p>
                                         <p>
-                                            F. Pengolah Bitmap: Adobe Photoshop
+                                            Rule of Third, Lead Room & Head Room
                                             <ul>
-                                                <li>Menggunakan fitur Color Balance</li>
-                                                <li>Menggunakan fitur Hue/Saturation</li>
-                                                <li>Menggunakan fitur Level</li>
-                                                <li>Menggunakan Vector Mask/Masking Method</li>
-                                                <li>Mengenal Screen Blending Mode</li>
-                                                <li>Menggunakan Blur Tool atau efek Gaussian Blur pada Filter</li>
-                                                <li>Menambah shadow dengan menggunakan brush tool</li>
-                                                <li>Menggunakan Free Transfor</li>
-                                                <li>Learning by doing: Membuat digital image dengan teknik compositing
-                                                </li>
+                                                <li>Mengenal prinsip dasar dan fungsi dari Rule of Third, Lead Room & Head Room</li>
+                                                <li>Mampu mengaplikasikan dan mengkombinasikan 3 prinsip tersebut dalam suatu skena video</li>
                                             </ul>
                                         </p>
                                         <p>
-                                            G. Pengolah Bitmap: Adobe Photoshop
+                                            Concepting & Video Editing
                                             <ul>
-                                                <li>Menggunakan Spot Healing Brush Tool dan Healing Brush Tool</li>
-                                                <li>Mengenal dan menggunakan Soft Light Blending Mode</li>
-                                                <li>Mengenal dan menggunakan Color Blending Mode</li>
-                                                <li>Menggunakan Brush Tool untuk colorin</li>
-                                                <li>Learning by doing: Membuat digital coloring pada foto hitam putih
-                                                    dan Digital Retouching (menghilangkan jerawat, mengaplikasikan make
-                                                    up, menngganti warna rambut, memutihkan gigi)</li>
+                                                <li>Memahami cara membreakdown sebuah ide</li>
+                                                <li>Mengenal naskah video</li>
+                                                <li>Menggambar storyboard</li>
+                                                <li>Mengenal berbagai perangkat lunak yang digunakan untuk mengedit sebuah video</li>
+                                                <li>Mengenal prinsip dasar dalam mengedit video</li>
+                                                <li>Memahami perbedaan color correction dan color grading;</li>
+                                                <li>Mengaplikasikan setting dasar untuk input dan output video sesuai dengan kebutuhan platform yang akan dituju</li>
+                                                <li>(Tugas – Opsional) Mengaplikasikan materi dari pertemuan pertama hingga materi video editing dalam durasi 1 menit dan diunggah pada platform instagram</li>
                                             </ul>
                                         </p>
                                         <p>
-                                            H. Pengolah Bitmap: Adobe Photoshop
+                                            Self Branding Videographer
                                             <ul>
-                                                <li>Menggunakan Dodge Tool dan Burn Tool</li>
-                                                <li>Menggunakan Perspective Transformation Tool</li>
-                                                <li>Mengaplikasikan tekstur untuk text effect</li>
-                                                <li>Menambah Layer Style</li>
-                                                <li>Menambah ornament dengan Brush</li>
-                                                <li>Menggunakan Gradient Map Adjusment Layer</li>
-                                                <li>Learning by doing: Membuat 3 (dua) jenis Text Effect, yaitu Explode
-                                                    Text Effect, 3D Text Effect, dan Glitch Text Effect</li>
-                                                <li>Tugas (Opsional): Membuat karya poster film atau layanan masyarakat
-                                                    yang harus dicetak pada ukuran A3 dengan output pameran hasil karya
-                                                </li>
+                                                <li>Memahami prospek profesi videografer</li>
+                                                <li>Mengenal ciri khas dari karya sendiri dan menjadikanya sebagai daya jual</li>
+                                                <li>Tata cara menghitung ongkos produksi untuk suatu acara yang akan didokumentasikan</li>
                                             </ul>
                                         </p>
                                     </div>
@@ -219,11 +189,10 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h3>Mentor yang akan mengajar</h3>
-                                        <p>Yussaq Ali Azlamsyah (Graphic Designer at Bima Creative)</p>
+                                        <p>I Made Sindhu Novenda (Videographer at Awatara Pictures)</p>
                                     </div>
                                     <div class="how-works">
-                                        <div class="row"><img src="{{asset ('user/images/mentord.jpg')}}"
-                                                alt="Gambar Graphic Designer" /></div>
+                                        <div class="row"><img src="{{asset ('user/images/mentorvideo.jpeg')}}" alt="Gambar Videographer" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -264,7 +233,7 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h2>Harga :</h2>
-                                        <h3 style="color:red;">Rp1.500.000,- (Apabila dibayar lunas)</h3>
+                                        <h3 style="color:red;">Rp. 1.500.000,- (Apabila dibayar lunas)</h3>
                                         <p>Bisa dibayar lunas atau dicicil. Jika dicicil, menggunakan skema cicilan
                                             sebagai berikut :
                                             <ul>
@@ -278,8 +247,7 @@
                                 </div>
                                 <div class="job-single-sec">
                                     <h3>Registrasi</h3>
-                                    <p>Untuk daftar Jobhun Academy: Content Writer, silakan mengisi formulir di bawah
-                                        ini.</p>
+                                    <p>Untuk daftar Jobhun Academy: Videographer, silakan mengisi formulir di bawah ini.</p>
                                 </div>
                             </div>
                         </div>
