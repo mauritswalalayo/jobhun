@@ -91,7 +91,21 @@
                                         <h3>Materi yang akan kamu pelajari :</h3>
                                         <p>
                                             <ul>
-                                                <li></li>
+                                                <li>Instalasi Intellij Idea</li>
+                                                <li>Dasar-dasar pemrograman Java, variabel, tipe data, if else, switch case, for loop</li>
+                                                <li>Latihan dasar-dasar perintah sederhana</li>
+                                                <li>Pengenalan Android Studio</li>
+                                                <li>Dasar-dasar pemrograman Java pada Android</li>
+                                                <li>Belajar membuat layout Aplikasi dengan XML</li>
+                                                <li>Pengenalan Activity</li>
+                                                <li>Pengenalan Intent</li>
+                                                <li>Menggunakan listview dan recycleview</li>
+                                                <li>Pengenalan database SQLite</li>
+                                                <li>Membuat aplikasi menggunakan SQLite</li>
+                                                <li>Pengenalan SharedPreference</li>
+                                                <li>Dasar-dasar background service</li>
+                                                <li>Membuat aplikasi Alarm</li>
+                                                <li>Persiapan publish aplikasi ke Playstore</li>
                                             </ul>
                                         </p>
                                     </div>
@@ -120,10 +134,10 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h3>Mentor yang akan mengajar</h3>
-                                        <p>Muhammad Amirul Ihsan (Founder Kawan Koding, Programming Instructor, Programmer)</p>
+                                        <p>Muhammad Irsyad (Trainer for Android & Co-founder at Lazday Indonesia)</p>
                                     </div>
                                     <div class="how-works">
-                                        <div class="row"><img src="{{asset ('user/images/mentorweb.jpeg')}}" alt="" /></div>
+                                        <div class="row"><img src="{{asset ('user/images/mentorandroid.jpg')}}" alt="" /></div>
                                     </div>
                                 </div>
                             </div>
