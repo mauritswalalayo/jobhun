@@ -160,18 +160,9 @@ Route::get('/jobhun-talks', 'Homepage_UserController@jt')->name('jt');
 Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');
 
 // Blog
-Route::get('/cerita-karier', 'Homepage_UserController@ck')->name('ck');
+Route::get('/post/{filter}', 'PostController@post')->name('ck');
 
-Route::get('/infografik', 'Homepage_UserController@infografik')->name('infografik');
-
-Route::get('/karier-pedia', 'Homepage_UserController@kp')->name('kp');
-
-Route::get('/artikel', 'Homepage_UserController@artikel')->name('artikel');
-
-Route::get('/berita', 'Homepage_UserController@berita')->name('berita');
-
-Route::get('/info-acara', 'Homepage_UserController@ia')->name('ia');
-
+Route::get('/post/show/{url}' , 'PostController@show' );
 
 
 

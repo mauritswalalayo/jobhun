@@ -27,8 +27,20 @@
     @else
         <form action="{{route('post.add')}}" method="POST">
     @endif
+
+
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
         <div class="box-body">
+
+            <div class="form-group">
+                <label>Kriteria</label>
+                    <select class="form-control" name="criteria" data-placeholder="Pilih Kriteria" style="width: 100%;"> 
+                        <option value="cerita_karier"> Cerita Karier</option>
+                        <option value="infografik"> Infografik</option>
+                        <option value="karierpedia"> karierpedia</option>
+                    </select>
+            </div>
+            
             <div class="form-group">
                 <label for="title">Judul :</label>
                 <input name="title" type="text" id="title" class="form-control" placeholder="Masukan Title Anda......"
