@@ -26,7 +26,7 @@
         <input type="hidden" name="_method" value="PATCH">
 
     @else
-    <form action="{{route('testimoni.add')}}" method="POST">
+    <form action="{{route('testimoni.add')}}" method="POST" enctype="multipart/form-data">
         
     @endisset
 
@@ -52,6 +52,13 @@
                 <label for="title">Testimoni :</label>
                 <textarea name="testimoni" id="testimoni" cols="30" rows="10" class="form-control">
                 @if(isset($edittestimoni)) {{$edittestimoni->testimoni}} @endif </textarea>
+            </div>
+        </div>
+
+        <div class="box-body">
+            <div class="form-group">
+                <label for="title">Foto :</label>
+                <input type="file" name="foto" id="foto" cols="30" rows="10" class="form-control">
             </div>
         </div>
 

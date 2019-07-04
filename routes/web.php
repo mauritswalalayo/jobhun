@@ -143,6 +143,8 @@ Route::get('/spek_jobhuncareerhub', 'Homepage_UserController@spek_jch')->name('s
 
 Route::get('/jobhun_academy', 'Homepage_UserController@ja')->name('ja');
 
+Route::get('/jobhun_academy-content-writer', 'Homepage_UserController@content_writer')->name('content-writer');
+
 // Program
 Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');
 
@@ -164,13 +166,25 @@ Route::get('/berita', 'Homepage_UserController@berita')->name('berita');
 Route::get('/info-acara', 'Homepage_UserController@ia')->name('ia');
 
 
+
+
+
+
 //=========================== Route Program ==============================
 Route::get('user/program/internship', 'ProgramController@indexinternship')->name('program.internship');
 Route::get('user/program/visit', 'ProgramController@indexvisit')->name('program.visit');
 Route::get('user/program/talk', 'ProgramController@indextalk')->name('program.talk');
 Route::get('user/program/detail', 'ProgramController@indexdetail')->name('program.detail');
 
+<<<<<<< HEAD
 //================================ Route Posting Job ===============================
 
 Route::get('postingjob/form', 'PostingJobController@index')->name('formposting');
 Route::get('postingjob/type', 'PostingJobController@indextype')->name('typeposting');
+=======
+
+
+Route::get('/tesvuejs', function () {
+    return view('tes');
+});
+>>>>>>> origin/master
