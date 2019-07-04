@@ -15,7 +15,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <br><br>
-                                <h2 align="left">Jobhun Academy : Content Writer</h2>
+                                <h2 align="left">Jobhun Academy : Copywriter</h2>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                 <div class="col-lg-12 column">
                     <div class="blog-single">
                         <div class="bs-thumb">
-                            <img src="{{ asset ('user/images/cw.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                            <img src="{{ asset ('user/images/cw2.jpeg')}}" alt="Gambar Web Developer" />
                         </div>
                     </div>
                 </div>
@@ -49,31 +49,36 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p align="justify">Content writer merupakan salah satu profesi yang saat ini menjamur di dunia kerja, karena kebutuhannya yang semakin meningkat di kalangan perusahaan. Tugasnya membuat konten menarik yang bisa dijadikan senjata ampuh promosi perusahaan, maupun sekadar menjadi konten untuk beberapa blog dan website yang dapat menghasilkan pundi-pundi rupiah. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang content writer terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar. Seorang content writer harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang content writer bersama dengan pakarnya langsung dari media ternama. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio tulisan yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang content writer melalui program ini.</p>
-                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Content Writer ini ? <br>
+                                <p align="justify">Copywriter merupakan salah satu profesi yang saat ini menjamur di dunia kerja, karena kebutuhannya yang semakin meningkat di kalangan perusahaan. Bisa dibilang copywriter merupakan ujung tombak sebuah konten marketing. Tidak hanya membuat konten biasa, seorang copywriter juga harus bisa ‘bermain’ dengan kata-kata persuasif yang bisa memengaruhi minat beli konsumen. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang copywriter terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar. Seorang copywriter harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang copywriter bersama dengan pakarnya langsung dari media ternama. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio tulisan yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang copywriter melalui program ini.</p>
+
+                                <p>Mengapa kamu harus mengikuti Jobhun Academy : Copywriter ini ? <br>
                                     1. Belajar dengan formula khusus untuk persiapan karier <br>
-                                    Di Jobhun Academy, kamu
-                                    tidak hanya belajar secara teori saja. Namun juga akan praktek secara langsung untuk
-                                    menghasilkan portfolio penunjang karier. Kamu juga bisa sharing bersama mentor untuk
-                                    membahas persiapan karier. <br>
+                                    Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun juga akan
+                                    praktek secara langsung untuk menghasilkan portfolio penunjang karier. Kamu juga
+                                    bisa sharing bersama mentor untuk membahas persiapan karier.<br>
+
                                     2. Berkesempatan untuk mendapatkan pekerjaan <br>
                                     Jobhun bekerjasama dengan berbagai perusahaan dalam mencari kandidat terbaik.
                                     Apabila kamu berhasil menyelesaikan program di Jobhun Academy dengan baik dan sesuai
                                     dengan kriteria yang sedang dicari oleh perusahaan, maka Jobhun akan
                                     merekomendasikan kamu agar bisa bekerja di beberapa company partner Jobhun tersebut.
                                     <br>
+
                                     3. Dibimbing oleh mentor-mentor berkualitas dan berpengalaman <br>
                                     Jobhun selalu berupaya menghadirkan mentor berkualitas dan berpengalaman
                                     dibidangnya, serta memiliki prestasi di bidang tersebut. <br>
+
                                     4. Belajar secara optimal dan kondusif Agar belajar bisa lebih optimal dan kondusif
                                     <br>
                                     Jobhun Academy hanya bisa diikuti 3-5 orang setiap kelas. Kami percaya bahwa
                                     kapasitas kelas yang sedikit akan membuat interaksi antara mentor dan mentee menjadi
                                     lebih intens. <br>
+
                                     5. Menghasilkan portfolio yang berguna untuk karier <br> Setelah program Jobhun
                                     Academy ini berakhir, mentee akan mendapatkan hasil tes, penilaian secara
                                     keseluruhan, sertifikat, dan portfolio atau karya di masing-masing bidang yang telah
                                     dilakukan selama pembelajaran dilakukan. <br>
+
                                     6. Biaya terjangkau dan bisa dicicil <br>
                                     Kamu tidak perlu pusing masalah biaya. Program-program yang ada di Jobhun Academy
                                     dipatok dengan harga yang terjangkau dan bisa kamu cicil dengan skema cicilan yang
@@ -83,61 +88,21 @@
                             <div class="col-lg-8 column">
                                 <div class="job-single-sec">
                                     <div class="job-details">
-                                        <h3>Materi yang akan kamu pelajari</h3>
+                                        <h3>Materi yang akan kamu pelajari :</h3>
                                         <p>
-                                            <ul>
-                                                <li>Mengenal content writing dan mengapa penting untuk mempelajarinya
-                                                </li>
-                                                <li>Mengetahui apa saja tugas dan tanggung jawab seorang content writer.
-                                                    Apa bedanya dengan profesi lain yang berkaitan dengan kepenulisan.
-                                                </li>
-                                                <li>Mengetahui urutan jabatan untuk berkarier sebagai content writer
-                                                </li>
-                                                <li>Mengetahui prospek kerja dan peluang-peluang bekerja sebagai content
-                                                    writer</li>
-                                                <li>Mengetahui pengetahuan dan keterampilan apa saja yang harus dimiliki
-                                                    oleh seorang content writer</li>
-                                                <li>Mengetahui keterkaitan antara content writing dengan kebutuhan
-                                                    promosi komersial pada sebuah merek. Apa yang membedakan dengan
-                                                    content writing untuk kebutuhan bukan untuk komersial.</li>
-                                                <li>Starter kit for content writer</li>
-                                                <li>Essential for skillsets for content writer</li>
-                                                <li>Mengetahui cara menulis konten yang sesuai dengan target audience
-                                                </li>
-                                                <li>Mengetahui cara menulis konten yang dapat menaikkan trafik</li>
-                                                <li>Mengetahui cara mencari dan menentukan topik yang tepat</li>
-                                                <li>Mengetahui cara mencari topik-topik yang sedang tren dibicarakan
-                                                    menggunakan tools</li>
-                                                <li>Membuat struktur-struktur yang ada pada konten sebelum ditulis</li>
-                                                <li>Menulis judul yang sesuai dengan isi tulisan serta mampu menarik
-                                                    pembaca</li>
-                                                <li>Membuat struktur penulisan dari awal sampai akhir</li>
-                                                <li>Menulis konten yang sesuai dengan kaidah SEO</li>
-                                                <li>Menulis dengan kaidah penulisan EYD yang baik dan benar. Menulis
-                                                    kalimat yang strukturnya sesuai dan enak dibaca.</li>
-                                                <li>Mengetahui cara meminimalisir typo dalam penulisan</li>
-                                                <li>Menggunakan WordPress atau CMS lainnya untuk keperluan posting
-                                                    konten secara <i>basic</i></li>
-                                                <li>Mengecek performa konten, berdasarkan KPI dan Basic Google
-                                                    Analytics.</li>
-                                                <li>Mengetahui cara melakukan pengecekan orisinalitas tulisan
-                                                    menggunakan <i>software</i></li>
-                                                <li>Mengetahui hal-hal apa saja yang biasanya diperhatikan oleh editor
-                                                    saat memeriksa konten. Bagian mana saja yang biasanya sering
-                                                    memerlukan revisi.</li>
-                                                <li>Mengetahui kiat-kiat memilih gambar yang berkualitas dan tepat untuk
-                                                    konten</li>
-                                                <li>Mengetahui trik membuat tulisan yang bisa menembus editor, kemudian
-                                                    dimuat di media online berkualitas.</li>
-                                                <li>Mengetahui perbedaan tulisan di media cetak dan media online</li>
-                                                <li>Mengetahui cara mencari uang melalui tulisan, baik melalui pekerjaan
-                                                    tetap maupun freelance.</li>
-                                                <li>Mengetahui tips mencari pekerjaan sebagai content writer, baik di
-                                                    media maupun perusahaan non media. Mulai dari mempersiapkan CV dan
-                                                    portfolio, interview, tes menulis, hingga diterima.</li>
-                                                <li>Tes akhir untuk mentee (Hasil tes berupa konten yang bisa dijadikan
-                                                    sebagai portfolio dalam melamar pekerjaan)</li>
-                                            </ul>
+                                                1. Mengenal copywriting <br>
+                                                2. Mengenal profesi copywriter <br>
+                                                3. Memahami peran dan tanggung jawab copywriter <br>
+                                                4. Memahami peluang kerja copywriter di industri <br>
+                                                5. Memahami skill dasar yang harus dimiliki copywriter <br>
+                                                6. Memahami media yang digunakan untuk pendistribusian konten copywriting <br>
+                                                7. Memahami apa saja tools/software yang digunakan untuk copywriting <br>
+                                                8. Memahami teknik copywriting <br>
+                                                9. Memahami formula AIDA dalam copywriting <br>
+                                                10. Praktek menulis (Untuk penilaian akhir) <br>
+                                                11. Persiapan karier: Tips mendapatkan pekerjaan di bidang copywriting, baik freelance maupun full time. <br>
+                                                12. Persiapan karier: Tips membuat CV dan portfolio yang menarik bagi copywriter <br>
+                                                13. Persiapan karier: Tips menjadi copywriter yang produktif dan tidak mudah terkena writer’s block
                                         </p>
                                     </div>
                                 </div>
@@ -165,14 +130,13 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h3>Mentor yang akan mengajar</h3>
-                                        <p>Stella Azasya (Creative Writer at IDN Times)</p>
+                                        <p>Fazrah LR Heryanda (Freelance copywriter & Editor of Basha.ID)</p>
                                     </div>
                                     <div class="how-works">
-                                        <div class="row"><img src="{{asset ('user/images/mentorcw.jpeg')}}" alt="Gambar Content Writer"/></div>
+                                        <div class="row"><img src="{{asset ('user/images/mentorcopywriter.jpg')}}" alt="" /></div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-lg-8 column">
                                 <div class="job-single-sec">
                                     <div class="job-details">
@@ -224,8 +188,7 @@
                                 </div>
                                 <div class="job-single-sec">
                                     <h3>Registrasi</h3>
-                                    <p>Untuk daftar Jobhun Academy: Content Writer, silakan mengisi formulir di bawah
-                                        ini.</p>
+                                    <p>Untuk daftar Jobhun Academy: Copywriter, silakan mengisi formulir di bawah ini.</p>
                                 </div>
                             </div>
                         </div>

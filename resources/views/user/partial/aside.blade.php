@@ -33,7 +33,7 @@
                     <ul>
                         <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
                         <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
-                        <li><a href="" title="">Media Partner</a></li>
+                        <li><a href="{{ route ('media')}}" title="">Media Partner</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
@@ -45,14 +45,14 @@
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#" title="">Blog</a>
+                <a href="{{url('post/all')}}" title="">Blog</a>
                     <ul>
-                        <li><a href="{{ route ('ck')}}">Cerita Karier</a></li>
-                        <li><a href="{{ route ('infografik')}}">Infografik</a></li>
-                        <li><a href="{{ route ('kp')}}">Karierpedia</a></li>
-                        <li><a href="{{ route ('artikel')}}">Artikel</a></li>
+                        <li><a href="{{ url ('post/cerita_karier')}}">Cerita Karier</a></li>
+                        <li><a href="{{ url ('post/infografik')}}">Infografik</a></li>
+                        <li><a href="{{ url ('post/karierpedia')}}">Karierpedia</a></li>
+                        {{-- <li><a href="{{ route ('artikel')}}">Artikel</a></li>
                         <li><a href="{{ route ('berita')}}">Berita</a></li>
-                        <li><a href="{{ route ('ia')}}">Info Acara</a></li>
+                        <li><a href="{{ route ('ia')}}">Info Acara</a></li> --}}
                     </ul>
                 </li>
             </ul>
@@ -96,18 +96,14 @@
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#" title="">Blog</a>
+                        <a href="{{url('post/all')}}" title="">Blog</a>
                         <ul>
-                            <li><a href="{{ route ('ck')}}">Cerita Karier</a></li>
-                            <li><a href="{{ route ('infografik')}}">Infografik</a></li>
-                            <li><a href="{{ route ('kp')}}">Karierpedia</a></li>
-                            <li><a href="{{ route ('artikel')}}">Artikel</a></li>
-                            <li><a href="{{ route ('berita')}}">Berita</a></li>
-                            <li><a href="{{ route ('ia')}}">Info Acara</a></li>
+                            <li><a href="{{ url ('post/cerita_karier')}}">Cerita Karier</a></li>
+                            <li><a href="{{ url ('post/infografik')}}">Infografik</a></li>
+                            <li><a href="{{ url ('post/karierpedia')}}">Karierpedia</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav><!-- Menus -->
         </div>
-    </div>
-</header>
+    </header>

@@ -137,13 +137,25 @@ Route::get('/', 'Homepage_UserController@index')->name('index');
 Route::get('/about', 'Homepage_UserController@tentang')->name('about');
 
 // Layanan
-Route::get('/jobhuncareerhub', 'Homepage_UserController@jch')->name('jch');
+Route::get('/jobhun-careerhub', 'Homepage_UserController@jch')->name('jch');
 
-Route::get('/spek_jobhuncareerhub', 'Homepage_UserController@spek_jch')->name('spek_jch');
+Route::get('/spek-jobhuncareerhub', 'Homepage_UserController@spek_jch')->name('spek_jch');
 
-Route::get('/jobhun_academy', 'Homepage_UserController@ja')->name('ja');
+Route::get('/jobhun-academy', 'Homepage_UserController@ja')->name('ja');
 
-Route::get('/jobhun_academy-content-writer', 'Homepage_UserController@content_writer')->name('content-writer');
+Route::get('/jobhun-academy-content-writer', 'Homepage_UserController@content_writer')->name('content-writer');
+
+Route::get('/jobhun-academy-graphic-designer', 'Homepage_UserController@graphic_designer')->name('graphic-designer');
+
+Route::get('/jobhun-academy-videographer', 'Homepage_UserController@videographer')->name('videographer');
+
+Route::get('/jobhun-academy-web-developer', 'Homepage_UserController@web')->name('web');
+
+Route::get('/jobhun-academy-android-developer', 'Homepage_UserController@android')->name('android');
+
+Route::get('/jobhun-academy-copywriter', 'Homepage_UserController@copywriter')->name('copywriter');
+
+Route::get('/jobhun-academy-media-partner', 'Homepage_UserController@media')->name('media');
 
 // Program
 Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');
@@ -153,18 +165,9 @@ Route::get('/jobhun-talks', 'Homepage_UserController@jt')->name('jt');
 Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');
 
 // Blog
-Route::get('/cerita-karier', 'Homepage_UserController@ck')->name('ck');
+Route::get('/post/{filter}', 'PostController@post')->name('ck');
 
-Route::get('/infografik', 'Homepage_UserController@infografik')->name('infografik');
-
-Route::get('/karier-pedia', 'Homepage_UserController@kp')->name('kp');
-
-Route::get('/artikel', 'Homepage_UserController@artikel')->name('artikel');
-
-Route::get('/berita', 'Homepage_UserController@berita')->name('berita');
-
-Route::get('/info-acara', 'Homepage_UserController@ia')->name('ia');
-
+Route::get('/post/show/{url}' , 'PostController@show' );
 
 
 

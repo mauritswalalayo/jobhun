@@ -11,7 +11,7 @@ class Homepage_UserController extends Controller
     {
         $testimoni = Testimoni::paginate();
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
-        return view('user.content.home.home_user',['daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
+        return view('user.content.home.home_user', ['daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }
 
     public function tentang()
@@ -38,6 +38,36 @@ class Homepage_UserController extends Controller
     public function content_writer()
     {
         return view('user.content.service.content_writer');
+    }
+
+    public function graphic_designer()
+    {
+        return view('user.content.service.graphic_designer');
+    }
+
+    public function videographer()
+    {
+        return view('user.content.service.videographer');
+    }
+
+    public function web()
+    {
+        return view('user.content.service.web');
+    }
+
+    public function android()
+    {
+        return view('user.content.service.android');
+    }
+
+    public function copywriter()
+    {
+        return view('user.content.service.copywriter');
+    }
+
+    public function media()
+    {
+        return view('user.content.service.mediapartner');
     }
 
     // Program

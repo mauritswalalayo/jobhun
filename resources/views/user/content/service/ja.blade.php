@@ -144,11 +144,82 @@
             <div class="row">
                 <div class="col-lg-12 column">
                     <div class="blog-single">
-                        <div class="bs-thumb">
-                            <a href="{{ route ('content-writer')}}" target="_blank">
-                                <img src="{{ asset ('user/images/cw.jpeg')}}" width="1000" alt="Gambar Testimoni Jobhun Academy" />
-                            </a>
-                        </div>
+                        <a href="{{ route ('content-writer')}}">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/cw.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <a href="{{ route ('graphic-designer')}}">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/desain.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <a href="{{ route ('videographer')}}">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/video.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <a href="{{ route ('web')}}">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/web.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <a href="{{ route ('android')}}">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/android.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <a href="#">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/ui.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <a href="{{ route ('copywriter')}}">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/cw2.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
