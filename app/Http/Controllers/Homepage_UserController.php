@@ -65,6 +65,11 @@ class Homepage_UserController extends Controller
         return view('user.content.service.copywriter');
     }
 
+    public function media()
+    {
+        return view('user.content.service.mediapartner');
+    }
+
     // Program
     public function ji()
     {
