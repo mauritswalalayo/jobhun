@@ -55,6 +55,11 @@ class Homepage_UserController extends Controller
         return view('user.content.service.web');
     }
 
+    public function android()
+    {
+        return view('user.content.service.android');
+    }
+
     // Program
     public function ji()
     {

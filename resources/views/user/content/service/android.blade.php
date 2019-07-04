@@ -15,7 +15,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <br><br>
-                                <h2 align="left">Jobhun Academy : Web Developer</h2>
+                                <h2 align="left">Jobhun Academy : Android Developer</h2>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                 <div class="col-lg-12 column">
                     <div class="blog-single">
                         <div class="bs-thumb">
-                            <img src="{{ asset ('user/images/web.jpeg')}}" alt="Gambar Web Developer" />
+                            <img src="{{ asset ('user/images/android.jpeg')}}" alt="Gambar Web Developer" />
                         </div>
                     </div>
                 </div>
@@ -49,24 +49,9 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p align="justify">Saat ini web developer menjadi salah satu profesi yang banyak dicari.
-                                    Menjamurnya digital startup di kalangan pebisnis membuat banyak perusahaan ingin
-                                    turut serta mendigitalisasi bisnisnya. Di sini, peran seorang web developer sangat
-                                    besar. Mulai dari membantu membangun produk hingga menciptakan berbagai website
-                                    maupun program untuk perusahaan. Tidak hanya perusahaan saja yang membutuhkan
-                                    profesi ini, namun seorang web developer juga bisa bekerja secara mandiri. Profesi
-                                    yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote,
-                                    hingga freelance.</p>
-                                <p align="justify">Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang
-                                    web developer terkadang tidak harus terikat satu perusahaan saja, sehingga
-                                    kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar.
-                                    Seorang web developer harus memiliki beberapa kemampuan agar siap bersaing di
-                                    industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang web developer bersama
-                                    dengan pakarnya langsung. Tidak hanya belajar secara teori saja, namun kamu juga
-                                    akan praktek, sehingga bisa menghasilkan portfolio yang akan digunakan untuk mencari
-                                    kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang
-                                    web developer melalui program ini.</p>
-                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Web Developer ini ? <br>
+                                <p align="justify">Tidak berbeda jauh dengan web developer, Android developer juga menjadi salah satu profesi yang banyak dicari. Menjamurnya digital startup di kalangan pebisnis membuat banyak perusahaan ingin turut serta mendigitalisasi bisnisnya. Banyak perusahaan berlomba-lomba ingin menciptakan sebuah produk melalui aplikasi Android. Di sini, peran seorang Android developer sangat besar dalam membangun produk sebuah perusahaan. Tidak hanya perusahaan saja yang membutuhkan profesi ini, namun seorang Android Developer juga bisa bekerja secara mandiri. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance.</p>
+                                <p align="justify">Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang Android developer terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar. Seorang Android developer harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang Android developer bersama dengan pakarnya langsung. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang Android developer melalui program ini.</p>
+                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Android Developer ini ? <br>
                                     1. Belajar dengan formula khusus untuk persiapan karier <br>
                                     Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun juga akan
                                     praktek secara langsung untuk menghasilkan portfolio penunjang karier. Kamu juga
@@ -105,41 +90,10 @@
                                     <div class="job-details">
                                         <h3>Materi yang akan kamu pelajari :</h3>
                                         <p>
-                                            1. Dasar pemrograman dengan PHP <br>
-                                            2. Konsep Object Oriented Programming dengan PHP <br>
-                                            3. Standar-standar dalam penulisan kode di PHP <br>
-                                            4. Development PHP saat ini (Modern PHP) <br>
-                                            5. Konsep dasar framework Laravel <br>
-                                            6. Tips dan Clean Code Laravel <br>
-                                            7. Implementasi hasil belajar dengan studi kasus <br>
-                                            8. Menginstall, migration, hingga halaman awal. <br>
-                                            9. Melakukan setting env
                                             <ul>
-                                                <li>Memahami design database</li>
-                                                <li>Membuat migration, run migration (Membuat migration user, post, tag, dan post tag)</li>
-                                                <li>Latihan: Membuat migration biodata user lain</li>
+                                                <li></li>
                                             </ul>
                                         </p>
-                                        <p>10. Memahami route dan templating
-                                            <ul>
-                                                <li>Melakukan setting route</li>
-                                                <li>Melakukan setting template halaman dashboard</li>
-                                                <li>Latihan : Membuat setting template halaman depan</li>
-                                            </ul>
-                                        </p>
-                                        <p>11. Memahami pembuatan login dan Middleware
-                                            <ul>
-                                                <li>Login</li>
-                                                <li>Middleware login</li>
-                                                <li>Middleware admin</li>
-                                                <li>Latihan: Middleware author</li>
-                                            </ul>
-                                        </p>
-                                        <p>12. CRUD Post, Relationing, Validation (Part I) <br>
-                                            13. CRUD Post, Relationing, Validation (part II) <br>
-                                            14. Melakukan update foto profil user <br>
-                                            15. Membuat register emailing (Simple register dan mailing) <br>
-                                            16. Menampilkan daftar post di depan dan masuk ke halaman single post</p>
                                     </div>
                                 </div>
                             </div>
