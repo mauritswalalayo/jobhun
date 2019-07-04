@@ -101,6 +101,9 @@
                             <li><a href="{{ url ('post/cerita_karier')}}">Cerita Karier</a></li>
                             <li><a href="{{ url ('post/infografik')}}">Infografik</a></li>
                             <li><a href="{{ url ('post/karierpedia')}}">Karierpedia</a></li>
+                            <li><a href="{{ url ('post/artikel')}}">Artikel</a></li>
+                            <li><a href="{{ url ('post/berita')}}">Berita</a></li>
+                            <li><a href="{{ url ('post/info_acara')}}">Info Acara</a></li>
                         </ul>
                     </li>
                 </ul>
