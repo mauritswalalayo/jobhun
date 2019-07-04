@@ -98,59 +98,25 @@
                                     <div class="job-details">
                                         <h3>Materi yang akan kamu pelajari</h3>
                                         <p>
+                                            Basic Graphic Design <br>
+                                            Tujuan: Mampu membuat karya desain yang memiliki nilai jual di masyarakat
+                                            <br>
+                                            A. Pengolah vector: Adobe Illustrator
                                             <ul>
-                                                <li>Mengenal content writing dan mengapa penting untuk mempelajarinya
-                                                </li>
-                                                <li>Mengetahui apa saja tugas dan tanggung jawab seorang content writer.
-                                                    Apa bedanya dengan profesi lain yang berkaitan dengan kepenulisan.
-                                                </li>
-                                                <li>Mengetahui urutan jabatan untuk berkarier sebagai content writer
-                                                </li>
-                                                <li>Mengetahui prospek kerja dan peluang-peluang bekerja sebagai content
-                                                    writer</li>
-                                                <li>Mengetahui pengetahuan dan keterampilan apa saja yang harus dimiliki
-                                                    oleh seorang content writer</li>
-                                                <li>Mengetahui keterkaitan antara content writing dengan kebutuhan
-                                                    promosi komersial pada sebuah merek. Apa yang membedakan dengan
-                                                    content writing untuk kebutuhan bukan untuk komersial.</li>
-                                                <li>Starter kit for content writer</li>
-                                                <li>Essential for skillsets for content writer</li>
-                                                <li>Mengetahui cara menulis konten yang sesuai dengan target audience
-                                                </li>
-                                                <li>Mengetahui cara menulis konten yang dapat menaikkan trafik</li>
-                                                <li>Mengetahui cara mencari dan menentukan topik yang tepat</li>
-                                                <li>Mengetahui cara mencari topik-topik yang sedang tren dibicarakan
-                                                    menggunakan tools</li>
-                                                <li>Membuat struktur-struktur yang ada pada konten sebelum ditulis</li>
-                                                <li>Menulis judul yang sesuai dengan isi tulisan serta mampu menarik
-                                                    pembaca</li>
-                                                <li>Membuat struktur penulisan dari awal sampai akhir</li>
-                                                <li>Menulis konten yang sesuai dengan kaidah SEO</li>
-                                                <li>Menulis dengan kaidah penulisan EYD yang baik dan benar. Menulis
-                                                    kalimat yang strukturnya sesuai dan enak dibaca.</li>
-                                                <li>Mengetahui cara meminimalisir typo dalam penulisan</li>
-                                                <li>Menggunakan WordPress atau CMS lainnya untuk keperluan posting
-                                                    konten secara <i>basic</i></li>
-                                                <li>Mengecek performa konten, berdasarkan KPI dan Basic Google
-                                                    Analytics.</li>
-                                                <li>Mengetahui cara melakukan pengecekan orisinalitas tulisan
-                                                    menggunakan <i>software</i></li>
-                                                <li>Mengetahui hal-hal apa saja yang biasanya diperhatikan oleh editor
-                                                    saat memeriksa konten. Bagian mana saja yang biasanya sering
-                                                    memerlukan revisi.</li>
-                                                <li>Mengetahui kiat-kiat memilih gambar yang berkualitas dan tepat untuk
-                                                    konten</li>
-                                                <li>Mengetahui trik membuat tulisan yang bisa menembus editor, kemudian
-                                                    dimuat di media online berkualitas.</li>
-                                                <li>Mengetahui perbedaan tulisan di media cetak dan media online</li>
-                                                <li>Mengetahui cara mencari uang melalui tulisan, baik melalui pekerjaan
-                                                    tetap maupun freelance.</li>
-                                                <li>Mengetahui tips mencari pekerjaan sebagai content writer, baik di
-                                                    media maupun perusahaan non media. Mulai dari mempersiapkan CV dan
-                                                    portfolio, interview, tes menulis, hingga diterima.</li>
-                                                <li>Tes akhir untuk mentee (Hasil tes berupa konten yang bisa dijadikan
-                                                    sebagai portfolio dalam melamar pekerjaan)</li>
+                                                <li>Mengenal jenis grafis vektor</li>
+                                                <li> Mengenal software pengolah grafis vektor Adobe Illustrator</li>
+                                                <li>Mengetahui lembar kerja Adobe Illustrator</li>
                                             </ul>
+
+                                            Mengenal sistem layering pada Adobe Illustrator
+                                            Mampu meggunakan basic tools pada Adobe Illustrator (Selection Tool, Direct
+                                            Selection Tool, Pen Tool, Text Tool, Line Segment Tool, Shape Tool,
+                                            Paintbrush Tool, Eyedropper Tool, Gradient Tool, Hand Tool, Zoom Tool)
+                                            Mampu mengaplikasikan basic coloring pada karya menggunakan Solid Color dan
+                                            Gradient Color
+                                            Learning by doing: Membuat wallpaper Desktop / Smartphone menggunakan Adobe
+                                            Illustrator (Space and Rocket)
+
                                         </p>
                                     </div>
                                 </div>
