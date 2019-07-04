@@ -44,8 +44,8 @@ class TestimoniController extends Controller
         $testimoni = Testimoni::create($request->all());
         $image = $testimoni->id.''.$request->file('foto')->getClientOriginalExtension();
         $request->file('foto')->move(public_path('image/testimoni'),$image);
-        // $testimoni->foto = $image;
-        // $testimoni->save();
+        $testimoni->foto = $image;
+        $testimoni->save();
         return redirect()->route('testimoni.table');
     }
 

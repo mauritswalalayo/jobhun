@@ -246,7 +246,7 @@
                         @foreach($daftar_testimoni as $testimoni)
                         <div class="col-lg-6">
                             <div class="reviews">
-                                <img src="{{url ($testimoni->foto)}}" alt="" >
+                                <img src="{{asset ('image/testimoni/'.$testimoni->foto)}}" alt="" >
                                 <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
                                 <p>{{$testimoni->testimoni}}</p>
                             </div><!-- Reviews -->

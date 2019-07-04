@@ -45,14 +45,14 @@
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#" title="">Blog</a>
+                <a href="{{url('post/all')}}" title="">Blog</a>
                     <ul>
-                        <li><a href="{{ route ('ck')}}">Cerita Karier</a></li>
-                        <li><a href="{{ route ('infografik')}}">Infografik</a></li>
-                        <li><a href="{{ route ('kp')}}">Karierpedia</a></li>
-                        <li><a href="{{ route ('artikel')}}">Artikel</a></li>
+                        <li><a href="{{ url ('post/cerita_karier')}}">Cerita Karier</a></li>
+                        <li><a href="{{ url ('post/infografik')}}">Infografik</a></li>
+                        <li><a href="{{ url ('post/karierpedia')}}">Karierpedia</a></li>
+                        {{-- <li><a href="{{ route ('artikel')}}">Artikel</a></li>
                         <li><a href="{{ route ('berita')}}">Berita</a></li>
-                        <li><a href="{{ route ('ia')}}">Info Acara</a></li>
+                        <li><a href="{{ route ('ia')}}">Info Acara</a></li> --}}
                     </ul>
                 </li>
             </ul>
@@ -64,50 +64,46 @@
     <div class="menu-sec">
         <div class="container">
             <div class="logo">
-                <a href="{{route('index')}}" title=""><img class="hidesticky" src="{{ asset('user/images/jobhun.png')}}" height="50" alt="" /><img class="showsticky" src="{{ asset('user/images/jobhun.png')}}" height="50" alt="" />
-                </div><!-- Logo -->
-                <div class="btn-extars">
-                    <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Post Jobs</a>
-                    <ul class="account-btns">
-                        <li class="signup-popup"><a title=""><i class="la la-key"></i> Sign Up</a></li>
-                        <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i> Login</a>
-                        </li>
-                    </ul>
-                </div><!-- Btn Extras -->
-                <nav>
-                    <ul>
-                        <li class="">
-                            <a href="{{route('about')}}" title="">Tentang Jobhun</a>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="" title="">Layanan</a>
-                            <ul>
-                                <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
-                                <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
-                                <li><a href="{{ route ('media')}}" title="">Media Partner</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="" title="">Program</a>
-                            <ul>
-                                <li><a href="{{ route ('ji')}}" title="">Jobhun Internship</a></li>
-                                <li><a href="{{ route ('jt')}}" title="">Jobhun Talks</a></li>
-                                <li><a href="{{ route ('jv')}}" title="">Jobhun Visit</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#" title="">Blog</a>
-                            <ul>
-                                <li><a href="{{ route ('ck')}}">Cerita Karier</a></li>
-                                <li><a href="{{ route ('infografik')}}">Infografik</a></li>
-                                <li><a href="{{ route ('kp')}}">Karierpedia</a></li>
-                                <li><a href="{{ route ('artikel')}}">Artikel</a></li>
-                                <li><a href="{{ route ('berita')}}">Berita</a></li>
-                                <li><a href="{{ route ('ia')}}">Info Acara</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav><!-- Menus -->
-            </div>
+                    <a href="{{route('index')}}" title=""><img class="hidesticky" src="{{ asset('user/images/jobhun.png')}}" height="50" alt="" /><img class="showsticky" src="{{ asset('user/images/jobhun.png')}}" height="50" alt="" />
+            </div><!-- Logo -->
+            <div class="btn-extars">
+                <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Post Jobs</a>
+                <ul class="account-btns">
+                    <li class="signup-popup"><a title=""><i class="la la-key"></i> Sign Up</a></li>
+                    <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i> Login</a>
+                    </li>
+                </ul>
+            </div><!-- Btn Extras -->
+            <nav>
+                <ul>
+                    <li class="">
+                        <a href="{{route('about')}}" title="">Tentang Jobhun</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="" title="">Layanan</a>
+                        <ul>
+                            <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
+                            <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
+                            <li><a href="" title="">Media Partner</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="" title="">Program</a>
+                        <ul>
+                            <li><a href="{{ route ('ji')}}" title="">Jobhun Internship</a></li>
+                            <li><a href="{{ route ('jt')}}" title="">Jobhun Talks</a></li>
+                            <li><a href="{{ route ('jv')}}" title="">Jobhun Visit</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="{{url('post/all')}}" title="">Blog</a>
+                        <ul>
+                            <li><a href="{{ url ('post/cerita_karier')}}">Cerita Karier</a></li>
+                            <li><a href="{{ url ('post/infografik')}}">Infografik</a></li>
+                            <li><a href="{{ url ('post/karierpedia')}}">Karierpedia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav><!-- Menus -->
         </div>
     </header>

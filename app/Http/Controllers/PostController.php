@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Post;
 use App\Tag;
 use App\User;
+use Illuminate\Support\Facades\Auth;
+
 use Validator;
 
 class PostController extends Controller
@@ -13,7 +15,7 @@ class PostController extends Controller
 //================================================
     public function index()
     {
-        $post = Post::paginate(2);
+        $post = Post::paginate(10);
         $first_index = $post->currentPage() * $post->perPage() - $post->perPage() + 1;
         return view('content.post.table',['daftar_post' => $post, 'first_index' => $first_index]);
     }
@@ -33,6 +35,8 @@ class PostController extends Controller
             [
                 'title' => 'required',
                 'content' => 'required',
+                'criteria'=> 'required',
+                
             ]
         );
         if ($validator->fails()) {
@@ -40,15 +44,19 @@ class PostController extends Controller
         }
 
         $url = str_replace(' ','-',$request->title);
-        $user = User::where('id',2)->first();
 
 
         $post = new Post;
+        $post->criteria = $request->criteria;
         $post->title = $request->title;
         $post->url = $url;
         $post->content = $request->content;
-        $post->user_id = $user->id;
+        $post->user_id = Auth::user()->id;
         $post->save();
+        // $image = $post->id.''.$request->file('feature_image')->getClientOriginalExtension();
+        // $request->file('feature_image')->move(public_path('image/post'),$image);
+        // $post->feature_image = $image;
+        // $post->save();
 
         $post->tags()->sync($request->tags);
 
@@ -94,11 +102,33 @@ class PostController extends Controller
         return redirect()->route('post.table');
     }
 
-//================================================
+//=========================================================
     public function delete($id)
     {
         $post = post::findOrFail($id);
         $post->delete();
         return redirect()->route('post.table');
+    }
+
+    //=================================================== BLOG ===============================================
+
+    public function post ($filter)
+    {
+        if ($filter=='all')
+        {
+            $daftar_post = Post::all();
+        }
+        else {
+            $daftar_post = Post::where ('criteria', $filter)->get();
+        }
+
+        return view('user.content.post.list',['daftar_post'=>$daftar_post, 'filter' => $filter]);
+    }
+
+    public function show ($url)
+    {
+        $post = Post::where('url',$url)->first();
+        return view('user.content.post.show',['post'=>$post]);
+        
     }
 }
