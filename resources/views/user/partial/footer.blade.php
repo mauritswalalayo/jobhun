@@ -70,7 +70,7 @@
         </div>
     </div>
     <div class="bottom-line">
-        <span>© 2019 Jobhun Surabaya</span>
+        <span>©Copyright 2019 Jobhun. All Rights Reserved.</span>
         <a href="#scrollup" class="scrollup" title=""><i class="la la-arrow-up"></i></a>
     </div>
 </footer>

@@ -50,17 +50,25 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <p align="left">
-                                    Graphic designer menjadi salah satu profesi yang terus naik daun. Hampir semua perusahaan membutuhkan graphic designer untuk kebutuhan promosi maupun branding perusahaan. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat
-                                    cerah, apalagi seorang graphic designer terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar. Seorang graphic designer harus memiliki beberapa kemampuan agar
-                                    siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang graphic designer bersama dengan pakarnya langsung dari agency ternama. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio desain yang akan digunakan untuk mencari kerjaan nantinya. Selain itu,
-                                    kamu juga bisa mempersiapkan karier sebagai seorang graphic designer melalui program ini.
+                                    Graphic designer menjadi salah satu profesi yang terus naik daun. Hampir semua
+                                    perusahaan membutuhkan graphic designer untuk kebutuhan promosi maupun branding
+                                    perusahaan. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time,
+                                    part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat
+                                    cerah, apalagi seorang graphic designer terkadang tidak harus terikat satu
+                                    perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak
+                                    akan terbuka lebar. Seorang graphic designer harus memiliki beberapa kemampuan agar
+                                    siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang
+                                    graphic designer bersama dengan pakarnya langsung dari agency ternama. Tidak hanya
+                                    belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan
+                                    portfolio desain yang akan digunakan untuk mencari kerjaan nantinya. Selain itu,
+                                    kamu juga bisa mempersiapkan karier sebagai seorang graphic designer melalui program
+                                    ini.
                                 </p>
-                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Content Writer ini? <br>
+                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Graphic Designer ini ? <br>
                                     1. Belajar dengan formula khusus untuk persiapan karier <br>
-                                    Di Jobhun Academy, kamu
-                                    tidak hanya belajar secara teori saja. Namun juga akan praktek secara langsung untuk
-                                    menghasilkan portfolio penunjang karier. Kamu juga bisa sharing bersama mentor untuk
-                                    membahas persiapan karier. <br>
+                                    Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun juga akan
+                                    praktek secara langsung untuk menghasilkan portfolio penunjang karier. Kamu juga
+                                    bisa sharing bersama mentor untuk membahas persiapan karier.<br>
                                     2. Berkesempatan untuk mendapatkan pekerjaan <br>
                                     Jobhun bekerjasama dengan berbagai perusahaan dalam mencari kandidat terbaik.
                                     Apabila kamu berhasil menyelesaikan program di Jobhun Academy dengan baik dan sesuai

@@ -65,7 +65,7 @@
                                     tulisan yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga
                                     bisa mempersiapkan karier sebagai seorang content writer melalui program ini.
                                 </p>
-                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Content Writer ini? <br>
+                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Content Writer ini ? <br>
                                     1. Belajar dengan formula khusus untuk persiapan karier <br>
                                     Di Jobhun Academy, kamu
                                     tidak hanya belajar secara teori saja. Namun juga akan praktek secara langsung untuk
