@@ -19,19 +19,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="block">
-        <div class="container">
-            <div class="row">
                 <div class="col-lg-12 column">
                     <div class="blog-single">
                         <div class="bs-thumb">
-                            <img src="{{ asset ('user/images/cw2.jpeg')}}" alt="Gambar Web Developer" />
+                            <img src="{{ asset ('user/images/mediapartner.png')}}" alt="Gambar Web Developer" />
                         </div>
                     </div>
                 </div>

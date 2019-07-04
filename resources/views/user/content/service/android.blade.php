@@ -19,6 +19,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-12 column">
+                        <div class="blog-single">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/android.jpeg')}}" alt="Gambar Web Developer" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,7 +133,7 @@
                                     <div class="job-details">
                                         <h3>Tempat Pelaksanaan</h3>
                                         <p>Jobhun Office, Geco Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel,
-                                            Wonokromo, Surabaya 60246</p>
+                                        Wonokromo, Surabaya 60246</p>
                                     </div>
                                 </div>
                             </div>
