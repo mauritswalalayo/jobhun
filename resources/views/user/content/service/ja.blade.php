@@ -176,6 +176,18 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <a href="{{ route ('web')}}">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/web.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

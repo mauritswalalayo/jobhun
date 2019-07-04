@@ -15,7 +15,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <br><br>
-                                <h2 align="left">Jobhun Academy : Videographer</h2>
+                                <h2 align="left">Jobhun Academy : Web Developer</h2>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                 <div class="col-lg-12 column">
                     <div class="blog-single">
                         <div class="bs-thumb">
-                            <img src="{{ asset ('user/images/video.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                            <img src="{{ asset ('user/images/web.jpeg')}}" alt="Gambar Web Developer" />
                         </div>
                     </div>
                 </div>
@@ -49,9 +49,24 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p align="justify">Videographer menjadi salah satu profesi yang saat ini banyak dicari. Tidak hanya perusahaan saja yang membutuhkan profesi ini untuk kebutuhan marketing dan branding perusahaan, namun seorang videographer juga bisa bekerja secara mandiri. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang videographer terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar.</p>
-                                <p align="justify">Seorang videographer harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang videographer bersama dengan pakarnya langsung dari agency ternama. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio video yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang videographer melalui program ini.</p>
-                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Videographer ini ? <br>
+                                <p align="justify">Saat ini web developer menjadi salah satu profesi yang banyak dicari.
+                                    Menjamurnya digital startup di kalangan pebisnis membuat banyak perusahaan ingin
+                                    turut serta mendigitalisasi bisnisnya. Di sini, peran seorang web developer sangat
+                                    besar. Mulai dari membantu membangun produk hingga menciptakan berbagai website
+                                    maupun program untuk perusahaan. Tidak hanya perusahaan saja yang membutuhkan
+                                    profesi ini, namun seorang web developer juga bisa bekerja secara mandiri. Profesi
+                                    yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote,
+                                    hingga freelance.</p>
+                                <p align="justify">Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang
+                                    web developer terkadang tidak harus terikat satu perusahaan saja, sehingga
+                                    kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar.
+                                    Seorang web developer harus memiliki beberapa kemampuan agar siap bersaing di
+                                    industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang web developer bersama
+                                    dengan pakarnya langsung. Tidak hanya belajar secara teori saja, namun kamu juga
+                                    akan praktek, sehingga bisa menghasilkan portfolio yang akan digunakan untuk mencari
+                                    kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang
+                                    web developer melalui program ini.</p>
+                                <p>Mengapa kamu harus mengikuti Jobhun Academy: Web Developer ini ? <br>
                                     1. Belajar dengan formula khusus untuk persiapan karier <br>
                                     Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun juga akan
                                     praktek secara langsung untuk menghasilkan portfolio penunjang karier. Kamu juga
@@ -88,80 +103,17 @@
                             <div class="col-lg-8 column">
                                 <div class="job-single-sec">
                                     <div class="job-details">
-                                        <h3>Materi yang akan kamu pelajari</h3>
-                                        <p>Tujuan : Mampu membuat karya dengan menggunakan dan mengkombinasikan prinsip-prinsip dasar dalam videografi</p>
+                                        <h3>Materi yang akan kamu pelajari :</h3>
                                         <p>
-                                            Peralatan videografi
-                                            <ul>
-                                                <li>Mengenal karakteristik kamera – kamera yang sering digunakan dalam videografi</li>
-                                                <li>Membedakan mirrorless dan DSLR</li>
-                                                <li>Mengenal jenis – jenis lensa yang sering dipakai dalam pembuatan video</li>
-                                                <li>Mengenal dan mengaplikasikan aksesoris yang digunakan untuk menunjang kualitas videografi</li>
-                                            </ul>
-                                        </p>
-                                        <p>
-                                            Camera Settings
-                                            <ul>
-                                                <li>Memahami konsep frame per second</li>
-                                                <li>Mengaplikasi satuan frame per second sesuai dengan kebutuhan gambar dengan tepat</li>
-                                                <li>Mengenal mode-mode yang ada dalam kamera</li>
-                                                <li>Memahami pengaturan aperture, shutter speed, ISO dan white balance dalam videografi</li>
-                                            </ul>
-                                        </p>
-                                        <p>
-                                            Type of Shoot
-                                            <ul>
-                                                <li>Mengenal macam-macam tipe dalam pengambilan gambar</li>
-                                                <li>Mengetahui perbedaan dan kegunaan dari masing-masing type of shoot</li>
-                                                <li>Mampu mengaplikasikan masing-masing type of shoot</li>
-                                                <li>Menganalisis aplikasi type of shoot dalam film-film mainstream</li>
-                                            </ul>
-                                        </p>
-                                        <p>
-                                            Camera Angle
-                                            <ul>
-                                                <li>Mengenal macam-macam camera angle</li>
-                                                <li>Mengetahui perbedaan dan kegunaan dari masing-masing camera angle</li>
-                                                <li>Mampu mengaplikasikan masing-masing camera angle berdasarkan kegunaanya</li>
-                                                <li>Menganalisis penggunaan camera angle dalam film-film mainstream</li>
-                                            </ul>
-                                        </p>
-                                        <p>
-                                            Camera Movement
-                                            <ul>
-                                                <li>Mengenal macam-macam camera movement</li>
-                                                <li>Mengetahui perbedaan dan kegunaan dari masing-masing camera movement</li>
-                                                <li>Mampu mengaplikasikan masing-masing camera movement berdasarkan kegunaanya</li>
-                                                <li>Menganalisis penggunaan camera movement dalam film-film mainstream</li>
-                                            </ul>
-                                        </p>
-                                        <p>
-                                            Rule of Third, Lead Room & Head Room
-                                            <ul>
-                                                <li>Mengenal prinsip dasar dan fungsi dari Rule of Third, Lead Room & Head Room</li>
-                                                <li>Mampu mengaplikasikan dan mengkombinasikan 3 prinsip tersebut dalam suatu skena video</li>
-                                            </ul>
-                                        </p>
-                                        <p>
-                                            Concepting & Video Editing
-                                            <ul>
-                                                <li>Memahami cara membreakdown sebuah ide</li>
-                                                <li>Mengenal naskah video</li>
-                                                <li>Menggambar storyboard</li>
-                                                <li>Mengenal berbagai perangkat lunak yang digunakan untuk mengedit sebuah video</li>
-                                                <li>Mengenal prinsip dasar dalam mengedit video</li>
-                                                <li>Memahami perbedaan color correction dan color grading;</li>
-                                                <li>Mengaplikasikan setting dasar untuk input dan output video sesuai dengan kebutuhan platform yang akan dituju</li>
-                                                <li>(Tugas – Opsional) Mengaplikasikan materi dari pertemuan pertama hingga materi video editing dalam durasi 1 menit dan diunggah pada platform instagram</li>
-                                            </ul>
-                                        </p>
-                                        <p>
-                                            Self Branding Videographer
-                                            <ul>
-                                                <li>Memahami prospek profesi videografer</li>
-                                                <li>Mengenal ciri khas dari karya sendiri dan menjadikanya sebagai daya jual</li>
-                                                <li>Tata cara menghitung ongkos produksi untuk suatu acara yang akan didokumentasikan</li>
-                                            </ul>
+                                            1. Dasar pemrograman dengan PHP <br>
+                                            2. Konsep Object Oriented Programming dengan PHP <br>
+                                            3. Standar-standar dalam penulisan kode di PHP <br>
+                                            4. Development PHP saat ini (Modern PHP) <br>
+                                            5. Konsep dasar framework Laravel <br>
+                                            6. Tips dan Clean Code Laravel <br>
+                                            7. Implementasi hasil belajar dengan studi kasus <br>
+                                            8. Menginstall, migration, hingga halaman awal. <br>
+                                            9. Melakukan setting env
                                         </p>
                                     </div>
                                 </div>
@@ -192,7 +144,8 @@
                                         <p>I Made Sindhu Novenda (Videographer at Awatara Pictures)</p>
                                     </div>
                                     <div class="how-works">
-                                        <div class="row"><img src="{{asset ('user/images/mentorvideo.jpeg')}}" alt="Gambar Videographer" /></div>
+                                        <div class="row"><img src="{{asset ('user/images/mentorvideo.jpeg')}}"
+                                                alt="Gambar Videographer" /></div>
                                     </div>
                                 </div>
                             </div>

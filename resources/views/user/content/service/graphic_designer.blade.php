@@ -49,7 +49,7 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p align="left">
+                                <p align="justify">
                                     Graphic designer menjadi salah satu profesi yang terus naik daun. Hampir semua
                                     perusahaan membutuhkan graphic designer untuk kebutuhan promosi maupun branding
                                     perusahaan. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time,
