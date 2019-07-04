@@ -179,15 +179,12 @@ Route::get('user/program/visit', 'ProgramController@indexvisit')->name('program.
 Route::get('user/program/talk', 'ProgramController@indextalk')->name('program.talk');
 Route::get('user/program/detail', 'ProgramController@indexdetail')->name('program.detail');
 
-<<<<<<< HEAD
 //================================ Route Posting Job ===============================
 
 Route::get('postingjob/form', 'PostingJobController@index')->name('formposting');
 Route::get('postingjob/type', 'PostingJobController@indextype')->name('typeposting');
-=======
 
 
 Route::get('/tesvuejs', function () {
     return view('tes');
 });
->>>>>>> origin/master
