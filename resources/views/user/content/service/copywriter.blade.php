@@ -188,8 +188,7 @@
                                 </div>
                                 <div class="job-single-sec">
                                     <h3>Registrasi</h3>
-                                    <p>Untuk daftar Jobhun Academy: Content Writer, silakan mengisi formulir di bawah
-                                        ini.</p>
+                                    <p>Untuk daftar Jobhun Academy: Copywriter, silakan mengisi formulir di bawah ini.</p>
                                 </div>
                             </div>
                         </div>
