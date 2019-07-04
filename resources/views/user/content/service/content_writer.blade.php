@@ -26,12 +26,14 @@
 </section>
 
 <section>
-    <div class="block ">
+    <div class="block">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="how-works">
-                        <div class="row"><img src="{{asset ('user/images/cw.jpeg')}}" alt="" /></div>
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
+                        <div class="bs-thumb">
+                            <img src="{{ asset ('user/images/cw.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -181,8 +183,7 @@
                                         <p>Stella Azasya (Creative Writer at IDN Times)</p>
                                     </div>
                                     <div class="how-works">
-                                        <div class="row"><img src="{{asset ('user/images/mentorcw.jpeg')}}"
-                                                alt="Gambar Content Writer" /></div>
+                                        <div class="row"><img src="{{asset ('user/images/mentorcw.jpeg')}}" alt="Gambar Content Writer"/></div>
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +239,8 @@
                                 </div>
                                 <div class="job-single-sec">
                                     <h3>Registrasi</h3>
-                                    <p>Untuk daftar Jobhun Academy: Content Writer, silakan mengisi formulir di bawah ini.</p>
+                                    <p>Untuk daftar Jobhun Academy: Content Writer, silakan mengisi formulir di bawah
+                                        ini.</p>
                                 </div>
                             </div>
                         </div>

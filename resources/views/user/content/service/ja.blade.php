@@ -144,7 +144,7 @@
             <div class="row">
                 <div class="col-lg-12 column">
                     <div class="blog-single">
-                        <a href="{{ asset ('content_writer')}}" target="_blank">
+                        <a href="{{ route ('content-writer')}}" target="_blank">
                             <div class="bs-thumb">
                                 <img src="{{ asset ('user/images/cw.jpeg')}}" alt="Gambar Testimoni Jobhun Academy"/>
                             </div>
