@@ -210,7 +210,7 @@
                                 <div class="job-single-sec">
                                     <div class="job-details">
                                         <h2>Harga :</h2>
-                                        <h3 style="color:red;">Rp1.200.000,- (Apabila dibayar lunas)</h3>
+                                        <h3 style="color:red;">Rp. 1.200.000,- (Apabila dibayar lunas)</h3>
                                         <p>Bisa dibayar lunas atau dicicil. Jika dicicil, menggunakan skema cicilan
                                             sebagai berikut :
                                             <ul>
