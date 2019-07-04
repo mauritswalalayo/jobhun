@@ -60,6 +60,11 @@ class Homepage_UserController extends Controller
         return view('user.content.service.android');
     }
 
+    public function copywriter()
+    {
+        return view('user.content.service.copywriter');
+    }
+
     // Program
     public function ji()
     {

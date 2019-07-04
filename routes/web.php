@@ -156,6 +156,8 @@ Route::get('/jobhun-academy-web-developer', 'Homepage_UserController@web')->name
 
 Route::get('/jobhun-academy-android-developer', 'Homepage_UserController@android')->name('android');
 
+Route::get('/jobhun-academy-copywriter', 'Homepage_UserController@copywriter')->name('copywriter');
+
 // Program
 Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');
 
