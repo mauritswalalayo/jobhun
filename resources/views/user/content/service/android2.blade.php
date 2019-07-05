@@ -19,12 +19,7 @@
                                     </div>
                                     <div class="col-lg-4">
                                         <a class="apply-thisjob" href="#" title=""><i
-                                                class="la la-paper-plane"></i>Apply
-                                            for job</a>
-                                        <div class="apply-alternative">
-                                            <a href="#" title=""><i class="la la-linkedin"></i> Apply with Linkedin</a>
-                                            <span><i class="la la-heart-o"></i> Shortlist</span>
-                                        </div>
+                                                class="la la-paper-plane"></i>Registrasi</a>
                                     </div>
                                 </div>
                             </div>
