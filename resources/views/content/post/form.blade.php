@@ -74,6 +74,13 @@
                   @endforeach
                 </select>
             </div>
+
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="title">Foto :</label>
+                    <input type="file" name="feature_image" id="foto" cols="30" rows="10" class="form-control">
+                </div>
+            </div>
             
 
         </div>

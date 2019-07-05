@@ -52,11 +52,12 @@ class PostController extends Controller
         $post->url = $url;
         $post->content = $request->content;
         $post->user_id = Auth::user()->id;
-        $post->save();
-        // $image = $post->id.''.$request->file('feature_image')->getClientOriginalExtension();
-        // $request->file('feature_image')->move(public_path('image/post'),$image);
-        // $post->feature_image = $image;
         // $post->save();
+
+        $image = $post->id.''.$request->file('feature_image')->getClientOriginalExtension();
+        $request->file('feature_image')->move(public_path('image/post'),$image);
+        $post->feature_image = $image;
+        $post->save();
 
         $post->tags()->sync($request->tags);
 
