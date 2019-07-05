@@ -93,25 +93,24 @@
                                                 Kamu tidak perlu pusing masalah biaya. Program-program yang ada di
                                                 Jobhun Academy dipatok dengan harga yang terjangkau dan bisa kamu cicil
                                                 dengan skema cicilan yang sangat membantu.</p>
-                                            <h3>Education + Experience</h3>
-                                            <ul>
-                                                <li>Advanced degree or equivalent experience in graphic and web design
-                                                </li>
-                                                <li>3 or more years of professional design experience</li>
-                                                <li>Direct response email experience</li>
-                                                <li>Ecommerce website design experience</li>
-                                                <li>Familiarity with mobile and web apps preferred</li>
-                                                <li>Excellent communication skills, most notably a demonstrated ability
-                                                    to
-                                                    solicit and address creative and design feedback</li>
-                                                <li>Must be able to work under pressure and meet deadlines while
-                                                    maintaining
-                                                    a positive attitude and providing exemplary customer service</li>
-                                                <li>Ability to work independently and to carry out assignments to
-                                                    completion
-                                                    within parameters of instructions given, prescribed routines, and
-                                                    standard accepted practices</li>
-                                            </ul>
+                                            <h3>Materi yang akan kamu pelajari :</h3>
+                                            <p>
+                                                1. Instalasi Intellij Idea <br>
+                                                2. Dasar-dasar pemrograman Java, variabel, tipe data, if else, switch case, for loop <br>
+                                                3. Latihan dasar-dasar perintah sederhana <br>
+                                                4. Pengenalan Android Studio <br>
+                                                5. Dasar-dasar pemrograman Java pada Android <br>
+                                                6. Belajar membuat layout Aplikasi dengan XML <br>
+                                                7. Pengenalan Activity <br>
+                                                8. Pengenalan Intent <br>
+                                                9. Menggunakan listview dan recycleview <br>
+                                                    Pengenalan database SQLite
+                                                    Membuat aplikasi menggunakan SQLite
+                                                    Pengenalan SharedPreference
+                                                    Dasar-dasar background service
+                                                    Membuat aplikasi Alarm
+                                                    Persiapan publish aplikasi ke Playstore
+                                                </p>
                                         </div>
                                         <div class="share-bar">
                                             <span>Share</span><a href="#" title="" class="share-fb"><i
