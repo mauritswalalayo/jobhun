@@ -60,6 +60,16 @@ class Homepage_UserController extends Controller
         return view('user.content.service.android');
     }
 
+    public function android2()
+    {
+        return view('user.content.service.android2');
+    }
+
+    public function ui()
+    {
+        return view('user.content.service.ui');
+    }
+
     public function copywriter()
     {
         return view('user.content.service.copywriter');

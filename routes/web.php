@@ -153,6 +153,10 @@ Route::get('/jobhun-academy-web-developer', 'Homepage_UserController@web')->name
 
 Route::get('/jobhun-academy-android-developer', 'Homepage_UserController@android')->name('android');
 
+Route::get('/jobhun-academy-android-developer2', 'Homepage_UserController@android2')->name('android2');
+
+Route::get('/jobhun-academy-ui-ux-designer', 'Homepage_UserController@ui')->name('ui');
+
 Route::get('/jobhun-academy-copywriter', 'Homepage_UserController@copywriter')->name('copywriter');
 
 Route::get('/jobhun-academy-media-partner', 'Homepage_UserController@media')->name('media');
