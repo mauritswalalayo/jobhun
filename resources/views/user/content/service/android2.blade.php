@@ -27,37 +27,71 @@
                                 <div class="row">
                                     <div class="col-lg-8 column">
                                         <div class="job-details">
-                                            <h3>Job Description</h3>
-                                            <p>Company is a 2016 Iowa City-born start-up that develops consectetuer
-                                                adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec
-                                                urna. In
-                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                                ligula
-                                                sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit
-                                                nunc
-                                                tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
-                                            <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
-                                                luctus
-                                                metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo
-                                                quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.
-                                                Sed
-                                                semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis,
-                                                mi
-                                                neque euismod dui, eu pulvinar nunc sapien</p>
-                                            <h3>Required Knowledge, Skills, and Abilities</h3>
-                                            <ul>
-                                                <li>Ability to write code – HTML & CSS (SCSS flavor of SASS preferred
-                                                    when
-                                                    writing CSS)</li>
-                                                <li>Proficient in Photoshop, Illustrator, bonus points for familiarity
-                                                    with
-                                                    Sketch (Sketch is our preferred concepting)</li>
-                                                <li>Cross-browser and platform testing as standard practice</li>
-                                                <li>Experience using Invision a plus</li>
-                                                <li>Experience in video production a plus or, at a minimum, a
-                                                    willingness to
-                                                    learn</li>
-                                            </ul>
+                                            <h3>Deskripsi</h3>
+                                            <p align="justify">Tidak berbeda jauh dengan web developer, Android
+                                                developer juga menjadi salah satu profesi yang banyak dicari.
+                                                Menjamurnya digital startup di kalangan pebisnis membuat banyak
+                                                perusahaan ingin turut serta mendigitalisasi bisnisnya. Banyak
+                                                perusahaan berlomba-lomba ingin menciptakan sebuah produk melalui
+                                                aplikasi Android. Di sini, peran seorang Android developer sangat besar
+                                                dalam membangun produk sebuah perusahaan. Tidak hanya perusahaan saja
+                                                yang membutuhkan profesi ini, namun seorang Android Developer juga bisa
+                                                bekerja secara mandiri. Profesi yang satu ini juga bisa dijalani dengan
+                                                sistem kerja full time, part time, remote, hingga freelance.</p>
+
+                                            <p align="justify">Prospek karier untuk profesi ini tentu sangat cerah,
+                                                apalagi seorang Android developer terkadang tidak harus terikat satu
+                                                perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang
+                                                lebih banyak akan terbuka lebar. Seorang Android developer harus
+                                                memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun
+                                                Academy, kamu bisa belajar menjadi seorang Android developer bersama
+                                                dengan pakarnya langsung. Tidak hanya belajar secara teori saja, namun
+                                                kamu juga akan praktek, sehingga bisa menghasilkan portfolio yang akan
+                                                digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa
+                                                mempersiapkan karier sebagai seorang Android developer melalui program
+                                                ini.</p>
+
+                                            <h3>Mengapa kamu harus mengikuti Jobhun Academy: Android Developer ini ?
+                                            </h3>
+                                            <p align="justify">1. Belajar dengan formula khusus untuk persiapan karier <br>
+
+                                                Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun
+                                                juga akan praktek secara langsung untuk menghasilkan portfolio penunjang
+                                                karier. Kamu juga bisa sharing bersama mentor untuk membahas persiapan
+                                                karier. <br>
+
+                                                2. Berkesempatan untuk mendapatkan pekerjaan <br>
+
+                                                Jobhun bekerjasama dengan berbagai perusahaan dalam mencari kandidat
+                                                terbaik. Apabila kamu berhasil menyelesaikan program di Jobhun Academy
+                                                dengan baik dan sesuai dengan kriteria yang sedang dicari oleh
+                                                perusahaan, maka Jobhun akan merekomendasikan kamu agar bisa bekerja di
+                                                beberapa company partner Jobhun tersebut. <br>
+
+                                                3. Dibimbing oleh mentor-mentor berkualitas dan berpengalaman <br>
+
+                                                Jobhun selalu berupaya menghadirkan mentor berkualitas dan berpengalaman
+                                                dibidangnya, serta memiliki prestasi di bidang tersebut. <br>
+
+                                                4. Belajar secara optimal dan kondusif <br>
+
+                                                Agar belajar bisa lebih optimal dan kondusif, Jobhun Academy hanya bisa
+                                                diikuti 3-5 orang setiap kelas. Kami percaya bahwa kapasitas kelas yang
+                                                sedikit akan membuat interaksi antara mentor dan mentee menjadi lebih
+                                                intens. <br>
+
+                                                5. Menghasilkan portfolio yang berguna untuk karier <br>
+
+                                                Setelah program Jobhun Academy ini berakhir, mentee akan mendapatkan
+                                                hasil tes, penilaian secara keseluruhan, sertifikat, dan portfolio atau
+                                                karya di masing-masing bidang yang telah dilakukan selama pembelajaran
+                                                dilakukan. <br>
+
+                                                6. Biaya terjangkau dan bisa dicicil <br>
+
+                                                Kamu tidak perlu pusing masalah biaya. Program-program yang ada di
+                                                Jobhun Academy dipatok dengan harga yang terjangkau dan bisa kamu cicil
+                                                dengan skema cicilan yang sangat membantu.</p>
                                             <h3>Education + Experience</h3>
                                             <ul>
                                                 <li>Advanced degree or equivalent experience in graphic and web design
@@ -84,84 +118,12 @@
                                                 class="share-twitter"><i class="fa fa-twitter"></i></a>
                                         </div>
                                         <div class="extra-job-info">
-                                            <span><i class="la la-clock-o"></i><strong>35</strong> Days</span>
+                                            <span><i class="la la-clock-o"></i> <br><br>
+                                                Total 8 kali pertemuan (Jadwal pelaksanaan akan disesuaikan dengan kesepakatan antara mentor dan seluruh peserta yang nantinya sudah mendaftar)</span>
                                             <span><i class="la la-file-text"></i><strong>300-500</strong>
                                                 Application</span>
                                             <span><i class="la la-search-plus"></i><strong>35697</strong>
                                                 Displayed</span>
-                                        </div>
-                                        <div class="recent-jobs">
-                                            <h3>Recent Jobs</h3>
-                                            <div class="job-list-modern">
-                                                <div class="job-listings-sec no-border">
-                                                    <div class="job-listing wtabs">
-                                                        <div class="job-title-sec">
-                                                            <div class="c-logo"> <img src="http://placehold.it/98x51"
-                                                                    alt="" /> </div>
-                                                            <h3><a href="#" title="">Web Designer / Developer</a></h3>
-                                                            <span>Massimo Artemisis</span>
-                                                            <div class="job-lctn"><i
-                                                                    class="la la-map-marker"></i>Sacramento, California
-                                                            </div>
-                                                        </div>
-                                                        <div class="job-style-bx">
-                                                            <span class="job-is ft">Full time</span>
-                                                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                                                            <i>5 months ago</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="job-listing wtabs">
-                                                        <div class="job-title-sec">
-                                                            <div class="c-logo"> <img src="http://placehold.it/98x51"
-                                                                    alt="" /> </div>
-                                                            <h3><a href="#" title="">C Developer (Senior) C .Net</a>
-                                                            </h3>
-                                                            <span>Massimo Artemisis</span>
-                                                            <div class="job-lctn"><i
-                                                                    class="la la-map-marker"></i>Sacramento, California
-                                                            </div>
-                                                        </div>
-                                                        <div class="job-style-bx">
-                                                            <span class="job-is pt ">Part time</span>
-                                                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                                                            <i>5 months ago</i>
-                                                        </div>
-                                                    </div><!-- Job -->
-                                                    <div class="job-listing wtabs">
-                                                        <div class="job-title-sec">
-                                                            <div class="c-logo"> <img src="http://placehold.it/98x51"
-                                                                    alt="" /> </div>
-                                                            <h3><a href="#" title="">Regional Sales Manager South</a>
-                                                            </h3>
-                                                            <span>Massimo Artemisis</span>
-                                                            <div class="job-lctn"><i
-                                                                    class="la la-map-marker"></i>Sacramento, California
-                                                            </div>
-                                                        </div>
-                                                        <div class="job-style-bx">
-                                                            <span class="job-is ft ">Full time</span>
-                                                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                                                            <i>5 months ago</i>
-                                                        </div>
-                                                    </div><!-- Job -->
-                                                    <div class="job-listing wtabs">
-                                                        <div class="job-title-sec">
-                                                            <div class="c-logo"> <img src="http://placehold.it/98x51"
-                                                                    alt="" /> </div>
-                                                            <h3><a href="#" title="">Marketing Dairector</a></h3>
-                                                            <span>Massimo Artemisis</span>
-                                                            <div class="job-lctn"><i
-                                                                    class="la la-map-marker"></i>Sacramento, California
-                                                            </div>
-                                                        </div>
-                                                        <div class="job-style-bx">
-                                                            <span class="job-is ft ">Full time</span>
-                                                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                                                            <i>5 months ago</i>
-                                                        </div>
-                                                    </div><!-- Job -->
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 column">
