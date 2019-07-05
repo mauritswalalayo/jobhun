@@ -114,7 +114,7 @@ class PostController extends Controller
 
     public function post ($filter)
     {
-        if ($filter=='all')
+        if ($filter=='blog')
         {
             $daftar_post = Post::all();
         }

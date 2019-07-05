@@ -45,7 +45,7 @@
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                <a href="{{url('post/all')}}" title="">Blog</a>
+                <a href="{{url('post/blog')}}" title="">Blog</a>
                     <ul>
                         <li><a href="{{ url ('post/cerita_karier')}}">Cerita Karier</a></li>
                         <li><a href="{{ url ('post/infografik')}}">Infografik</a></li>
@@ -96,7 +96,7 @@
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="{{url('post/all')}}" title="">Blog</a>
+                        <a href="{{url('post/blog')}}" title="">Blog</a>
                         <ul>
                             <li><a href="{{ url ('post/cerita-karier')}}">Cerita Karier</a></li>
                             <li><a href="{{ url ('post/infografik')}}">Infografik</a></li>
