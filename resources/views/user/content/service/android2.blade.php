@@ -53,7 +53,8 @@
 
                                             <h3>Mengapa kamu harus mengikuti Jobhun Academy: Android Developer ini ?
                                             </h3>
-                                            <p align="justify">1. Belajar dengan formula khusus untuk persiapan karier <br>
+                                            <p align="justify">1. Belajar dengan formula khusus untuk persiapan karier
+                                                <br>
 
                                                 Di Jobhun Academy, kamu tidak hanya belajar secara teori saja. Namun
                                                 juga akan praktek secara langsung untuk menghasilkan portfolio penunjang
@@ -118,12 +119,15 @@
                                                 class="share-twitter"><i class="fa fa-twitter"></i></a>
                                         </div>
                                         <div class="extra-job-info">
-                                            <span><i class="la la-clock-o"></i> <br><br>
-                                                Total 8 kali pertemuan (Jadwal pelaksanaan akan disesuaikan dengan kesepakatan antara mentor dan seluruh peserta yang nantinya sudah mendaftar)</span>
-                                            <span><i class="la la-file-text"></i><strong>300-500</strong>
-                                                Application</span>
-                                            <span><i class="la la-search-plus"></i><strong>35697</strong>
-                                                Displayed</span>
+                                            <span align="center"><i class="la la-clock-o"></i> <br><br>
+                                                Total 8 kali pertemuan (Jadwal pelaksanaan akan disesuaikan dengan
+                                                kesepakatan antara mentor dan seluruh peserta yang nantinya sudah
+                                                mendaftar)</span>
+                                            <span><i class="la la-map-marker"></i> <br><br> Jobhun Office, Geco
+                                                Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel, Wonokromo,
+                                                Surabaya 60246</span>
+                                            <span><i class="la la-user"></i> <br><br> Muhammad Irsyad (Trainer for
+                                                Android & Co-founder at Lazday Indonesia)</span>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 column">
