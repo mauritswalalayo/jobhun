@@ -202,6 +202,18 @@
             <div class="row">
                 <div class="col-lg-12 column">
                     <div class="blog-single">
+                        <a href="{{ route ('android2')}}" title="android2">
+                            <div class="bs-thumb">
+                                <img src="{{ asset ('user/images/android.jpeg')}}"
+                                    alt="Gambar Testimoni Jobhun Academy" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 column">
+                    <div class="blog-single">
                         <a href="{{ route ('ui')}}">
                             <div class="bs-thumb">
                                 <img src="{{ asset ('user/images/ui.jpeg')}}"
