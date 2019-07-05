@@ -165,7 +165,7 @@ Route::get('/jobhun-talks', 'Homepage_UserController@jt')->name('jt');
 Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');
 
 // Blog
-Route::get('/post/{filter}', 'PostController@post')->name('ck');
+Route::get('/post/{filter}', 'PostController@post')->name('post');
 
 Route::get('/post/show/{url}' , 'PostController@show' );
 

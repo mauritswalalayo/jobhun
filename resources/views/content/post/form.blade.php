@@ -35,9 +35,12 @@
             <div class="form-group">
                 <label>Kriteria</label>
                     <select class="form-control" name="criteria" data-placeholder="Pilih Kriteria" style="width: 100%;"> 
-                        <option value="cerita_karier"> Cerita Karier</option>
-                        <option value="infografik"> Infografik</option>
-                        <option value="karierpedia"> karierpedia</option>
+                        <option value="Cerita-Karier"> Cerita Karier</option>
+                        <option value="Infografik"> Infografik</option>
+                        <option value="Karierpedia"> karierpedia</option>
+                        <option value="Artikel"> Artikel</option>
+                        <option value="Berita-Acara"> Berita-Acara</option>
+                        <option value="Info-Acara"> Info-Acara</option>
                     </select>
             </div>
             

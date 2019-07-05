@@ -16,7 +16,13 @@
 							<div class="col-lg-12">
 								<br><br>
 
-								<h2 align="center">Kategori : Cerita Karier</h2>
+								
+															
+
+								<h2 align="center">Kategori : {{$filter}}</h2>
+
+								
+
 							</div>
 						</div>
 					</div>
@@ -43,8 +49,10 @@
                                         <li><a href="#" title=""><i class="la la-calendar-o"></i>November 23, 2017</a></li>
                                         <li><a class="metascomment" href="#" title=""><i class="la la-comments"></i>4comments</a></li>
                                     </ul>
-                                    <a href="{{url('post/show/'.$post->url)}}"> <h4><strong>{{$post->title}}</strong></h4></a>   
-                                    <p>{!!$post->content!!}</p>
+									<a href="{{url('post/show/'.$post->url)}}"> <h4><strong>{{$post->title}}</strong></h4></a>
+									   
+									<p>{!! str_limit($post->content, 300)!!}</p>
+									
                                     <a class="bbutton" href="#" title="">Read More <i class="la la-long-arrow-right"></i></a>
                                 </div>
                             </div><!-- Blog Post -->
