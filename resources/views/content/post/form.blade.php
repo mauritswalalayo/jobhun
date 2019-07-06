@@ -22,10 +22,10 @@
     </div>
 
     @if (isset($editpost))
-        <form action="{{url('post/'.'update/'.$editpost->id)}}" method="POST">
+        <form action="{{url('post/'.'update/'.$editpost->id)}}" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_method" value="PATCH">
     @else
-        <form action="{{route('post.add')}}" method="POST">
+        <form action="{{route('post.add')}}" method="POST" enctype="multipart/form-data">
     @endif
 
 

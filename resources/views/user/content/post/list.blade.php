@@ -41,8 +41,8 @@
 			<div class="row">
 				<div class="col-lg-12">
                         <div class="blogpost style2">
-                                <div class="blog-posthumb"> <a href="#" title=""><img src="http://placehold.it/322x280"
-                                            alt="" /></a> </div>
+								<div class="blog-posthumb"> <a href="#" title=""><img src="{{asset ('image/post/'.$post->feature_image)}}" 
+									alt="" /></a> </div>
                                 <div class="blog-postdetail">
                                     <ul class="post-metas">
                                         <li><a href="#" title=""><i class="la la-pencil"></i>{{$post->user->name}}</a></li>
