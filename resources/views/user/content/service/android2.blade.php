@@ -2,26 +2,8 @@
 
 @section('content')
 
-<section class="overlape">
-	<div class="block no-padding">
-		<div data-velocity="-.1"
-			style="background: url(http://placehold.it/1600x800) repeat scroll 50% 422.28px transparent;"
-			class="parallax scrolly-invisible no-parallax"></div><!-- PARALLAX BACKGROUND IMAGE -->
-		<div class="container fluid">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="inner-header">
-						<h3>Senior Web Designer</h3>
-						<div class="job-statistic">
-							<span>PART TIME</span>
-							<p><i class="la la-map-marker"></i> Ajax, Ontario</p>
-							<p><i class="la la-calendar-o"></i>Posted 4 years ago</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<section>
+	<div class="block"></div>
 </section>
 
 <section>
@@ -31,14 +13,7 @@
 				<div class="col-lg-8 column">
 					<div class="job-single-sec">
 						<div class="job-single-head">
-							<div class="job-thumb"> <img src="http://placehold.it/107x101" alt="" /> </div>
-							<div class="job-head-info">
-								<h4>Tix Dog</h4>
-								<span>274 Seven Sisters Road, London, N4 2HY</span>
-								<p><i class="la la-unlink"></i> www.jobhunt.com</p>
-								<p><i class="la la-phone"></i> +90 538 963 54 87</p>
-								<p><i class="la la-envelope-o"></i> ali.tufan@jobhunt.com</p>
-							</div>
+							<div class="job-thumb"> <img src="{{ asset ('user/images/android.jpeg')}}" alt="" /> </div>
 						</div><!-- Job Head -->
 						<div class="job-details">
 							<h3>Job Description</h3>
