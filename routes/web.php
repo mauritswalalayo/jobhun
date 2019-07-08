@@ -151,9 +151,7 @@ Route::get('/jobhun-academy-videographer', 'Homepage_UserController@videographer
 
 Route::get('/jobhun-academy-web-developer', 'Homepage_UserController@web')->name('web');
 
-Route::get('/jobhun-academy-android-developer', 'Homepage_UserController@android')->name('android');
-
-Route::get('/jobhun-academy-android-developer2', 'Homepage_UserController@android2')->name('android2');
+Route::get('/jobhun-academy-android-developer', 'Homepage_UserController@android')->name('android2');
 
 Route::get('/jobhun-academy-ui-ux-designer', 'Homepage_UserController@ui')->name('ui');
 
