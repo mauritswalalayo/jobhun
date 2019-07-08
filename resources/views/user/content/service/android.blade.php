@@ -154,7 +154,7 @@
 							<div class="blog-single">
 								<div class="bs-thumb">
 									<img src="{{ asset ('user/images/mentorandroid.jpg')}}"
-										alt="Gambar Web Developer" />
+										alt="Gambar Mentor Android Developer" />
 									<div class="extra-job-info">
 										<span><strong>Muhammad Irsyad</strong> <br>( Trainer for Android & Co-founder at
 											Lazday Indonesia )</span>
