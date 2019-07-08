@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 column">
-                    <a class="apply-thisjob" href="#" title=""><i class="la la-paper-plane"></i>Registrasi</a>
+                    <a class="apply-thisjob" href="#" title=""><i class="la la-paper-plane"></i>Daftar</a>
                     <div class="job-overview">
                         <h3>Keterangan : </h3>
                         <ul>
@@ -177,10 +177,6 @@
                                     <div class="extra-job-info">
                                         <span><strong>Muhammad Amirul Ihsan</strong> <br>( Founder Kawan Koding,
                                             Programming Instructor, Programmer )</span>
-                                    </div>
-                                    <div class="extra-job-info">
-                                        <a class="apply-thisjob" href="#" title=""><i
-                                                class="la la-paper-plane"></i>Daftar</a>
                                     </div>
                                 </div>
                             </div>

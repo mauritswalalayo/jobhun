@@ -165,7 +165,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 column">
-                    <a class="apply-thisjob" href="#" title=""><i class="la la-paper-plane"></i>Registrasi</a>
+                    <a class="apply-thisjob" href="#" title=""><i class="la la-paper-plane"></i>Daftar</a>
                     <div class="job-overview">
                         <h3>Keterangan : </h3>
                         <ul>
@@ -218,11 +218,8 @@
                                     <img src="{{ asset ('user/images/mentorvideo.jpeg')}}"
                                         alt="Gambar Mentor Content Writer" />
                                     <div class="extra-job-info">
-                                        <span><strong>I Made Sindhu Novenda</strong> <br>( Videographer at Awatara Pictures )</span>
-                                    </div>
-                                    <div class="extra-job-info">
-                                        <a class="apply-thisjob" href="#" title=""><i
-                                                class="la la-paper-plane"></i>Daftar</a>
+                                        <span><strong>I Made Sindhu Novenda</strong> <br>( Videographer at Awatara
+                                            Pictures )</span>
                                     </div>
                                 </div>
                             </div>

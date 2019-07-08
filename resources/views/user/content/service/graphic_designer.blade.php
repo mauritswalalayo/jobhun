@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 column">
-                    <a class="apply-thisjob" href="#" title=""><i class="la la-paper-plane"></i>Registrasi</a>
+                    <a class="apply-thisjob" href="#" title=""><i class="la la-paper-plane"></i>Daftar</a>
                     <div class="job-overview">
                         <h3>Keterangan : </h3>
                         <ul>
@@ -238,12 +238,9 @@
                                     <img src="{{ asset ('user/images/mentord.jpg')}}"
                                         alt="Gambar Mentor Content Writer" />
                                     <div class="extra-job-info">
-                                        <span><strong>Yussaq Ali Azlamsyah</strong> <br>( Graphic Designer at Bima Creative )
+                                        <span><strong>Yussaq Ali Azlamsyah</strong> <br>( Graphic Designer at Bima
+                                            Creative )
                                         </span>
-                                    </div>
-                                    <div class="extra-job-info">
-                                        <a class="apply-thisjob" href="#" title=""><i
-                                                class="la la-paper-plane"></i>Daftar</a>
                                     </div>
                                 </div>
                             </div>
