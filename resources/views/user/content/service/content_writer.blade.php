@@ -72,9 +72,7 @@
                             <h3>Materi yang akan kamu pelajari :</h3>
                             <ul>
                                 <li>Mengenal content writing dan mengapa penting untuk mempelajarinya</li>
-                                <li>Mengetahui apa saja tugas dan tanggung jawab seorang content writer. Apa bedanya
-                                    dengan profesi lain yang berkaitan dengan kepenulisan.
-                                </li>
+                                <li>Mengetahui apa saja tugas dan tanggung jawab seorang content writer. Apa bedanya dengan profesi lain yang berkaitan dengan kepenulisan.</li>
                                 <li>Mengetahui urutan jabatan untuk berkarier sebagai content writer</li>
                                 <li>Mengetahui prospek kerja dan peluang-peluang bekerja sebagai content writer</li>
                                 <li>Mengetahui pengetahuan dan keterampilan apa saja yang harus dimiliki oleh seorang content writer</li>
@@ -91,10 +89,9 @@
                                 <li>Menulis konten yang sesuai dengan kaidah SEO</li>
                                 <li>Menulis dengan kaidah penulisan EYD yang baik dan benar. Menulis kalimat yang strukturnya sesuai dan enak dibaca.</li>
                                 <li>Mengetahui cara meminimalisir typo dalam penulisan</li>
-                                <li>Menggunakan WordPress atau CMS lainnya untuk keperluan posting konten secara basic</li>
+                                <li>Menggunakan WordPress atau CMS lainnya untuk keperluan posting konten secara <i>basic</i></li>
                                 <li>Mengecek performa konten, berdasarkan KPI dan Basic Google Analytics.</li>
-                                <li>Mengetahui cara melakukan pengecekan orisinalitas tulisan menggunakan software</li>
-                                <li>Mengetahui hal-hal apa saja yang biasanya diperhatikan oleh editor saat memeriksa konten. Bagian mana saja yang biasanya sering memerlukan revisi.</li>
+                                <li>Mengetahui cara melakukan pengecekan orisinalitas tulisan menggunakan <i>software</i></li>
                                 <li>Mengetahui hal-hal apa saja yang biasanya diperhatikan oleh editor saat memeriksa konten. Bagian mana saja yang biasanya sering memerlukan revisi.</li>
                                 <li>Mengetahui kiat-kiat memilih gambar yang berkualitas dan tepat untuk konten</li>
                                 <li>Mengetahui trik membuat tulisan yang bisa menembus editor, kemudian dimuat di media online berkualitas.</li>
@@ -118,13 +115,13 @@
                         <h3>Keterangan : </h3>
                         <ul>
                             <li><i class="la la-money"></i>
-                                <h3>Rp. 1.500.000,- (Apabila dibayar lunas)</h3>
+                                <h3>Rp. 1.200.000,- (Apabila dibayar lunas)</h3>
                                 <span>Bisa dibayar lunas atau dicicil. Jika dicicil, menggunakan skema cicilan sebagai
                                     berikut : <br>
-                                    1. DP Rp750.000,- (Dibayar sebelum kelas dimulai) <br>
-                                    2. Pembayaran ke-1 Rp280.000,- (Dibayar saat pertemuan kedua) <br>
-                                    3. Pembayaran ke-2 Rp280.000,- (Dibayar saat pertemuan keempat) <br>
-                                    4. Pembayaran ke-3 Rp280.000,-. (Dibayar saat pertemuan keenam)</span>
+                                    1. DP Rp600.000,- (Dibayar sebelum kelas dimulai) <br>
+                                    2. Pembayaran ke-1 Rp224.000,- (Dibayar saat pertemuan kedua) <br>
+                                    3. Pembayaran ke-2 Rp224.000,- (Dibayar saat pertemuan keempat) <br>
+                                    4. Pembayaran ke-3 Rp224.000,-. (Dibayar saat pertemuan keenam)</span>
                             </li>
                             <li><i class="la la-clock-o"></i>
                                 <h3>Waktu Pelaksanaan</h3>
@@ -163,11 +160,10 @@
                         <div class="col-lg-12 column">
                             <div class="blog-single">
                                 <div class="bs-thumb">
-                                    <img src="{{ asset ('user/images/mentorandroid.jpg')}}"
-                                        alt="Gambar Web Developer" />
+                                    <img src="{{ asset ('user/images/mentorcw.jpeg')}}"
+                                        alt="Gambar Mentor Content Writer" />
                                     <div class="extra-job-info">
-                                        <span><strong>Muhammad Irsyad</strong> <br>( Trainer for Android & Co-founder at
-                                            Lazday Indonesia )</span>
+                                        <span><strong>Stella Azasya</strong> <br>(Creative Writer at IDN Times)</span>
                                     </div>
                                     <div class="extra-job-info">
                                         <a class="apply-thisjob" href="#" title=""><i
