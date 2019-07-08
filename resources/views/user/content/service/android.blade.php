@@ -36,7 +36,7 @@
 								Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang Android developer
 								melalui program ini.</p>
 
-							<h3>Mengapa kamu harus mengikuti Jobhun Academy: Android Developer ini ?</h3>
+							<h3>Mengapa kamu harus mengikuti Jobhun Academy : Android Developer ini ?</h3>
 							<p>
 								1. Belajar dengan formula khusus untuk persiapan karier <br>
 
