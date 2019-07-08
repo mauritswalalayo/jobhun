@@ -111,10 +111,10 @@
 								<h3>Rp. 1.500.000,- (Apabila dibayar lunas)</h3>
 								<span>Bisa dibayar lunas atau dicicil. Jika dicicil, menggunakan skema cicilan sebagai
 									berikut : <br>
-									1. DP Rp750.000,- (Dibayar sebelum kelas dimulai) <br>
-									2. Pembayaran ke-1 Rp280.000,- (Dibayar saat pertemuan kedua) <br>
-									3. Pembayaran ke-2 Rp280.000,- (Dibayar saat pertemuan keempat) <br>
-									4. Pembayaran ke-3 Rp280.000,-. (Dibayar saat pertemuan keenam)</span>
+									1. DP Rp. 750.000,- (Dibayar sebelum kelas dimulai) <br>
+									2. Pembayaran ke-1 Rp. 280.000,- (Dibayar saat pertemuan kedua) <br>
+									3. Pembayaran ke-2 Rp. 280.000,- (Dibayar saat pertemuan keempat) <br>
+									4. Pembayaran ke-3 Rp. 280.000,-. (Dibayar saat pertemuan keenam)</span>
 							</li>
 							<li><i class="la la-clock-o"></i>
 								<h3>Waktu Pelaksanaan</h3>

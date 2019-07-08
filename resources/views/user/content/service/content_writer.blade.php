@@ -118,10 +118,10 @@
                                 <h3>Rp. 1.200.000,- (Apabila dibayar lunas)</h3>
                                 <span>Bisa dibayar lunas atau dicicil. Jika dicicil, menggunakan skema cicilan sebagai
                                     berikut : <br>
-                                    1. DP Rp600.000,- (Dibayar sebelum kelas dimulai) <br>
-                                    2. Pembayaran ke-1 Rp224.000,- (Dibayar saat pertemuan kedua) <br>
-                                    3. Pembayaran ke-2 Rp224.000,- (Dibayar saat pertemuan keempat) <br>
-                                    4. Pembayaran ke-3 Rp224.000,-. (Dibayar saat pertemuan keenam)</span>
+                                    1. DP Rp. 600.000,- (Dibayar sebelum kelas dimulai) <br>
+                                    2. Pembayaran ke-1 Rp. 224.000,- (Dibayar saat pertemuan kedua) <br>
+                                    3. Pembayaran ke-2 Rp. 224.000,- (Dibayar saat pertemuan keempat) <br>
+                                    4. Pembayaran ke-3 Rp. 224.000,-. (Dibayar saat pertemuan keenam)</span>
                             </li>
                             <li><i class="la la-clock-o"></i>
                                 <h3>Waktu Pelaksanaan</h3>
@@ -163,7 +163,7 @@
                                     <img src="{{ asset ('user/images/mentorcw.jpeg')}}"
                                         alt="Gambar Mentor Content Writer" />
                                     <div class="extra-job-info">
-                                        <span><strong>Stella Azasya</strong> <br>(Creative Writer at IDN Times)</span>
+                                        <span><strong>Stella Azasya</strong> <br>( Creative Writer at IDN Times )</span>
                                     </div>
                                     <div class="extra-job-info">
                                         <a class="apply-thisjob" href="#" title=""><i
