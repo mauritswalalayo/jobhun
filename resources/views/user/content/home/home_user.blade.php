@@ -169,17 +169,20 @@
                     </div><!-- Heading -->
                     <div class="blog-sec">
                         <div class="row">
+                            
+                            @foreach($daftar_post as $post)
+
                             <div class="col-lg-4">
                                 <div class="my-blog">
                                     <div class="blog-thumb">
-                                        <a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
+                                        <a href="#" title=""><img src="{{asset ('image/post/'.$post->feature_image)}}" alt="" /></a>
                                         <div class="blog-metas">
                                             <a href="#" title="">March 29, 2017</a>
                                             <a href="#" title="">0 Comments</a>
                                         </div>
                                     </div>
                                     <div class="blog-details">
-                                        <h3><a href="#" title="">Attract More Attention Sales And Profits</a>
+                                    <h3><a href="#" title="">{{$post->title}}</a>
                                         </h3>
                                         <p>A job is a regular activity performed in exchange becoming an
                                             employee, volunteering, </p>
@@ -187,40 +190,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
-                                <div class="my-blog">
-                                    <div class="blog-thumb">
-                                        <a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
-                                        <div class="blog-metas">
-                                            <a href="#" title="">March 29, 2017</a>
-                                            <a href="#" title="">0 Comments</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-details">
-                                        <h3><a href="#" title="">11 Tips to Help You Get New Clients</a></h3>
-                                        <p>A job is a regular activity performed in exchange becoming an
-                                            employee, volunteering, </p>
-                                        <a href="#" title="">Read More <i class="la la-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="my-blog">
-                                    <div class="blog-thumb">
-                                        <a href="#" title=""><img src="http://placehold.it/360x200" alt="" /></a>
-                                        <div class="blog-metas">
-                                            <a href="#" title="">March 29, 2017</a>
-                                            <a href="#" title="">0 Comments</a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-details">
-                                        <h3><a href="#" title="">An Overworked Newspaper Editor</a></h3>
-                                        <p>A job is a regular activity performed in exchange becoming an
-                                            employee, volunteering, </p>
-                                        <a href="#" title="">Read More <i class="la la-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+
+                            @endforeach
+
                         </div>
                     </div>
                 </div>
