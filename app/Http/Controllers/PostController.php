@@ -113,7 +113,7 @@ class PostController extends Controller
 
     //=================================================== BLOG ===============================================
 
-    public function blog ($filter)
+    public function post ($filter)
     {
         if ($filter=='blog')
         {
