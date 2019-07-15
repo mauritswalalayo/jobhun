@@ -6,7 +6,8 @@
                     <div class="widget">
                         <div class="about_widget">
                             <div class="logo">
-                                <a href="{{route('index')}}" title=""><img src="{{ asset('user/images/jobhun.png')}}" height="50" alt="" /></a>
+                                <a href="{{route('index')}}" title=""><img src="{{ asset('user/images/jobhun.png')}}"
+                                        height="50" alt="" /></a>
                             </div>
                             <span>Semua hal yang dibutuhkan para pencari kerja maupun perusahaan yang sedang
                                 mencari pekerja ada di Jobhun. Pencari kerja dapat menemukan pekerjaan,
@@ -48,13 +49,25 @@
                         <h3 class="footer-title">Media Sosial Jobhun</h3>
                         <div class="about_widget">
                             <div class="social">
-                                <a href="https://www.youtube.com/channel/UCCzKrMp711xzX8nI8zempKw?view_as=subscriber" target="_blank" title=""><i class="fa fa-youtube"></i></a>
-                                <a href="https://www.instagram.com/jobhun/" target="_blank" title=""><i class="fa fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/company/jobhun-surabaya/" target="_blank" title=""><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.youtube.com/channel/UCCzKrMp711xzX8nI8zempKw?view_as=subscriber"
+                                    target="_blank" title=""><i class="fa fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/jobhun/" target="_blank" title=""><i
+                                        class="fa fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/company/jobhun-surabaya/" target="_blank" title=""><i
+                                        class="fa fa-linkedin"></i></a>
                             </div>
                         </div><!-- About Widget -->
                         <div class="about_widget">
                             <h3 class="footer-title">Dapatkan update terbaru dari Jobhun!</h3>
+                        </div>
+                        <div class="form-group">
+                            <span id="newsletters_buttonwrap">
+                                <input tabindex="953" type="submit" class="button btn btn-primary" name="submit"
+                                    value="Terima Update" id="newsletters-5-button" />
+                            </span>
+                            <span id="newsletters-5-loading" class="newsletters_loading_wrapper" style="display:none;">
+                                <i class="fa fa-refresh fa-spin fa-fw"></i>
+                            </span>
                         </div>
                     </div>
                 </div>
