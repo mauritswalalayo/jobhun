@@ -184,8 +184,7 @@
                                     <div class="blog-details">
                                     <h3><a href="#" title="">{{$post->title}}</a>
                                         </h3>
-                                        <p>A job is a regular activity performed in exchange becoming an
-                                            employee, volunteering, </p>
+                                        <p>{!! str_limit($post->content, 100)!!}</p>
                                         <a href="#" title="">Read More <i class="la la-long-arrow-right"></i></a>
                                     </div>
                                 </div>
