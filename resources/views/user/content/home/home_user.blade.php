@@ -175,9 +175,9 @@
                             <div class="col-lg-4">
                                 <div class="my-blog">
                                     <div class="blog-thumb">
-                                        <a href="#" title=""><img src="{{asset ('image/post/'.$post->feature_image)}}" alt="" /></a>
+                                        <a href="#" title=""><img width="322" height="280" src="{{asset ('image/post/'.$post->feature_image)}}" alt="" /></a>
                                         <div class="blog-metas">
-                                            <a href="#" title="">March 29, 2017</a>
+                                            <a href="#" title="">{{$post->created_at}}</a>
                                             <a href="#" title="">0 Comments</a>
                                         </div>
                                     </div>

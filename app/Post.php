@@ -18,5 +18,5 @@ class Post extends Model
         return $this->belongsTo('App\User');
    }
 
-    public $timestamps = false;
+    public $timestamps = true;
 }

@@ -10,8 +10,8 @@ class Homepage_UserController extends Controller
 {
     public function index()
     {
-        $post = Post::paginate(3);
-        $testimoni = Testimoni::paginate(3);
+        $post = Post::simplepaginate(1);
+        $testimoni = Testimoni::simplepaginate(1);
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
         return view('user.content.home.home_user', ['daftar_post' => $post ,'daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }

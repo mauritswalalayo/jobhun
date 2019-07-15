@@ -41,6 +41,10 @@
                         <option value="Artikel"> Artikel</option>
                         <option value="Berita-Acara"> Berita-Acara</option>
                         <option value="Info-Acara"> Info-Acara</option>
+                        <option value="Jobhun-Internship"> Jobhun Internship</option>
+                        <option value="Jobhun-Talks"> Jobhun-Talks</option>
+                        <option value="Jobhun-Visit"> Jobhun-Visit</option>
+
                     </select>
             </div>
             
