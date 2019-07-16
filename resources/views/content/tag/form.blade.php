@@ -38,9 +38,9 @@
 
         <div class="box-footer">
         @if(isset($edit_tag))
-            <button type="submit" class="btn btn-info pull-right">Submit</button>
+            <button type="submit" class="btn btn-info pull-right">Update</button>
         @else
-        <button type="submit" class="btn btn-info pull-right">Update</button>
+        <button type="submit" class="btn btn-info pull-right">Submit</button>
         @endif
         </div>
     </form>
