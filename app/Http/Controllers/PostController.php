@@ -120,12 +120,21 @@ class PostController extends Controller
             $daftar_post = Post::where('criteria', 'Cerita-Karier')->orWhere('criteria', 'Infografik')->orWhere('criteria', 'Karierpedia')
             ->orWhere('criteria', 'Artikel')->orWhere('criteria', 'Berita-Acara')->orWhere('criteria', 'Info-Acara')->simplePaginate(10);
         }
+
+
+        else if ($filter=='program')
+        {
+            $daftar_post = Post::where('criteria', 'Jobhun-Internship')->orWhere('criteria', 'Jobhun-Talks')
+            ->orWhere('criteria', 'Jobhun-Internship')->simplePaginate(10);
+        }
+
         else {
             $daftar_post = Post::where ('criteria', $filter)->simplePaginate();
         }
 
         return view('user.content.post.list',['daftar_post'=>$daftar_post, 'filter' => $filter]);
     }
+    
 
     public function show ($url)
     {
@@ -134,19 +143,4 @@ class PostController extends Controller
         
     }
 
-//==================================================== PROGRAM ==================================================
-
-    public function program ($filter)
-    {
-        if ($filter=='program')
-        {
-            $daftar_post = Post::where('criteria', 'Jobhun-Internship')->orWhere('criteria', 'Jobhun-Talks')
-            ->orWhere('criteria', 'Jobhun-Internship')->simplePaginate(10);
-        }
-        else {
-            $daftar_post = Post::where ('criteria', $filter)->simplePaginate();
-        }
-
-        return view('user.content.post.list',['daftar_post'=>$daftar_post, 'filter' => $filter]);
-    }    
 }
