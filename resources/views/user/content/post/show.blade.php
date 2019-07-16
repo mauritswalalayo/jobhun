@@ -53,6 +53,41 @@
 				 				<div class="post-hist next">
 				 					<a href="#" title=""><span class="post-histext">Next Post<i>11 Tips to Help You Get New</i></span><i class="la la-arrow-right"></i></a>
 				 				</div>
+                             </div>
+                             
+                             <div class="commentform-sec">
+				 				<h3>Leave a Reply</h3>
+				 				<form>
+				 					<div class="row">
+				 						<div class="col-lg-8">
+					 						<span class="pf-title">Description</span>
+					 						<div class="pf-field">
+					 							<textarea></textarea>
+					 						</div>
+					 					</div>
+					 					<div class="col-lg-8">
+					 						<span class="pf-title">Full Name</span>
+					 						<div class="pf-field">
+					 							<input type="text" placeholder="ALi TUFAN" />
+					 						</div>
+					 					</div>
+					 					<div class="col-lg-8">
+					 						<span class="pf-title">Email</span>
+					 						<div class="pf-field">
+					 							<input type="text" placeholder="" />
+					 						</div>
+					 					</div>
+					 					<div class="col-lg-8">
+					 						<span class="pf-title">Phone</span>
+					 						<div class="pf-field">
+					 							<input type="text" placeholder="" />
+					 						</div>
+					 					</div>
+					 					<div class="col-lg-12">
+					 						<button type="submit">Post Comment</button>
+					 					</div>
+				 					</div>
+				 				</form>
 				 			</div>
 				 		
 				 		
