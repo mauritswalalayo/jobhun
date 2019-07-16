@@ -12,7 +12,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="inner-header">
-							<h3>Blog</h3>
+							<h3>Cerita Karier</h3>
 						</div>
 					</div>
 				</div>
@@ -54,91 +54,8 @@
 				 					<a href="#" title=""><span class="post-histext">Next Post<i>11 Tips to Help You Get New</i></span><i class="la la-arrow-right"></i></a>
 				 				</div>
 				 			</div>
-				 			<div class="comment-sec">
-				 				<h3>4 Comments</h3>
-				 				<ul>
-				 					<li>
-				 						<div class="comment">
-				 							<div class="comment-avatar"> <img src="http://placehold.it/90x90" alt="" /> </div>
-				 							<div class="comment-detail">
-				 								<h3>Ali TUFAN</h3>
-				 								<div class="date-comment"><a href="#" title=""><i class="la la-calendar-o"></i>Jan 16, 2016 07:48 am</a></div>
-				 								<p>Far much that one rank beheld bluebird after outside ignobly allegedly more when oh arrogantly vehement tantaneously eel valiantly petted this along across highhandedly much. </p>
-				 								<a href="#" title=""><i class="la la-reply"></i>Reply</a>
-				 							</div>
-				 						</div>
-				 						<ul class="comment-child">
-				 							<li>
-				 								<div class="comment">
-						 							<div class="comment-avatar"> <img src="http://placehold.it/90x90" alt="" /> </div>
-						 							<div class="comment-detail">
-						 								<h3>Rachel LOIS</h3>
-						 								<div class="date-comment"><a href="#" title=""><i class="la la-calendar-o"></i>Jan 16, 2016 07:48 am</a></div>
-						 								<p>Far much that one rank beheld bluebird after outside ignobly allegedly more when oh arrogantly vehement tantaneously eel valiantly petted this along across highhandedly much. </p>
-						 								<a href="#" title=""><i class="la la-reply"></i>Reply</a>
-						 							</div>
-						 						</div>
-				 							</li>
-				 						</ul>
-				 					</li>
-				 					<li>
-				 						<div class="comment">
-				 							<div class="comment-avatar"> <img src="http://placehold.it/90x90" alt="" /> </div>
-				 							<div class="comment-detail">
-				 								<h3>Kate ROSELINE</h3>
-				 								<div class="date-comment"><a href="#" title=""><i class="la la-calendar-o"></i>Jan 16, 2016 07:48 am</a></div>
-				 								<p>Far much that one rank beheld bluebird after outside ignobly allegedly more when oh arrogantly vehement tantaneously eel valiantly petted this along across highhandedly much. </p>
-				 								<a href="#" title=""><i class="la la-reply"></i>Reply</a>
-				 							</div>
-				 						</div>
-				 					</li>
-				 					<li>
-				 						<div class="comment">
-				 							<div class="comment-avatar"> <img src="http://placehold.it/90x90" alt="" /> </div>
-				 							<div class="comment-detail">
-				 								<h3>Luis DANIEL</h3>
-				 								<div class="date-comment"><a href="#" title=""><i class="la la-calendar-o"></i>Jan 16, 2016 07:48 am</a></div>
-				 								<p>Far much that one rank beheld bluebird after outside ignobly allegedly more when oh arrogantly vehement tantaneously eel valiantly petted this along across highhandedly much. </p>
-				 								<a href="#" title=""><i class="la la-reply"></i>Reply</a>
-				 							</div>
-				 						</div>
-				 					</li>
-				 				</ul>
-				 			</div>
-				 			<div class="commentform-sec">
-				 				<h3>Leave a Reply</h3>
-				 				<form>
-				 					<div class="row">
-				 						<div class="col-lg-12">
-					 						<span class="pf-title">Description</span>
-					 						<div class="pf-field">
-					 							<textarea></textarea>
-					 						</div>
-					 					</div>
-					 					<div class="col-lg-8">
-					 						<span class="pf-title">Full Name</span>
-					 						<div class="pf-field">
-					 							<input type="text" placeholder="ALi TUFAN" />
-					 						</div>
-					 					</div>
-					 					<div class="col-lg-8">
-					 						<span class="pf-title">Email</span>
-					 						<div class="pf-field">
-					 							<input type="text" placeholder="" />
-					 						</div>
-					 					</div>
-					 					<div class="col-lg-8">
-					 						<span class="pf-title">Phone</span>
-					 						<div class="pf-field">
-					 							<input type="text" placeholder="" />
-					 						</div>
-					 					</div>
-					 					<div class="col-lg-12">
-					 						<button type="submit">Post Comment</button>
-					 					</div>
-				 					</div>
-				 				</form>
-				 			</div>
+				 		
+				 		
 				 		</div>
 					</div>
 					<aside class="col-lg-3 column">
@@ -195,15 +112,7 @@
 				 				<a href="#" title=""><i class="la la-angle-right"></i>July 2013</a>
 				 			</div>
 				 		</div>
-				 		<div class="widget">
-				 			<h3>Meta</h3>
-				 			<div class="sidebar-links">
-				 				<a href="#" title=""><i class="la la-angle-right"></i>Log in</a>
-				 				<a href="#" title=""><i class="la la-angle-right"></i>Entries RSS</a>
-				 				<a href="#" title=""><i class="la la-angle-right"></i>Comments RSS</a>
-				 				<a href="#" title=""><i class="la la-angle-right"></i>WordPress.org</a>
-				 			</div>
-				 		</div>
+				 		
 				 		<div class="widget">
 				 			<h3>Our Photo</h3>
 				 			<div class="photo-widget">
@@ -217,17 +126,7 @@
 				 				</div>
 				 			</div>
 				 		</div>
-				 		<div class="widget">
-				 			<h3>Tags</h3>
-				 			<div class="tags_widget">
-				 				<a href="#" title="">Adwords</a>
-				 				<a href="#" title="">Sales</a>
-				 				<a href="#" title="">Travel</a>
-				 				<a href="#" title="">Our Blog</a>
-				 				<a href="#" title="">Trade</a>
-				 				<a href="#" title="">Traffic</a>
-				 			</div>
-				 		</div>
+				
 					</aside>
 				 </div>
 			</div>
