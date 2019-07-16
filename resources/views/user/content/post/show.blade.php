@@ -31,6 +31,7 @@
 				 			
                              <h1>{!! $post->content !!}</h1>
                              
+                             
                              <div class="tags-share">
 						 			<div class="tags_widget">
 						 				<span>Tags</span>
