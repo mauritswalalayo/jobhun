@@ -37,7 +37,7 @@
 							<li><a href="#" title=""><i class="la la-file-text"></i>Travel, Skill, Jobs</a></li>
 						</ul>
 
-						<h1>{!! $post->content !!}</h1>
+						<p style="color:black;">{!! $post->content !!}</p>
 
 						<div class="tags-share">
 							<div class="tags_widget">
