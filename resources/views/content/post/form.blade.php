@@ -22,10 +22,10 @@
     </div>
 
     @if (isset($editpost))
-        <form action="{{url('post/'.'update/'.$editpost->id)}}" method="POST">
+        <form action="{{url('post/'.'update/'.$editpost->id)}}" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_method" value="PATCH">
     @else
-        <form action="{{route('post.add')}}" method="POST">
+        <form action="{{route('post.add')}}" method="POST" enctype="multipart/form-data">
     @endif
 
 
@@ -35,9 +35,16 @@
             <div class="form-group">
                 <label>Kriteria</label>
                     <select class="form-control" name="criteria" data-placeholder="Pilih Kriteria" style="width: 100%;"> 
-                        <option value="cerita_karier"> Cerita Karier</option>
-                        <option value="infografik"> Infografik</option>
-                        <option value="karierpedia"> karierpedia</option>
+                        <option value="Cerita-Karier"> Cerita Karier</option>
+                        <option value="Infografik"> Infografik</option>
+                        <option value="Karierpedia"> karierpedia</option>
+                        <option value="Artikel"> Artikel</option>
+                        <option value="Berita-Acara"> Berita-Acara</option>
+                        <option value="Info-Acara"> Info-Acara</option>
+                        <option value="Jobhun-Internship"> Jobhun Internship</option>
+                        <option value="Jobhun-Talks"> Jobhun-Talks</option>
+                        <option value="Jobhun-Visit"> Jobhun-Visit</option>
+
                     </select>
             </div>
             
@@ -70,6 +77,13 @@
                     >{{$tag->name}}</option>
                   @endforeach
                 </select>
+            </div>
+
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="title">Foto :</label>
+                    <input type="file" name="feature_image" id="foto" cols="30" rows="10" class="form-control">
+                </div>
             </div>
             
 

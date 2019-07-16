@@ -22,7 +22,7 @@ class TestimoniController extends Controller
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
         return view('content.testimoni.table',['daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }
- 
+
     public function form ()
     {
         return view ('content.testimoni.form');
@@ -53,7 +53,7 @@ class TestimoniController extends Controller
     {
         $testimoni = testimoni::find($id);
         $testimoni->delete();
-        
+
         return redirect()->route('testimoni.table');
 
     }
@@ -71,8 +71,4 @@ class TestimoniController extends Controller
         $testimoni->save();
         return redirect()->route('testimoni.table');
     }
-
-
-
-
 }

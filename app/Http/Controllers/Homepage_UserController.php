@@ -4,14 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Testimoni;
+use App\Post;
 
 class Homepage_UserController extends Controller
 {
     public function index()
     {
-        $testimoni = Testimoni::paginate();
+        $post = Post::simplepaginate(1);
+        $testimoni = Testimoni::simplepaginate(1);
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
-        return view('user.content.home.home_user', ['daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
+        return view('user.content.home.home_user', ['daftar_post' => $post ,'daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }
 
     public function tentang()
@@ -58,6 +60,11 @@ class Homepage_UserController extends Controller
     public function android()
     {
         return view('user.content.service.android');
+    }
+
+    public function ui()
+    {
+        return view('user.content.service.ui');
     }
 
     public function copywriter()

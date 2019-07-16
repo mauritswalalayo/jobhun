@@ -153,6 +153,8 @@ Route::get('/jobhun-academy-web-developer', 'Homepage_UserController@web')->name
 
 Route::get('/jobhun-academy-android-developer', 'Homepage_UserController@android')->name('android');
 
+Route::get('/jobhun-academy-ui-ux-designer', 'Homepage_UserController@ui')->name('ui');
+
 Route::get('/jobhun-academy-copywriter', 'Homepage_UserController@copywriter')->name('copywriter');
 
 Route::get('/jobhun-academy-media-partner', 'Homepage_UserController@media')->name('media');
@@ -165,7 +167,7 @@ Route::get('/jobhun-talks', 'Homepage_UserController@jt')->name('jt');
 Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');
 
 // Blog
-Route::get('/post/{filter}', 'PostController@post')->name('ck');
+Route::get('/post/{filter}', 'PostController@post')->name('post');
 
 Route::get('/post/show/{url}' , 'PostController@show' );
 

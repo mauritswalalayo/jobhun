@@ -19,7 +19,7 @@ class CreatePostsTable extends Migration
             $table->string('criteria');
             $table->string('title');
             $table->string('url');
-            $table->string('feature_image')->nullable();
+            $table->string('feature_image');
             $table->text('content');
             $table->timestamps();
 

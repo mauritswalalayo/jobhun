@@ -52,11 +52,12 @@ class PostController extends Controller
         $post->url = $url;
         $post->content = $request->content;
         $post->user_id = Auth::user()->id;
-        $post->save();
-        // $image = $post->id.''.$request->file('feature_image')->getClientOriginalExtension();
-        // $request->file('feature_image')->move(public_path('image/post'),$image);
-        // $post->feature_image = $image;
         // $post->save();
+
+        $image = $post->id.''.$request->file('feature_image')->getClientOriginalExtension();
+        $request->file('feature_image')->move(public_path('image/post'),$image);
+        $post->feature_image = $image;
+        $post->save();
 
         $post->tags()->sync($request->tags);
 
@@ -114,12 +115,13 @@ class PostController extends Controller
 
     public function post ($filter)
     {
-        if ($filter=='all')
+        if ($filter=='blog')
         {
-            $daftar_post = Post::all();
+            $daftar_post = Post::where('criteria', 'Cerita-Karier')->orWhere('criteria', 'Infografik')->orWhere('criteria', 'Karierpedia')
+            ->orWhere('criteria', 'Artikel')->orWhere('criteria', 'Berita-Acara')->orWhere('criteria', 'Info-Acara')->simplePaginate(10);
         }
         else {
-            $daftar_post = Post::where ('criteria', $filter)->get();
+            $daftar_post = Post::where ('criteria', $filter)->simplePaginate();
         }
 
         return view('user.content.post.list',['daftar_post'=>$daftar_post, 'filter' => $filter]);
@@ -131,4 +133,20 @@ class PostController extends Controller
         return view('user.content.post.show',['post'=>$post]);
         
     }
+
+//==================================================== PROGRAM ==================================================
+
+    public function program ($filter)
+    {
+        if ($filter=='program')
+        {
+            $daftar_post = Post::where('criteria', 'Jobhun-Internship')->orWhere('criteria', 'Jobhun-Talks')
+            ->orWhere('criteria', 'Jobhun-Internship')->simplePaginate(10);
+        }
+        else {
+            $daftar_post = Post::where ('criteria', $filter)->simplePaginate();
+        }
+
+        return view('user.content.post.list',['daftar_post'=>$daftar_post, 'filter' => $filter]);
+    }    
 }
