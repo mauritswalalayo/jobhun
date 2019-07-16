@@ -37,7 +37,7 @@
 							<li><a href="#" title=""><i class="la la-file-text"></i>Travel, Skill, Jobs</a></li>
 						</ul>
 
-						<p style="color:black;">{!! $post->content !!}</p>
+						<p style="color:black; ">{!! $post->content !!}</p>
 
 						<div class="tags-share">
 							<div class="tags_widget">
@@ -107,10 +107,10 @@
 				 		<div class="blog-single">
 				 			<div class="bs-thumb"><img src="http://placehold.it/834x340" alt="" /></div>
 				 			<ul class="post-metas"><li><a href="#" title=""><img src="http://placehold.it/40x40" alt="" />Ali TUFAN</a></li><li><a href="#" title=""><i class="la la-calendar-o"></i>{{$post->created_at}}</a></li><li><a class="metascomment" href="#" title=""><i class="la la-comments"></i>4 comments</a></li><li><a href="#" title=""><i class="la la-file-text"></i>Travel, Skill, Jobs</a></li></ul>
-				 			
+
                              <h1>{!! $post->content !!}</h1>
-                             
-                             
+
+
                              <div class="tags-share">
 						 			<div class="tags_widget">
 						 				<span>Tags</span>
@@ -130,7 +130,7 @@
 				 					<a href="#" title=""><span class="post-histext">Next Post<i>11 Tips to Help You Get New</i></span><i class="la la-arrow-right"></i></a>
 				 				</div>
                              </div>
-                             
+
                              <div class="commentform-sec">
 				 				<h3>Leave a Reply</h3>
 				 				<form>
@@ -165,8 +165,8 @@
 				 					</div>
 				 				</form>
 				 			</div>
-				 		
-				 		
+
+
 				 		</div>
 					</div>
 				</div>
