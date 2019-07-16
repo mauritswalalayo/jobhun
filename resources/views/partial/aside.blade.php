@@ -15,7 +15,7 @@
         <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             <li class="treeview">
-                <a href="{{route('home')}}">
+                <a href="{{route('beranda')}}">
                     <i class="glyphicon glyphicon-home"></i> <span>Beranda</span>
                     <span class="pull-right-container">
                     </span>
