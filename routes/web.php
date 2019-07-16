@@ -160,9 +160,6 @@ Route::get('/jobhun-academy-copywriter', 'Homepage_UserController@copywriter')->
 Route::get('/jobhun-academy-media-partner', 'Homepage_UserController@media')->name('media');
 
 // Program
-Route::get('/jobhun-internship', 'Homepage_UserController@ji')->name('ji');
-
-Route::get('/jobhun-talks', 'Homepage_UserController@jt')->name('jt');
 
 Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');
 
