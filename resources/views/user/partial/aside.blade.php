@@ -39,8 +39,8 @@
                 <li class="menu-item-has-children">
                 <a href="{{url('post/program')}}" title="">Program</a>
                     <ul>
-                        <li><a href="{{ route ('ji')}}" title="">Jobhun Internship</a></li>
-                        <li><a href="{{ route ('jt')}}" title="">Jobhun Talks</a></li>
+                        <li><a href="{{ url ('post/jobhun-internship')}}" title="">Jobhun Internship</a></li>
+                        <li><a href="{{ url ('post/jobhun-talks')}}" title="">Jobhun Talks</a></li>
                         <li><a href="{{ route ('jv')}}" title="">Jobhun Visit</a></li>
                     </ul>
                 </li>
