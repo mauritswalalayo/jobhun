@@ -11,7 +11,7 @@
                         <div class="new-slide-3">
                             <img src="{{ asset ('user/images/depan.jpg')}}" height="550" alt="" />
                         </div>
-                        {{-- <div class="job-search-sec">
+                        <div class="job-search-sec">
                             <div class="job-search">
                                 <h3>Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</h3>
                                 <span>Dapatkan pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
@@ -41,7 +41,7 @@
                                     </div>
                                 </form>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>
