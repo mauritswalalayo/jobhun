@@ -11,7 +11,7 @@
                         <div class="new-slide-3">
                             <img src="{{ asset ('user/images/depan.jpg')}}" height="550" alt="" />
                         </div>
-                        <div class="job-search-sec">
+                        {{-- <div class="job-search-sec">
                             <div class="job-search">
                                 <h3>Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</h3>
                                 <span>Dapatkan pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
@@ -40,12 +40,8 @@
                                         </div>
                                     </div>
                                 </form>
-                                <div class="or-browser">
-                                    <span>Browse job offers by</span>
-                                    <a href="#" title="">Category</a>
-                                </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -169,20 +165,21 @@
                     </div><!-- Heading -->
                     <div class="blog-sec">
                         <div class="row">
-                            
+
                             @foreach($daftar_post as $post)
 
                             <div class="col-lg-4">
                                 <div class="my-blog">
                                     <div class="blog-thumb">
-                                        <a href="#" title=""><img width="322" height="280" src="{{asset ('image/post/'.$post->feature_image)}}" alt="" /></a>
+                                        <a href="#" title=""><img width="322" height="280"
+                                                src="{{asset ('image/post/'.$post->feature_image)}}" alt="" /></a>
                                         <div class="blog-metas">
                                             <a href="#" title="">{{$post->created_at}}</a>
                                             <a href="#" title="">0 Comments</a>
                                         </div>
                                     </div>
                                     <div class="blog-details">
-                                    <h3><a href="#" title="">{{$post->title}}</a>
+                                        <h3><a href="#" title="">{{$post->title}}</a>
                                         </h3>
                                         <p>{!! str_limit($post->content, 100)!!}</p>
                                         <a href="#" title="">Read More <i class="la la-long-arrow-right"></i></a>
@@ -217,7 +214,7 @@
                         @foreach($daftar_testimoni as $testimoni)
                         <div class="col-lg-6">
                             <div class="reviews">
-                                <img src="{{asset ('image/testimoni/'.$testimoni->foto)}}" alt="" >
+                                <img src="{{asset ('image/testimoni/'.$testimoni->foto)}}" alt="">
                                 <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
                                 <p>{{$testimoni->testimoni}}</p>
                             </div><!-- Reviews -->
@@ -304,7 +301,8 @@
                 <div class="col-lg-12">
                     <div class="comp-sec">
                         <div class="company-img">
-                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img src="{{ asset('user/images/lazday.png')}}" alt=""/></a>
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                         <div class="company-img">
                             <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img

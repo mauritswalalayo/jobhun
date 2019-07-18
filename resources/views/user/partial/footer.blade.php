@@ -57,18 +57,9 @@
                                         class="fa fa-linkedin"></i></a>
                             </div>
                         </div><!-- About Widget -->
-                        <div class="about_widget">
+                        {{-- <div class="about_widget">
                             <h3 class="footer-title">Dapatkan update terbaru dari Jobhun!</h3>
-                        </div>
-                        <div class="form-group">
-                            <span id="newsletters_buttonwrap">
-                                <input tabindex="953" type="submit" class="button btn btn-primary" name="submit"
-                                    value="Terima Update" id="newsletters-5-button" />
-                            </span>
-                            <span id="newsletters-5-loading" class="newsletters_loading_wrapper" style="display:none;">
-                                <i class="fa fa-refresh fa-spin fa-fw"></i>
-                            </span>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 {{-- <div class="col-lg-3 column">
