@@ -17,7 +17,7 @@
 								<br><br>
 
 								<h2 align="center">Kategori : Jobhun Visit</h2>
-								<p align="justify">
+								<p align="justify" >
                                         Jobhun Visit merupakan sebuah program kunjungan ke kantor-kantor atau instansi yang dilakukan oleh tim inti Jobhun, para intern, maupun followers yang beruntung. Program ini dibuat untuk memperkenalkan dunia kerja yang sesungguhnya kepada para pencari kerja. Mereka akan diajak melihat secara langsung suasana kerja yang ada di perusahaan-perusahaan, kemudian menggali lebih jauh tentang profesi-profesi yang ada pada perusahaan tersebut. Untuk mengetahui informasi Jobhun Visit lebih detail, kamu bisa melihat update konten di bawah ini.
 								</p>
 							</div>

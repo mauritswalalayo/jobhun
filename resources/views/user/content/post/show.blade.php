@@ -22,6 +22,9 @@
 	</div>
 </section>
 
+
+
+
 <section>
 	<div class="block">
 		<div class="container">
@@ -37,7 +40,7 @@
 							<li><a href="#" title=""><i class="la la-file-text"></i>Travel, Skill, Jobs</a></li>
 						</ul>
 
-						<p style="color:black; ">{!! $post->content !!}</p>
+						<h3 style="color:black;">{!!$post->content!!}</h3>
 
 						<div class="tags-share">
 							<div class="tags_widget">

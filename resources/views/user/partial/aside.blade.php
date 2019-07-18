@@ -41,7 +41,7 @@
                     <ul>
                         <li><a href="{{ url ('post/jobhun-internship')}}" title="">Jobhun Internship</a></li>
                         <li><a href="{{ url ('post/jobhun-talks')}}" title="">Jobhun Talks</a></li>
-                        <li><a href="{{ route ('jv')}}" title="">Jobhun Visit</a></li>
+                        <li><a href="{{ url ('post/jobhun-visit')}}" title="">Jobhun Visit</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
@@ -92,7 +92,7 @@
                         <ul>
                             <li><a href="{{ url ('post/jobhun-internship')}}" title="">Jobhun Internship</a></li>
                             <li><a href="{{ url ('post/jobhun-talks')}}" title="">Jobhun Talks</a></li>
-                            <li><a href="{{ route ('jv')}}" title="">Jobhun Visit</a></li>
+                            <li><a href="{{ url ('post/jobhun-visit')}}" title="">Jobhun Visit</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">

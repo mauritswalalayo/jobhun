@@ -14,14 +14,50 @@
 							<div class="col-lg-7">
 							</div>
 							<div class="col-lg-12">
-								<br><br>
-
-								
-															
+								<br><br>					
 
 								<h2 align="center">Kategori : {{$filter}}</h2>
 
+									
+								@if($filter=='jobhun-internship')
+					
+								<p align="justify" style="color:black">
+									Sebuah program magang dari Jobhun yang ditujukan bagi para pelajar atau mahasiswa,
+									dengan rentang usia 15-22 tahun. Posisi magang yang dibuka biasanya menyesuaikan
+									kebutuhan proyek Jobhun, seperti content writer, social media specialist, graphic
+									designer, videographer, creative team, business development, marketing, hingga
+									technical. Dalam program ini, mereka akan mendapatkan pelatihan atau mentoring
+									beberapa topik (kepenulisan, desain, social media management, pembuatan acara, dll).
+									Mereka juga berkesempatan untuk membantu tim inti Jobhun mengerjakan beberapa proyek
+									dan pekerjaan rutin. Para pemagang juga berkesempatan untuk menjadi tim Jobhun
+									setelah program selesai, apabila memenuhi kriteria. Untuk mengetahui informasi
+									Jobhun Internship lebih detail, kamu bisa melihat update konten di bawah ini.
+								</p>
+
+								@elseif($filter=='jobhun-talks')
+								<p align="justify" style="color:black" >
+									Jobhun Talks merupakan sebuah sharing session yang ditujukan untuk umum, 
+									biasanya mengambil topik yang berkaitan dengan dunia kerja maupun pengembangan skill. 
+									Topik dibawakan oleh orang yang ahli dalam bidangnya, sesuai dengan topik. 
+									Inti pembicaraan kegiatan lebih kepada motivasi, tips dan trik, atau gambaran umum 
+									sebuah profesi atau hal-hal yang berkaitan dengan dunia karier. Untuk mengetahui informasi 
+									Jobhun Talks lebih detail, kamu bisa melihat update konten di bawah ini.
+								</p>
+
+								@elseif($filter=='jobhun-talks')
+								<p align="justify" style="color:black">
+									Jobhun Visit merupakan sebuah program kunjungan ke kantor-kantor atau instansi 
+									yang dilakukan oleh tim inti Jobhun, para intern, maupun followers yang beruntung. 
+									Program ini dibuat untuk memperkenalkan dunia kerja yang sesungguhnya kepada para pencari kerja. 
+									Mereka akan diajak melihat secara langsung suasana kerja yang ada di perusahaan-perusahaan, 
+									kemudian menggali lebih jauh tentang profesi-profesi yang ada pada perusahaan tersebut. 
+									Untuk mengetahui informasi Jobhun Visit lebih detail, kamu bisa melihat update konten di bawah ini.
+								</p>
 								
+								@endisset
+								
+
+
 
 							</div>
 						</div>
@@ -33,8 +69,6 @@
 </section>
 
 <section>
-
-    
     
     <div class="block">
 		<div class="container">
@@ -54,7 +88,7 @@
 									   
 									<p>{!! str_limit($post->content, 300)!!}</p>
 									
-                                    <a class="bbutton" href="#" title="">Read More <i class="la la-long-arrow-right"></i></a>
+                                    <a class="bbutton" href="{{url('post/show/'.$post->url)}}" title="">Read More <i class="la la-long-arrow-right"></i></a>
                                 </div>
                             </div><!-- Blog Post -->
 						@endforeach
@@ -80,6 +114,7 @@
 	
 </section>
 @endsection
+
 
 
 {{-- @foreach ($daftar_post as $post)
