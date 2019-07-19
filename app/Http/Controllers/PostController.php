@@ -115,6 +115,7 @@ class PostController extends Controller
 
     public function post ($filter)
     {
+        
         if ($filter=='blog')
         {
             $daftar_post = Post::where('criteria', 'Cerita-Karier')->orWhere('criteria', 'Infografik')->orWhere('criteria', 'Karierpedia')
