@@ -59,66 +59,31 @@
                         {{-- <span>Leading Employers already using job and talent.</span> --}}
                     </div><!-- Heading -->
                     <div class="job-listings-sec">
-                        <div class="job-listing">
-                            <div class="job-title-sec">
-                                <div class="c-logo"> <img src="http://placehold.it/98x51" alt="" /> </div>
-                                <h3><a href="#" title="">Web Designer / Developer</a></h3>
-                                <span>Surabaya</span>
+
+                        <div class="job-grid-sec">
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="job-grid border">
+                                        <div class="job-title-sec">
+                                            <div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
+                                                <h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+                                            <ul class="tags-jobs">
+                                                <li><i class="la la-map-marker"></i> Surabaya</li>
+                                                <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
+                                            </ul>
+                                            {{-- <span>Massimo Artemisis</span> --}}
+                                            <span class="fav-job"><i class="la la-heart-o"></i></span>
+                                        </div>
+                                        <span class="job-lctn">Tuupai adalah cara baru dan praktis untuk mencari segala
+                                                    macam penyedia jasa profesional di sekitar Anda. Tuupai berbasismobile service
+                                                    marketplace yang mana secara langsung bisa menghubungkan ...... </span>
+                                        <a href="{{ route ('spek_jch')}}" title="">Read More</a>
+                                    </div><!-- JOB Grid -->
+                                </div>
+                                
                             </div>
-                            <span class="job-lctn"><i class="la la-map-marker"></i>Jl. Ngagel</span>
-                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                            <span class="job-is ft">FULL TIME</span>
-                        </div><!-- Job -->
-                        <div class="job-listing">
-                            <div class="job-title-sec">
-                                <div class="c-logo"> <img src="http://placehold.it/98x51" alt="" /> </div>
-                                <h3><a href="#" title="">Marketing Director</a></h3>
-                                <span>Jakarta</span>
-                            </div>
-                            <span class="job-lctn"><i class="la la-map-marker"></i>Senayan</span>
-                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                            <span class="job-is pt">PART TIME</span>
-                        </div><!-- Job -->
-                        <div class="job-listing">
-                            <div class="job-title-sec">
-                                <div class="c-logo"> <img src="http://placehold.it/98x51" alt="" /> </div>
-                                <h3><a href="#" title="">C Developer (Senior) C .Net</a></h3>
-                                <span>Yogyakarta</span>
-                            </div>
-                            <span class="job-lctn"><i class="la la-map-marker"></i>Yogyakarta</span>
-                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                            <span class="job-is ft">FULL TIME</span>
-                        </div><!-- Job -->
-                        <div class="job-listing">
-                            <div class="job-title-sec">
-                                <div class="c-logo"> <img src="http://placehold.it/98x51" alt="" /> </div>
-                                <h3><a href="#" title="">Application Developer For Android</a></h3>
-                                <span>Bandung</span>
-                            </div>
-                            <span class="job-lctn"><i class="la la-map-marker"></i>Bandung</span>
-                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                            <span class="job-is fl">FREELANCE</span>
-                        </div><!-- Job -->
-                        <div class="job-listing">
-                            <div class="job-title-sec">
-                                <div class="c-logo"> <img src="http://placehold.it/98x51" alt="" /> </div>
-                                <h3><a href="#" title="">Regional Sales Manager South east Asia</a></h3>
-                                <span>Cirebon</span>
-                            </div>
-                            <span class="job-lctn"><i class="la la-map-marker"></i>Cirebon</span>
-                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                            <span class="job-is tp">TEMPORARY</span>
-                        </div><!-- Job -->
-                        <div class="job-listing">
-                            <div class="job-title-sec">
-                                <div class="c-logo"> <img src="http://placehold.it/98x51" alt="" /> </div>
-                                <h3><a href="#" title="">Social Media and Public Relation Executive </a></h3>
-                                <span>Surabaya</span>
-                            </div>
-                            <span class="job-lctn"><i class="la la-map-marker"></i>Surabaya</span>
-                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                            <span class="job-is ft">FULL TIME</span>
-                        </div><!-- Job -->
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-12">
