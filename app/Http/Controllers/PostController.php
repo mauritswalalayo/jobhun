@@ -133,6 +133,9 @@ class PostController extends Controller
             $daftar_post = Post::where ('criteria', $filter)->simplePaginate();
         }
 
+        $filter = str_replace('-',' ',$filter);
+
+
         return view('user.content.post.list',['daftar_post'=>$daftar_post, 'filter' => $filter]);
     }
     

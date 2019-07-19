@@ -14,11 +14,11 @@
 							<div class="col-lg-7">
 							</div>
 							<div class="col-lg-12">
-								<br><br>					
+								<br><br>				
+								
+								<h2 align="center">Kategori : {{ucwords(trans($filter))}}</h2>								
 									
-								@if($filter=='jobhun-internship')
-
-								<h2 align="center">Kategori : Jobhun Internship</h2>
+								@if($filter=='jobhun internship')
 					
 								<p align="justify" style="color:black">
 									Sebuah program magang dari Jobhun yang ditujukan bagi para pelajar atau mahasiswa,
@@ -33,8 +33,7 @@
 									Jobhun Internship lebih detail, kamu bisa melihat update konten di bawah ini.
 								</p>
 
-								@elseif($filter=='jobhun-talks')
-								<h2 align="center">Kategori : Jobhun Talks</h2>
+								@elseif($filter=='jobhun talks')
 
 								<p align="justify" style="color:black" >
 									Jobhun Talks merupakan sebuah sharing session yang ditujukan untuk umum, 
@@ -45,9 +44,7 @@
 									Jobhun Talks lebih detail, kamu bisa melihat update konten di bawah ini.
 								</p>
 
-								@elseif($filter=='jobhun-talks')
-								<h2 align="center">Kategori : Jobhun Visit</h2>
-								
+								@elseif($filter=='jobhun talks')								
 
 								<p align="justify" style="color:black">
 									Jobhun Visit merupakan sebuah program kunjungan ke kantor-kantor atau instansi 
@@ -58,8 +55,8 @@
 									Untuk mengetahui informasi Jobhun Visit lebih detail, kamu bisa melihat update konten di bawah ini.
 								</p>
 
-								@else
-								<h2 align="center">Kategori : {{ucwords(trans($filter))}}</h2>
+								
+								
 
 								
 								@endisset
