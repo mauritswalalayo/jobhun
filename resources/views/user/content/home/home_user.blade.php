@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-lg-12">
                     <div class="browse-all-cat">
-                        <a href="#" title="">Lihat Lainnya</a>
+                        <a href="{{ route ('jch')}}" title="">Lihat Lainnya</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                                         <h3><a href="#" title="">{{$post->title}}</a>
                                         </h3>
                                         <p>{!! str_limit($post->content, 100)!!}</p>
-                                        <a href="#" title="">Read More <i class="la la-long-arrow-right"></i></a>
+                                        <a href="{{url('post/show/'.$post->url)}}" title="">Read More <i class="la la-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

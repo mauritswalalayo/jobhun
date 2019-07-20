@@ -80,7 +80,7 @@
                         <a href="{{route('about')}}" title="">Tentang Jobhun</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="" title="">Layanan</a>
+                        <a href="{{route('index')}}" title="">Layanan</a>
                         <ul>
                             <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
                             <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
