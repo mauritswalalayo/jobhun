@@ -107,7 +107,7 @@
                     <div class="simple-text-block">
                         <h3>Belajar kemampuan baru untuk karier impian di Jobhun Academy</h3>
                         <span>Materi sesuai dengan persiapan karier dan biaya bisa dicicil!</span>
-                        <a href="" title="">Lihat Kelas</a>
+                        <a href="{{ route ('ja')}}" title="">Lihat Kelas</a>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                                         </div>
                                     </div>
                                     <div class="blog-details">
-                                        <h3><a href="#" title="">{{$post->title}}</a>
+                                        <h3><a href="{{url('post/show/'.$post->url)}}" title="">{{$post->title}}</a>
                                         </h3>
                                         <p>{!! str_limit($post->content, 100)!!}</p>
                                         <a href="{{url('post/show/'.$post->url)}}" title="">Read More <i class="la la-long-arrow-right"></i></a>
