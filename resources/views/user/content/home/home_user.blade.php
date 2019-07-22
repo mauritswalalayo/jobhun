@@ -16,30 +16,7 @@
                                 <h3>Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</h3>
                                 <span>Dapatkan pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
                                     berbagai skill melalui Jobhun Academy</span>
-                                <form>
-                                    <div class="row">
-                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                            <div class="job-field">
-                                                <input type="text" placeholder="Job title, keywords or company name" />
-                                                <i class="la la-keyboard-o"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
-                                            <div class="job-field">
-                                                <select data-placeholder="City, province or region" class="chosen-city">
-                                                    <option>Surabaya </option>
-                                                    <option>Yogyakarta</option>
-                                                    <option>Jakarta</option>
-                                                    <option>Bandung</option>
-                                                </select>
-                                                <i class="la la-map-marker"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-1 col-md-2 col-sm-12 col-xs-12">
-                                            <button type="submit"><i class="la la-search"></i></button>
-                                        </div>
-                                    </div>
-                                </form>
+                               
                             </div>
                         </div>
                     </div>
@@ -48,6 +25,7 @@
         </div>
     </div>
 </section>
+
 
 <section>
     <div class="block">
@@ -58,6 +36,34 @@
                         <h2>Jobhun Career Hub</h2>
                         {{-- <span>Leading Employers already using job and talent.</span> --}}
                     </div><!-- Heading -->
+                    
+                    <div class="heading">
+                    <form>
+                            <div class="row">
+                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                    <div class="job-field">
+                                        <input type="text" placeholder="Job title, keywords or company name" />
+                                        <i class="la la-keyboard-o"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                    <div class="job-field">
+                                        <select data-placeholder="City, province or region" class="chosen-city">
+                                            <option>Surabaya </option>
+                                            <option>Yogyakarta</option>
+                                            <option>Jakarta</option>
+                                            <option>Bandung</option>
+                                        </select>
+                                        <i class="la la-map-marker"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-md-2 col-sm-12 col-xs-12">
+                                    <button type="submit"><i class="la la-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
                     <div class="job-listings-sec">
 
                         <div class="job-grid-sec">

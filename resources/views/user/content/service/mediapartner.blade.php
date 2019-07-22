@@ -49,17 +49,17 @@
                 <div class="col-lg-12">
                         <br><br>
                         
-                        <p align="justify">
+                        <p align="justify" style="font-size:20px">
                                 Penawaran kerja sama media partner ini ditujukan bagi 
                                 komunitas/organisasi/perusahaan yang hendak menggelar 
                                 sebuah acara yang tetap ada kaitannya dengan visi dan misi Jobhun. 
                                 Pihak Jobhun menerima kerja sama media partner untuk acara-acara 
                                 yang berhubungan dengan karier maupun penunjang skill dalam berkarier.
                         </p>
-                        <p><b>
+                        <p style="font-size:20px"><b>
                             Paket Kerja Sama Media Partner
                         </b></p>
-                        <p>
+                        <p style="font-size:20px">
                             Berikut ini merupakan paket penawaran kerja sama media partner yang kami tawarkan: 
                         </p>
                     </div>
@@ -84,9 +84,12 @@
                                                                 <li><h6> 1. Bersifat full barter<h6></li>
 
                                                                 <li><h6> 2. Berkewajiban memasang logo Jobhun di seluruh media promosi acara</h6></li>
-                                                                <li><h6>- Berlaku untuk 1 posisi pekerjaan</h6></li>
+                                                                <li><h6>3. Poster acara akan diposting di website, feed Instagram, dan Instagram Story 
+                                                                    Jobhun sebanyak 1 kali.</h6></li>
+                                                                <li><h6>4. Press release sebelum acara akan diposting di website Jobhun</h6></li>
+                                                                <li><h6></h6></li>
                                                             </ul>
-                                                            <a href="{{route('formposting')}}" title="">Posting Loker</a>
+                                                            <a href="{{route('formposting')}}" title="">Daftar</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6">
@@ -96,14 +99,15 @@
                                                                 <h2><i>Rp. </i>100.000,-</h2>
                                                             </div><!-- Price Table -->
                                                             <ul>
-                                                                <li><h6>- Informasi lowongan kerja dipasang secara permanen<h6></li>
-                                                                <li><h6>- Informasi lowongan kerja diposting di Instagram Jobhun</h6></li>
-                                                                <li><h6>- Berlaku untuk 3 posisi pekerjaan</h6></li>
-                                                                <li><h6>- Kandidat seleksi langsung oleh Tim Jobhun</h6></li>
-                                                                <li>• Perusahaan akan mendapatkan laporan calon pekerja yang telah dipilih oleh tim Jobhun maksimal 2 minggu setelah penayangan lowongan kerja</li>
-                                                                <li>• Seleksi yang dilakukan oleh tim Jobhun berdasarkan CV, portfolio, dan dokumen-dokumen lainnya yang dikirimkan oleh para kandidat. Selanjutnya, perusahaan yang akan melakukan interview maupun psikotes kepada calon pekerja.</li>
+                                                                <li><h6>1. Pemasangan logo Jobhun di seluruh media promosi acara diperbolehkan. 
+                                                                    Namun hal ini tidak bersifat wajib.<h6></li>
+                                                                <li><h6>2. Poster acara akan diposting di website, feed akun Instagram, dan Instagram Story Jobhun sebanyak 1 kali.</h6></li>
+                                                                <li><h6>3. Press release sebelum acara akan diposting di website Jobhun</h6></li>
+                                                                <li><h6>4. Blasting poster acara melalui newsletter Jobhun (Kurang lebih ribuan pengguna).</h6></li>
+                                                                <li><h6>5. Peliputan acara dalam bentuk artikel premium yang akan diposting di website dan Instagram Jobhun.</h6></li>
+                                                                
                                                             </ul>
-                                                            <a href="{{route('formposting')}}" title="">Posting Loker</a>
+                                                            <a href="{{route('formposting')}}" title="">Daftar</a>
                                                         </div>
                                                     </div>
                                             
@@ -113,6 +117,37 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-12">
+                                    <br><br>
+                                    
+                                    <p align="justify" style="font-size:20px"><b>
+                                            Alur Kerja Sama Media Partner</b>
+                                            <ul>
+                                                    <li><h6>1. Memilih paket kerja sama media partner.<h6></li>
+                                                    <li><h6>2. Klik ‘daftar’ pada paket kerja sama media partner yang dipilih.</h6></li>
+                                                    <li><h6>3. Isi lengkap formulir kerja sama media partner dan ikuti instruksi.</h6></li>
+                                                    <li><h6>4. Menunggu konfirmasi dari pihak Jobhun terkait persetujuan dan tanggal yang tersedia untuk memposting promosi acara tersebut.</h6></li>
+                                                    <li><h6>5. Poster akan diupload di website dan akun Instagram Jobhun sesuai dengan jadwal yang telah disepakati.</h6></li>
+                                                    
+                                            </ul>
+                                    </p>
+                                    <p style="font-size:20px"><b>
+                                            Catatan :
+                                            </b>
+                                            <ul style="margin-left:50px">
+                                                    <li><h6>1. Harga premium media partner berlaku mulai 1 Januari 2019.<h6></li>
+                                                    <li><h6>2. Klik ‘daftar’ pada paket kerja sama media partner yang dipilih.</h6></li>
+                                                    <li><h6>3. Isi lengkap formulir kerja sama media partner dan ikuti instruksi.</h6></li>
+                                                    <li><h6>4. Menunggu konfirmasi dari pihak Jobhun terkait persetujuan dan tanggal yang tersedia untuk memposting promosi acara tersebut.</h6></li>
+                                                    <li><h6>5. Poster akan diupload di website dan akun Instagram Jobhun sesuai dengan jadwal yang telah disepakati.</h6></li>
+                                                    
+                                            </ul>
+                                    </p>
+                                    <br>
+                                    <p style="font-size:20px"><b>
+                                        Informasi acara akan ditayangkan melalui menu ‘Info Acara’ dan Instagram @jobhun
+                                    </b></p>
+                                </div>
                         </section>
                 
             </div>
