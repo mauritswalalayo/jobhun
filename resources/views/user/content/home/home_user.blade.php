@@ -73,7 +73,7 @@
                                     <div class="job-grid border">
                                         <div class="job-title-sec">
                                             <div class="c-logo"> <img src="{{ asset ('user/images/job1.jpg')}}" height="150" alt="" /> </div>
-                                                <h3><a href="#" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
+                                                <h3><a href="{{ route ('spek_jch')}}" title="">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</a></h3>
                                             <ul class="tags-jobs">
                                                 <li><i class="la la-map-marker"></i> Surabaya</li>
                                                 <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>

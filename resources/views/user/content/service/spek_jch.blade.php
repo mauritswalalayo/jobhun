@@ -16,11 +16,15 @@
                     <div class="job-single-sec">
                         <div class="job-single-head2">
                             <div class="job-title2">
-                                <h3>Magang di Tuupai</h3><span class="job-is ft">Internship</span>
+                                <h2>Magang di Tuupai</h2>
+                                {{-- <span class="job-is ft">Internship</span> --}}
                             </div>
                             <ul class="tags-jobs">
+                                <li><i class=" fa fa-briefcase"></i> Full Time</li>
                                 <li><i class="la la-map-marker"></i>Surabaya</li>
                                 <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
+                                
+                               
                             </ul>
                             <span><strong>Roles</strong>: #Duduk Santai Panggil Tuupai</span>
                         </div><!-- Job Head -->
