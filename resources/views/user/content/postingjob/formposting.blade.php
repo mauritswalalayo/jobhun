@@ -17,7 +17,8 @@
                     <div class="col-lg-9 column">
 				 		<div class="padding-left">
 					 		<div class="profile-title">
-                                 <h3>Formulir Jobhun Career Hub Reguler</h3>
+								 <h3>Formulir Jobhun Career Hub Reguler</h3>
+								 
                                 
 					 			<!-- <div class="upload-img-bar">
 					 				<span class="round"><img src="http://placehold.it/140x140" alt="" /><i>x</i></span>

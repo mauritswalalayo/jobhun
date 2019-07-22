@@ -22,8 +22,17 @@
 					<div class="col-lg-12">
 						<div class="heading">
 							<h2>Jobhun Career Hub for Company</h2>
-							<span>Jobhun Career Hub menjadi solusi bagi perusahaan, instansi, lembaga, maupun organisasi yang sedang mencari kandidat terbaik. Temukan pekerja melalui Jobhun dengan cara yang mudah dan cepat.</span>
+							<br>
+							<br>
+							<p style="font-size:20px">Jobhun Career Hub menjadi solusi bagi perusahaan, 
+								instansi, lembaga, maupun organisasi yang sedang mencari kandidat terbaik. 
+								Temukan pekerja melalui Jobhun dengan cara yang mudah dan cepat.</p>
 						</div><!-- Heading -->
+						<div class="heading">
+						<div class="row">
+							<div class="blog-posthumb"> <a href="#" title=""><img src="{{asset ('image/post/konten.png')}}" alt="" /></a> </div>
+						</div>
+						</div>
 						<div class="plans-sec">
 							<div class="row"  >
 								<div class="col-lg-6">
