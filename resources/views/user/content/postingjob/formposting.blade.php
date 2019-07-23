@@ -103,14 +103,14 @@
                                         <div class="col-lg-12">
 					 						<span class="pf-title">Posisi yang dicari</span>
 					 						<div class="pf-field">
-					 							<input type="text" placeholder="Programmer" />
+					 							<input type="text" name="position_sought" placeholder="Programmer" />
 					 						</div>
                                         </div>
                                     
 					 					<div class="col-lg-12">
 					 						<span class="pf-title">Jenis Pekerjaan</span>
 					 						<div class="pf-field">
-					 							<select data-placeholder="Allow In Search" class="chosen">
+					 							<select data-placeholder="Allow In Search" name="type_work" class="chosen">
 													<option>Full time</option>
                                                     <option>Part time</option>
                                                     <option>Freelance</option>
@@ -134,14 +134,7 @@ Besar gaji : </textarea>
 					 						</div>
                                         </div>
                                          
-                                         <div class="col-lg-12">
-					 						<span class="pf-title">Deskripsi Pekerjaan</span>
-					 						<div class="pf-field">
-					 							<textarea type="text" >Cara mengirimkan lamaran :
-Batas waktu melamar :
-Waktu proses rekrut : </textarea>
-                                             </div>
-                                        </div>
+                                        
                                        
                                         <div class="col-lg-12">
                                              <span class="pf-title">Unggah Poster</span>
