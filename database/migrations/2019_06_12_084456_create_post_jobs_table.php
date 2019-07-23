@@ -13,7 +13,7 @@ class CreatePostJobsTable extends Migration
      */
     public function up()
     {
-        Schema::create('post_jobs', function (Blueprint $table) {
+        Schema::create('jobs', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('type_loker');
             $table->string('type_work');
@@ -41,6 +41,6 @@ class CreatePostJobsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('post_jobs');
+        Schema::dropIfExists('jobs');
     }
 }

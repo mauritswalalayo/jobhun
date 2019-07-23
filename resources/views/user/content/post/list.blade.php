@@ -44,7 +44,7 @@
 									Jobhun Talks lebih detail, kamu bisa melihat update konten di bawah ini.
 								</p>
 
-								@elseif($filter=='jobhun talks')								
+								@elseif($filter=='jobhun visit')								
 
 								<p align="justify" style="color:black">
 									Jobhun Visit merupakan sebuah program kunjungan ke kantor-kantor atau instansi 

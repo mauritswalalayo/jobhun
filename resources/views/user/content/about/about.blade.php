@@ -69,12 +69,12 @@
 							Sebuah platform yang bisa disebut sebagai talent pool, dimana Jobhun akan mempertemukan
 							calon pekerja atau pekerja dengan perusahaan yang sedang mencari kandidat. Melalui Jobhun
 							Career Hub, pekerja dengan perusahaan yang sedang membuka lowongan kerja akan dipertemukan
-							dengan mudah dan cepat. <br>
+							dengan mudah dan cepat. <br><br>
 							2. Jobhun Academy <br>
 							Jobhun Academy merupakan sebuah program pelatihan yang bertujuan untuk membekali para calon
 							pekerja dan pekerja dengan berbagai skill yang saat ini sedang dibutuhkan di dunia kerja.
 							Nantinya mereka akan disalurkan oleh Jobhun pada beberapa perusahaan partner Jobhun yang
-							sedang mencari tenaga kerja atau talent melalui Jobhun Career Hub. <br>
+							sedang mencari tenaga kerja atau talent melalui Jobhun Career Hub. <br><br>
 							3. Media Partner <br>
 							Jobhun menerima kerja sama media partner untuk acara-acara yang berhubungan dengan karier
 							maupun penunjang skill dalam berkarier. <br>
@@ -87,13 +87,13 @@
 							rentang usia 15-22 tahun. Posisi magang yang dibuka biasanya menyesuaikan kebutuhan proyek
 							Jobhun. Dalam program ini, mereka akan mendapatkan pelatihan atau mentoring beberapa topik
 							dan berkesempatan untuk membantu tim inti Jobhun mengerjakan beberapa proyek dan pekerjaan
-							rutin. <br>
+							rutin. <br><br>
 							2. Jobhun Talks <br>
 							Jobhun Talks merupakan sebuah sharing session yang ditujukan untuk umum, biasanya mengambil
 							topik yang berkaitan dengan dunia kerja maupun pengembangan skill. Topik dibawakan oleh
 							orang yang ahli dalam bidangnya, sesuai dengan topik. Inti pembicaraan kegiatan lebih kepada
 							motivasi, tips dan trik, atau gambaran umum sebuah profesi atau hal-hal yang berkaitan
-							dengan dunia karier. <br>
+							dengan dunia karier. <br><br>
 							3. Jobhun Visit <br>
 							Jobhun Visit merupakan sebuah program kunjungan ke kantor-kantor atau instansi yang
 							dilakukan oleh tim inti Jobhun, para intern, maupun pengguna yang beruntung. Program ini

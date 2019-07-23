@@ -168,6 +168,8 @@ Route::get('/post/{filter}', 'PostController@post')->name('post');
 
 Route::get('/post/show/{url}' , 'PostController@show' );
 
+//Loker
+Route::get('post/jobs/','JobController@add')->name('post.jobs');
 
 
 

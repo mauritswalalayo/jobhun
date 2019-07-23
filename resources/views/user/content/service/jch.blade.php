@@ -17,7 +17,7 @@
 									<div class="row">
 										<div class="col-lg-7">
 											<div class="job-field">
-												<input type="text" placeholder="Job title, keywords or company name" />
+												<input type="text" placeholder="Job title, keywords or company name" >
 												<i class="la la-keyboard-o"></i>
 											</div>
 										</div>
@@ -98,8 +98,10 @@
 							
 						</div>
 					</div>
-					<div class="pagination">
-						<ul>
+					{{-- <div class="pagination">
+
+						{{$daftar_post->links()}}
+						{{-- <ul>
 							<li class="prev"><a href=""><i class="la la-long-arrow-left"></i> Prev</a></li>
 							<li><a href="">1</a></li>
 							<li class="active"><a href="">2</a></li>
@@ -107,8 +109,9 @@
 							<li><span class="delimeter">...</span></li>
 							<li><a href="">14</a></li>
 							<li class="next"><a href="">Next <i class="la la-long-arrow-right"></i></a></li>
-						</ul>
-					</div><!-- Pagination -->
+						</ul> --}}
+						
+					</div><!-- Pagination --> 
 				</div>
 			</div>
 		</div>

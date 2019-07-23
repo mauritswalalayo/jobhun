@@ -38,12 +38,13 @@
 							</div>
 							 
 					 		<div class="profile-form-edit">
-					 			<form>
+								 <form action="{{route('post.jobs')}}" method="POST" enctype="multipart/form-data">
+									
 					 				<div class="row">
                         				<div class="col-lg-12">
 					 						<span class="pf-title">Tipe Posting Job</span>
 					 						<div class="pf-field">
-					 							<select data-placeholder="Allow In Search" class="chosen">
+					 							<select data-placeholder="Allow In Search" name="type_loker" class="chosen">
 													<option>Jobhun Career Hub Reguler</option>
 													<option>Jobhun Career Hub Premium</option>
 												</select>
@@ -53,7 +54,7 @@
 					 					<div class="col-lg-12">
 					 						<span class="pf-title">Nama Perusahaan</span>
 					 						<div class="pf-field">
-					 							<input type="text" placeholder="Jobhun" />
+					 							<input type="text" name="office_name" placeholder="Jobhun" />
 					 						</div>
                                          </div>
                                          
