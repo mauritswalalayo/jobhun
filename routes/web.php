@@ -189,3 +189,5 @@ Route::get('postingjob/type', 'PostingJobController@indextype')->name('typeposti
 Route::get('/tesvuejs', function () {
     return view('tes');
 });
+
+// Coba saja
