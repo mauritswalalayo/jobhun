@@ -147,126 +147,84 @@
                     <div class="about-us">
                         <div class="row">
                             <div class="col-lg-12">
-                            </div>
-                            <div class="col-lg-7">
-                            </div>
-                            <div class="col-lg-12">
-                                <h2 align="center">Berbagai Macam Kelas yg bisa mengasah skill kamu di <b>Jobhun
-                                        Academy</b></h2>
+                                <h2 align="center">Macam - Macam Jobhun Academy yang bisa mengasah skill anda.</h2>
                             </div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="job-grid border">
-                                            <a href="{{ route ('content-writer')}}">
-                                                    <img src="{{ asset ('user/images/cw.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
-                                            </a>
-                                    </div>
+                                    <a href="{{ route ('content-writer')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
+                                                <div class="bs-thumb">
+                                                    <img src="{{ asset ('user/images/cw.jpeg')}}"
+                                                        alt="Gambar Testimoni Jobhun Academy" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="job-grid border">
-                                        <div class="job-title-sec">
-                                            <a href="{{ route ('graphic-designer')}}">
+                                    <a href="{{ route ('graphic-designer')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
                                                 <div class="bs-thumb">
                                                     <img src="{{ asset ('user/images/desain.jpeg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
-                                            </a>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="job-grid border">
-                                        <div class="job-title-sec">
-                                            <a href="{{ route ('videographer')}}">
+                                    <a href="{{ route ('videographer')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/video.jpeg')}}"
-                                                        alt="Gambar Testimoni Jobhun Academy" />
+                                                    <img src="{{ asset ('user/images/video.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
-                                            </a>
-                                            </p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="job-grid border">
-                                        <div class="job-title-sec">
-                                            <a href="{{ route ('web')}}">
+                                    <a href="{{ route ('web')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/web.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                                                    <img src="{{ asset ('user/images/web.jpeg')}}"
+                                                        alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
-                                            </a>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="job-grid border">
-                                        <div class="job-title-sec">
-                                            <a href="{{ route ('android')}}">
+                                    <a href="{{ route ('android')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
                                                 <div class="bs-thumb">
                                                     <img src="{{ asset ('user/images/android.jpeg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
-                                            </a>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="job-grid border">
-                                        <div class="job-title-sec">
-                                            <h3>Biaya terjangkau dan bisa dicicil</h3>
-                                            <p align="left">Kamu tidak perlu pusing masalah biaya. Program - program
-                                                yang ada di Jobhun Academy dipatok dengan harga yang terjangkau dan bisa
-                                                kamu cicil dengan skema cicilan yang sangat membantu.</p>
+                                    <a href="{{ route ('ui')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
+                                                <div class="bs-thumb">
+                                                    <img src="{{ asset ('user/images/ui.jpeg')}}"
+                                                        alt="Gambar Testimoni Jobhun Academy" />
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section>
-    <div class="block">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 column">
-                    <div class="blog-single">
-                        <a href="{{ route ('android')}}">
-                            <div class="bs-thumb">
-                                <img src="{{ asset ('user/images/android.jpeg')}}"
-                                    alt="Gambar Testimoni Jobhun Academy" />
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 column">
-                    <div class="blog-single">
-                        <a href="{{ route ('ui')}}">
-                            <div class="bs-thumb">
-                                <img src="{{ asset ('user/images/ui.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 column">
-                    <div class="blog-single">
-                        <a href="{{ route ('copywriter')}}">
-                            <div class="bs-thumb">
-                                <img src="{{ asset ('user/images/cw2.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>
