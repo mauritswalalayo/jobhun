@@ -16,15 +16,21 @@ class CreatePostJobsTable extends Migration
         Schema::create('jobs', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('type_loker');
-            $table->string('type_work');
+            $table->string('company_name');
+            $table->string('company_tagline');
+            $table->text('description_company');
+            $table->text('company_address');
+            $table->string('company_website');
+            $table->string('company_email');
+            $table->string('company_phone');
             $table->string('position_sought');
-            $table->string('recruit_process');
+            $table->string('type_work');
             $table->text('description_job');
-            $table->string('office_name');
-            $table->string('office_phone');
-            $table->text('office_address');
-            $table->string('office_website');
+            $table->string('recruit_process');
             $table->string('logo_url');
+            $table->string('upload_poster');
+            $table->string('evidence_transfer');
+
             $table->string('payment_url');
             $table->string('status');
             $table->integer('verified_by');
