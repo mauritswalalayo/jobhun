@@ -157,13 +157,9 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                     <div class="job-grid border">
-                                        <div class="job-title-sec">
                                             <a href="{{ route ('content-writer')}}">
-                                                <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/cw.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" width="404px" />
-                                                </div>
+                                                    <img src="{{ asset ('user/images/cw.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
                                             </a>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
