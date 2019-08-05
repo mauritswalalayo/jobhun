@@ -250,12 +250,11 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <a href="{{ route ('ui')}}">
+                                    <a href="{{ route ('social_media')}}">
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/ui.jpeg')}}"
-                                                        alt="Gambar Testimoni Jobhun Academy" />
+                                                    <img src="{{ asset ('user/images/social_media.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
                                         </div>

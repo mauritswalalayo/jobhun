@@ -82,6 +82,11 @@ class Homepage_UserController extends Controller
         return view('user.content.service.public_speaker');
     }
 
+    public function social_media()
+    {
+        return view('user.content.service.social_media');
+    }
+
     // Program
     public function ji()
     {

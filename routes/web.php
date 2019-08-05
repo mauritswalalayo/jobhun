@@ -157,6 +157,8 @@ Route::get('/jobhun-academy-ui-ux-designer', 'Homepage_UserController@ui')->name
 
 Route::get('/jobhun-academy-copywriter', 'Homepage_UserController@copywriter')->name('copywriter');
 
+Route::get('/jobhun-academy-social-media-specialist', 'Homepage_UserController@social_media')->name('social_media');
+
 Route::get('/jobhun-academy-media-partner', 'Homepage_UserController@media')->name('media');
 
 Route::get('/jobhun-academy-public-speaker', 'Homepage_UserController@public_speaker')->name('public_speaker');
