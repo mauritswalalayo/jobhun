@@ -134,7 +134,7 @@
                                     <img src="{{ asset ('user/images/mentorpublic.png')}}"
                                         alt="Gambar Mentor Content Writer" />
                                     <div class="extra-job-info">
-                                        <span><strong>Rakhmat Fadhillah</strong> <br>( UI/UX Designer UI & UX Designer
+                                        <span><strong> SYM Communications</strong> <br>( UI/UX Designer UI & UX Designer
                                             Dobuy Indonesia & Part of Arek Desain Suroboyo )</span>
                                     </div>
                                 </div>
