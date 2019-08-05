@@ -53,6 +53,7 @@ class PostController extends Controller
         $post->content = $request->content;
         $post->user_id = Auth::user()->id;
         $post->save();
+        
         if($request->hasFile('feature_image')){
         $image = $post->id.'.'.$request->file('feature_image')->getClientOriginalExtension();
         $request->file('feature_image')->move(public_path('image/post'),$image);
