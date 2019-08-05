@@ -226,11 +226,11 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <a href="{{ route ('public_speaker')}}">
+                                    <a href="{{ route ('copywriter')}}">
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/public.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/cw2.jpeg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
@@ -238,11 +238,11 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <a href="{{ route ('android')}}">
+                                    <a href="{{ route ('public_speaker')}}">
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/android.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/public.jpeg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
