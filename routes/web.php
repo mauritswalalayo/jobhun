@@ -173,7 +173,7 @@ Route::get('/post/{filter}', 'PostController@post')->name('post');
 Route::get('/post/show/{url}' , 'PostController@show' );
 
 //Loker
-Route::get('post/jobs/','JobController@add')->name('post.jobs');
+Route::post('post/jobs/','JobController@add')->name('post.jobs');
 
 
 
@@ -186,8 +186,9 @@ Route::get('user/program/detail', 'ProgramController@indexdetail')->name('progra
 
 //================================ Route Posting Job ===============================
 
-Route::get('postingjob/form', 'PostingJobController@index')->name('formposting');
-Route::get('postingjob/type', 'PostingJobController@indextype')->name('typeposting');
+Route::get('postingjob/form', 'JobController@index')->name('formposting');
+
+Route::get('postingjob/type', 'JobController@indextype')->name('typeposting');
 
 
 Route::get('/tesvuejs', function () {

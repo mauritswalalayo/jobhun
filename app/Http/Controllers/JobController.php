@@ -7,6 +7,18 @@ use App\Job;
 
 class JobController extends Controller
 {
+    public function index ()
+    {
+        
+        return view('user.content.postingjob.formposting');
+    }
+
+    public function indextype ()
+    {
+        
+        return view('user.content.postingjob.typejob');
+    }
+
     public function add (Request $request)
         {
             $validator = validator::make(
@@ -23,10 +35,9 @@ class JobController extends Controller
                     'position_sought'=> 'required',
                     'type_work' => 'required',
                     'description_job'=> 'required',
-                    'drecruit_process' => 'required',
+                    'recruit_process' => 'required',
 
                     'logo_url' => 'required',
-                    'upload_poster'=> 'required',
                     'evidence_transfer'=> 'required',
                     
                 ]
@@ -48,19 +59,24 @@ class JobController extends Controller
             $post->type_work = $request->type_work;
             $post->description_job = $request->description_job;
             $post->recruit_process = $request->recruit_process;
-
-
-            $post->user_id = Auth::user()->id;
             $post->save();
-            if($request->hasFile('feature_image')){
-            $image = $post->id.'.'.$request->file('feature_image')->getClientOriginalExtension();
-            $request->file('feature_image')->move(public_path('image/post'),$image);
-            $post->feature_image = $image;
-            $post->save();
+
+            $image_logo = $post->id.'.'.$request->file('logo_url')->getClientOriginalExtension();
+            $request->file('logo_url')->move(public_path('image/logo_perusahaan'),$image_logo  );
+            $post->logo_url = $image_logo;
+
+            $image_bukti = $post->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
+            $request->file('evidence_transfer')->move(public_path('image/bukti_transfer'),$image_bukti);
+            $post->evidence_transfer = $image_bukti;
+            
+            if($request->hasFile('upload_poster')){
+                $image_poster = $post->id.'.'.$request->file('upload_poster')->getClientOriginalExtension();
+                $request->file('upload_poster')->move(public_path('image/poster'),$image_poster);
+                $post->upload_poster = $image_poster;
             }
-    
-            $post->tags()->sync($request->tags);
-    
+
+            $post->save();
+        
             return redirect()->route('post.table');
         }
 }
