@@ -18,6 +18,16 @@
 				 		<div class="padding-left">
 					 		<div class="profile-title">
 								 <h3>Formulir Jobhun Career Hub Reguler</h3>
+
+								 @if ($errors->any())
+        							<div class="alert alert-danger">
+									<ul>
+										@foreach ($errors->all() as $error)
+										<li>{{$error}}</li>
+										@endforeach
+									</ul>
+								</div>
+								@endif
 								 
                                 
 					 			<!-- <div class="upload-img-bar">
@@ -39,6 +49,7 @@
 							 
 					 		<div class="profile-form-edit">
 								 <form action="{{route('post.jobs')}}" method="POST" enctype="multipart/form-data">
+									<input type="hidden" name="_token" value="{{ csrf_token()}}">
 									
 					 				<div class="row">
                         				<div class="col-lg-12">
@@ -150,7 +161,7 @@ Waktu proses rekrut.
 										   <div class="col-lg-12">
 												<span class="pf-title">Unggah Logo Perusahaan</span>
 												<div class="upload-info">
-												   <input type="file" class="form-control-file" name="logo_url">
+												   <input type="file" name="logo_url" id="logo_url" class="form-control-file" >
 												   <span>Klik tombol 'Upload', kemudian pilih logo perusahaan yang ingin kamu unggah.</span>
 											   </div>
 										   </div>

@@ -32,11 +32,7 @@ class CreatePostJobsTable extends Migration
             $table->string('upload_poster')->nullable();
             $table->string('evidence_transfer');
 
-            $table->string('payment_url');
-            $table->string('status');
-            $table->integer('verified_by');
-            $table->string('verified_at');
-            $table->integer('user_id');
+
             $table->timestamps();
         });
     }

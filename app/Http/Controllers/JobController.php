@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Job;
+use Validator;
 
 class JobController extends Controller
 {
@@ -38,45 +39,47 @@ class JobController extends Controller
                     'recruit_process' => 'required',
 
                     'logo_url' => 'required',
-                    'evidence_transfer'=> 'required',
+                    // 'evidence_transfer'=> 'required',
                     
                 ]
             );
             if ($validator->fails()) {
                 return back()->withErrors($validator)->withInput();
             }
+
+            $job = Job::create($request->all());
     
-            $post = new Job;
-            $post->type_loker = $request->type_loker;
-            $post->company_name = $request->company_name;
-            $post->company_tagline = $request->company_tagline;
-            $post->description_company = $request->description_company;
-            $post->company_address = $request->company_address;
-            $post->company_website = $request->company_website;
-            $post->company_email = $request->company_email;
-            $post->company_phone = $request->company_phone;
-            $post->position_sought = $request->position_sought;
-            $post->type_work = $request->type_work;
-            $post->description_job = $request->description_job;
-            $post->recruit_process = $request->recruit_process;
-            $post->save();
+            // $job = new Job;
+            // $job->type_loker = $request->type_loker;
+            // $job->company_name = $request->company_name;
+            // $job->company_tagline = $request->company_tagline;
+            // $job->description_company = $request->description_company;
+            // $job->company_address = $request->company_address;
+            // $job->company_website = $request->company_website;
+            // $job->company_email = $request->company_email;
+            // $job->company_phone = $request->company_phone;
+            // $job->position_sought = $request->position_sought;
+            // $job->type_work = $request->type_work;
+            // $job->description_job = $request->description_job;
+            // $job->recruit_process = $request->recruit_process;
+            // $job->save();
 
-            $image_logo = $post->id.'.'.$request->file('logo_url')->getClientOriginalExtension();
-            $request->file('logo_url')->move(public_path('image/logo_perusahaan'),$image_logo  );
-            $post->logo_url = $image_logo;
+            $image_logo = $job->id.'.'.$request->file('logo_url')->getClientOriginalExtension();
+            $request->file('logo_url')->move(public_path('image/logo_perusahaan'),$image_logo);
+            $job->logo_url = $image_logo;
 
-            $image_bukti = $post->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
+            $image_bukti = $job->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
             $request->file('evidence_transfer')->move(public_path('image/bukti_transfer'),$image_bukti);
-            $post->evidence_transfer = $image_bukti;
+            $job->evidence_transfer = $image_bukti;
             
             if($request->hasFile('upload_poster')){
-                $image_poster = $post->id.'.'.$request->file('upload_poster')->getClientOriginalExtension();
+                $image_poster = $job->id.'.'.$request->file('upload_poster')->getClientOriginalExtension();
                 $request->file('upload_poster')->move(public_path('image/poster'),$image_poster);
-                $post->upload_poster = $image_poster;
+                $job->upload_poster = $image_poster;
             }
 
-            $post->save();
+            $job->save();
         
-            return redirect()->route('post.table');
+            return redirect()->route('index');
         }
 }
