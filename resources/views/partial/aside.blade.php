@@ -63,6 +63,14 @@
                 </a>
             </li>
 
+            <li class="treeview">
+                <a href="{{route('loker.table')}}">
+                    <i class="glyphicon glyphicon-briefcase"></i> <span>Loker</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
+
         </ul>
     </section>
     <!-- /.sidebar -->

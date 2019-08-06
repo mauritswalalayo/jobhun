@@ -8,9 +8,15 @@ use Validator;
 
 class JobController extends Controller
 {
+    public function view ()
+    {
+        $job = Job::paginate(3);
+        $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
+        return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
+    }
+
     public function index ()
     {
-        
         return view('user.content.postingjob.formposting');
     }
 

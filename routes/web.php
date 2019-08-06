@@ -118,6 +118,11 @@ Route::get('collaborate/edit/{id}', 'CollaborateController@edit')->name('collabo
 
 Route::get('collaborate/update/{id}', 'CollaborateController@update')->name('collaborate.update');
 
+//========================== Route Lowongan Kerja =================================
+
+Route::get('lowongan/table', 'JobController@view')->name('loker.table');
+
+
 //=========================================================================================================================
 
 
