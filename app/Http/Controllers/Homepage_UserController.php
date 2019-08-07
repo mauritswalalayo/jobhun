@@ -87,6 +87,11 @@ class Homepage_UserController extends Controller
         return view('user.content.service.social_media');
     }
 
+    public function startup_founder()
+    {
+        return view('user.content.service.startup_founder');
+    }
+
     // Program
     public function ji()
     {

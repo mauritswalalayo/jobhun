@@ -168,6 +168,8 @@ Route::get('/jobhun-academy-media-partner', 'Homepage_UserController@media')->na
 
 Route::get('/jobhun-academy-public-speaker', 'Homepage_UserController@public_speaker')->name('public_speaker');
 
+Route::get('/jobhun-academy-startup-founder', 'Homepage_UserController@startup_founder')->name('startup_founder');
+
 // Program
 
 Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');

@@ -261,6 +261,43 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                    <a href="{{ route ('startup_founder')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
+                                                <div class="bs-thumb">
+                                                    <img src="{{ asset ('user/images/startup.jpeg')}}"
+                                                        alt="Gambar Testimoni Jobhun Academy" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                    <a href="{{ route ('public_speaker')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
+                                                <div class="bs-thumb">
+                                                    <img src="{{ asset ('user/images/public.jpeg')}}"
+                                                        alt="Gambar Testimoni Jobhun Academy" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                    <a href="{{ route ('social_media')}}">
+                                        <div class="job-grid border">
+                                            <div class="job-title-sec">
+                                                <div class="bs-thumb">
+                                                    <img src="{{ asset ('user/images/social_media.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
