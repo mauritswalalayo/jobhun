@@ -58,7 +58,7 @@
 	<div class="account-popup-area signup-popup-box">
 		<div class="account-popup">
 			<span class="close-popup"><i class="la la-close"></i></span>
-			<h3>Sign Up</h3>
+			<h3>Daftar</h3>
 			<div class="select-user">
 				<span>Candidate</span>
 				<span>Employer</span>
