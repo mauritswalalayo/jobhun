@@ -22,8 +22,8 @@
                         <div class="link_widgets">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <a href="#" title="">Kerja Sama Media Partner</a>
-                                    <a href="#" title="">Syarat dan Ketentuan</a>
+                                    <a href="{{ route ('media')}}" title="">Kerja Sama Media Partner</a>
+                                    <a href="{{ route ('syarat')}}" title="">Syarat dan Ketentuan</a>
                                     <a href="#" title="">Kebijakan Privasi</a>
                                     <a href="#" title="">Karier di Jobhun</a>
                                 </div>
