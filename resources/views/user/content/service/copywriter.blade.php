@@ -157,7 +157,7 @@
                                     </div>
                                     <div class="col-lg-4 column">
                                             <div class="job-single-head style2">
-                                                <a href="{{ route ('jch')}}" title="" class="viewall-jobs">View all Jobs</a>
+                                                <a href="{{ route ('ja')}}" title="" class="viewall-jobs">Lihat Semua Akademi</a>
                                             </div><!-- Job Head -->
                                     </div>
                                 </div>

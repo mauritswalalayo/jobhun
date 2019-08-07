@@ -13,13 +13,15 @@
                 <div class="col-lg-8 column">
                     <div class="job-single-sec">
                         <div class="job-single-head">
-                            <div class="job-thumb"> <img src="{{ asset ('user/images/public.jpeg')}}" alt="" /> </div>
+                            <div class="job-thumb"> <img src="{{ asset ('user/images/android.jpeg')}}" alt="" /> </div>
                         </div><!-- Job Head -->
                         <div class="job-details">
                             <h3>Deskripsi</h3>
-                            <p align="justify">Public Speaker merupakan salah satu profesi yang saat ini menjamur di dunia kerja, karena kebutuhannya yang semakin meningkat di kalangan perusahaan, instansi, organisasi, maupun komunitas. Tugasnya berbicara di depan khalayak untuk menyampaikan informasi maupun memandu sebuah kegiatan, yang tentunya dapat menghasilkan pundi-pundi rupiah yang lumayan. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance. Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang public speaker terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar. Seorang public speaker harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang public speaker bersama dengan pakarnya langsung. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang public speaker melalui program ini.</p>
+                            <p align="justify">Tidak berbeda jauh dengan web developer, Android developer juga menjadi salah satu profesi yang banyak dicari. Menjamurnya digital startup di kalangan pebisnis membuat banyak perusahaan ingin turut serta mendigitalisasi bisnisnya. Banyak perusahaan berlomba-lomba ingin menciptakan sebuah produk melalui aplikasi Android. Di sini, peran seorang Android developer sangat besar dalam membangun produk sebuah perusahaan. Tidak hanya perusahaan saja yang membutuhkan profesi ini, namun seorang Android Developer juga bisa bekerja secara mandiri. Profesi yang satu ini juga bisa dijalani dengan sistem kerja full time, part time, remote, hingga freelance.</p>
 
-                            <h3>Mengapa kamu harus mengikuti Jobhun Academy : UI/UX Designer ini ?</h3>
+                            <p align="justify">Prospek karier untuk profesi ini tentu sangat cerah, apalagi seorang Android developer terkadang tidak harus terikat satu perusahaan saja, sehingga kesempatan untuk mendapatkan penghasilan yang lebih banyak akan terbuka lebar. Seorang Android developer harus memiliki beberapa kemampuan agar siap bersaing di industri. Di Jobhun Academy, kamu bisa belajar menjadi seorang Android developer bersama dengan pakarnya langsung. Tidak hanya belajar secara teori saja, namun kamu juga akan praktek, sehingga bisa menghasilkan portfolio yang akan digunakan untuk mencari kerjaan nantinya. Selain itu, kamu juga bisa mempersiapkan karier sebagai seorang Android developer melalui program ini.</p>
+
+                            <h3>Mengapa kamu harus mengikuti Jobhun Academy : Android Developer ini ?</h3>
                             <p>
                                 1. Belajar dengan formula khusus untuk persiapan karier <br>
 
@@ -61,14 +63,21 @@
                             <h3>Materi yang akan kamu pelajari :</h3>
                             <p>
                                 <ul>
-                                    <li>Definisi, fungsi, makna, dan peran Public Speaking</li>
-                                    <li>Teknik komunikasi interpersonal</li>
-                                    <li>Teknik dasar vocal serta pengetahuan faktual tentang timbre, intonasi, penekanan, dan ekspresi vocal</li>
-                                    <li>Panggung Aksi (Praktek penuh)</li>
-                                    <li>Teknik memandu acara</li>
-                                    <li>Teknik menjadi pembicara</li>
-                                    <li>Menerapkan citra tampilan diri, tata busana dan tata rias, serta pengetahuan faktual tentang memadu padankan warna, corak, jenis busana, dan tata rias diri</li>
-                                    <li>Panggung aksi (praktek penuh)</li>
+                                    <li>Instalasi Intellij Idea</li>
+                                    <li>Dasar-dasar pemrograman Java, variabel, tipe data, if else, switch case, for loop</li>
+                                    <li>Latihan dasar-dasar perintah sederhana</li>
+                                    <li>Pengenalan Android Studio</li>
+                                    <li>Dasar-dasar pemrograman Java pada Android</li>
+                                    <li>Belajar membuat layout Aplikasi dengan XML</li>
+                                    <li>Pengenalan Activity</li>
+                                    <li>Pengenalan Intent</li>
+                                    <li>Menggunakan listview dan recycleview</li>
+                                    <li>Pengenalan database SQLite</li>
+                                    <li>Membuat aplikasi menggunakan SQLite</li>
+                                    <li>Pengenalan SharedPreference</li>
+                                    <li>Dasar-dasar background service</li>
+                                    <li>Membuat aplikasi Alarm</li>
+                                    <li>Persiapan publish aplikasi ke Playstore</li>
                                 </ul>
                             </p>
                         </div>
@@ -86,13 +95,13 @@
                         <h3>Keterangan : </h3>
                         <ul>
                             <li><i class="la la-money"></i>
-                                <h3>Rp. 1.800.000,- (Apabila dibayar lunas)</h3>
+                                <h3>Rp. 1.500.000,- (Apabila dibayar lunas)</h3>
                                 <span>Bisa dibayar lunas atau dicicil. Jika dicicil, menggunakan skema cicilan sebagai
                                     berikut : <br>
-                                    1. DP Rp. 900.000,- (Dibayar sebelum kelas dimulai) <br>
-                                    2. Pembayaran ke-1 Rp. 330.000,- (Dibayar saat pertemuan kedua) <br>
-                                    3. Pembayaran ke-2 Rp. 330.000,- (Dibayar saat pertemuan keempat) <br>
-                                    4. Pembayaran ke-3 Rp. 330.000,-. (Dibayar saat pertemuan keenam)</span>
+                                    1. DP Rp. 750.000,- (Dibayar sebelum kelas dimulai) <br>
+                                    2. Pembayaran ke-1 Rp. 280.000,- (Dibayar saat pertemuan kedua) <br>
+                                    3. Pembayaran ke-2 Rp. 280.000,- (Dibayar saat pertemuan keempat) <br>
+                                    4. Pembayaran ke-3 Rp. 280.000,-. (Dibayar saat pertemuan keenam)</span>
                             </li>
                             <li><i class="la la-clock-o"></i>
                                 <h3>Waktu Pelaksanaan</h3>
@@ -131,14 +140,13 @@
                         <div class="col-lg-12 column">
                             <div class="blog-single">
                                 <div class="bs-thumb">
-                                    <img src="{{ asset ('user/images/mentorpublic.png')}}"
+                                    <img src="{{ asset ('user/images/mentorandroid.jpg')}}"
                                         alt="Gambar Mentor Content Writer" />
                                     <div class="extra-job-info">
-                                        <span><strong>Rakhmat Fadhillah</strong> <br>( UI/UX Designer UI & UX Designer
-                                            Dobuy Indonesia & Part of Arek Desain Suroboyo )</span>
+                                        <span><strong>Muhammad Irsyad</strong> <br>( Trainer for Android & Co-founder at Lazday Indonesia )</span>
                                             <div class="col-lg-4 column">
                                                     <div class="job-single-head style2">
-                                                        <a href="{{ route ('jch')}}" title="" class="viewall-jobs">View all Jobs</a>
+                                                        <a href="{{ route ('ja')}}" title="" class="viewall-jobs">Lihat Semua Akademi</a>
                                                     </div><!-- Job Head -->
                                             </div>
                                     </div>
