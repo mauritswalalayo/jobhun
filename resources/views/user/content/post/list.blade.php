@@ -83,6 +83,7 @@
                         <div class="blogpost style2">
 								<div class="blog-posthumb"> <a href="#" title=""><img width="322" height="280" src="{{asset ('image/post/'.$post->feature_image)}}" 
 									alt="" /></a> </div>
+									
                                 <div class="blog-postdetail">
                                     <ul class="post-metas">
                                         <li><a href="#" title=""><i class="la la-pencil"></i>{{$post->user->name}}</a></li>

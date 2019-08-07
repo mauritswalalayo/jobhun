@@ -144,7 +144,10 @@ Route::get('/about', 'Homepage_UserController@tentang')->name('about');
 // Layanan
 Route::get('/jobhun-careerhub', 'Homepage_UserController@jch')->name('jch');
 
-Route::get('/spek-jobhuncareerhub', 'Homepage_UserController@spek_jch')->name('spek_jch');
+Route::get('/loker/show/', 'Homepage_UserController@spek_jch')->name('spek_jch');
+
+
+
 
 Route::get('/jobhun-academy', 'Homepage_UserController@ja')->name('ja');
 

@@ -20,10 +20,13 @@
                                 {{-- <span class="job-is ft">Internship</span> --}}
                             </div>
                             <ul class="tags-jobs">
-                                <li><i class=" fa fa-briefcase"></i> Full Time</li>
+                                @foreach ($daftar_job as $job)
+                                    
+                            <li><i class=" fa fa-briefcase"></i> {{$job->type_work}}</li>
                                 <li><i class="la la-map-marker"></i>Surabaya</li>
                                 <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
                                 
+                                @endforeach
                                
                             </ul>
                             <span><strong>Roles</strong>: #Duduk Santai Panggil Tuupai</span>
