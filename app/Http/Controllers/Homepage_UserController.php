@@ -5,15 +5,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Testimoni;
 use App\Post;
+use App\Job;
 
 class Homepage_UserController extends Controller
 {
     public function index()
     {
-        $post = Post::simplepaginate(1);
+        $job = Job::simplepaginate(10);
+        $post = Post::simplepaginate(10);
         $testimoni = Testimoni::simplepaginate(1);
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
-        return view('user.content.home.home_user', ['daftar_post' => $post ,'daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
+        return view('user.content.home.home_user', ['daftar_job' => $job, 'daftar_post' => $post ,'daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }
 
     public function tentang()
@@ -29,7 +31,8 @@ class Homepage_UserController extends Controller
 
     public function spek_jch()
     {
-        return view('user.content.service.spek_jch');
+        $job = Job::simplepaginate(1);
+        return view('user.content.service.spek_jch',['daftar_job' => $job]);
     }
 
     public function ja()
