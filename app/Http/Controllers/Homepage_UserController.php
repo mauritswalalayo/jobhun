@@ -139,4 +139,10 @@ class Homepage_UserController extends Controller
     {
         return view('user.content.blog.ia');
     }
+
+    // Footer
+    public function syarat()
+    {
+        return view('user.content.home.syarat');
+    }
 }

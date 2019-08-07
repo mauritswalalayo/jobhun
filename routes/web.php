@@ -182,6 +182,10 @@ Route::get('/post/show/{url}' , 'PostController@show' );
 //Loker
 Route::post('post/jobs/','JobController@add')->name('post.jobs');
 
+// Footer
+
+Route::get('/syarat-dan-ketentuan', 'Homepage_UserController@syarat')->name('syarat');
+
 
 
 
