@@ -136,6 +136,11 @@
                                     <div class="extra-job-info">
                                         <span><strong> SYM Communications</strong> <br>( Jobhun berkolaborasi dengan SYM Communications, sebuah lembaga konsultan dan perencana kegiatan Public Speaking sebagai turunan dari komunitas SINGYOURMIND. Beberapa mentor yang akan mengisi antara lain: @octian, @op_ian, @gresiazumardam, dan @memesofiaaa.)</span>
                                     </div>
+                                    <div class="col-lg-4 column">
+                                            <div class="job-single-head style2">
+                                                <a href="{{ route ('jch')}}" title="" class="viewall-jobs">View all Jobs</a>
+                                            </div><!-- Job Head -->
+                                    </div>
                                 </div>
                             </div>
                         </div>

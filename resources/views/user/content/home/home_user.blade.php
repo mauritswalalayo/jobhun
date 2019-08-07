@@ -13,9 +13,9 @@
                         </div>
                         <div class="job-search-sec">
                             <div class="job-search">
-                                <h3>Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</h3>
-                                <span>Dapatkan pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
-                                    berbagai skill melalui Jobhun Academy</span>
+                                <h3 style="color:blanchedalmond">Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</h3>
+                                <h6 style="color:blanchedalmond"> Pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
+                                    berbagai skill melalui Jobhun Academy</h6>
                                
                             </div>
                         </div>
@@ -84,7 +84,7 @@
                                             <span class="fav-job"><i class="la la-heart-o"></i></span>
                                         </div>
                                     <span class="job-lctn">{{$job->description_company}}</span>
-                                        <a href="{{url('loker/show/')}}" title="">Read More</a>
+                                        <a href="{{url('loker/show/')}}" title="">Selengkapnya</a>
                                     </div><!-- JOB Grid -->
                                 </div>
 
@@ -154,7 +154,7 @@
                                         <h3><a href="{{url('post/show/'.$post->url)}}" title="">{{$post->title}}</a>
                                         </h3>
                                         <p>{!! str_limit($post->content, 100)!!}</p>
-                                        <a href="{{url('post/show/'.$post->url)}}" title="">Read More <i class="la la-long-arrow-right"></i></a>
+                                        <a href="{{url('post/show/'.$post->url)}}" title="">Selengkapnya<i class="la la-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

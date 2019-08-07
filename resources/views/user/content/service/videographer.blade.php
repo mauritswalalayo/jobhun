@@ -221,6 +221,11 @@
                                         <span><strong>I Made Sindhu Novenda</strong> <br>( Videographer at Awatara
                                             Pictures )</span>
                                     </div>
+                                    <div class="col-lg-4 column">
+                                            <div class="job-single-head style2">
+                                                <a href="{{ route ('jch')}}" title="" class="viewall-jobs">View all Jobs</a>
+                                            </div><!-- Job Head -->
+                                    </div>
                                 </div>
                             </div>
                         </div>

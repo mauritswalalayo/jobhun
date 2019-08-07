@@ -51,7 +51,7 @@
 									in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for
 									farmers. Spent several years licensing licorice with banjos in the aftermarket.
 									Spent a weekend importing banjos in West Palm Beach, FL.</p>
-								<a class="bbutton" href="#" title="">Read More <i
+								<a class="bbutton" href="#" title="">Selengkapnya <i
 										class="la la-long-arrow-right"></i></a>
 							</div>
 						</div><!-- Blog Post -->
@@ -70,7 +70,7 @@
 									in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for
 									farmers. Spent several years licensing licorice with banjos in the aftermarket.
 									Spent a weekend importing banjos in West Palm Beach, FL.</p>
-								<a class="bbutton" href="#" title="">Read More <i
+								<a class="bbutton" href="#" title="">Selengkapnya <i
 										class="la la-long-arrow-right"></i></a>
 							</div>
 						</div><!-- Blog Post -->
@@ -89,7 +89,7 @@
 									in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for
 									farmers. Spent several years licensing licorice with banjos in the aftermarket.
 									Spent a weekend importing banjos in West Palm Beach, FL.</p>
-								<a class="bbutton" href="#" title="">Read More <i
+								<a class="bbutton" href="#" title="">Selengkapnya <i
 										class="la la-long-arrow-right"></i></a>
 							</div>
 						</div><!-- Blog Post -->
@@ -108,7 +108,7 @@
 									in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for
 									farmers. Spent several years licensing licorice with banjos in the aftermarket.
 									Spent a weekend importing banjos in West Palm Beach, FL.</p>
-								<a class="bbutton" href="#" title="">Read More <i
+								<a class="bbutton" href="#" title="">Selengkapnya <i
 										class="la la-long-arrow-right"></i></a>
 							</div>
 						</div><!-- Blog Post -->
@@ -126,7 +126,7 @@
 									in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for
 									farmers. Spent several years licensing licorice with banjos in the aftermarket.
 									Spent a weekend importing banjos in West Palm Beach, FL.</p>
-								<a class="bbutton" href="#" title="">Read More <i
+								<a class="bbutton" href="#" title="">Selengkapnya <i
 										class="la la-long-arrow-right"></i></a>
 							</div>
 						</div><!-- Blog Post -->

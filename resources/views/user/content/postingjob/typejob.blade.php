@@ -28,9 +28,12 @@
 								instansi, lembaga, maupun organisasi yang sedang mencari kandidat terbaik. 
 								Temukan pekerja melalui Jobhun dengan cara yang mudah dan cepat.</p>
 						</div><!-- Heading -->
+
+						
+
 						<div class="heading">
 						<div class="row">
-							<div class="blog-posthumb"> <a href="#" title=""><img src="{{asset ('image/post/konten.png')}}" alt="" /></a> </div>
+							<div class="blog-posthumb"> <img width="1300" height="900" src="{{ asset ('user/images/jobhun1.png')}}" alt="" /></div>
 						</div>
 						</div>
 						<div class="plans-sec">
@@ -74,5 +77,12 @@
 				</div>
 			</div>
 		</div>
+		<div class="heading">
+			<div class="row">
+				<div class="blog-posthumb"> <img src="{{ asset ('user/images/2jobhun.jpeg')}}" alt="" /></div>
+		</div>
+		</div>
+		
+		
 	</section>
 @endsection
