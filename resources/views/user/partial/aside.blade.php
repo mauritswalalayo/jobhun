@@ -1,6 +1,7 @@
 <div class="responsive-header">
     <div class="responsive-menubar">
-        <div class="res-logo"><a href="{{route('index')}}" title=""><img src="{{ asset('user/images/jobhun.png')}}" height="50" alt="" /></a>
+        <div class="res-logo"><a href="{{route('index')}}" title=""><img src="{{ asset('user/images/jobhun.png')}}"
+                    height="50" alt="" /></a>
         </div>
         <div class="menu-resaction">
             <div class="res-openmenu">
@@ -34,10 +35,11 @@
                         <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
                         <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
                         <li><a href="{{ route ('media')}}" title="">Media Partner</a></li>
+                        <li><a href="#" title="">Jobhun Talent Pool</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                <a href="{{url('post/program')}}" title="">Program</a>
+                    <a href="{{url('post/program')}}" title="">Program</a>
                     <ul>
                         <li><a href="{{ url ('post/jobhun-internship')}}" title="">Jobhun Internship</a></li>
                         <li><a href="{{ url ('post/jobhun-talks')}}" title="">Jobhun Talks</a></li>
@@ -45,7 +47,7 @@
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
-                <a href="{{url('post/blog')}}" title="">Blog</a>
+                    <a href="{{url('post/blog')}}" title="">Blog</a>
                     <ul>
                         <li><a href="{{ url ('post/cerita_karier')}}">Cerita Karier</a></li>
                         <li><a href="{{ url ('post/infografik')}}">Infografik</a></li>
@@ -64,7 +66,9 @@
     <div class="menu-sec">
         <div class="container">
             <div class="logo">
-                    <a href="{{route('index')}}" title=""><img class="hidesticky" src="{{ asset('user/images/jobhun.png')}}" height="50" alt="" /><img class="showsticky" src="{{ asset('user/images/jobhun.png')}}" height="50" alt="" />
+                <a href="{{route('index')}}" title=""><img class="hidesticky" src="{{ asset('user/images/jobhun.png')}}"
+                        height="50" alt="" /><img class="showsticky" src="{{ asset('user/images/jobhun.png')}}"
+                        height="50" alt="" />
             </div><!-- Logo -->
             <div class="btn-extars">
                 <a href="{{route('typeposting')}}" title="" class="post-job-btn"><i class="la la-plus"></i>Post Jobs</a>
@@ -85,6 +89,7 @@
                             <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
                             <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
                             <li><a href="{{ route ('media')}}" title="">Media Partner</a></li>
+                            <li><a href="#" title="">Jobhun Talent Pool</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
@@ -109,4 +114,4 @@
                 </ul>
             </nav><!-- Menus -->
         </div>
-    </header>
+</header>
