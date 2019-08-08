@@ -145,7 +145,8 @@
                                     </p>
                                     <br>
                                     <p style="font-size:20px"><b>
-                                        Informasi acara akan ditayangkan melalui menu ‘Info Acara’ dan Instagram @jobhun
+                                        Informasi acara akan ditayangkan melalui menu 
+                                        <a href="{{ url ('post/info-acara')}}"><font color="blue">'Info Acara'</font></a> dan <a href="https://www.instagram.com/jobhun/"><font color="blue"> Instagram @jobhun </font></a> 
                                     </b></p>
                                 </div>
                         </section>
