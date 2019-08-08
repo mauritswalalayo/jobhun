@@ -144,7 +144,7 @@ Route::get('/about', 'Homepage_UserController@tentang')->name('about');
 // Layanan
 Route::get('/jobhun-careerhub', 'Homepage_UserController@jch')->name('jch');
 
-Route::get('/loker/show/', 'Homepage_UserController@spek_jch')->name('spek_jch');
+Route::get('/loker/show/{id}', 'Homepage_UserController@spek_jch')->name('spek_jch');
 
 
 
@@ -184,6 +184,9 @@ Route::get('/post/show/{url}' , 'PostController@show' );
 
 //Loker
 Route::post('post/jobs/','JobController@add')->name('post.jobs');
+
+Route::get('loker/verified/{id}', 'JobController@verified')->name('verified_job');
+
 
 // Footer
 

@@ -20,13 +20,13 @@
                                 {{-- <span class="job-is ft">Internship</span> --}}
                             </div>
                             <ul class="tags-jobs">
-                                @foreach ($daftar_job as $job)
+                                
                                     
                             <li><i class=" fa fa-briefcase"></i> {{$job->type_work}}</li>
                                 <li><i class="la la-map-marker"></i>Surabaya</li>
-                                <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
+                            <li><i class="la la-calendar-o"></i> {{Carbon\Carbon::parse($job->created_at)->format('M d, Y')}}</li>
                                 
-                                @endforeach
+                                
                                
                             </ul>
                             <span><strong>Roles</strong>: #Duduk Santai Panggil Tuupai</span>

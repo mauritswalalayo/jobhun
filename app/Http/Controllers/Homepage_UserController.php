@@ -29,10 +29,10 @@ class Homepage_UserController extends Controller
         return view('user.content.service.jch');
     }
 
-    public function spek_jch()
+    public function spek_jch($id)
     {
-        $job = Job::simplepaginate(1);
-        return view('user.content.service.spek_jch',['daftar_job' => $job]);
+        $job = Job::find($id);
+        return view('user.content.service.spek_jch',['job' => $job]);
     }
 
     public function ja()

@@ -31,6 +31,7 @@ class CreatePostJobsTable extends Migration
             $table->string('logo_url');
             $table->string('upload_poster')->nullable();
             $table->string('evidence_transfer');
+            $table->smallInteger('verified_job')->default(0);
 
 
             $table->timestamps();

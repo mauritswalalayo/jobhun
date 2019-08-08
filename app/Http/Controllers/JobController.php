@@ -88,4 +88,10 @@ class JobController extends Controller
         
             return redirect()->route('index');
         }
+
+        public function verified($id)
+        {
+            $job = Job::findOrfail($id);
+            return view('content.loker.verified');
+        }
 }

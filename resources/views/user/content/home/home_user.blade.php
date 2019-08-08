@@ -75,7 +75,7 @@
                                     <div class="job-grid border">
                                         <div class="job-title-sec">
                                             <div class="c-logo"> <img width="300" height="300" src="{{asset ('image/logo_perusahaan/'.$job->logo_url)}}" alt=""></div>
-                                        <h3><a href="{{url('loker/show/')}}" title="">{{$job->company_name}}</a></h3>
+                                        <h3><a href="{{url('loker/show/'.$job->id)}}" title="">{{$job->company_name}}</a></h3>
                                             <ul class="tags-jobs">
                                             <li><i class="la la-map-marker"></i>{{$job->company_address}}</li>
                                                 <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
@@ -84,7 +84,7 @@
                                             <span class="fav-job"><i class="la la-heart-o"></i></span>
                                         </div>
                                     <span class="job-lctn">{{$job->description_company}}</span>
-                                        <a href="{{url('loker/show/')}}" title="">Selengkapnya</a>
+                                        <a href="{{url('loker/show/'.$job->id)}}" title="">Selengkapnya</a>
                                     </div><!-- JOB Grid -->
                                 </div>
 
