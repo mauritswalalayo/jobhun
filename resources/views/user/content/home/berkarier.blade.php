@@ -29,7 +29,7 @@
             <div class="col-lg-12">
                 <h2 style="text-align:center;">Jobhun wants you! Be a part of us!</h2>
                 <p>Kirim CV dan portfolio-mu ke info@jobhun.id dengan subjek email “Jobhun Internship” untuk program magang atau “Jobhun Hiring (Position)” untuk posisi full time/part time/freelance yang sedang dibuka.</p>
-                <p><b>Posisi yang sedang dibuka</b></p>
+                <h4><b>Posisi yang sedang dibuka</b></h4>
                 <p><i>Belum ada posisi yang sedang dibuka</i></p>
             </div>
         </div>
