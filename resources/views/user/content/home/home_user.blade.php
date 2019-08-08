@@ -212,19 +212,35 @@
                     </div><!-- Heading -->
                     <div class="comp-sec">
                         <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                            <a href="#" title=""><img src="{{ asset('user/images/tvri.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                         <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                            <a href="#" title=""><img src="{{ asset('user/images/sonora.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                         <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                            <a href="#" title=""><img src="{{ asset('user/images/idn.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                         <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                            <a href="#" title=""><img src="{{ asset('user/images/provoke.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                         <div class="company-img">
-                            <a href="#" title=""><img src="http://placehold.it/180x80" alt="" /></a>
+                            <a href="#" title=""><img src="{{ asset('user/images/sbo.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                    </div>
+                        <div class="company-img">
+                            <a href="#" title=""><img src="{{ asset('user/images/scg.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="#" title=""><img src="{{ asset('user/images/pas.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="#" title=""><img src="{{ asset('user/images/prima.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="#" title=""><img src="{{ asset('user/images/rosco.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="#" title=""><img src="{{ asset('user/images/yot.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                     </div>
                 </div>
@@ -244,7 +260,30 @@
                     <div class="comp-sec">
                         <div class="company-img">
                             <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
-                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                                    src="{{ asset('user/images/dilosby.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/geco.jpg')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/devecir.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/ppl.jpeg')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/kawankoding.png')}}" alt="" /></a>
+                        </div><!-- Client  -->
+                     </div>
+
+                    <div class="comp-sec">
+                        <div class="company-img">
+                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
+                                    src="{{ asset('user/images/sgx.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                         <div class="company-img">
                             <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
@@ -252,22 +291,18 @@
                         </div><!-- Client  -->
                         <div class="company-img">
                             <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
-                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                                    src="{{ asset('user/images/idsfsby.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                         <div class="company-img">
                             <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
-                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
-                        </div><!-- Client  -->
-                        <div class="company-img">
-                            <a href="https://lazday.com/" target="_blank" title="Website Lazday"><img
-                                    src="{{ asset('user/images/lazday.png')}}" alt="" /></a>
+                                    src="{{ asset('user/images/sym.png')}}" alt="" /></a>
                         </div><!-- Client  -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="block">
+    {{-- <div class="block">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -296,7 +331,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 </section>
 
 @endsection
