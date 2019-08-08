@@ -16,7 +16,7 @@
                                 <h3 style="color:blanchedalmond">Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</h3>
                                 <h6 style="color:blanchedalmond"> Pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
                                     berbagai skill melalui Jobhun Academy</h6>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                         <h2>Jobhun Career Hub</h2>
                         {{-- <span>Leading Employers already using job and talent.</span> --}}
                     </div><!-- Heading -->
-                    
+
                     <div class="heading">
                     <form>
                             <div class="row">
@@ -69,7 +69,7 @@
                         <div class="job-grid-sec">
                             <div class="row">
                                 @foreach ($daftar_job as $job)
-                                    
+
 
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                     <div class="job-grid border">
@@ -88,7 +88,7 @@
                                     </div><!-- JOB Grid -->
                                 </div>
 
-                                @endforeach                                
+                                @endforeach
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
 <section>
     <div class="block double-gap-top double-gap-bottom">
         <div data-velocity="-.1"
-            style="background: url(http://placehold.it/1920x1000) repeat scroll 50% 422.28px transparent;"
+            style="background: url({{ asset('user/images/kelas.jpg')}}) repeat scroll 50% 422.28px transparent;"
             class="parallax scrolly-invisible layer color"></div><!-- PARALLAX BACKGROUND IMAGE -->
         <div class="container">
             <div class="row">
