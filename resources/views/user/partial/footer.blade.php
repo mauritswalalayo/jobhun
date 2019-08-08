@@ -6,7 +6,7 @@
                     <div class="widget">
                         <div class="about_widget">
                             <div class="logo">
-                                <a href="{{route('index')}}" title=""><img src="{{ asset('user/images/jobhun.png')}}"
+                                <a href="{{route('index')}}" title=""><img src="{{ asset('user/images/jobhun_putih.png')}}"
                                         height="50" alt="" /></a>
                             </div>
                             <span>Semua hal yang dibutuhkan para pencari kerja maupun perusahaan yang sedang
