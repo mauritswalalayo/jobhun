@@ -148,4 +148,14 @@ class Homepage_UserController extends Controller
     {
         return view('user.content.home.syarat');
     }
+
+    public function kebijakan()
+    {
+        return view('user.content.home.kebijakan');
+    }
+
+    public function berkarier()
+    {
+        return view('user.content.home.berkarier');
+    }
 }

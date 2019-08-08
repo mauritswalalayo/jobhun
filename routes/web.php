@@ -189,6 +189,11 @@ Route::post('post/jobs/','JobController@add')->name('post.jobs');
 
 Route::get('/syarat-dan-ketentuan', 'Homepage_UserController@syarat')->name('syarat');
 
+Route::get('/kebijakan-privasi', 'Homepage_UserController@kebijakan')->name('kebijakan');
+
+Route::get('/berkarier-di-jobhun', 'Homepage_UserController@berkarier')->name('berkarier');
+
+
 
 
 
