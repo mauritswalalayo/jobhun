@@ -20,7 +20,7 @@ class Job extends Model
         'type_work',
         'description_job',
         'recruit_process',
-        
+
         'logo_url',
         'upload_poster',
         'evidence_transfer'
