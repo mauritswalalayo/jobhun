@@ -5,7 +5,6 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 class Job extends Model
-  
 {
     protected $fillable = [
         'type_loker',
@@ -26,6 +25,7 @@ class Job extends Model
         'evidence_transfer'
     ];
 
+   
+
     public $timestamps = true;
 }
-

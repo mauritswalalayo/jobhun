@@ -5,7 +5,7 @@
 @section('content')
 <div class="box box-primary">
     <div class="box-header with-border">
-        <a href="{{route('post.table')}}" class="btn btn-danger">Kembali</a>
+        <a href="{{route('loker.table')}}" class="btn btn-danger">Kembali</a>
     </div>
     <div class="box-body">
 
@@ -21,18 +21,14 @@
 
     </div>
 
-    @if (isset($editpost))
-        <form action="{{url('post/'.'update/'.$editpost->id)}}" method="POST" enctype="multipart/form-data">
+    <form action="{{url('loker/'.'verified/'.$verified->id)}}" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_method" value="PATCH">
-    @else
-        <form action="{{route('post.add')}}" method="POST" enctype="multipart/form-data">
-    @endif
 
 
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
         <div class="box-body">
 
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label>Kriteria</label>
                     <select class="form-control" name="criteria" data-placeholder="Pilih Kriteria" style="width: 100%;"> 
                         <option value="Cerita-Karier"> Cerita Karier</option>
@@ -46,34 +42,114 @@
                         <option value="Jobhun-Visit"> Jobhun-Visit</option>
 
                     </select>
-            </div>
+            </div> --}}
             
             <div class="form-group">
-                <label for="title">Judul :</label>
-                <input name="title" type="text" id="title" class="form-control" placeholder="Masukan Title Anda......"
-                @if (isset($editpost)) value="{{$editpost->title}}"
-                        @endif>
+                <label for="title">Nama Perusahaan :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                @if (isset($verified)) value="{{$verified->company_name}}" @endif>
             </div>
+
             <div class="form-group">
-                <label for="content">Isi Konten :</label>
-                <textarea name="content" id="content" cols="30" rows="10" class="form-control">@if (isset($editpost)) {{$editpost->content}}
-                @endif</textarea>
+                <label for="title">Tagline Perusahaan :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                @if (isset($verified)) value="{{$verified->company_tagline}}" @endif>
+            </div>
+
+            <div class="form-group">
+                <label for="content">Deskripsi Perusahaan :</label>
+                <textarea name="content" id="content" cols="30" rows="10" class="form-control">
+                    @if (isset($verified)) {{$verified->description_company}} @endif
+                </textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="title">Alamat Perusahaan :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                     @if (isset($verified)) value="{{$verified->company_address}}" @endif>
+            </div>
+
+            <div class="form-group">
+                <label for="title">Tagline Perusahaan :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                    @if (isset($verified)) value="{{$verified->company_tagline}}" @endif>
+            </div>
+
+            <div class="form-group">
+                <label for="title">Website Perusahaan :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                 @if (isset($verified)) value="{{$verified->company_website}}" @endif>
+            </div>
+
+            <div class="form-group">
+                <label for="title">Email Perusahaan :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                 @if (isset($verified)) value="{{$verified->company_email}}" @endif>
+            </div>
+
+            <div class="form-group">
+                <label for="title">No. Telpon Perusahaan :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                 @if (isset($verified)) value="{{$verified->company_phone}}" @endif>
+            </div>
+
+            <div class="form-group">
+                <label for="title">Posisi Yang Dicari :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                 @if (isset($verified)) value="{{$verified->position_sought}}" @endif>
+                </div>
+
+            <div class="form-group">
+                <label for="title">Jenis Pekerjaan :</label>
+                <input name="title" type="text" id="title" class="form-control" 
+                 @if (isset($verified)) value="{{$verified->type_work}}" @endif>
+            </div>
+
+            <div class="form-group">
+                <label for="content">Deskripsi Masing-masing Pekerjaan :</label>
+                <textarea name="content" id="content" cols="30" rows="10" class="form-control">
+                    @if (isset($verified)) {{$verified->description_job}} @endif
+                </textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="content">Deskripsi Masing-masing Pekerjaan :</label>
+                <textarea name="content" id="content" cols="30" rows="10" class="form-control">
+                    @if (isset($verified)) {{$verified->recruit_process}} @endif
+                </textarea>
             </div>
 
             <div class="box-body">
                 <div class="form-group">
-                    <label for="title">Foto :</label>
-                    <input type="file" name="feature_image" id="foto" cols="30" rows="10" class="form-control">
+                    <label for="title">Logo Perusahaan :</label>
+                    <div class="c-logo">
+                    <img width="300" height="300" src="{{asset ('image/logo_perusahaan/'.$verified->logo_url)}}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="title">Poster :</label>
+                    <div class="c-logo">
+                    <img width="300" height="300" src="{{asset ('image/poster/'.$verified->upload_poster)}}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="title">Bukti Transfer :</label>
+                    <div class="c-logo">
+                    <img width="300" height="300" src="{{asset ('image/bukti_transfer/'.$verified->evidence_transfer)}}" alt="">
+                    </div>
                 </div>
             </div>
             
         </div>
         <div class="box-footer">
-            @if (isset($editpost))
-                <button type="submit" class="btn btn-warning pull-right">Perbarui Data</button>
-            @else
-                <button type="submit" class="btn btn-info pull-right">Tambah Data</button>
-            @endif
+                <button type="submit" class="btn btn-warning pull-right">Verified</button>
+            
         </div>
     </form>
     <!-- /.box-footer-->

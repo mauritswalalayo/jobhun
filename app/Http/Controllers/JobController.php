@@ -92,6 +92,6 @@ class JobController extends Controller
         public function verified($id)
         {
             $job = Job::findOrfail($id);
-            return view('content.loker.verified');
+            return view('content.loker.verified',['verified' => $job]);
         }
 }
