@@ -33,8 +33,38 @@
 
 					<div class="heading">
 						<div class="row">
-							<div class="blog-posthumb"> <img width="1300" height="900"
-									src="{{ asset ('user/images/jobhun1.png')}}" alt="" /></div>
+							<div class="row">
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+									<div class="job-grid border">
+										<div class="job-title-sec">
+											<h3>Membantu menghemat waktu dan biaya</h3>
+											<p align="left">Perusahaan bisa merekrut kandidat terbaik dengan cara yang mudah dan cepat. meminimalkan sumber daya manusia internal serta menghemat biaya untuk melakukan perekrutan</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+									<div class="job-grid border">
+										<div class="job-title-sec">
+											<h3>Berkesempatan untuk mendapatkan pekerjaan</h3>
+											<p align="left">Jobhun bekerjasama dengan berbagai perusahaan dalam mencari
+												kandidat terbaik. Apabila kamu berhasil menyelesaikan program di Jobhun
+												Academy dengan baik dan sesuai dengan Kriteria yang sedang dicari oleh
+												perusahaan, maka Jobhun akan merekomendasikan kamu agar bisa bekerja di
+												beberapa company partner Jobhun tersebut.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+									<div class="job-grid border">
+										<div class="job-title-sec">
+											<h3>Dibimbing oleh mentor - mentor berkualitas dan berpengalaman</h3>
+											<p align="left">Jobhun selalu berupaya menghadirkan mentor berkualitas dan
+												berpengalaman dibidangnya, serta memiliki prestasi di bidang tersebut.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="plans-sec">
