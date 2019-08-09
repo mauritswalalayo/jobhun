@@ -21,9 +21,12 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading">
-						<h2>Jobhun Career Hub for Company</h2>
+						<h2 style="text-align:left;">Jobhun Career Hub for Company</h2>
 						<br>
 						<br>
+						<div class="blog-posthumb"> <img width="1300" height="900"
+								src="{{ asset ('user/images/jch.png')}}" alt="" />
+						</div>
 						<p style="font-size:20px">Jobhun Career Hub menjadi solusi bagi perusahaan,
 							instansi, lembaga, maupun organisasi yang sedang mencari kandidat terbaik.
 							Temukan pekerja melalui Jobhun dengan cara yang mudah dan cepat.</p>
@@ -72,7 +75,9 @@
 									<div class="job-grid border">
 										<div class="job-title-sec">
 											<h3>Memiliki jaringan yang luas</h3>
-											<p align="left">Jobhun memiliki kerja sama dengan beragam komunitas, organisasi, maupun instansi, sehingga dapat memudahkan pencarian kandidat sesuai dengan kualifikasi yang dibutuhkan.</p>
+											<p align="left">Jobhun memiliki kerja sama dengan beragam komunitas,
+												organisasi, maupun instansi, sehingga dapat memudahkan pencarian
+												kandidat sesuai dengan kualifikasi yang dibutuhkan.</p>
 										</div>
 									</div>
 								</div>
@@ -80,7 +85,10 @@
 									<div class="job-grid border">
 										<div class="job-title-sec">
 											<h3>Memberikan garansi</h3>
-											<p align="left">Ketika kandidat yang dipilih melalui layanan Jobhun Career Hub Premium dirasa belum sesuai, maka Jobhun akan memberikan garansi untuk mencari kandidat lain (dengan perpanjangan waktu), tanpa dipungut biaya. Syarat dan ketentuan berlaku</p>
+											<p align="left">Ketika kandidat yang dipilih melalui layanan Jobhun Career
+												Hub Premium dirasa belum sesuai, maka Jobhun akan memberikan garansi
+												untuk mencari kandidat lain (dengan perpanjangan waktu), tanpa dipungut
+												biaya. Syarat dan ketentuan berlaku</p>
 										</div>
 									</div>
 								</div>
