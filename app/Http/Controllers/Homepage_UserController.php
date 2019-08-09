@@ -75,11 +75,6 @@ class Homepage_UserController extends Controller
         return view('user.content.service.copywriter');
     }
 
-    public function media()
-    {
-        return view('user.content.service.mediapartner');
-    }
-
     public function public_speaker()
     {
         return view('user.content.service.public_speaker');
@@ -93,6 +88,16 @@ class Homepage_UserController extends Controller
     public function startup_founder()
     {
         return view('user.content.service.startup_founder');
+    }
+
+    public function media()
+    {
+        return view('user.content.service.mediapartner');
+    }
+
+    public function jtp()
+    {
+        return view('user.content.service.jtp');
     }
 
     // Program

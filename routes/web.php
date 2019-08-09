@@ -167,12 +167,13 @@ Route::get('/jobhun-academy-copywriter', 'Homepage_UserController@copywriter')->
 
 Route::get('/jobhun-academy-social-media-specialist', 'Homepage_UserController@social_media')->name('social_media');
 
-Route::get('/jobhun-academy-media-partner', 'Homepage_UserController@media')->name('media');
-
 Route::get('/jobhun-academy-public-speaker', 'Homepage_UserController@public_speaker')->name('public_speaker');
 
 Route::get('/jobhun-academy-startup-founder', 'Homepage_UserController@startup_founder')->name('startup_founder');
 
+Route::get('/jobhun-academy-media-partner', 'Homepage_UserController@media')->name('media');
+
+Route::get('/jobhun-talent-pool', 'Homepage_UserController@jtp')->name('jtp');
 // Program
 
 Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');

@@ -35,7 +35,7 @@
                         <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
                         <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
                         <li><a href="{{ route ('media')}}" title="">Media Partner</a></li>
-                        <li><a href="#" title="">Jobhun Talent Pool</a></li>
+                        <li><a href="{{ route ('jtp')}}" title="">Jobhun Talent Pool</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
@@ -89,7 +89,7 @@
                             <li><a href="{{ route ('jch')}}" title=""> Jobhun Career Hub</a></li>
                             <li><a href="{{ route ('ja')}}" title="">Jobhun Academy</a></li>
                             <li><a href="{{ route ('media')}}" title="">Media Partner</a></li>
-                            <li><a href="#" title="">Jobhun Talent Pool</a></li>
+                            <li><a href="{{ route ('jtp')}}" title="">Jobhun Talent Pool</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
