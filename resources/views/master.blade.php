@@ -32,6 +32,9 @@
     <section class="content">
 
       <!-- Default box -->
+      <script src="{{asset('admin/bootstrap/js/sweetalert.min.js')}}"></script>
+
+
       @yield('content')
       <!-- /.box -->
 

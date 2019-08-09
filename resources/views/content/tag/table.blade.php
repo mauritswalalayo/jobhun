@@ -25,8 +25,9 @@
                     <td>{{$i++}}</td>
                     <td>{{$tag->name}}</td>
                     <td>
+                            {{-- --}}
                         <a href="{{url('tag/'.'edit/'.$tag->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
-                        <a href="{{url('tag/'.'delete/'.$tag->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
+                        <a href="{{url('tag/'.'delete/'.$tag->id)}} " class="btn btn-danger btn-sm glyphicon glyphicon-trash" tag-id={{$tag->id}}>Delete</a>
                     </td>
                 </tr>
 
@@ -38,4 +39,27 @@
         Footer
     </div>
 </div>
+
+
+    {{-- <script>
+
+            swal({
+  title: "Are you sure?",
+  text: "Once deleted, you will not be able to recover this imaginary file!",
+  icon: "warning",
+  buttons: true,
+  dangerMode: true,
+})
+.then((willDelete) => {
+  if (willDelete) {
+    swal("Poof! Your imaginary file has been deleted!", {
+      icon: "success",
+    });
+  } else {
+    swal("Your imaginary file is safe!");
+  }
+});
+    </script> --}}
+
+
 @endsection
