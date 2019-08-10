@@ -114,7 +114,7 @@
 											<h6>- Berlaku untuk 1 posisi pekerjaan</h6>
 										</li>
 									</ul>
-									<a href="{{route('formposting')}}" title="">Posting Loker</a>
+									<a href="{{route('formposting_reguler')}}" title="">Posting Loker</a>
 								</div>
 							</div>
 							<div class="col-lg-6">
@@ -144,7 +144,7 @@
 											perusahaan yang akan melakukan interview maupun psikotes kepada calon
 											pekerja.</li>
 									</ul>
-									<a href="{{route('formposting')}}" title="">Posting Loker</a>
+									<a href="{{route('formposting_premium')}}" title="">Posting Loker</a>
 								</div>
 							</div>
 

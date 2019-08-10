@@ -18,9 +18,14 @@ class JobController extends Controller
         return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
     }
 
-    public function index ()
+    public function form_reguler ()
     {
         return view('user.content.postingjob.formposting');
+    }
+
+    public function form_premium ()
+    {
+        return view('user.content.postingjob.formpostingpremium');
     }
 
     public function indextype ()

@@ -26,7 +26,9 @@ class Homepage_UserController extends Controller
     // Layanan
     public function jch()
     {
-        return view('user.content.service.jch');
+        $job = Job::simplepaginate(10);
+        $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
+        return view('user.content.service.jch',['daftar_job' => $job]);
     }
 
     public function spek_jch($id)

@@ -14,7 +14,7 @@
     </div>
     <div class="responsive-opensec">
         <div class="btn-extars">
-            <a href="{{route('formposting')}}" title="" class="post-job-btn"><i class="la la-plus"></i>Post Jobs</a>
+            <a href="{{route('typeposting')}}" title="" class="post-job-btn"><i class="la la-plus"></i>Post Jobs</a>
             <ul class="account-btns">
                 <li class="signup-popup"><a title=""><i class="la la-key"></i> Sign Up</a></li>
                 <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i> Login</a></li>

@@ -212,7 +212,9 @@ Route::get('user/program/detail', 'ProgramController@indexdetail')->name('progra
 
 //================================ Route Posting Job ===============================
 
-Route::get('postingjob/form', 'JobController@index')->name('formposting');
+Route::get('postingjob/form/reguler', 'JobController@form_reguler')->name('formposting_reguler');
+
+Route::get('postingjob/form/premium', 'JobController@form_premium')->name('formposting_premium');
 
 Route::get('postingjob/type', 'JobController@indextype')->name('typeposting');
 
