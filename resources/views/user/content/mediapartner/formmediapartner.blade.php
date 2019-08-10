@@ -63,18 +63,25 @@
 					 					</div>
 
 					 					<div class="col-lg-12">
-					 						<span class="pf-title">Nama Perusahaan</span>
+					 						<span class="pf-title">Nama Acara</span>
 					 						<div class="pf-field">
 					 							<input type="text" name="company_name" placeholder="Jobhun" />
 					 						</div>
                                          </div>
                                          
                                          <div class="col-lg-12">
-					 						<span class="pf-title">Tagline Perusahaan</span>
+					 						<span class="pf-title">Penyelenggara Acara</span>
 					 						<div class="pf-field">
 					 							<input type="text" name="company_tagline" placeholder="Career Development for Millenials" />
 					 						</div>
                                          </div>
+
+                                         <div class="col-lg-12">
+                                                <span class="pf-title">Narahubung Acara</span>
+                                                <div class="pf-field">
+                                                    <input type="text" name="company_address" placeholder="Geco Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel, Wonokromo, Surabaya, Jawa Timur, Indonesia 60246" />
+                                                </div>
+                                        </div>
                                          
                                          <div class="col-lg-12">
 					 						<span class="pf-title">Deskripsi Perusahaan</span>
