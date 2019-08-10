@@ -73,8 +73,8 @@
 					</div>
 					<div class="job-grid-sec">
 						<div class="row">
-					
-							
+
+
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
 									<div class="job-title-sec">
@@ -95,7 +95,7 @@
 									<a href="{{ route ('spek_jch')}}" title="">Read More</a>
 								</div><!-- JOB Grid -->
 							</div>
-							
+
 						</div>
 					</div>
 					{{-- <div class="pagination">
@@ -110,8 +110,8 @@
 							<li><a href="">14</a></li>
 							<li class="next"><a href="">Next <i class="la la-long-arrow-right"></i></a></li>
 						</ul> --}}
-						
-					</div><!-- Pagination --> 
+
+					</div><!-- Pagination -->
 				</div>
 			</div>
 		</div>
