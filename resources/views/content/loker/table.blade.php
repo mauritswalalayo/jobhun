@@ -32,7 +32,7 @@
 
                     <td>
                         <a href="{{url('loker/'.'verified/'.$job->id)}}" class="btn btn-warning btn-sm 	glyphicon glyphicon-eye-open">View</a>
-                        <a href="#" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
+                        <a href="{{url('loker/'.'delete/'.$job->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
                     </td>
                 </tr>
 

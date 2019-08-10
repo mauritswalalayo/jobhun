@@ -188,6 +188,9 @@ Route::post('post/jobs/','JobController@add')->name('post.jobs');
 
 Route::get('loker/verified/{id}', 'JobController@verified')->name('verified_job');
 
+Route::get('loker/delete/{id}', 'JobController@delete')->name('delete_job');
+
+
 
 // Footer
 

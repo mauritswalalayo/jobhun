@@ -86,12 +86,20 @@ class JobController extends Controller
 
             $job->save();
         
-            return redirect()->route('index');
+            return redirect()->route('index')->with('berhasil', '.');
+
         }
 
         public function verified($id)
         {
             $job = Job::findOrfail($id);
             return view('content.loker.verified',['verified' => $job]);
+        }
+
+        public function delete($id)
+        {
+            $job = Job::findOrFail($id);
+            $job->delete();
+            return redirect()->route('loker.table');        
         }
 }
