@@ -216,6 +216,8 @@ Route::get('postingjob/form', 'JobController@index')->name('formposting');
 
 Route::get('postingjob/type', 'JobController@indextype')->name('typeposting');
 
+Route::get('posting/media-partner/form', 'JobController@index_media_partner')->name('form_media_partner');
+
 
 Route::get('/tesvuejs', function () {
     return view('tes');

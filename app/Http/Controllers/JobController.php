@@ -8,6 +8,9 @@ use Validator;
 
 class JobController extends Controller
 {
+
+//=========================================== Post Job ======================================================
+
     public function view ()
     {
         $job = Job::paginate(3);
@@ -102,4 +105,12 @@ class JobController extends Controller
             $job->delete();
             return redirect()->route('loker.table');        
         }
+
+//========================================= Media Partner ===============================================================
+
+        public function index_media_partner ()
+        {
+            return view('user.content.mediapartner.formmediapartner');
+        }
+
 }

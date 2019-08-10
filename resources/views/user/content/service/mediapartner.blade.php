@@ -89,7 +89,7 @@
                                                                 <li><h6>4. Press release sebelum acara akan diposting di website Jobhun</h6></li>
                                                                 <li><h6></h6></li>
                                                             </ul>
-                                                            <a href="{{route('formposting')}}" title="">Daftar</a>
+                                                            <a href="{{route('form_media_partner')}}" title="">Daftar</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6">
@@ -107,7 +107,7 @@
                                                                 <li><h6>5. Peliputan acara dalam bentuk artikel premium yang akan diposting di website dan Instagram Jobhun.</h6></li>
                                                                 
                                                             </ul>
-                                                            <a href="{{route('formposting')}}" title="">Daftar</a>
+                                                            <a href="{{route('form_media_partner')}}" title="">Daftar</a>
                                                         </div>
                                                     </div>
                                             
