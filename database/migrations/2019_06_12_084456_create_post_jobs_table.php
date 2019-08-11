@@ -28,7 +28,7 @@ class CreatePostJobsTable extends Migration
             $table->text('description_job');
             $table->string('recruit_process');
 
-            $table->string('logo_url');
+            $table->string('logo_url')->nullable();
             $table->string('upload_poster')->nullable();
             $table->string('evidence_transfer');
             $table->smallInteger('verified_job')->default(0);

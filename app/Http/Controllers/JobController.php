@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Job;
+use App\Mediapartner;
 use Validator;
 
 class JobController extends Controller
@@ -52,8 +53,8 @@ class JobController extends Controller
                     'description_job'=> 'required',
                     'recruit_process' => 'required',
 
-                    'logo_url' => 'required',
-                    // 'evidence_transfer'=> 'required',
+                    // 'logo_url' => 'required',
+                    'evidence_transfer'=> 'required',
                     
                 ]
             );
@@ -78,9 +79,7 @@ class JobController extends Controller
             // $job->recruit_process = $request->recruit_process;
             // $job->save();
 
-            $image_logo = $job->id.'.'.$request->file('logo_url')->getClientOriginalExtension();
-            $request->file('logo_url')->move(public_path('image/logo_perusahaan'),$image_logo);
-            $job->logo_url = $image_logo;
+            
 
             $image_bukti = $job->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
             $request->file('evidence_transfer')->move(public_path('image/bukti_transfer'),$image_bukti);
@@ -91,6 +90,13 @@ class JobController extends Controller
                 $request->file('upload_poster')->move(public_path('image/poster'),$image_poster);
                 $job->upload_poster = $image_poster;
             }
+            elseif($request->hasFile('logo_url')){
+            $image_logo = $job->id.'.'.$request->file('logo_url')->getClientOriginalExtension();
+            $request->file('logo_url')->move(public_path('image/logo_perusahaan'),$image_logo);
+            $job->logo_url = $image_logo;
+                
+            }
+            
 
             $job->save();
         
@@ -118,4 +124,28 @@ class JobController extends Controller
             return view('user.content.mediapartner.formmediapartner');
         }
 
+        public function media_partner(Request $request)
+        {
+            $validator = validator::make(
+                $request->all(),
+                [
+                    'type_mediapartner' => 'required',
+                    'event_name' => 'required',
+                    'event_organizer'=> 'required',
+                    'contact_event' => 'required',
+                    'event_date' => 'required',
+                    'event_venue'=> 'required',
+                    'event_details' => 'required',
+                    'evidence_transfer' => 'required',
+                    
+                ]
+            );
+            if ($validator->fails()) {
+                return back()->withErrors($validator)->withInput();
+            }
+
+            $mediapartner = Mediapartner::create($request->all());
+
+
+        }
 }

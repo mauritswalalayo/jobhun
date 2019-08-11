@@ -190,6 +190,11 @@ Route::get('loker/verified/{id}', 'JobController@verified')->name('verified_job'
 
 Route::get('loker/delete/{id}', 'JobController@delete')->name('delete_job');
 
+//Media Partner
+Route::post('post/media-partner/','JobController@media_partner')->name('post.mediapartner');
+
+
+
 
 
 // Footer
