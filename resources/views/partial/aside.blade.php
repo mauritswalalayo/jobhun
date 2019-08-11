@@ -71,6 +71,14 @@
                 </a>
             </li>
 
+            <li class="treeview">
+                <a href="{{route('mediapartner.table')}}">
+                    <i class="glyphicon glyphicon-briefcase"></i> <span>Media Partner</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
+
         </ul>
     </section>
     <!-- /.sidebar -->

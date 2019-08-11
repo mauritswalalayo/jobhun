@@ -12,11 +12,18 @@ class JobController extends Controller
 
 //=========================================== Post Job ======================================================
 
-    public function view ()
+    public function view_loker ()
     {
         $job = Job::paginate(3);
         $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
         return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
+    }
+
+    public function view_mediapartner ()
+    {
+        $mediapartner = Mediapartner::paginate(3);
+        $first_index = $mediapartner->currentPage() * $mediapartner->perPage() - $mediapartner->perPage() + 1;
+        return view('content.mediapartner.table',['data_mediapartner' => $mediapartner, 'first_index' => $first_index]);
     }
 
     public function form_reguler ()
@@ -146,6 +153,19 @@ class JobController extends Controller
 
             $mediapartner = Mediapartner::create($request->all());
 
+            $image_bukti = $mediapartner->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
+            $request->file('evidence_transfer')->move(public_path('image/bukti_transfer'),$image_bukti);
+            $mediapartner->evidence_transfer = $image_bukti;
 
+            $mediapartner->save();
+        
+            return redirect()->route('index')->with('berhasil', '.');
+        }
+
+        public function delete_mediapartner($id)
+        {
+            $mediapartner = Mediapartner::findOrFail($id);
+            $mediapartner->delete();
+            return redirect()->route('mediapartner.table');        
         }
 }

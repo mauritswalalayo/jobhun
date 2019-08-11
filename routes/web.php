@@ -120,7 +120,9 @@ Route::get('collaborate/update/{id}', 'CollaborateController@update')->name('col
 
 //========================== Route Lowongan Kerja =================================
 
-Route::get('lowongan/table', 'JobController@view')->name('loker.table');
+Route::get('lowongan/table', 'JobController@view_loker')->name('loker.table');
+
+Route::get('mediapartner/table', 'JobController@view_mediapartner')->name('mediapartner.table');
 
 
 //=========================================================================================================================
@@ -192,6 +194,9 @@ Route::get('loker/delete/{id}', 'JobController@delete')->name('delete_job');
 
 //Media Partner
 Route::post('post/media-partner/','JobController@media_partner')->name('post.mediapartner');
+
+Route::get('mediapartner/delete/{id}', 'JobController@delete_mediapartner')->name('delete_mediapartner');
+
 
 
 
