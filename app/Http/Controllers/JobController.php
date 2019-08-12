@@ -174,4 +174,12 @@ class JobController extends Controller
             $mediapartner = Mediapartner::findOrfail($id);
             return view('content.mediapartner.verified',['verified' => $mediapartner]);
         }
+
+//=============================================== Jobhun Academy ====================================================
+
+        public function form_jobhun_academy ()
+        {
+            return view('user.content.jobhunacademy.formjobhunacademy');
+        }
 }
+

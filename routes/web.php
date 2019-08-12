@@ -200,6 +200,10 @@ Route::get('mediapartner/delete/{id}', 'JobController@delete_mediapartner')->nam
 Route::get('mediapartner/verified/{id}', 'JobController@verified_mediapartner')->name('verified_mediapartner');
 
 
+//Jobhyn Academy
+Route::get('form/jobhun-academy/','JobController@form_jobhun_academy')->name('form.jobhunacademy');
+
+
 
 
 

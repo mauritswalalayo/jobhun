@@ -91,7 +91,8 @@
                 <div class="form-group">
                     <label for="title">Bukti Transfer :</label>
                     <div class="c-logo">
-                    <img width="300" height="300" src="{{asset ('image/bukti_transfer/'.$verified->evidence_transfer)}}" alt="">
+                    <img width="300" height="300" src="{{asset ('image/bukti_transfer/'.$verified->evidence_transfer
+                    )}}" alt="">
                     </div>
                 </div>
             </div>
