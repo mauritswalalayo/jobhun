@@ -85,7 +85,7 @@ Route::patch('tag/update/{id}', 'TagController@update');
 
 Route::get('tag/delete/{id}', 'TagController@delete');
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -243,3 +243,7 @@ Route::get('/tesvuejs', function () {
 });
 
 // Coba sajagff
+
+
+// Verifikasi Email
+Route::post('/register-user', 'UserController@store');

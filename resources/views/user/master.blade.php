@@ -62,44 +62,26 @@
 		<div class="account-popup">
 			<span class="close-popup"><i class="la la-close"></i></span>
 			<h3>Daftar</h3>
-			<div class="select-user">
-				<span>Candidate</span>
-				<span>Employer</span>
-			</div>
-			<form>
+			<form action="{{ url('/register') }}" method="post">
+				@csrf
 				<div class="cfield">
-					<input type="text" placeholder="Username" />
+					<input type="text" id="name" placeholder="Username" />
 					<i class="la la-user"></i>
 				</div>
 				<div class="cfield">
-					<input type="password" placeholder="********" />
+					<input type="password" id="password" placeholder="********" />
 					<i class="la la-key"></i>
 				</div>
 				<div class="cfield">
-					<input type="text" placeholder="Email" />
+					<input type="text" id="email" placeholder="Email" />
 					<i class="la la-envelope-o"></i>
 				</div>
-				<div class="dropdown-field">
-					<select data-placeholder="Please Select Specialism" class="chosen">
-						<option>Web Development</option>
-						<option>Web Designing</option>
-						<option>Art & Culture</option>
-						<option>Reading & Writing</option>
-					</select>
-				</div>
 				<div class="cfield">
-					<input type="text" placeholder="Phone Number" />
+					<input type="text" id="phone" placeholder="Nomor Telepon" />
 					<i class="la la-phone"></i>
 				</div>
-				<button type="submit">Signup</button>
+				<button type="submit">Daftar</button>
 			</form>
-			<div class="extra-login">
-				<span>Or</span>
-				<div class="login-social">
-					<a class="fb-login" href="#" title=""><i class="fa fa-facebook"></i></a>
-					<a class="tw-login" href="#" title=""><i class="fa fa-twitter"></i></a>
-				</div>
-			</div>
 		</div>
 	</div><!-- SIGNUP POPUP -->
 

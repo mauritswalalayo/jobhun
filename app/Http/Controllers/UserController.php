@@ -9,6 +9,24 @@ use Validator;
 
 class UserController extends Controller
 {
+    public function store(Request $request)
+    {
+        $validator = validator::make($request->all(),
+        ['name' => 'required',
+        'email' => 'required|unique',
+        'phone' => 'required',
+        'password' => bycript('1234567890')]);
+        if ($validator->fails())
+        {
+            return back ()-> withErrors($validator)->withInput();
+        }
+
+        $user = User::create($request->all());
+        $user->password = bcrypt('12345');
+        $user->save();
+
+        return redirect()->route('beranda');
+    }
     //
     public function index ()
     {

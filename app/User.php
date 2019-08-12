@@ -2,8 +2,9 @@
 
 namespace App;
 
+use Illuminate\Auth\MustVerifyEmail;
 use Illuminate\Notifications\Notifiable;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Auth\MustVerifyEmail as MustVerifyEmailContract;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
@@ -23,7 +24,7 @@ class User extends Authenticatable
         return $this->hasMany('App\Post');
     }
 
-    
+
 
     /**
      * The attributes that should be hidden for arrays.

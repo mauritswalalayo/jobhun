@@ -36,7 +36,7 @@
   <div class="register-box-body">
     <p class="login-box-msg">Register a new membership</p>
 
-    <form action="{{ route('register') }}" method="post">
+    <form action="{{ url('/register') }}" method="post">
     @csrf
       <div class="form-group has-feedback">
         <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus placeholder="Full Name">
