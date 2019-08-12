@@ -168,4 +168,10 @@ class JobController extends Controller
             $mediapartner->delete();
             return redirect()->route('mediapartner.table');        
         }
+
+        public function verified_mediapartner($id)
+        {
+            $mediapartner = Mediapartner::findOrfail($id);
+            return view('content.mediapartner.verified',['verified' => $mediapartner]);
+        }
 }

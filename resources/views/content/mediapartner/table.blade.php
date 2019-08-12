@@ -31,8 +31,7 @@
                     <td>{{$data_mediapartner->contact_event}}</td>
 
                     <td>
-                            {{-- {{url('mediapartner/'.'verified/'.$data_mediapartner->id)}} --}}
-                        <a href="#" class="btn btn-warning btn-sm glyphicon glyphicon-eye-open">View</a>
+                        <a href="{{url('mediapartner/'.'verified/'.$data_mediapartner->id)}} " class="btn btn-warning btn-sm glyphicon glyphicon-eye-open">verified</a>
                         <a href="{{url('mediapartner/'.'delete/'.$data_mediapartner->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
                     </td>
                 </tr>
