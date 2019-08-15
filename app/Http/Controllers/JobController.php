@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Job;
 use App\Mediapartner;
 use Validator;
+use Illuminate\Support\Facades\Mail;
 
 class JobController extends Controller
 {
@@ -70,23 +71,6 @@ class JobController extends Controller
             }
 
             $job = Job::create($request->all());
-    
-            // $job = new Job;
-            // $job->type_loker = $request->type_loker;
-            // $job->company_name = $request->company_name;
-            // $job->company_tagline = $request->company_tagline;
-            // $job->description_company = $request->description_company;
-            // $job->company_address = $request->company_address;
-            // $job->company_website = $request->company_website;
-            // $job->company_email = $request->company_email;
-            // $job->company_phone = $request->company_phone;
-            // $job->position_sought = $request->position_sought;
-            // $job->type_work = $request->type_work;
-            // $job->description_job = $request->description_job;
-            // $job->recruit_process = $request->recruit_process;
-            // $job->save();
-
-            
 
             $image_bukti = $job->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
             $request->file('evidence_transfer')->move(public_path('image/bukti_transfer'),$image_bukti);
@@ -106,6 +90,23 @@ class JobController extends Controller
             
 
             $job->save();
+
+//=================================== email =======================================================
+            $emailtujuan = 'walalayooces@gmail.com';
+            $namatujuan = 'Maurits Oces';
+            $data = ['name' => 'Johana','body' => 'ada loker baru dari '.$job->company_name];
+
+            Mail::send('content.email.verifiedjob', $data, function ($message) use($emailtujuan,$namatujuan) {
+                $message->from('jobhun.id@gmail.com', 'Johana');
+                // $message->sender('john@johndoe.com', 'John Doe');
+                $message->to($emailtujuan, $namatujuan);
+                // $message->cc('john@johndoe.com', 'John Doe');
+                // $message->bcc('john@johndoe.com', 'John Doe');
+                // $message->replyTo('john@johndoe.com', 'John Doe');
+                $message->subject('Loker Baru');
+                // $message->priority(3);
+                // $message->attach('pathToFile');
+            });
         
             return redirect()->route('index')->with('berhasil', '.');
 
