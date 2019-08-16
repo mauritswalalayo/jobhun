@@ -15,7 +15,7 @@ class JobController extends Controller
 
     public function view_loker ()
     {
-        $job = Job::paginate(3);
+        $job = Job::paginate(10);
         $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
         return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
     }
@@ -92,11 +92,11 @@ class JobController extends Controller
             $job->save();
 
 //=================================== email =======================================================
-            $emailtujuan = 'walalayooces@gmail.com';
+            $emailtujuan = $job->company_email;
             $namatujuan = 'Maurits Oces';
-            $data = ['name' => 'Johana','body' => 'ada loker baru dari '.$job->company_name];
+            $data = ['name' => 'Johana','body' => 'ada Loker baru dari '.$job->company_name];
 
-            Mail::send('content.email.verifiedjob', $data, function ($message) use($emailtujuan,$namatujuan) {
+            Mail::send('content.email.email', $data, function ($message) use($emailtujuan,$namatujuan) {
                 $message->from('jobhun.id@gmail.com', 'Johana');
                 // $message->sender('john@johndoe.com', 'John Doe');
                 $message->to($emailtujuan, $namatujuan);
@@ -111,12 +111,74 @@ class JobController extends Controller
             return redirect()->route('index')->with('berhasil', '.');
 
         }
-
+//=========================================== form verified ===============================================
         public function verified($id)
         {
             $job = Job::findOrfail($id);
             return view('content.loker.verified',['verified' => $job]);
         }
+
+//=========================================== verified loker ======================================================
+
+public function verified_loker(Request $request, $id)
+{
+    // $validator = validator::make(
+    //     $request->all(),
+    //     [
+    //         'company_name' => 'required',
+    //         'company_tagline'=> 'required',
+    //         'description_company' => 'required',
+    //         'company_address' => 'required',
+    //         'company_website'=> 'required',
+    //         'company_email' => 'required',
+    //         'company_phone' => 'required',
+    //         'position_sought'=> 'required',
+    //         'type_work' => 'required',
+    //         'description_job'=> 'required',
+    //         'recruit_process' => 'required',
+    //     ]
+    // );
+    // if ($validator->fails()) {
+    //     return back()->withErrors($validator)->withInput();
+    // }
+
+    $loker = Job::find($id);
+
+
+    $loker->update($request->all());
+    $loker->save();
+    
+    $job = str_replace('0','1',$request->verified_job);
+
+
+
+
+
+
+    // $loker->verified_job = '1';
+
+    // $loker->type_loker = ($request->type_loker);
+    // $loker->company_name = ($request->company_name);
+    // $loker->company_tagline = ($request->company_tagline);
+    // $loker->description_company = ($request->description_company);
+    // $loker->company_address = ($request->company_address);
+    // $loker->company_website = ($request->company_website);
+    // $loker->company_email = ($request->company_email);
+    // $loker->company_phone = ($request->company_phone);
+    // $loker->position_sought = ($request->position_sought);
+    // $loker->type_work = ($request->type_work);
+    // $loker->description_job = ($request->description_job);
+    // $loker->recruit_process = ($request->recruit_process);
+    // $loker->verified_job = '1';
+
+    return redirect()->route('loker.table');
+
+    
+
+}
+
+
+//========================================== Delete Loker =======================================================
 
         public function delete($id)
         {

@@ -13,9 +13,9 @@
                         </div>
                         <div class="job-search-sec">
                             <div class="job-search">
-                                <h3 style="color:blanchedalmond">Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</h3>
-                                <h6 style="color:blanchedalmond"> Pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
-                                    berbagai skill melalui Jobhun Academy</h6>
+                                <h1 style="color:blanchedalmond"><b> Persiapkan Dirimu untuk Karier Terbaik di Masa Depan</b></h1>
+                                <h5 style="color:blanchedalmond"> Pekerjaan impianmu melalui Jobhun Career Hub dan kembangkan
+                                    berbagai skill melalui Jobhun Academy</h5>
 
                             </div>
                         </div>
@@ -71,6 +71,13 @@
                                 @foreach ($daftar_job as $job)
 
 
+                                @if ($job->verified_job=='1')
+                                    
+                                @foreach ($daftar_job as $job)
+
+                                
+
+
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                     <div class="job-grid border">
                                         <div class="job-title-sec">
@@ -89,6 +96,10 @@
                                 </div>
 
                                 @endforeach
+                                @endif
+                                @endforeach
+                                
+
                             </div>
                         </div>
                     </div>

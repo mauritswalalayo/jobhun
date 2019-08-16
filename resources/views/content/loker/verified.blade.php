@@ -21,7 +21,7 @@
 
     </div>
 
-    <form action="{{url('loker/'.'verified/'.$verified->id)}}" method="POST" enctype="multipart/form-data">
+    <form action="{{url('loker/'.'verified-loker/'.$verified->id)}}" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_method" value="PATCH">
 
 

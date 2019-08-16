@@ -73,6 +73,12 @@
 					</div>
 					<div class="job-grid-sec">
 						<div class="row">
+
+							@foreach ($daftar_job as $job)
+
+
+							@if ($job->verified_job=='1')
+							
 							@foreach ($daftar_job as $job)
 
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -91,7 +97,11 @@
 									<a href="{{url('loker/show/'.$job->id)}}" title="">Selengkapnya</a>
 								</div><!-- JOB Grid -->
 							</div>
+							
 							@endforeach
+							@endif
+							@endforeach
+
 
 						</div>
 					</div>

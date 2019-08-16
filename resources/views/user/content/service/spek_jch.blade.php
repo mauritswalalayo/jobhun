@@ -16,14 +16,14 @@
                     <div class="job-single-sec">
                         <div class="job-single-head2">
                             <div class="job-title2">
-                                <h2>Magang di Tuupai</h2>
+                                <h2>{{$job->company_name}}</h2>
                                 {{-- <span class="job-is ft">Internship</span> --}}
                             </div>
                             <ul class="tags-jobs">
                                 
                                     
                             <li><i class=" fa fa-briefcase"></i> {{$job->type_work}}</li>
-                                <li><i class="la la-map-marker"></i>Surabaya</li>
+                            <li><i class="la la-map-marker"></i>{{$job->company_address}}</li>
                             <li><i class="la la-calendar-o"></i> {{Carbon\Carbon::parse($job->created_at)->format('M d, Y')}}</li>
                                 
                                 
@@ -48,7 +48,7 @@
                                     <li>Videographer</li> --}}
                                 </ul>
                             </p>
-                            <p>Cek bit.ly/tuupailab untuk cek kualifikasi dan pendaftaran.</p>
+                            {{-- <p>Cek bit.ly/tuupailab untuk cek kualifikasi dan pendaftaran.</p> --}}
                         </div>
                     </div>
                 </div>
@@ -57,9 +57,9 @@
                         <div class="job-thumb"> <img src="{{ asset ('user/images/job1.jpg')}}" width="124" height="124"
                                 alt="" /> </div>
                         <div class="job-head-info">
-                            <h4>Magang di Tuupai</h4>
-                            <span>#Duduk Santai Panggil Tuupai</span>
-                            <p><i class="la la-envelope-o"></i> ali.tufan@jobhunt.com</p>
+                        <h4>{{$job->company_name}}</h4>
+                            {{-- <span>#Duduk Santai Panggil Tuupai</span> --}}
+                        <p><i class="la la-envelope-o"></i> {{$job->company_email}}</p>
                         </div>
                         <a href="#" title="" class="apply-job-btn"><i class="la la-paper-plane"></i>Apply for
                             job</a>
