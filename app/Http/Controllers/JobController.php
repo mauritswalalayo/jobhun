@@ -145,31 +145,32 @@ public function verified_loker(Request $request, $id)
     $loker = Job::find($id);
 
 
-    $loker->update($request->all());
-    $loker->save();
+    // $loker->update($request->all());
+
+    // $loker = str_replace('0','1',$request->verified_job);
+
     
-    $job = str_replace('0','1',$request->verified_job);
 
+    $loker->type_loker = ($request->type_loker);
+    $loker->company_name = ($request->company_name);
+    $loker->company_tagline = ($request->company_tagline);
+    $loker->description_company = ($request->description_company);
+    $loker->company_address = ($request->company_address);
+    $loker->company_website = ($request->company_website);
+    $loker->company_email = ($request->company_email);
+    $loker->company_phone = ($request->company_phone);
+    $loker->position_sought = ($request->position_sought);
+    $loker->type_work = ($request->type_work);
+    $loker->description_job = ($request->description_job);
+    $loker->recruit_process = ($request->recruit_process);
 
+    $loker->logo_url = ($request->logo_url);
+    $loker->upload_poster = ($request->upload_poster);
+    $loker->evidence_transfer = ($request->evidence_transfer);
+    $loker->verified_job = '1';
 
+    $loker->save();
 
-
-
-    // $loker->verified_job = '1';
-
-    // $loker->type_loker = ($request->type_loker);
-    // $loker->company_name = ($request->company_name);
-    // $loker->company_tagline = ($request->company_tagline);
-    // $loker->description_company = ($request->description_company);
-    // $loker->company_address = ($request->company_address);
-    // $loker->company_website = ($request->company_website);
-    // $loker->company_email = ($request->company_email);
-    // $loker->company_phone = ($request->company_phone);
-    // $loker->position_sought = ($request->position_sought);
-    // $loker->type_work = ($request->type_work);
-    // $loker->description_job = ($request->description_job);
-    // $loker->recruit_process = ($request->recruit_process);
-    // $loker->verified_job = '1';
 
     return redirect()->route('loker.table');
 
