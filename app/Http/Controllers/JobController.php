@@ -122,59 +122,66 @@ class JobController extends Controller
 
 public function verified_loker(Request $request, $id)
 {
-    // $validator = validator::make(
-    //     $request->all(),
-    //     [
-    //         'company_name' => 'required',
-    //         'company_tagline'=> 'required',
-    //         'description_company' => 'required',
-    //         'company_address' => 'required',
-    //         'company_website'=> 'required',
-    //         'company_email' => 'required',
-    //         'company_phone' => 'required',
-    //         'position_sought'=> 'required',
-    //         'type_work' => 'required',
-    //         'description_job'=> 'required',
-    //         'recruit_process' => 'required',
-    //     ]
-    // );
-    // if ($validator->fails()) {
-    //     return back()->withErrors($validator)->withInput();
-    // }
+    $validator = validator::make(
+        $request->all(),
+        [
+            'company_name' => 'required',
+            'company_tagline'=> 'required',
+            'description_company' => 'required',
+            'company_address' => 'required',
+            'company_website'=> 'required',
+            'company_email' => 'required',
+            'company_phone' => 'required',
+            'position_sought'=> 'required',
+            'type_work' => 'required',
+            'description_job'=> 'required',
+            'recruit_process' => 'required',
+        ]
+    );
+    if ($validator->fails()) {
+        return back()->withErrors($validator)->withInput();
+    }
 
     $loker = Job::find($id);
 
 
-    // $loker->update($request->all());
-
-    // $loker = str_replace('0','1',$request->verified_job);
-
-    
-
-    $loker->type_loker = ($request->type_loker);
-    $loker->company_name = ($request->company_name);
-    $loker->company_tagline = ($request->company_tagline);
-    $loker->description_company = ($request->description_company);
-    $loker->company_address = ($request->company_address);
-    $loker->company_website = ($request->company_website);
-    $loker->company_email = ($request->company_email);
-    $loker->company_phone = ($request->company_phone);
-    $loker->position_sought = ($request->position_sought);
-    $loker->type_work = ($request->type_work);
-    $loker->description_job = ($request->description_job);
-    $loker->recruit_process = ($request->recruit_process);
-
-    $loker->logo_url = ($request->logo_url);
-    $loker->upload_poster = ($request->upload_poster);
-    $loker->evidence_transfer = ($request->evidence_transfer);
-    $loker->verified_job = '1';
+    $loker->update($request->all());
+    $loker->verified_job =1;
 
     $loker->save();
+
+//======================================= pesan =============================================
+
+    $emailtujuan = $loker->company_email;
+    $namatujuan = $loker->companey_name;
+    $data = ['name' => $namatujuan];
+
+    Mail::send('content.email.email_verified', $data, function ($message) use($emailtujuan,$namatujuan) {
+        $message->from('jobhun.id@gmail.com', 'Johana');
+        // $message->sender('john@johndoe.com', 'John Doe');
+        $message->to($emailtujuan, $namatujuan);
+        // $message->cc('john@johndoe.com', 'John Doe');
+        // $message->bcc('john@johndoe.com', 'John Doe');
+        // $message->replyTo('john@johndoe.com', 'John Doe');
+        $message->subject('Loker Verified');
+        // $message->priority(3);
+        // $message->attach('pathToFile');
+    });
 
 
     return redirect()->route('loker.table');
 
     
+
+}
+
+//========================================= Loker Terverifikasi =================================================
+
+public function loker_terverifikasi ()
+{
+        $job = Job::paginate(10);
+        $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
+        return view('content.loker.table_terverifikasi',['datajob' => $job, 'first_index' => $first_index]);
 
 }
 

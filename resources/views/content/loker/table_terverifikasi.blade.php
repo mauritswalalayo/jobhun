@@ -23,7 +23,7 @@
                     @foreach ($datajob as $job)
 
 
-                    @if ($job->verified_job=='0')
+                    @if ($job->verified_job=='1')
 
                     @php $i = $first_index; @endphp  
                     @foreach ($datajob as $job)
@@ -35,8 +35,8 @@
                     <td>{{$job->company_phone}}</td>
 
                     <td>
-                        <a href="{{url('loker/'.'verified/'.$job->id)}}" class="btn btn-warning btn-sm 	glyphicon glyphicon-eye-open">View</a>
-                        <a href="{{url('loker/'.'delete/'.$job->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
+                            {{-- {{url('loker/'.'delete/'.$job->id)}} --}}
+                        <a href="#" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
                     </td>
                 </tr>
 

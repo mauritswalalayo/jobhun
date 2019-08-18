@@ -21,11 +21,11 @@
 
     </div>
 
-    <form action="{{url('loker/'.'verified-loker/'.$verified->id)}}" method="POST" enctype="multipart/form-data">
+    <form action="{{url('loker/'.'verified-loker/'.$verified->id)}}" method="POST">
             <input type="hidden" name="_method" value="PATCH">
 
 
-        <input type="hidden" name="_token" value="{{ csrf_token()}}">
+            <input type="hidden" name="_token" value="{{ csrf_token()}}">
         <div class="box-body">
 
             {{-- <div class="form-group">
@@ -46,75 +46,75 @@
             
             <div class="form-group">
                 <label for="title">Nama Perusahaan :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="company_name" type="text" id="company_name" class="form-control" 
                 @if (isset($verified)) value="{{$verified->company_name}}" @endif>
             </div>
 
             <div class="form-group">
                 <label for="title">Tagline Perusahaan :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="company_tagline" type="text" id="company_tagline" class="form-control" 
                 @if (isset($verified)) value="{{$verified->company_tagline}}" @endif>
             </div>
 
             <div class="form-group">
                 <label for="content">Deskripsi Perusahaan :</label>
-                <textarea name="content" id="content" cols="30" rows="10" class="form-control">
+                <textarea name="description_company" id="description_company" cols="30" rows="10" class="form-control">
                     @if (isset($verified)) {{$verified->description_company}} @endif
                 </textarea>
             </div>
 
             <div class="form-group">
                 <label for="title">Alamat Perusahaan :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="company_address" type="text" id="company_address" class="form-control" 
                      @if (isset($verified)) value="{{$verified->company_address}}" @endif>
             </div>
 
             <div class="form-group">
                 <label for="title">Tagline Perusahaan :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="company_tagline" type="text" id="company_tagline" class="form-control" 
                     @if (isset($verified)) value="{{$verified->company_tagline}}" @endif>
             </div>
 
             <div class="form-group">
                 <label for="title">Website Perusahaan :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="company_website" type="text" id="company_website" class="form-control" 
                  @if (isset($verified)) value="{{$verified->company_website}}" @endif>
             </div>
 
             <div class="form-group">
                 <label for="title">Email Perusahaan :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="company_email" type="text" id="company_email" class="form-control" 
                  @if (isset($verified)) value="{{$verified->company_email}}" @endif>
             </div>
 
             <div class="form-group">
                 <label for="title">No. Telpon Perusahaan :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="company_phone" type="text" id="company_phone" class="form-control" 
                  @if (isset($verified)) value="{{$verified->company_phone}}" @endif>
             </div>
 
             <div class="form-group">
                 <label for="title">Posisi Yang Dicari :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="position_sought" type="position_sought" id="title" class="form-control" 
                  @if (isset($verified)) value="{{$verified->position_sought}}" @endif>
                 </div>
 
             <div class="form-group">
                 <label for="title">Jenis Pekerjaan :</label>
-                <input name="title" type="text" id="title" class="form-control" 
+                <input name="type_work" type="text" id="type_work" class="form-control" 
                  @if (isset($verified)) value="{{$verified->type_work}}" @endif>
             </div>
 
             <div class="form-group">
                 <label for="content">Deskripsi Masing-masing Pekerjaan :</label>
-                <textarea name="content" id="content" cols="30" rows="10" class="form-control">
+                <textarea name="description_job" id="description_job" cols="30" rows="10" class="form-control">
                     @if (isset($verified)) {{$verified->description_job}} @endif
                 </textarea>
             </div>
 
             <div class="form-group">
                 <label for="content">Deskripsi Masing-masing Pekerjaan :</label>
-                <textarea name="content" id="content" cols="30" rows="10" class="form-control">
+                <textarea name="recruit_process" id="recruit_process" cols="30" rows="10" class="form-control">
                     @if (isset($verified)) {{$verified->recruit_process}} @endif
                 </textarea>
             </div>
@@ -148,7 +148,10 @@
             
         </div>
         <div class="box-footer">
-                <button type="submit" class="btn btn-warning pull-right">Verified</button>
+            
+
+                <button type="submit" class="btn btn-warning glyphicon glyphicon-ok pull-right" style="margin:5px;">Verified</button>
+                <a href="#" class="btn btn-danger glyphicon glyphicon-remove pull-right" style="margin:5px;">NotVerivied</a>
             
         </div>
     </form>

@@ -188,6 +188,8 @@ Route::get('/post/show/{url}' , 'PostController@show' );
 //Loker
 Route::post('post/jobs/','JobController@add')->name('post.jobs');
 
+Route::get('loker/terverifikasi/','JobController@loker_terverifikasi')->name('loker.terverifikasi');
+
 Route::patch('loker/verified-loker/{id}', 'JobController@verified_loker')->name('verified_loker');
 
 Route::get('loker/verified/{id}', 'JobController@verified')->name('verified_job');
