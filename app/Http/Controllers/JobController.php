@@ -150,10 +150,10 @@ public function verified_loker(Request $request, $id)
 
     $loker->save();
 
-//======================================= pesan =============================================
+//======================================= Pesan verifikasi=============================================
 
     $emailtujuan = $loker->company_email;
-    $namatujuan = $loker->companey_name;
+    $namatujuan = $loker->company_name;
     $data = ['name' => $namatujuan];
 
     Mail::send('content.email.email_verified', $data, function ($message) use($emailtujuan,$namatujuan) {
@@ -172,6 +172,35 @@ public function verified_loker(Request $request, $id)
     return redirect()->route('loker.table');
 
     
+
+}
+
+//======================================= Pesan Tidak Terverifikasi ==============================================
+
+public function not_verified($id)
+{
+    $loker = Job::findOrFail($id);
+
+    $emailtujuan = $loker->company_email;
+    $namatujuan = $loker->company_name;
+    $data = ['name' => $namatujuan];
+
+    Mail::send('content.email.email_notverified', $data, function ($message) use($emailtujuan,$namatujuan) {
+        $message->from('jobhun.id@gmail.com', 'Johana');
+        // $message->sender('john@johndoe.com', 'John Doe');
+        $message->to($emailtujuan, $namatujuan);
+        // $message->cc('john@johndoe.com', 'John Doe');
+        // $message->bcc('john@johndoe.com', 'John Doe');
+        // $message->replyTo('john@johndoe.com', 'John Doe');
+        $message->subject('Loker Tidak Diterima');
+        // $message->priority(3);
+        // $message->attach('pathToFile');
+    });
+
+    $loker->delete();
+
+
+    return redirect()->route('loker.table');
 
 }
 
