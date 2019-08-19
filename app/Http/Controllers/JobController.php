@@ -15,7 +15,7 @@ class JobController extends Controller
 
     public function view_loker ()
     {
-        $job = Job::paginate(10);
+        $job = Job::paginate(20);
         $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
         return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
     }
@@ -86,7 +86,7 @@ class JobController extends Controller
             $request->file('logo_url')->move(public_path('image/logo_perusahaan'),$image_logo);
             $job->logo_url = $image_logo;
                 
-            }
+            };
             
 
             $job->save();

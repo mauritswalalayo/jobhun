@@ -22,7 +22,7 @@
             <tbody>
                     @foreach ($datajob as $job)
 
-
+                    
                     @if ($job->verified_job=='0')
 
                     @php $i = $first_index; @endphp  

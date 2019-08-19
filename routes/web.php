@@ -186,7 +186,9 @@ Route::get('/post/{filter}', 'PostController@post')->name('post');
 Route::get('/post/show/{url}' , 'PostController@show' );
 
 //Loker
-Route::post('post/jobs/','JobController@add')->name('post.jobs');
+Route::post('post/jobs/reguler','JobController@add')->name('post.jobs.reguler');
+
+Route::post('post/jobs/premium','JobController@add')->name('post.jobs.premium');
 
 Route::get('loker/not-verified/{id}','JobController@not_verified')->name('loker.notverifikasi');
 

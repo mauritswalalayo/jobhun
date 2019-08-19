@@ -48,7 +48,7 @@
 							</div>
 							 
 					 		<div class="profile-form-edit">
-								 <form action="{{route('post.jobs')}}" method="POST" enctype="multipart/form-data">
+								 <form action="{{route('post.jobs.premium')}}" method="POST" enctype="multipart/form-data">
 									<input type="hidden" name="_token" value="{{ csrf_token()}}">
 									
 					 				<div class="row">
@@ -158,7 +158,7 @@ Waktu proses rekrut.
 										
                                          
                                         
-										   {{-- <div class="col-lg-12">
+										   <div class="col-lg-12">
 												<span class="pf-title">Unggah Logo Perusahaan</span>
 												<div class="upload-info">
 												   <input type="file" name="logo_url" id="logo_url" class="form-control-file" >
@@ -166,7 +166,7 @@ Waktu proses rekrut.
 											   </div>
 										   </div>
 
-                                        <div class="col-lg-12">
+                                        {{-- <div class="col-lg-12">
                                              <span class="pf-title">Unggah Poster</span>
                                              <div class="upload-info">
                                                 <input type="file" class="form-control-file" name="upload_poster">
@@ -184,7 +184,7 @@ Waktu proses rekrut.
                                         </div>
                                     
 					 					<div class="col-lg-12">
-                                             <button type="submit">Posting</button>
+                                             <button type="submit">Pasang Loker</button>
                                              
                                              <br><br> <br> <br><br>
                                          </div>

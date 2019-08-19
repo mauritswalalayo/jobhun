@@ -44,7 +44,7 @@
 							menggunakannya. Tidak muluk-muluk, bagi kami ‘sharing is caring’.</p>
 					</div>
 					<div class="col-lg-5">
-						<img src="http://placehold.it/432x280" alt="" />
+						<img src="{{ asset ('user/images/jobhun.png')}}" alt="" />
 					</div>
 					<div class="col-lg-12">
 						<h3>Visi Jobhun</h3>
