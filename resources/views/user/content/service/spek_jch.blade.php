@@ -29,7 +29,7 @@
                                 
                                
                             </ul>
-                            <span><strong>Roles</strong>: #Duduk Santai Panggil Tuupai</span>
+                            {{-- <span><strong>Roles</strong>: #Duduk Santai Panggil Tuupai</span> --}}
                         </div><!-- Job Head -->
                         <div class="job-details">
                             <h3>Job Description</h3>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-lg-4 column">
                     <div class="job-single-head style2">
-                        <div class="job-thumb"> <img src="{{ asset ('user/images/job1.jpg')}}" width="124" height="124"
+                        <div class="job-thumb"> <img src="{{asset ('image/logo_perusahaan/'.$job->logo_url)}}" width="124" height="124"
                                 alt="" /> </div>
                         <div class="job-head-info">
                         <h4>{{$job->company_name}}</h4>

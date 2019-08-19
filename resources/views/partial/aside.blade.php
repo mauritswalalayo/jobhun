@@ -73,7 +73,7 @@
     
                     <ul class="treeview-menu">
                       <li><a href="{{route('loker.table')}}"><i class="glyphicon glyphicon-star"></i>Loker Baru</a></li>
-                      <li><a href="{{route('loker.terverifikasi')}}"><i class="glyphicon glyphicon-ok"></i>Loker Terverifikasi</a></li>
+                      <li><a href="{{route('loker.terverifikasi')}}"><i class="glyphicon glyphicon-check"></i>Loker Terverifikasi</a></li>
                       
                     </ul>
     
@@ -84,7 +84,7 @@
 
             <li class="treeview">
                 <a href="{{route('mediapartner.table')}}">
-                    <i class="glyphicon glyphicon-briefcase"></i> <span>Media Partner</span>
+                    <i class="glyphicon glyphicon-gift"></i> <span>Media Partner</span>
                     <span class="pull-right-container">
                     </span>
                 </a>

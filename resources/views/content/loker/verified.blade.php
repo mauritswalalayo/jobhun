@@ -150,8 +150,8 @@
         <div class="box-footer">
             
 
-                <button type="submit" class="btn btn-warning glyphicon glyphicon-ok pull-right" style="margin:5px;">Verified</button>
-        <a href="{{url('loker/'.'not-verified/'.$verified->id)}}" class="btn btn-danger glyphicon glyphicon-remove pull-right" style="margin:5px;">NotVerivied</a>
+                <button type="submit" class="btn btn-warning glyphicon glyphicon-ok pull-right" style="margin:5px;">Unggah</button>
+        <a href="{{url('loker/'.'not-verified/'.$verified->id)}}" class="btn btn-danger glyphicon glyphicon-remove pull-right" style="margin:5px;">Tolak</a>
             
         </div>
     </form>
