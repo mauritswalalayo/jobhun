@@ -13,16 +13,20 @@ class JobController extends Controller
 
 //=========================================== Post Job ======================================================
 
-    public function view_loker ()
+    public function view_loker ($verified_status)
     {
-        $job = Job::paginate(20);
+        $job = Job::where('verified_job',$verified_status)->paginate(5);
         $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
-        return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
+        if($verified_status == 0)
+            return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
+        else
+            return view('content.loker.table_terverifikasi',['datajob' => $job, 'first_index' => $first_index]);
+
     }
 
     public function view_mediapartner ()
     {
-        $mediapartner = Mediapartner::paginate(3);
+        $mediapartner = Mediapartner::paginate(10);
         $first_index = $mediapartner->currentPage() * $mediapartner->perPage() - $mediapartner->perPage() + 1;
         return view('content.mediapartner.table',['data_mediapartner' => $mediapartner, 'first_index' => $first_index]);
     }
@@ -169,7 +173,7 @@ public function verified_loker(Request $request, $id)
     });
 
 
-    return redirect()->route('loker.table');
+    return redirect()->route('loker.table',['verified_status'=>0]);
 
     
 
@@ -203,17 +207,6 @@ public function not_verified($id)
     return redirect()->route('loker.table');
 
 }
-
-//========================================= Loker Terverifikasi =================================================
-
-public function loker_terverifikasi ()
-{
-        $job = Job::paginate(10);
-        $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
-        return view('content.loker.table_terverifikasi',['datajob' => $job, 'first_index' => $first_index]);
-
-}
-
 
 //========================================== Delete Loker =======================================================
 

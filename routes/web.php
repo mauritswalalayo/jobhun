@@ -27,6 +27,8 @@ Route::get('register', function(){
 
 Route::get('user/logout', 'UserController@logout')->name('user.logout');
 
+Route::post('/userlogin', 'UserController@login');
+
 //========================= Middleware ===============================================
 
 Route::group(["middleware" => ['login']],function (){
@@ -120,7 +122,6 @@ Route::get('collaborate/update/{id}', 'CollaborateController@update')->name('col
 
 //========================== Route Lowongan Kerja =================================
 
-Route::get('lowongan/table', 'JobController@view_loker')->name('loker.table');
 
 Route::get('mediapartner/table', 'JobController@view_mediapartner')->name('mediapartner.table');
 
@@ -186,13 +187,17 @@ Route::get('/post/{filter}', 'PostController@post')->name('post');
 Route::get('/post/show/{url}' , 'PostController@show' );
 
 //Loker
+
+Route::get('loker/table/{verified_status}', 'JobController@view_loker')->name('loker.table');
+
+//Route::get('loker/terverifikasi/','JobController@loker_terverifikasi')->name('loker.terverifikasi');
+
 Route::post('post/jobs/reguler','JobController@add')->name('post.jobs.reguler');
 
 Route::post('post/jobs/premium','JobController@add')->name('post.jobs.premium');
 
 Route::get('loker/not-verified/{id}','JobController@not_verified')->name('loker.notverifikasi');
 
-Route::get('loker/terverifikasi/','JobController@loker_terverifikasi')->name('loker.terverifikasi');
 
 Route::patch('loker/verified-loker/{id}', 'JobController@verified_loker')->name('verified_loker');
 

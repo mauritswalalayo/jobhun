@@ -5,7 +5,7 @@
 @section('content')
 <div class="box box-primary">
     <div class="box-header with-border">
-        <a href="{{route('loker.table')}}" class="btn btn-danger">Kembali</a>
+        <a href="{{route('loker.table',['verified_status' =>0])}}" class="btn btn-danger">Kembali</a>
     </div>
     <div class="box-body">
 

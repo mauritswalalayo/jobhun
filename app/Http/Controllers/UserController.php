@@ -88,6 +88,28 @@ class UserController extends Controller
 
     }
 
+    //untuk user biasa
+    public function login(Request $request){
+        $validator = validator::make($request->all(),
+        ['email' => 'required',
+        'password' => 'required',]);
+        if ($validator->fails())
+        {
+            return response()->json(['pesan'=>'maaf password dan email wajib diisi'],401);
+        }
+
+        $user = User::where('email',$request->email)->first();
+        if(!$user){
+            return response()->json(['pesan'=>'maaf user anda belum terdaftar'],401);
+        }
+
+        if(!Auth::attempt(['email' => $request->email, 'password' => $request->password])){
+            return response()->json(['pesan'=>'maaf password anda salah'],401);
+        }
+
+        return response()->json(['pesan'=>'Selamat '.$user->name.', anda berhasil login']);
+    }
+
     public function logout(){
         Auth::logout();
         return redirect()->route('home');

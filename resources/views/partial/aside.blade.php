@@ -72,8 +72,8 @@
                     </a>
     
                     <ul class="treeview-menu">
-                      <li><a href="{{route('loker.table')}}"><i class="glyphicon glyphicon-star"></i>Loker Baru</a></li>
-                      <li><a href="{{route('loker.terverifikasi')}}"><i class="glyphicon glyphicon-check"></i>Loker Terverifikasi</a></li>
+                      <li><a href="{{route('loker.table',['verified_status'=>0])}}"><i class="glyphicon glyphicon-star"></i>Loker Baru</a></li>
+                      <li><a href="{{route('loker.table',['verified_status'=>1])}}"><i class="glyphicon glyphicon-check"></i>Loker Terverifikasi</a></li>
                       
                     </ul>
     

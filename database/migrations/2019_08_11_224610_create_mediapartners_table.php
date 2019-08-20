@@ -24,6 +24,8 @@ class CreateMediapartnersTable extends Migration
             $table->string('event_details');
             
             $table->string('evidence_transfer');
+            $table->smallInteger('verified_mediapartner')->default(0);
+
             $table->timestamps();
         });
     }

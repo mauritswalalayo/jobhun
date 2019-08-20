@@ -20,10 +20,6 @@
                 </tr>
             </thead>
             <tbody>
-                    @foreach ($datajob as $job)
-
-
-                    @if ($job->verified_job=='1')
 
                     @php $i = $first_index; @endphp  
                     @foreach ($datajob as $job)
@@ -40,8 +36,6 @@
                     </td>
                 </tr>
 
-                @endforeach
-                @endif
                 @endforeach
 
             </tbody>
