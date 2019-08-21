@@ -204,7 +204,7 @@ public function not_verified($id)
     $loker->delete();
 
 
-    return redirect()->route('loker.table');
+    return redirect()->route('loker.table',['verified_status'=>0]);
 
 }
 
@@ -214,7 +214,7 @@ public function not_verified($id)
         {
             $job = Job::findOrFail($id);
             $job->delete();
-            return redirect()->route('loker.table');        
+            return redirect()->route('loker.table',['verified_status'=>0]);        
         }
 
 //========================================= Media Partner ===============================================================
