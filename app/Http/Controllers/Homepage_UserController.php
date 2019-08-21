@@ -11,7 +11,7 @@ class Homepage_UserController extends Controller
 {
     public function index()
     {
-        $job = Job::simplepaginate(10);
+        $job = Job::where('verified_job',1)->paginate(5);
         $post = Post::simplepaginate(10);
         $testimoni = Testimoni::simplepaginate(1);
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
@@ -26,7 +26,7 @@ class Homepage_UserController extends Controller
     // Layanan
     public function jch()
     {
-        $job = Job::simplepaginate(10);
+        $job = Job::where('verified_job',1)->paginate(5);
         $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
         return view('user.content.service.jch',['daftar_job' => $job]);
     }
