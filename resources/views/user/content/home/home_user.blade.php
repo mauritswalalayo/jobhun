@@ -72,10 +72,10 @@
 
 
                                 @if ($job->verified_job=='1')
-                                    
+
                                 @foreach ($daftar_job as $job)
 
-                                
+
 
 
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -98,7 +98,7 @@
                                 @endforeach
                                 @endif
                                 @endforeach
-                                
+
 
                             </div>
                         </div>

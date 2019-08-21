@@ -14,7 +14,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Loker</title>
-        
+
     </head>
     <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #6db481;">
         <!--*|IF:MC_PREVIEW_TEXT|*-->
@@ -39,11 +39,11 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                
-                                    
+
+
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/5ae57ecafa359ca93d2cedffe/images/5dd3648c-7e2f-475f-911a-ba0d8a78c92d.png" width="200" style="max-width: 200px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-                                    
-                                
+
+
                             </td>
                         </tr>
                     </tbody></table>
@@ -61,7 +61,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--            
+<!--
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -79,15 +79,15 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-			    
+
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
-                        
+
                         <div style="text-align: center;"><span style="font-family:comic sans ms,marker felt-thin,arial,sans-serif">Hallo, Saya {{$name}} <p>{{$body}}.</p></span>
                         </div>
 
@@ -97,7 +97,7 @@
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-                
+
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -128,12 +128,12 @@
                                     <table align="center" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                     <![endif]-->
-                                    
+
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
-                                        
-                                        
+
+
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                 <tbody><tr>
                                                     <td valign="top" style="padding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowContentItemContainer">
@@ -142,12 +142,12 @@
                                                                 <td align="left" valign="middle" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tbody><tr>
-                                                                            
+
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="https://www.instagram.com/jobhun/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png" alt="Instagram" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
-                                                                            
-                                                                            
+
+
                                                                         </tr>
                                                                     </tbody></table>
                                                                 </td>
@@ -156,11 +156,11 @@
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-                                        
+
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-                                    
+
                                     <!--[if mso]>
                                     </tr>
                                     </table>
