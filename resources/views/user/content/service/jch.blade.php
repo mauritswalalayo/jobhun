@@ -50,11 +50,11 @@
 	<div class="block">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
+				{{-- <div class="col-lg-12">
 					<span class="emlthis"><a href="mailto:example.com" title=""><i class="la la-envelope-o"></i> Email
-							me Jobs Like These</a></span>
+							me Jobs Like These</a></span> --}}
 					<div class="filterbar">
-						<h5>98 Jobs & Vacancies</h5>
+						{{-- <h5>98 Jobs & Vacancies</h5> --}}
 						<div class="sortby-sec">
 							<span>Sort by</span>
 							<select data-placeholder="Most Recent" class="chosen">

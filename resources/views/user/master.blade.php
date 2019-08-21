@@ -68,7 +68,7 @@
 					<input type="text" id="phone" placeholder="Nomor Telepon" />
 					<i class="la la-phone"></i>
 				</div>
-				<button type="submit" class="signupsubmit">Daftar</button>
+				<button type="submit" id="signupsubmit">Daftar</button>
 			</form>
 		</div>
 	</div><!-- SIGNUP POPUP -->
@@ -124,6 +124,32 @@
 				}
 			})
 		});
+
+		$("#signupsubmit").click(function(e){
+			//mencegah refresh halaman
+			e.preventDefault();
+			
+			//ambil data dari id
+			// var emailnya = $("#email").val();
+			// var passwordnya = $("#password").val();
+
+			$.ajax({
+				// type: 'POST',
+				// url: '/projek/jobhun/public/userlogin',
+				// data: {
+				// 	email: emailnya,
+				// 	password: passwordnya
+				// },
+				success: function(data){
+					alert(data.pesan);
+					$('.signin-popup-box').fadeOut('fast');
+					$('html').removeClass('no-scroll');
+				},
+				error: function(error){
+					alert(error.responseJSON.pesan);
+				}
+			})
+		});		
 	</script>
 
 	@yield('customjs')
