@@ -268,6 +268,16 @@ public function not_verified($id)
             return view('content.mediapartner.verified',['verified' => $mediapartner]);
         }
 
+//============================================== search loker =====================================================
+        public function cari (Request $request)
+        {
+            $cari = $request->get('cari');
+
+            $loker = Job::where('company_name', 'like', '%'.$cari.'%')->paginate(5);
+
+            return view('user.content.home.home_user',['loker'=> $loker]);
+        }
+
 //=============================================== Jobhun Academy ====================================================
 
         public function form_jobhun_academy ()

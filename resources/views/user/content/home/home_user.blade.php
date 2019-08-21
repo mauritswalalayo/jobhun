@@ -38,15 +38,15 @@
                     </div><!-- Heading -->
 
                     <div class="heading">
-                    <form>
+                    <form action="{{route('cari.loker')}}}}" method="GET">
                             <div class="row">
                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                     <div class="job-field">
-                                        <input type="text" placeholder="Job title, keywords or company name" />
+                                        <input type="search" name="cari" placeholder="Job title, keywords or company name" />
                                         <i class="la la-keyboard-o"></i>
                                     </div>
                                 </div>
-                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                {{-- <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                     <div class="job-field">
                                         <select data-placeholder="City, province or region" class="chosen-city">
                                             <option>Surabaya </option>
@@ -56,7 +56,7 @@
                                         </select>
                                         <i class="la la-map-marker"></i>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="col-lg-1 col-md-2 col-sm-12 col-xs-12">
                                     <button type="submit"><i class="la la-search"></i></button>
                                 </div>

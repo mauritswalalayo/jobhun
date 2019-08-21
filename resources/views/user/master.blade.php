@@ -129,17 +129,22 @@
 			//mencegah refresh halaman
 			e.preventDefault();
 			
-			//ambil data dari id
-			// var emailnya = $("#email").val();
-			// var passwordnya = $("#password").val();
+			// ambil data dari id
+			var usernamenya = $("#name").val();
+			var passwordnya = $("#password").val();
+			var emailnya = $("#email").val();
+			var phonenya = $("#phone").val();
+
 
 			$.ajax({
-				// type: 'POST',
-				// url: '/projek/jobhun/public/userlogin',
-				// data: {
-				// 	email: emailnya,
-				// 	password: passwordnya
-				// },
+				type: 'POST',
+				url: '/projek/jobhun/public/usersign-up',
+				data: {
+					name:usernamenya
+					password: passwordnya,
+					email: emailnya,
+					phone:phonenya,
+				},
 				success: function(data){
 					alert(data.pesan);
 					$('.signin-popup-box').fadeOut('fast');

@@ -29,6 +29,8 @@ Route::get('user/logout', 'UserController@logout')->name('user.logout');
 
 Route::post('/userlogin', 'UserController@login');
 
+Route::post('/usersign-up', 'UserController@signup');
+
 //========================= Middleware ===============================================
 
 Route::group(["middleware" => ['login']],function (){
@@ -215,6 +217,11 @@ Route::get('mediapartner/verified/{id}', 'JobController@verified_mediapartner')-
 
 //Jobhyn Academy
 Route::get('form/jobhun-academy/','JobController@form_jobhun_academy')->name('form.jobhunacademy');
+
+
+//search data
+
+Route::get('/search','JobController@cari')->name('cari.loker');
 
 
 

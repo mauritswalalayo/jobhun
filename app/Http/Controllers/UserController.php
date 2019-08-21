@@ -110,6 +110,26 @@ class UserController extends Controller
         return response()->json(['pesan'=>'Selamat '.$user->name.', anda berhasil login']);
     }
 
+    public function signup(Request $request)
+    {
+        $validator = validator::make($request->all(),
+        ['name' => 'required',
+        'password' => 'required',
+        'email' => 'required',
+        'phone' =>'required']);
+        if ($validator->fails())
+        {
+            return response()->json(['pesan'=>'maaf semua data wajib diisi'],401);
+        }
+
+        $user = User::create($request->all());
+        $user->role = 'user';
+        $user->save();
+
+        return response()->json(['pesan'=>'Selamat anda berhasil sign up']);
+
+    }
+
     public function logout(){
         Auth::logout();
         return redirect()->route('home');
