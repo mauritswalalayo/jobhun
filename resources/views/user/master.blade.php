@@ -57,11 +57,11 @@
 					<i class="la la-user"></i>
 				</div>
 				<div class="cfield">
-					<input type="password" id="password" placeholder="********" />
+					<input type="password" id="password_regis" placeholder="********" />
 					<i class="la la-key"></i>
 				</div>
 				<div class="cfield">
-					<input type="text" id="email" placeholder="Email" />
+					<input type="text" id="email_regis" placeholder="Email" />
 					<i class="la la-envelope-o"></i>
 				</div>
 				<div class="cfield">
@@ -131,8 +131,8 @@
 			
 			// ambil data dari id
 			var usernamenya = $("#name").val();
-			var passwordnya = $("#password").val();
-			var emailnya = $("#email").val();
+			var passwordnya = $("#password_regis").val();
+			var emailnya = $("#email_regis").val();
 			var phonenya = $("#phone").val();
 
 
