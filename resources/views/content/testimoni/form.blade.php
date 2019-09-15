@@ -27,7 +27,7 @@
 
     @else
     <form action="{{route('testimoni.add')}}" method="POST" enctype="multipart/form-data">
-        
+
     @endisset
 
         <input type="hidden" name="_token" value="{{ csrf_token()}}">
@@ -63,12 +63,12 @@
         </div>
 
         <div class="box-footer">
-            @if(isset($edittestimoni)) 
+            @if(isset($edittestimoni))
             <button type="submit" class="btn btn-info pull-right">Update</button>
             @else
             <button type="submit" class="btn btn-info pull-right">Submit</button>
             @endif
-     
+
         </div>
     </form>
 </div>

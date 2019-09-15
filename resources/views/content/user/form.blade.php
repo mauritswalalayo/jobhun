@@ -31,11 +31,11 @@
             <div class="box-body">
                 <div class="form-group">
                     <label for="name">Nama:</label>
-                    <input name="name" type="text" id="name" class="form-control" placeholder="Masukan Nama Anda......"
+                    <input name="name" value=" {{old('name')}} " type="text" id="name" class="form-control" placeholder="Masukan Nama Anda......"
                     @if (isset($edituser)) value="{{$edituser->name}}"
                         @endif>
                 </div>
-    
+
                 <div class="form-group">
                     <label for="email">Email :</label>
                     <input name="email" type="email" id="email" class="form-control" placeholder="Masukan Email Anda......"
