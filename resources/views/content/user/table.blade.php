@@ -3,7 +3,8 @@
 @section('title','User')
 
 @section('content')
-    <div class="box box-primary">
+<back-user-table></back-user-table>
+    {{-- <div class="box box-primary">
         <div class="box-header with-border">
             @if(Auth::user()->role == 'admin')
                 <a href="{{route('user.form')}}" class="btn btn-primary">Tambah User</a>
@@ -42,5 +43,5 @@
         <div class="box-footer">
             Footer
         </div>
-    </div>
+    </div> --}}
 @endsection

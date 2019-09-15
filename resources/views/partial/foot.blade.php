@@ -1,4 +1,5 @@
 <!-- jQuery 2.2.3 -->
+<script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('admin/plugins/jQuery/jquery-2.2.3.min.js')}}"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="{{asset('admin/bootstrap/js/bootstrap.min.js')}}"></script>
@@ -25,7 +26,7 @@
     CKEDITOR.replace('content')
     // //bootstrap WYSIHTML5 - text editor
     // $('.textarea').wysihtml5()
-    
+
     //Initialize Select2 Elements
     $('.select2').select2()
   })

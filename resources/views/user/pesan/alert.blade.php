@@ -1,4 +1,4 @@
-@if(session('berhasil'))
+{{-- @if(session('berhasil'))
 
 <div>
         <script>
@@ -7,4 +7,4 @@
 </div>
 
 
-@endif
+@endif --}}

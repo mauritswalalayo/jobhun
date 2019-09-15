@@ -22,6 +22,9 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
+// Mendeklarasikan tag user table
+Vue.component('back-user-table', require('./components/back/user/Table.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
