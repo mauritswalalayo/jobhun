@@ -34,7 +34,7 @@
 
             <div class="form-group">
                 <label>Kriteria</label>
-                    <select class="form-control" name="criteria" data-placeholder="Pilih Kriteria" style="width: 100%;"> 
+                    <select class="form-control" name="criteria" data-placeholder="Pilih Kriteria" style="width: 100%;">
                         <option value="Cerita-Karier"> Cerita Karier</option>
                         <option value="Infografik"> Infografik</option>
                         <option value="Karierpedia"> karierpedia</option>
@@ -47,22 +47,22 @@
 
                     </select>
             </div>
-            
+
             <div class="form-group">
                 <label for="title">Judul :</label>
-                <input name="title" type="text" id="title" class="form-control" placeholder="Masukan Title Anda......"
+                <input name="title" value=" {{old('title')}} " type="text" id="title" class="form-control" placeholder="Masukan Title Anda......"
                 @if (isset($editpost)) value="{{$editpost->title}}"
                         @endif>
             </div>
             <div class="form-group">
                 <label for="content">Isi Konten :</label>
-                <textarea name="content" id="content" cols="30" rows="10" class="form-control">@if (isset($editpost)) {{$editpost->content}}
+                <textarea name="content" id="content" cols="30" rows="10" class="form-control"> {{old('content')}} @if (isset($editpost)) {{$editpost->content}}
                 @endif</textarea>
             </div>
 
             <div class="form-group">
                 <label>Tag</label>
-                <select class="form-control select2" name="tags[]" multiple="multiple" data-placeholder="Select tag" style="width: 100%;"> 
+                <select class="form-control select2" name="tags[]" multiple="multiple" data-placeholder="Select tag" style="width: 100%;">
                 @foreach($tags as $tag)
                 <option value="{{$tag->id}}"
 
@@ -85,7 +85,7 @@
                     <input type="file" name="feature_image" id="foto" cols="30" rows="10" class="form-control">
                 </div>
             </div>
-            
+
         </div>
         <div class="box-footer">
             @if (isset($editpost))

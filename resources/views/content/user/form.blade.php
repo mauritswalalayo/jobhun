@@ -38,7 +38,7 @@
 
                 <div class="form-group">
                     <label for="email">Email :</label>
-                    <input name="email" type="email" id="email" class="form-control" placeholder="Masukan Email Anda......"
+                    <input name="email" value=" {{old('email')}} " type="email" id="email" class="form-control" placeholder="Masukan Email Anda......"
                     @if (isset($edituser)) value="{{$edituser->email}}"
                         @endif>
                 </div>

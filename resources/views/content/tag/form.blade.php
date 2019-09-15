@@ -31,7 +31,7 @@
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Nama Tag:</label>
-                <input name="name" type="text" id="name" class="form-control" placeholder="Masukan Tag Anda......"
+                <input name="name" value=" {{old('name')}} " type="text" id="name" class="form-control" placeholder="Masukan Tag Anda......"
                 @if (isset($edit_tag)) value="{{$edit_tag->name}}" @endif>
             </div>
         </div>

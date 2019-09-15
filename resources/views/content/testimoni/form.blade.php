@@ -34,7 +34,7 @@
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Nama :</label>
-                <input name="name" type="text" id="name" class="form-control" placeholder="Masukan Nama Anda......"
+                <input name="name" value=" {{old('name')}} " type="text" id="name" class="form-control" placeholder="Masukan Nama Anda......"
                 @if (isset($edittestimoni)) value="{{$edittestimoni->name}}" @endif>
             </div>
         </div>
@@ -42,7 +42,7 @@
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Profesi :</label>
-                <input name="profesi" type="text" id="profesi" class="form-control" placeholder="Masukan Profesi Anda......"
+                <input name="profesi" value=" {{old('profesi')}} " type="text" id="profesi" class="form-control" placeholder="Masukan Profesi Anda......"
                 @if (isset($edittestimoni)) value="{{$edittestimoni->profesi}}" @endif>
             </div>
         </div>
@@ -50,7 +50,7 @@
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Testimoni :</label>
-                <textarea name="testimoni" id="testimoni" cols="30" rows="10" class="form-control">
+                <textarea name="testimoni" id="testimoni" cols="30" rows="10" class="form-control"> {{old('testimoni')}}
                 @if(isset($edittestimoni)) {{$edittestimoni->testimoni}} @endif </textarea>
             </div>
         </div>
