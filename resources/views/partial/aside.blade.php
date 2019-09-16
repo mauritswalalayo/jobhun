@@ -64,20 +64,22 @@
             </li>
 
             <li class="treeview">
-                    <a href="#">
-                      <i class="glyphicon glyphicon-briefcase"></i> <span>Loker</span>
-                      <span class="pull-right-container">
+                <a href="#">
+                    <i class="glyphicon glyphicon-briefcase"></i> <span>Loker</span>
+                    <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                    </a>
+                    </span>
+                </a>
 
-                    <ul class="treeview-menu">
-                      <li><a href="{{route('loker.table',['verified_status'=>0])}}"><i class="glyphicon glyphicon-star"></i>Loker Baru</a></li>
-                      <li><a href="{{route('loker.table',['verified_status'=>1])}}"><i class="glyphicon glyphicon-check"></i>Loker Terverifikasi</a></li>
+                <ul class="treeview-menu">
+                    <li><a href="{{route('loker.table',['verified_status'=>0])}}"><i
+                                class="glyphicon glyphicon-star"></i>Loker Baru</a></li>
+                    <li><a href="{{route('loker.table',['verified_status'=>1])}}"><i
+                                class="glyphicon glyphicon-check"></i>Loker Terverifikasi</a></li>
 
-                    </ul>
+                </ul>
 
-                  </li>
+            </li>
 
 
 
