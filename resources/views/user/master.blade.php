@@ -125,7 +125,17 @@
 			})
 		});
 
-		$("#signupsubmit").click(function(e){
+				
+	</script>
+
+	<script type="text/javascript">
+		$.ajaxSetup({
+			headers: {
+				'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+			}
+		});
+
+			$("#signupsubmit").click(function(e){
 			//mencegah refresh halaman
 			e.preventDefault();
 			
@@ -134,6 +144,8 @@
 			var passwordnya = $("#password_regis").val();
 			var emailnya = $("#email_regis").val();
 			var phonenya = $("#phone").val();
+
+			// console.log(usernamenya+', '+passwordnya+', '+emailnya+', '+phonenya);
 
 
 			$.ajax({
@@ -152,10 +164,14 @@
 				},
 				error: function(error){
 					alert(error.responseJSON.pesan);
+					console.log(error);
+
 				}
 			})
-		});		
-	</script>
+		});
+
+</script>
+
 
 	@yield('customjs')
 
