@@ -31,7 +31,7 @@ Route::post('/userlogin', 'UserController@login');
 
 Route::post('/usersign-up', 'UserController@sign_up');
 
-Route::get('jobhun-id/register/{code}', 'UserController@verified_akun');
+Route::get('/jobhun-id/register/{code}', 'UserController@verified_akun');
 
 //========================= Middleware ===============================================
 

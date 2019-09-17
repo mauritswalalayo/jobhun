@@ -166,12 +166,16 @@ class UserController extends Controller
     {
         $regis_user = Registrationuser::where('register_link',$code)->first();
 
-        $user = $regis_user->user_id;
-        $user = User::find($user,'id');
-        $user->verified_user = 1;
-        $user->save();
+        if(!$regis_user){
+            echo $regis_user;
+        }
 
-        return redirect()->route('beranda');
+        // $user = $regis_user->user_id;
+        // $user = User::find($user,'id');
+        // $user->verified_user = 1;
+        // $user->save();
+
+        return redirect()->route('index');
 
     }
 
