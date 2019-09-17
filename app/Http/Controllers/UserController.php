@@ -133,8 +133,8 @@ class UserController extends Controller
         $user->role = 'user';
         $user->password = bcrypt($request->password);
         $user->save();
-
-        $register_link = "https://jobhun.id/register/".bcrypt($user->email.$user->created_at);
+        
+        $register_link = "http://jobhun-id/register/".bcrypt($user->email.$user->created_at);
 
         $register = new Registrationuser;
         $register->user_id = $user->id;
@@ -166,7 +166,13 @@ class UserController extends Controller
     {
         $regis_user = Registrationuser::where('register_link',$code)->first();
 
-        $regis_user->user_id;
+        $user = $regis_user->user_id;
+        $user = User::find($user,'id');
+        $user->verified_user = 1;
+        $user->save();
+
+        return redirect()->route('beranda');
+
     }
 
     public function logout(){
