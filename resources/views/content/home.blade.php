@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title', 'Home')
+@section('title', 'Dashboard Admin')
 
 @section('content')
     <!-- Default box -->
@@ -8,10 +8,9 @@
         <div class="box-header with-border">
             <h3 class="box-title">Selamat Datang</h3>
         </div>
-        
         <div class="box-body">
             @if(session('pesan'))
-                <div class="alert alert-danger">{{session('pesan')}}</div> 
+                <div class="alert alert-danger">{{session('pesan')}}</div>
             @endif
             Dashboard Aplikasi Jobhun. Silahkan melakkukan operasi dimenu sebelah kiri.
         </div>
