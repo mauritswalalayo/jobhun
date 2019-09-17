@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->integer('updated_by')->nullable();
             $table->string('password');
             $table->string('phone')->nullable();
+            $table->smallInteger('verified_user')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });

@@ -50,7 +50,7 @@
 		<div class="account-popup">
 			<span class="close-popup"><i class="la la-close"></i></span>
 			<h3>Daftar</h3>
-			<form action="{{ url('/register') }}" method="post">
+			<form>
 				@csrf
 				<div class="cfield">
 					<input type="text" id="name" placeholder="Username" />
@@ -68,7 +68,7 @@
 					<input type="text" id="phone" placeholder="Nomor Telepon" />
 					<i class="la la-phone"></i>
 				</div>
-				<button type="submit" id="signupsubmit">Daftar</button>
+				<button type="submit" id="signup_submit">Daftar</button>
 			</form>
 		</div>
 	</div><!-- SIGNUP POPUP -->
@@ -135,10 +135,10 @@
 			}
 		});
 
-			$("#signupsubmit").click(function(e){
+			$("#signup_submit").click(function(e){
 			//mencegah refresh halaman
 			e.preventDefault();
-			
+
 			// ambil data dari id
 			var usernamenya = $("#name").val();
 			var passwordnya = $("#password_regis").val();
@@ -152,10 +152,10 @@
 				type: 'POST',
 				url: '/projek/jobhun/public/usersign-up',
 				data: {
-					name:usernamenya
-					password: passwordnya,
+					name:usernamenya,
 					email: emailnya,
-					phone:phonenya,
+					password: passwordnya,
+					phone:phonenya
 				},
 				success: function(data){
 					alert(data.pesan);
@@ -164,8 +164,6 @@
 				},
 				error: function(error){
 					alert(error.responseJSON.pesan);
-					console.log(error);
-
 				}
 			})
 		});

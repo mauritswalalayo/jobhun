@@ -29,7 +29,9 @@ Route::get('user/logout', 'UserController@logout')->name('user.logout');
 
 Route::post('/userlogin', 'UserController@login');
 
-Route::post('/usersign-up', 'UserController@signup');
+Route::post('/usersign-up', 'UserController@sign_up');
+
+Route::get('/jobhun.id/register/{code}', 'UserController@verified_akun');
 
 //========================= Middleware ===============================================
 

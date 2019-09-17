@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
+use App\Registrationuser;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Validator;
 
 
@@ -110,7 +112,7 @@ class UserController extends Controller
         return response()->json(['pesan'=>'Selamat '.$user->name.', anda berhasil login']);
     }
 
-    public function signup(Request $request)
+    public function sign_up(Request $request)
     {
         $validator = validator::make($request->all(),
         ['name' => 'required',
@@ -122,12 +124,49 @@ class UserController extends Controller
             return response()->json(['pesan'=>'maaf semua data wajib diisi'],401);
         }
 
+        $email = User::where('email',$request->email)->first();
+        if($email){
+            return response()->json(['pesan'=>'maaf email sudah terdaftar'],401);
+        }
+
         $user = User::create($request->all());
         $user->role = 'user';
+        $user->password = bcrypt($request->password);
         $user->save();
+
+        $register_link = "https://jobhun.id/register/".bcrypt($user->email.$user->created_at);
+
+        $register = new Registrationuser;
+        $register->user_id = $user->id;
+        $register->register_link = $register_link;
+        $register->save();
+
+        $emailtujuan = $user->email;
+        $namatujuan = $user->name;
+        $link = $register->register_link;
+        $data = ['name' => $namatujuan,'link_registrasi' => $link];
+
+        Mail::send('content.email.email_verified_users', $data, function ($message) use($emailtujuan,$namatujuan) {
+        $message->from('jobhun.id@gmail.com', 'Johana');
+        // $message->sender('john@johndoe.com', 'John Doe');
+        $message->to($emailtujuan, $namatujuan);
+        // $message->cc('john@johndoe.com', 'John Doe');
+        // $message->bcc('john@johndoe.com', 'John Doe');
+        // $message->replyTo('john@johndoe.com', 'John Doe');
+        $message->subject('Verified');
+        // $message->priority(3);
+        // $message->attach('pathToFile');
+    });
 
         return response()->json(['pesan'=>'Selamat anda berhasil sign up']);
 
+    }
+
+    public function verified_akun($code)
+    {
+        $regis_user = Registrationuser::where('register_link',$code)->first();
+
+        $regis_user->user_id;
     }
 
     public function logout(){

@@ -24,6 +24,10 @@ class User extends Authenticatable
         return $this->hasMany('App\Post');
     }
 
+    public function registrtionusers(){
+        return $this->hasMany('App\Registrationuser');
+    }
+
 
 
     /**
