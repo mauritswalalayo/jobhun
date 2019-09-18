@@ -223,7 +223,7 @@ Route::get('form/jobhun-academy/','JobController@form_jobhun_academy')->name('fo
 
 //search data
 
-Route::get('/search','JobController@cari')->name('cari.loker');
+Route::post('/search','JobController@cari')->name('cari.loker');
 
 
 

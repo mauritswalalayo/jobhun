@@ -38,7 +38,8 @@
                     </div><!-- Heading -->
 
                     <div class="heading">
-                    <form action="{{route('cari.loker')}}}}" method="GET">
+                    <form action="{{route('cari.loker')}}" method="post">
+                        <input type="hidden" name="_token" value="{{ csrf_token()}}">
                             <div class="row">
                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                     <div class="job-field">
@@ -68,14 +69,27 @@
 
                         <div class="job-grid-sec">
                             <div class="row">
+
+                             @if(@isset($loker))
+                                {{-- @if($loker) --}}
+                                <p align="justify" style="color:black">
+                                        Sebuah program magang dari Jobhun yang ditujukan bagi para pelajar atau mahasiswa,
+                                        dengan rentang usia 15-22 tahun. Posisi magang yang dibuka biasanya menyesuaikan
+                                        kebutuhan proyek Jobhun, seperti content writer, social media specialist, graphic
+                                        designer, videographer, creative team, business development, marketing, hingga
+                                        technical. Dalam program ini, mereka akan mendapatkan pelatihan atau mentoring
+                                        beberapa topik (kepenulisan, desain, social media management, pembuatan acara, dll).
+                                        Mereka juga berkesempatan untuk membantu tim inti Jobhun mengerjakan beberapa proyek
+                                        dan pekerjaan rutin. Para pemagang juga berkesempatan untuk menjadi tim Jobhun
+                                        setelah program selesai, apabila memenuhi kriteria. Untuk mengetahui informasi
+                                        Jobhun Internship lebih detail, kamu bisa melihat update konten di bawah ini.
+                                    </p>
+
+                                    @endisset
+                                    
                                 @foreach ($daftar_job as $job)
 
-
                                 @if ($job->verified_job=='1')
-
-
-
-
 
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                     <div class="job-grid border">
@@ -89,7 +103,7 @@
                                             {{-- <span>Massimo Artemisis</span> --}}
                                             <span class="fav-job"><i class="la la-heart-o"></i></span>
                                         </div>
-                                    <span class="job-lctn">{{$job->description_company}}</span>
+                                    <span class="job-lctn">{!!str_limit($job->description_company,200)!!}</span>
                                         <a href="{{url('loker/show/'.$job->id)}}" title="">Selengkapnya</a>
                                     </div><!-- JOB Grid -->
                                 </div>

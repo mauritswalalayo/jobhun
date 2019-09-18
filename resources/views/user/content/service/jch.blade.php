@@ -92,7 +92,7 @@
 										{{-- <span>Massimo Artemisis</span> --}}
 										<span class="fav-job"><i class="la la-heart-o"></i></span>
 									</div>
-								<span class="job-lctn">{{$job->description_company}}</span>
+								<span class="job-lctn">{!!str_limit($job->description_company,200)!!}</span>
 									<a href="{{url('loker/show/'.$job->id)}}" title="">Selengkapnya</a>
 								</div><!-- JOB Grid -->
 							</div>
