@@ -18,8 +18,6 @@
 
 		@yield('content')
 
-		@include('user.pesan.alert')
-
 		@include('user.partial.footer')
 
 	</div>
