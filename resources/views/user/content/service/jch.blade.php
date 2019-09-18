@@ -79,7 +79,6 @@
 
 							@if ($job->verified_job=='1')
 							
-							@foreach ($daftar_job as $job)
 
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 								<div class="job-grid border">
@@ -98,7 +97,6 @@
 								</div><!-- JOB Grid -->
 							</div>
 							
-							@endforeach
 							@endif
 							@endforeach
 
