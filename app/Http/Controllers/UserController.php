@@ -6,6 +6,7 @@ use App\User;
 use App\Registrationuser;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
+use SebastianBergmann\Environment\Console;
 use Validator;
 
 
@@ -134,7 +135,7 @@ class UserController extends Controller
         $user->password = bcrypt($request->password);
         $user->save();
         
-        $register_link = "http://jobhun-id/register/".bcrypt($user->email.$user->created_at);
+        $register_link = "http://localhost/projek/jobhun/public/jobhun-id/register/".bcrypt($user->email.$user->created_at);
 
         $register = new Registrationuser;
         $register->user_id = $user->id;
