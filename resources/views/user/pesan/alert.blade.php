@@ -1,10 +1,23 @@
-{{-- @if(session('berhasil'))
+@if (session('berhasil'))
+    <div class="alert alert-success">
+        {{session ('berhasil')}}
+    </div>
+@endif
 
-<div>
-        <script>
-                swal("Anda Berhasil Menambahkan Data", "You clicked the button!", "success");
-        </script>
-</div>
+@if (session('user'))
+    <div class="alert alert-primary">
+        {{session ('user')}}
+    </div>
+@endif
 
+@if (session('update'))
+    <div class="alert alert-info">
+        {{session ('update')}}
+    </div>
+@endif
 
-@endif --}}
+@if (session('delete'))
+    <div class="alert alert-danger">
+        {{session ('delete')}}
+    </div>
+@endif

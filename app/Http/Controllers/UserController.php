@@ -135,7 +135,7 @@ class UserController extends Controller
         $user->password = bcrypt($request->password);
         $user->save();
         
-        $register_link = "http://localhost/projek/jobhun/public/jobhun-id/register/".bcrypt($user->email.$user->created_at);
+        $register_link = bcrypt($user->email.$user->created_at);
 
         $register = new Registrationuser;
         $register->user_id = $user->id;
@@ -164,19 +164,24 @@ class UserController extends Controller
     }
 
     public function verified_akun($code)
-    {
+    { 
         $regis_user = Registrationuser::where('register_link',$code)->first();
 
         if(!$regis_user){
-            echo $regis_user;
+            return view('view_gagal_registrasi');
+            // return redirect()->route('index')->with(['delete' => 'Maaf Registrasi Link Anda Salah']);
         }
 
-        // $user = $regis_user->user_id;
-        // $user = User::find($user,'id');
-        // $user->verified_user = 1;
-        // $user->save();
+        $user = $regis_user->user_id;
+        $user = User::find($user,'id');
+        $user->verified_user = 1;
+        $user->save();
 
-        return redirect()->route('index');
+        return view('view_berhasil_registrasi');
+
+        // return redirect()->route('index')->with(['berhasil' => 'Pesan Berhasil']);
+
+        // return redirect()->route('index');
 
     }
 

@@ -77,7 +77,7 @@
                         
                             <div style="text-align: justify;">Hai, {{$name}} &nbsp;<br>
 Terima kasih telah melakukan registrasi akun di Jobhun Surabaya. Silahkan Klik Link dibawah ini untuk mengaktifkan akun anda.<br>
-                            {{$link_registrasi}}<br>
+http://localhost/projek/jobhun/public/jobhun-id/register/{{$link_registrasi}}<br>
 <br>
 Salam,<br>
 Tim Jobhun</div>
