@@ -271,11 +271,31 @@ public function not_verified($id)
 //============================================== search loker =====================================================
         public function cari (Request $request)
         {
-            $cari = $request->get('cari');
+            if($request->ajax());
+            {
+                $cari = $request->get('name');
 
-            $loker = Job::where('company_name', 'like', '%'.$cari.'%')->paginate(5);
+                if($cari)
+                {
+                    $data = Job::where('type_loker' , 'like', '%'.$cari.'%')
+                            ->orWhere('company_name' , 'like', '%'.$cari.'%')
+                            ->orWhere('company_tagline' , 'like', '%'.$cari.'%')
+                            ->orWhere('company_address' , 'like', '%'.$cari.'%')
+                            ->orWhere('position_sought' , 'like', '%'.$cari.'%')
+                            ->orWhere('type_work' , 'like', '%'.$cari.'%')->get();
+                }
 
-            return view('user.content.home.home_user',['loker'=> $loker]);
+                else
+                {
+                    return response()->json(['pesan'=>'Data tidak tersedia'],401);
+                }
+            }
+
+        
+
+            // $loker = Job::where('company_name', 'like', '%'.$cari.'%')->paginate(5);
+
+            // return view('user.content.home.home_user',['loker'=> $loker]);
         }
 
 //=============================================== Jobhun Academy ====================================================

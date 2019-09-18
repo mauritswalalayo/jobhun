@@ -37,13 +37,14 @@
                         {{-- <span>Leading Employers already using job and talent.</span> --}}
                     </div><!-- Heading -->
 
-                    <div class="heading">
-                    <form action="{{route('cari.loker')}}" method="post">
+                <div class="heading search-popup-box">
+                        
+                    <form >
                         <input type="hidden" name="_token" value="{{ csrf_token()}}">
                             <div class="row">
                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                     <div class="job-field">
-                                        <input type="search" name="cari" placeholder="Job title, keywords or company name" />
+                                        <input type="search" id="cari_nama" name="cari" placeholder="Job title, keywords or company name" />
                                         <i class="la la-keyboard-o"></i>
                                     </div>
                                 </div>
@@ -59,7 +60,7 @@
                                     </div>
                                 </div> --}}
                                 <div class="col-lg-1 col-md-2 col-sm-12 col-xs-12">
-                                    <button type="submit"><i class="la la-search"></i></button>
+                                    <button type="submit" id="search"><i class="la la-search"></i></button>
                                 </div>
                             </div>
                         </form>
@@ -70,22 +71,33 @@
                         <div class="job-grid-sec">
                             <div class="row">
 
-                             @if(@isset($loker))
-                                {{-- @if($loker) --}}
-                                <p align="justify" style="color:black">
-                                        Sebuah program magang dari Jobhun yang ditujukan bagi para pelajar atau mahasiswa,
-                                        dengan rentang usia 15-22 tahun. Posisi magang yang dibuka biasanya menyesuaikan
-                                        kebutuhan proyek Jobhun, seperti content writer, social media specialist, graphic
-                                        designer, videographer, creative team, business development, marketing, hingga
-                                        technical. Dalam program ini, mereka akan mendapatkan pelatihan atau mentoring
-                                        beberapa topik (kepenulisan, desain, social media management, pembuatan acara, dll).
-                                        Mereka juga berkesempatan untuk membantu tim inti Jobhun mengerjakan beberapa proyek
-                                        dan pekerjaan rutin. Para pemagang juga berkesempatan untuk menjadi tim Jobhun
-                                        setelah program selesai, apabila memenuhi kriteria. Untuk mengetahui informasi
-                                        Jobhun Internship lebih detail, kamu bisa melihat update konten di bawah ini.
-                                    </p>
+                             @if(isset($loker))
 
-                                    @endisset
+                                @foreach ($loker as $job)
+
+                                @if ($job->verified_job=='1')
+
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="job-grid border">
+                                        <div class="job-title-sec">
+                                            <div class="c-logo"> <img width="300" height="300" src="{{asset ('image/logo_perusahaan/'.$job->logo_url)}}" alt=""></div>
+                                        <h3><a href="{{url('loker/show/'.$job->id)}}" title="">{{$job->company_name}}</a></h3>
+                                            <ul class="tags-jobs">
+                                            <li><i class="la la-map-marker"></i>{{$job->company_address}}</li>
+                                                <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
+                                            </ul>
+                                            {{-- <span>Massimo Artemisis</span> --}}
+                                            <span class="fav-job"><i class="la la-heart-o"></i></span>
+                                        </div>
+                                    <span class="job-lctn">{!!str_limit($job->description_company,200)!!}</span>
+                                        <a href="{{url('loker/show/'.$job->id)}}" title="">Selengkapnya</a>
+                                    </div><!-- JOB Grid -->
+                                </div>
+
+                                @endif
+                                @endforeach
+
+                             @else
                                     
                                 @foreach ($daftar_job as $job)
 
@@ -110,6 +122,7 @@
 
                                 @endif
                                 @endforeach
+
 
 
                             </div>
@@ -325,6 +338,7 @@
             </div>
         </div>
     </div>
+    @endif
     {{-- <div class="block">
         <div class="container">
             <div class="row">
@@ -356,5 +370,7 @@
         </div>
     </div> --}}
 </section>
+
+
 
 @endsection
