@@ -271,31 +271,36 @@ public function not_verified($id)
 //============================================== search loker =====================================================
         public function cari (Request $request)
         {
-            if($request->ajax());
-            {
+            if($request->ajax())
+
                 $cari = $request->get('name');
 
                 if($cari)
                 {
-                    $data = Job::where('type_loker' , 'like', '%'.$cari.'%')
-                            ->orWhere('company_name' , 'like', '%'.$cari.'%')
-                            ->orWhere('company_tagline' , 'like', '%'.$cari.'%')
-                            ->orWhere('company_address' , 'like', '%'.$cari.'%')
-                            ->orWhere('position_sought' , 'like', '%'.$cari.'%')
-                            ->orWhere('type_work' , 'like', '%'.$cari.'%')->get();
+                    $data_cari = Job::where('company_name' , 'like', '%'.$cari.'%')->paginate(5);
+
+                    // echo json_encode($data);
                 }
 
                 else
                 {
                     return response()->json(['pesan'=>'Data tidak tersedia'],401);
                 }
-            }
+            
+
+            return response()->json(['pesan'=>'Kesalahan'],401);
 
         
 
             // $loker = Job::where('company_name', 'like', '%'.$cari.'%')->paginate(5);
 
             // return view('user.content.home.home_user',['loker'=> $loker]);
+            
+            // ->orWhere('company_name' , 'like', '%'.$cari.'%')
+            // ->orWhere('company_tagline' , 'like', '%'.$cari.'%')
+            // ->orWhere('company_address' , 'like', '%'.$cari.'%')
+            // ->orWhere('position_sought' , 'like', '%'.$cari.'%')
+            // ->orWhere('type_work' , 'like', '%'.$cari.'%')
         }
 
 //=============================================== Jobhun Academy ====================================================

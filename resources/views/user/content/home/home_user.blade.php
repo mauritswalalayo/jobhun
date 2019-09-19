@@ -28,7 +28,8 @@
 
 
 <section>
-    <div class="block">
+<div class="heading search-box">
+    <div class="block ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -37,14 +38,14 @@
                         {{-- <span>Leading Employers already using job and talent.</span> --}}
                     </div><!-- Heading -->
 
-                <div class="heading search-popup-box">
+                <div class="heading">
                         
                     <form >
                         <input type="hidden" name="_token" value="{{ csrf_token()}}">
                             <div class="row">
                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                     <div class="job-field">
-                                        <input type="search" id="cari_nama" name="cari" placeholder="Job title, keywords or company name" />
+                                        <input type="search" id="cari_nama" placeholder="Job title, keywords or company name" />
                                         <i class="la la-keyboard-o"></i>
                                     </div>
                                 </div>
@@ -137,6 +138,7 @@
             </div>
         </div>
     </div>
+</div>
 </section>
 
 <section>

@@ -192,7 +192,7 @@
             },
             success: function(data){
                 alert(data.pesan);
-                $('.search-popup-box').fadeOut('fast');
+                $('.search-box').fadeOut('fast');
                 $('html').removeClass('no-scroll');
             },
             error: function(error){
