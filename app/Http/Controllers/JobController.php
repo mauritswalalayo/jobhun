@@ -85,7 +85,7 @@ class JobController extends Controller
                 $request->file('upload_poster')->move(public_path('image/poster'),$image_poster);
                 $job->upload_poster = $image_poster;
             }
-            elseif($request->hasFile('logo_url')){
+            if($request->hasFile('logo_url')){
             $image_logo = $job->id.'.'.$request->file('logo_url')->getClientOriginalExtension();
             $request->file('logo_url')->move(public_path('image/logo_perusahaan'),$image_logo);
             $job->logo_url = $image_logo;
@@ -273,11 +273,13 @@ public function not_verified($id)
         {
             if($request->ajax())
 
-                $cari = $request->get('name');
+                $cari = $request->get('datanya');
 
                 if($cari)
                 {
                     $data_cari = Job::where('company_name' , 'like', '%'.$cari.'%')->paginate(5);
+
+                    return response()->json(['data'=> $data_cari]);                    
 
                     // echo json_encode($data);
                 }

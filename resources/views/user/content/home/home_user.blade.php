@@ -71,58 +71,9 @@
 
                         <div class="job-grid-sec">
                             <div class="row">
-
-                             @if(isset($loker))
-
-                                @foreach ($loker as $job)
-
-                                @if ($job->verified_job=='1')
-
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="job-grid border">
-                                        <div class="job-title-sec">
-                                            <div class="c-logo"> <img width="300" height="300" src="{{asset ('image/logo_perusahaan/'.$job->logo_url)}}" alt=""></div>
-                                        <h3><a href="{{url('loker/show/'.$job->id)}}" title="">{{$job->company_name}}</a></h3>
-                                            <ul class="tags-jobs">
-                                            <li><i class="la la-map-marker"></i>{{$job->company_address}}</li>
-                                                <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
-                                            </ul>
-                                            {{-- <span>Massimo Artemisis</span> --}}
-                                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                                        </div>
-                                    <span class="job-lctn">{!!str_limit($job->description_company,200)!!}</span>
-                                        <a href="{{url('loker/show/'.$job->id)}}" title="">Selengkapnya</a>
-                                    </div><!-- JOB Grid -->
-                                </div>
-
-                                @endif
-                                @endforeach
-
-                             @else
                                     
-                                @foreach ($daftar_job as $job)
-
-                                @if ($job->verified_job=='1')
-
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="job-grid border">
-                                        <div class="job-title-sec">
-                                            <div class="c-logo"> <img width="300" height="300" src="{{asset ('image/logo_perusahaan/'.$job->logo_url)}}" alt=""></div>
-                                        <h3><a href="{{url('loker/show/'.$job->id)}}" title="">{{$job->company_name}}</a></h3>
-                                            <ul class="tags-jobs">
-                                            <li><i class="la la-map-marker"></i>{{$job->company_address}}</li>
-                                                <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
-                                            </ul>
-                                            {{-- <span>Massimo Artemisis</span> --}}
-                                            <span class="fav-job"><i class="la la-heart-o"></i></span>
-                                        </div>
-                                    <span class="job-lctn">{!!str_limit($job->description_company,200)!!}</span>
-                                        <a href="{{url('loker/show/'.$job->id)}}" title="">Selengkapnya</a>
-                                    </div><!-- JOB Grid -->
-                                </div>
-
-                                @endif
-                                @endforeach
+                    <div id="data_loker">
+                    </div>
 
 
 
@@ -340,7 +291,7 @@
             </div>
         </div>
     </div>
-    @endif
+
     {{-- <div class="block">
         <div class="container">
             <div class="row">
@@ -375,4 +326,78 @@
 
 
 
+@endsection
+
+@section('customjs')
+
+<script type="text/javascript">
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+
+        $("#search").click(function(e){
+        //mencegah refresh halaman
+        e.preventDefault();
+
+        //  ambil data dari id
+        var datanya = $("#cari_nama").val();
+
+        console.log(datanya);
+
+        $.ajax({
+            type: 'POST',
+            url: '/projek/jobhun/public/search',
+            data: {
+                datanya,
+            },
+            success: function(data){
+                var data_loker = data.data.data;
+                var data_loker_html = "";
+                var site = 'http://localhost/projek/jobhun/public/';
+                for (var i = 0; i < data_loker.length; i++){
+                    data_loker_html = data_loker_html + '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">'
+                        +
+                                    '<div class="job-grid border">'
+                                        +
+                                        '<div class="job-title-sec">'
+                                            +
+                                            '<div class="c-logo"> <img width="300" height="300" src="'
+                                                +
+                                                site+data_loker[i].logo_url+
+                                                ' alt=""></div>'
+                                                +
+                                                ' <h3><a href="' + site+data_loker[i].id + '" title="">' + data_loker[i].company_name + '</a></h3>'
+                                                +
+                                                '<ul class="tags-jobs">'+
+                                            '<li><i class="la la-map-marker"></i>'+data_loker[i].company_address+'</li>'
+                                            +
+                                                '<li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>'+
+                                            '</ul>'
+                                            +
+                                            '<span class="fav-job"><i class="la la-heart-o"></i></span>'
+                                        + '</div>'
+                                    '<span class="job-lctn">'+data_loker[i].description_company.substring(0,200)+'</span>'
+                                    +
+                                        '<a href="'+site+'loker/show/'+data_loker[i].id+'" title="">Selengkapnya</a>'
+                                        +
+                                    '</div></div>';
+                }
+                $('#data_loker').append(data_loker_html);
+
+                
+                
+
+                console.log(data_loker)
+            },
+            error: function(error){
+                alert(error.responseJSON.pesan);
+            }
+        })
+
+    });
+
+</script>
+    
 @endsection

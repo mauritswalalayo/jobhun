@@ -168,41 +168,7 @@
 
 </script>
 
-<script type="text/javascript">
-    $.ajaxSetup({
-        headers: {
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        }
-    });
 
-        $("#search").click(function(e){
-        //mencegah refresh halaman
-        e.preventDefault();
-
-        //  ambil data dari id
-        var datanya = $("#cari_nama").val();
-
-        console.log(datanya);
-
-        $.ajax({
-            type: 'POST',
-            url: '/projek/jobhun/public/search',
-            data: {
-                name:datanya,
-            },
-            success: function(data){
-                alert(data.pesan);
-                $('.search-box').fadeOut('fast');
-                $('html').removeClass('no-scroll');
-            },
-            error: function(error){
-                alert(error.responseJSON.pesan);
-            }
-        })
-
-    });
-
-</script>
 
 	@yield('customjs')
 
