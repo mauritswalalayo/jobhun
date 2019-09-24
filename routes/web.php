@@ -221,6 +221,7 @@ Route::get('mediapartner/verified/{id}', 'JobController@verified_mediapartner')-
 Route::get('form/jobhun-academy/','JobController@form_jobhun_academy')->name('form.jobhunacademy');
 
 
+
 //search data
 
 Route::post('/search','JobController@cari')->name('cari.loker');

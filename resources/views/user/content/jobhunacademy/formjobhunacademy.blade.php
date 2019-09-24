@@ -103,11 +103,24 @@
                                                     <br><br> <br>
                                             </div>
 										</div>
+
+										<div class="col-lg-12">
+											<span class="pf-title">Status Pembayaran</span>
+										<div class="checkbox">
+											<label><input type="checkbox" value="true">Lunas</label>
+										  </div>
+										</div>
+					 				
 										
 										<div class="col-lg-12">
-                                                <span class="pf-title">Keterangan</span>
+												<span class="pf-title">Keterangan</span>
                                                 <div class="pf-field">
-                                                    <textarea type="text" name="event_details" placeholder="Silakan transfer dengan nominal pembayaran yang kamu pilih (Lunas atau cicil) ke rekening BCA a/n Cynthia Cecilia 0373393328, kemudian lampirkan bukti transfer di sini. Contoh: Pembayaran lunas sebesar Rp1.500.000,- atau Pembayaran dicicil. Saya transfer nominal sesuai dengan DP"></textarea>
+														<p><span>Silakan transfer dengan nominal pembayaran yang kamu pilih (Lunas atau cicil) 
+															ke rekening BCA a/n Cynthia Cecilia 0373393328, kemudian lampirkan bukti transfer di sini. 
+															Contoh: Pembayaran lunas sebesar Rp1.500.000,- atau Pembayaran dicicil. 
+															Saya transfer nominal sesuai dengan DP</span></p>
+
+                                                    <textarea type="text" name="event_details" placeholder=""></textarea>
                                                 </div>
                                         </div>
                                     
