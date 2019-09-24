@@ -97,18 +97,23 @@
                                         
                                         <div class="col-lg-12">
                                              <span class="pf-title">Bukti Transfer</span>
-                                             <div class="upload-info">
+                                             <div class="">
                                                 <input type="file" class="form-control-file" name="evidence_transfer">
-                                                <span>Silakan transfer Rp50.000,- (per posisi pekerjaan) ke rekening BCA a/n Cynthia Cecilia 0373393328, kemudian lampirkan bukti transfer di sini.</span>
-                                                    <br><br> <br>
+                                                <p><span>Silakan transfer Rp50.000,- (per posisi pekerjaan) ke 
+													rekening BCA a/n Cynthia Cecilia 0373393328, 
+													kemudian lampirkan bukti transfer di sini.</span></p>
+                                                    
                                             </div>
 										</div>
 
 										<div class="col-lg-12">
 											<span class="pf-title">Status Pembayaran</span>
-										<div class="checkbox">
-											<label><input type="checkbox" value="true">Lunas</label>
-										  </div>
+											
+											<select data-placeholder="Allow In Search" name="payment_status" class="chosen">
+													<option>Lunas</option>
+													<option>Belum Lunas‎</option>
+											</select>
+											
 										</div>
 					 				
 										
