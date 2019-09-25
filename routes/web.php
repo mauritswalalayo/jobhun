@@ -218,7 +218,9 @@ Route::get('mediapartner/verified/{id}', 'JobController@verified_mediapartner')-
 
 
 //Jobhyn Academy
-Route::get('form/jobhun-academy/','JobController@form_jobhun_academy')->name('form.jobhunacademy');
+Route::get('form/jobhun-academy/','JobhunAcademyController@form_jobhun_academy')->name('form.jobhunacademy');
+
+Route::post('form/jobhun-academy/daftar','JobhunAcademyController@add')->name('add.jobhunacademy');
 
 
 

@@ -305,11 +305,5 @@ public function not_verified($id)
             // ->orWhere('type_work' , 'like', '%'.$cari.'%')
         }
 
-//=============================================== Jobhun Academy ====================================================
-
-        public function form_jobhun_academy ()
-        {
-            return view('user.content.jobhunacademy.formjobhunacademy');
-        }
 }
 

@@ -48,7 +48,7 @@
 							</div>
 							 
 					 		<div class="profile-form-edit">
-								 <form action="" method="POST" enctype="multipart/form-data">
+							 <form action="{{route('add.jobhunacademy')}}" method="POST" enctype="multipart/form-data">
 									<input type="hidden" name="_token" value="{{ csrf_token()}}">
 									
 					 				<div class="row">
@@ -56,14 +56,14 @@
 											<div class="col-lg-12">
 													<span class="pf-title">Nama Lengkap</span>
 													<div class="pf-field">
-														<input type="text" name="event_name" placeholder="" />
+														<input type="text" name="name" placeholder="" />
 													</div>
 												</div>
 
                         				<div class="col-lg-12">
 					 						<span class="pf-title">Pilih Kelas</span>
 					 						<div class="pf-field">
-					 							<select data-placeholder="Allow In Search" name="type_mediapartner" class="chosen">
+					 							<select data-placeholder="Allow In Search" name="class" class="chosen">
 													<option>Jobhun Academy: Content Writer‎</option>
 													<option>Jobhun Academy: Graphic Designer‎</option>
 													<option>Jobhun Academy: Videographer‎</option>
@@ -84,14 +84,14 @@
                                          <div class="col-lg-12">
 					 						<span class="pf-title">Alamat Email</span>
 					 						<div class="pf-field">
-					 							<input type="text" name="event_organizer" placeholder="Tulis nama perusahaan/komunitas/organisasi yang menyelenggarakan acara" />
+					 							<input type="text" name="email_address" placeholder="Tulis nama perusahaan/komunitas/organisasi yang menyelenggarakan acara" />
 					 						</div>
                                          </div>
 
                                          <div class="col-lg-12">
                                                 <span class="pf-title">Nomor HP</span>
                                                 <div class="pf-field">
-                                                    <input type="text" name="contact_event" placeholder="Tulis nama, kontak, dan email narahubung" />
+                                                    <input type="text" name="phone" placeholder="Tulis nama, kontak, dan email narahubung" />
                                                 </div>
                                         </div>
                                         
@@ -110,8 +110,8 @@
 											<span class="pf-title">Status Pembayaran</span>
 											
 											<select data-placeholder="Allow In Search" name="payment_status" class="chosen">
-													<option>Lunas</option>
-													<option>Belum Lunas‎</option>
+													<option>LUNAS</option>
+													<option>BELUM LUNAS / CICIL</option>
 											</select>
 											
 										</div>
@@ -125,7 +125,7 @@
 															Contoh: Pembayaran lunas sebesar Rp1.500.000,- atau Pembayaran dicicil. 
 															Saya transfer nominal sesuai dengan DP</span></p>
 
-                                                    <textarea type="text" name="event_details" placeholder=""></textarea>
+                                                    <textarea type="text" name="information" placeholder=""></textarea>
                                                 </div>
                                         </div>
                                     
