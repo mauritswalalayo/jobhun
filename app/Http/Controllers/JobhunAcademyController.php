@@ -64,12 +64,12 @@ class JobhunAcademyController extends Controller
 
             $emailtujuan_keadmin = 'walalayooces@gmail.com';
             $namatujuan_keadmin = 'Maurits Oces';
-            $data_keadmin = ['name_admin' => 'Johana','body_admin' => $jobhunacademy->name.'telah mendaftar di Jobhun Academy'];
+            $data_keadmin = ['name_admin' => 'Johana','body_admin' => $jobhunacademy->name.' telah mendaftar di Jobhun Academy'];
 
-            Mail::send('content.email.email_jobhunacademy', $data_keadmin, function ($message) use($emailtujuan,$namatujuan_keadmin) {
+            Mail::send('content.email.email_jobhunacademy', $data_keadmin, function ($message) use($emailtujuan_keadmin,$namatujuan_keadmin) {
                 $message->from('jobhun.id@gmail.com', 'Johana');
                 // $message->sender('john@johndoe.com', 'John Doe');
-                $message->to($emailtujuan, $namatujuan_keadmin);
+                $message->to($emailtujuan_keadmin, $namatujuan_keadmin);
                 // $message->cc('john@johndoe.com', 'John Doe');
                 // $message->bcc('john@johndoe.com', 'John Doe');
                 // $message->replyTo('john@johndoe.com', 'John Doe');
@@ -81,4 +81,17 @@ class JobhunAcademyController extends Controller
             return redirect()->route('index')->with('berhasil', '.');
 
         }
+
+//======================================= VIEW ADMIN JOBHUN ACADEMY ===============================================
+
+public function view_jobhunacademy ($payment_status)
+    {
+        $jobhunacademy = Job::where('payment_status',$payment_status)->paginate(5);
+        $first_index = $jobhunacademy->currentPage() * $jobhunacademy->perPage() - $jobhunacademy->perPage() + 1;
+        if($payment_status == 0)
+            return view('content.loker.table',['datajob' => $jobhunacademy, 'first_index' => $first_index]);
+        else
+            return view('content.loker.table_terverifikasi',['datajob' => $jobhunacademy, 'first_index' => $first_index]);
+
+    }
 }

@@ -81,6 +81,24 @@
 
             </li>
 
+            <li class="treeview">
+                <a href="#">
+                    <i class="glyphicon glyphicon-briefcase"></i> <span>Jobhun Academy</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+
+                {{-- <ul class="treeview-menu">
+                    <li><a href="{{route('jobhun.academy.table',['verified_status'=>0])}}"><i
+                                class="glyphicon glyphicon-star"></i>Baru</a></li>
+                    <li><a href="{{route('jobhun.table',['verified_status'=>1])}}"><i
+                                class="glyphicon glyphicon-check"></i>Loker Terverifikasi</a></li>
+
+                </ul> --}}
+
+            </li>
+
 
 
 
