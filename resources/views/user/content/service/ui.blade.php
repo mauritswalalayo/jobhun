@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 column">
-                    <a class="apply-thisjob" href="#" title=""><i class="la la-paper-plane"></i>Daftar</a>
+                    <a class="apply-thisjob" href="{{route('form.jobhunacademy')}}" title=""><i class="la la-paper-plane"></i>Daftar</a>
                     <div class="job-overview">
                         <h3>Keterangan : </h3>
                         <ul>

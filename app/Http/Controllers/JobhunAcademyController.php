@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Validator;
 use App\Jobhunacademy;
+use Illuminate\Support\Facades\Mail;
 
 
 class JobhunAcademyController extends Controller
@@ -48,7 +49,7 @@ class JobhunAcademyController extends Controller
             $data = ['name' => $namatujuan];
         
             Mail::send('content.email.ver_jobhunacademy', $data, function ($message) use($emailtujuan,$namatujuan) {
-                $message->from('jobhun.id@gmail.com', 'Johana');
+                $message->from('jobhun.id@gmail.com', 'Jobhun');
                 // $message->sender('john@johndoe.com', 'John Doe');
                 $message->to($emailtujuan, $namatujuan);
                 // $message->cc('john@johndoe.com', 'John Doe');
@@ -63,7 +64,7 @@ class JobhunAcademyController extends Controller
 
             $emailtujuan_keadmin = 'walalayooces@gmail.com';
             $namatujuan_keadmin = 'Maurits Oces';
-            $data_keadmin = ['name_admin' => 'Johana','body_admin' => 'ada Loker baru dari '.$jobhunacademy->name];
+            $data_keadmin = ['name_admin' => 'Johana','body_admin' => $jobhunacademy->name.'telah mendaftar di Jobhun Academy'];
 
             Mail::send('content.email.email_jobhunacademy', $data_keadmin, function ($message) use($emailtujuan,$namatujuan_keadmin) {
                 $message->from('jobhun.id@gmail.com', 'Johana');

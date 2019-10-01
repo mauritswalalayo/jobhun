@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateJobhunAcademiesTable extends Migration
+class CreateJobhunacademiesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateJobhunAcademiesTable extends Migration
      */
     public function up()
     {
-        Schema::create('jobhun__academies', function (Blueprint $table) {
+        Schema::create('jobhunacademies', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('class');
@@ -34,6 +34,6 @@ class CreateJobhunAcademiesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jobhun__academies');
+        Schema::dropIfExists('jobhunacademies');
     }
 }
