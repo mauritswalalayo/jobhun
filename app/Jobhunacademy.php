@@ -11,7 +11,7 @@ class Jobhunacademy extends Model
         'class',
         'email_address',
         'phone',
-        'evidance_transfer',
+        'evidence_transfer',
         'payment_status',
         'information'
     ];

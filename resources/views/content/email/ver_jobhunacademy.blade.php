@@ -88,7 +88,7 @@
                         
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
                         
-                        <div style="text-align: justify;"><span style="font-family:comic sans ms,marker felt-thin,arial,sans-serif">“Terima kasih sudah memasang lowongan kerja di Jobhun. Postingan lowongan kerja akan diverifikasi 1x24 jam. Tim Jobhun akan menghubungi email kamu.”</span></div>
+                        <div style="text-align: justify;"><span style="font-family:comic sans ms,marker felt-thin,arial,sans-serif">“Terima kasih sudah mendaftar di Jobhun Academy. Tim Jobhun akan menghubungi email kamu.”</span></div>
 
                         </td>
                     </tr>
