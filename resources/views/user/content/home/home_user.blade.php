@@ -29,65 +29,8 @@
 
 <section>
 <div class="heading search-box">
-    <div class="block ">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="heading">
-                        <h2>Jobhun Career Hub</h2>
-                        {{-- <span>Leading Employers already using job and talent.</span> --}}
-                    </div><!-- Heading -->
-
-                <div class="heading">
-                        
-                    <form >
-                        <input type="hidden" name="_token" value="{{ csrf_token()}}">
-                            <div class="row">
-                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                    <div class="job-field">
-                                        <input type="search" id="cari_nama" placeholder="Job title, keywords or company name" />
-                                        <i class="la la-keyboard-o"></i>
-                                    </div>
-                                </div>
-                                {{-- <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                    <div class="job-field">
-                                        <select data-placeholder="City, province or region" class="chosen-city">
-                                            <option>Surabaya </option>
-                                            <option>Yogyakarta</option>
-                                            <option>Jakarta</option>
-                                            <option>Bandung</option>
-                                        </select>
-                                        <i class="la la-map-marker"></i>
-                                    </div>
-                                </div> --}}
-                                <div class="col-lg-1 col-md-2 col-sm-12 col-xs-12">
-                                    <button type="submit" id="search"><i class="la la-search"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="job-listings-sec">
-
-                        <div class="job-grid-sec">
-                            <div class="row">
-                                    
-                    <div id="data_loker">
-                    </div>
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="browse-all-cat">
-                        <a href="{{ route ('jch')}}" title="">Lihat Lainnya</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="block">
+        <p>Career Hub luar masih dikerjakan mas Boy.. jangan diganggu dulu, yang lain gpp</p>
     </div>
 </div>
 </section>
