@@ -73,7 +73,7 @@ class JobhunAcademyController extends Controller
                 // $message->cc('john@johndoe.com', 'John Doe');
                 // $message->bcc('john@johndoe.com', 'John Doe');
                 // $message->replyTo('john@johndoe.com', 'John Doe');
-                $message->subject('Jobhun Academy Baru');
+                $message->subject('Loker Baru');
                 // $message->priority(3);
                 // $message->attach('pathToFile');
             });
