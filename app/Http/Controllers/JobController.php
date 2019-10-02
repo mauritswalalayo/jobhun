@@ -305,5 +305,10 @@ public function not_verified($id)
             // ->orWhere('type_work' , 'like', '%'.$cari.'%')
         }
 
+    public function apiCareerHub(){
+        $jobs = Job::all();
+        return response()->json(["jobs"=>$jobs]);
+    }
+
 }
 
