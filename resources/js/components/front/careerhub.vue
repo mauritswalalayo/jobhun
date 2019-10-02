@@ -25,14 +25,30 @@
             <div class="job-listings-sec">
                 <div class="job-grid-sec">
                     <div class="row">
-                        <div id="data_loker"></div>
+                        <div class="row">                     
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" v-for="(job,index) in jobs">
+                                <div class="job-grid border">
+                                    <div class="job-title-sec">
+                                        <div class="c-logo"> <img width="300" height="300" :src="'image/logo_perusahaan/' + job.logo_url" alt=""></div>
+                                    <h3><a :href="$store.state.apiUrl + 'loker/show/' + job.id" title="">{{job.company_name}}</a></h3>
+                                        <ul class="tags-jobs">
+                                        <li><i class="la la-map-marker"></i>job.company_address</li>
+                                            <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
+                                        </ul>
+                                        <span class="fav-job"><i class="la la-heart-o"></i></span>
+                                    </div>
+                                <span class="job-lctn">{{job->description_company.substring(0,200)}}</span>
+                                    <a :href="$store.state.apiUrl + 'loker/show/' + job.id" title="">Selengkapnya</a>
+                                </div><!-- JOB Grid -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-12">
             <div class="browse-all-cat">
-                <a href="{{ route ('jch')}}" title="">Lihat Lainnya</a>
+                <a href="" title="">Lihat Lainnya</a>
             </div>
         </div>
     </div>
@@ -42,7 +58,12 @@
 export default{
     data(){
         return{
-
+            jobs: []
+        }
+    },
+    methods: {
+        ambilDataJobs: function(){
+            axios.get(this.$store.state.apiUrl)
         }
     }
 }
