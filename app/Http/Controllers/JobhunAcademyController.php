@@ -46,9 +46,15 @@ class JobhunAcademyController extends Controller
 
             $emailtujuan = $jobhunacademy->email_address;
             $namatujuan = $jobhunacademy->name;
-            $data = ['name' => $namatujuan];
+            $no_telp = $jobhunacademy->phone;
+            $kelas = $jobhunacademy->class;
+            $date = $jobhunacademy->created_at;
+            $datee = Carbon::parse($date)->format('M d, Y');
+            $nomorkwitansi = $jobhunacademy->id.'/'.$datee;
+            
+            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 'date' => $date];
         
-            Mail::send('content.email.ver_jobhunacademy', $data, function ($message) use($emailtujuan,$namatujuan) {
+            Mail::send('content.email.kwitansi_jobhun', $data, function ($message) use($emailtujuan,$namatujuan) {
                 $message->from('jobhun.id@gmail.com', 'Jobhun');
                 // $message->sender('john@johndoe.com', 'John Doe');
                 $message->to($emailtujuan, $namatujuan);
@@ -66,14 +72,14 @@ class JobhunAcademyController extends Controller
             $namatujuan_keadmin = 'Maurits Oces';
             $data_keadmin = ['name_admin' => 'Johana','body_admin' => $jobhunacademy->name.' telah mendaftar di Jobhun Academy'];
 
-            Mail::send('content.email.kwitansi_jobhun', $data_keadmin, function ($message) use($emailtujuan_keadmin,$namatujuan_keadmin) {
+            Mail::send('content.email.ver_jobhunacademy', $data_keadmin, function ($message) use($emailtujuan_keadmin,$namatujuan_keadmin) {
                 $message->from('jobhun.id@gmail.com', 'Johana');
                 // $message->sender('john@johndoe.com', 'John Doe');
                 $message->to($emailtujuan_keadmin, $namatujuan_keadmin);
                 // $message->cc('john@johndoe.com', 'John Doe');
                 // $message->bcc('john@johndoe.com', 'John Doe');
                 // $message->replyTo('john@johndoe.com', 'John Doe');
-                $message->subject('Loker Baru');
+                $message->subject('Jobhun Academy Baru');
                 // $message->priority(3);
                 // $message->attach('pathToFile');
             });
