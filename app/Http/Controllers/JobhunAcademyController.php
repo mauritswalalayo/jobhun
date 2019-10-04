@@ -49,11 +49,11 @@ class JobhunAcademyController extends Controller
             $no_telp = $jobhunacademy->phone;
             $kelas = $jobhunacademy->class;
 
-            $date = $jobhunacademy->created_at->format('d-m-Y');
-            $nomorkwitansi = $jobhunacademy->id.'/'.$date;
+            $bulan = $jobhunacademy->created_at->format('m');
+            $nomorkwitansi = $jobhunacademy->id.'/'.$bulan;
             
-            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 'date' => $date, 
-                    'nomor_kwitansi' => $nomorkwitansi];
+            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 
+                    'date' => $jobhunacademy->created_at->format('d F Y'), 'nomor_kwitansi' => $nomorkwitansi];
                     
         
             Mail::send('content.email.kwitansi_jobhun', $data, function ($message) use($emailtujuan,$namatujuan) {
