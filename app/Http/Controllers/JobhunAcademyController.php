@@ -48,11 +48,13 @@ class JobhunAcademyController extends Controller
             $namatujuan = $jobhunacademy->name;
             $no_telp = $jobhunacademy->phone;
             $kelas = $jobhunacademy->class;
-            $date = $jobhunacademy->created_at;
-            $datee = Carbon::parse($date)->format('M d, Y');
-            $nomorkwitansi = $jobhunacademy->id.'/'.$datee;
+
+            $date = $jobhunacademy->created_at->format('d-m-Y');
+            $nomorkwitansi = $jobhunacademy->id.'/'.$date;
             
-            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 'date' => $date];
+            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 'date' => $date, 
+                    'nomor_kwitansi' => $nomorkwitansi];
+                    
         
             Mail::send('content.email.kwitansi_jobhun', $data, function ($message) use($emailtujuan,$namatujuan) {
                 $message->from('jobhun.id@gmail.com', 'Jobhun');

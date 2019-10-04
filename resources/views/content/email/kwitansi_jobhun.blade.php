@@ -90,14 +90,14 @@ Tim Jobhun<br>
 <div style="text-align: left;"><br>
 <span style="font-size:16px"><strong><img data-file-id="4244113" height="60" src="https://gallery.mailchimp.com/5ae57ecafa359ca93d2cedffe/images/5dd3648c-7e2f-475f-911a-ba0d8a78c92d.png" style="border: 0px;width: 132px;height: 60px;margin: 0px;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="132"></strong></span></div>
 <span style="font-size:16px"><strong>Kwitansi Pembayaran</strong></span><br>
-<span style="font-size:15px">No : 110/IX/2019</span><br>
+<span style="font-size:15px">No : {{$nomor_kwitansi}}</span><br>
 &nbsp;</div>
 
 <div style="text-align: left;"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><span style="font-size:15px">Sudah diterima dari&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : {{$name}}<br>
 No. Telp&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : {{$no_telp}}<br>
 Untuk pembayaran&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: Pelunasan {{$kelas}}</span></span><br>
 <br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size:15px">Surabaya, {{Carbon\Carbon::parse($date)->format('M d, Y')}}</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size:15px">Surabaya, {{$date}}</span><br>
 <span style="font-size:14px">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img data-file-id="4418757" height="107" src="https://gallery.mailchimp.com/5ae57ecafa359ca93d2cedffe/images/db04ebd1-2769-483c-9ea4-af2a1e751e10.png" style="border: 0px;width: 156px;height: 107px;margin: 0px;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="156"></span></div>
 
                         </td>
