@@ -50,6 +50,7 @@ class JobhunAcademyController extends Controller
             $kelas = $jobhunacademy->class;
 
             $bulan = $jobhunacademy->created_at->format('m');
+            
             $nomorkwitansi = $jobhunacademy->id.'/'.$bulan;
             
             $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 
