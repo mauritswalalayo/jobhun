@@ -6,10 +6,12 @@
 </head>
 
 <body class="newbg">
-
+<div id="app" v-cloak><!--
 	<div class="page-loading">
 		<img src="images/loader.gif" alt="" />
-	</div>
+	</div>-->
+   <loading-component></loading-component>
+
 
 	<div class="theme-layout" id="scrollup">
 
@@ -70,6 +72,7 @@
 			</form>
 		</div>
 	</div><!-- SIGNUP POPUP -->
+</div>
 	@include('user.partial.js')
 
 	<script type="text/javascript">

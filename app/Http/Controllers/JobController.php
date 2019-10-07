@@ -305,8 +305,8 @@ public function not_verified($id)
             // ->orWhere('type_work' , 'like', '%'.$cari.'%')
         }
 
-    public function apiCareerHub(){
-        $jobs = Job::all();
+    public function apiCareerHub($per_page){
+        $jobs = Job::where('verified_job',1)->orderBy('created_at','desc')->paginate($per_page);
         return response()->json(["jobs"=>$jobs]);
     }
 

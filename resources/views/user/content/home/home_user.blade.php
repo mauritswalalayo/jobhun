@@ -30,7 +30,7 @@
 <section>
 <div class="heading search-box">
     <div class="block">
-        <p>Career Hub luar masih dikerjakan mas Boy.. jangan diganggu dulu, yang lain gpp</p>
+        <front-careerhub></front-careerhub>
     </div>
 </div>
 </section>

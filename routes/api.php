@@ -17,4 +17,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('job/filter', 'JobController@apiCareerHub');
+Route::get('job/filter/{per_page}', 'JobController@apiCareerHub');
