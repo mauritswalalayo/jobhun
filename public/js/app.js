@@ -1940,6 +1940,7 @@ __webpack_require__.r(__webpack_exports__);
       var page = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
       axios.get(this.$store.state.apiUrl + 'job/filter/' + this.perPage + '?page=' + page).then(function (response) {
         _this.jobs = response.data.jobs;
+        console.log(_this.jobs);
       });
     }
   }
@@ -38679,7 +38680,7 @@ var render = function() {
                     "div",
                     { staticClass: "row" },
                     [
-                      _vm._l(_vm.jobs, function(job, index) {
+                      _vm._l(_vm.jobs.data, function(job, index) {
                         return _c(
                           "div",
                           {
@@ -38716,7 +38717,16 @@ var render = function() {
                                   )
                                 ]),
                                 _vm._v(" "),
-                                _vm._m(2, true),
+                                _c("ul", { staticClass: "tags-jobs" }, [
+                                  _c("li", [
+                                    _c("i", {
+                                      staticClass: "la la-map-marker"
+                                    }),
+                                    _vm._v(_vm._s(job.company_address))
+                                  ]),
+                                  _vm._v(" "),
+                                  _vm._m(2, true)
+                                ]),
                                 _vm._v(" "),
                                 _vm._m(3, true)
                               ]),
@@ -38814,16 +38824,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "tags-jobs" }, [
-      _c("li", [
-        _c("i", { staticClass: "la la-map-marker" }),
-        _vm._v("job.company_address")
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c("i", { staticClass: "la la-calendar-o" }),
-        _vm._v(" Post Date: July 29, 2017")
-      ])
+    return _c("li", [
+      _c("i", { staticClass: "la la-calendar-o" }),
+      _vm._v(" Post Date: July 29, 2017")
     ])
   },
   function() {
