@@ -28,13 +28,13 @@
                 <div class="job-grid-sec">
                     <div class="row">
                         <div class="row" v-if="jobs.data.length > 0">                     
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" v-for="(job,index) in jobs">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" v-for="(job,index) in jobs.data">
                                 <div class="job-grid border">
                                     <div class="job-title-sec">
                                         <div class="c-logo"> <img width="300" height="300" :src="'image/logo_perusahaan/' + job.logo_url" alt=""></div>
                                     <h3><a :href="$store.state.apiUrl + 'loker/show/' + job.id" title="">{{job.company_name}}</a></h3>
                                         <ul class="tags-jobs">
-                                        <li><i class="la la-map-marker"></i>job.company_address</li>
+                                        <li><i class="la la-map-marker"></i>{{job.company_address}}</li>
                                             <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
                                         </ul>
                                         <span class="fav-job"><i class="la la-heart-o"></i></span>
@@ -79,6 +79,7 @@ export default{
         getJobs: function(page = 1){
             axios.get(this.$store.state.apiUrl + 'job/filter/' + this.perPage + '?page=' + page).then(response=>{
                 this.jobs = response.data.jobs;
+                console.log(this.jobs);
             });
         }
     }
