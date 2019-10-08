@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Validator;
 use App\Jobhunacademy;
 use Illuminate\Support\Facades\Mail;
+use PDF;
 
 
 class JobhunAcademyController extends Controller
@@ -56,12 +57,15 @@ class JobhunAcademyController extends Controller
                                     'VII' ,'VIII', 'IX' ,'X' ,'XI', 'XII'];
 
             $nomorkwitansi = $jobhunacademy->id.'/'.$dafatarbulanromawi[$bulan-1].'/'.$tahun;
-            
+
             $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 
                      'date' => $jobhunacademy->created_at->format('d F Y'), 'nomor_kwitansi' => $nomorkwitansi];
+
+            $pdf = PDF::loadview('content.email.kwitansi_jobhun', $data);
+
                     
         
-            Mail::send('content.email.kwitansi_jobhun', $data, function ($message) use($emailtujuan,$namatujuan) {
+            Mail::send('content.email.kwitansi_jobhun', $data, function ($message) use($emailtujuan,$namatujuan,$pdf) {
                 $message->from('jobhun.id@gmail.com', 'Jobhun');
                 // $message->sender('john@johndoe.com', 'John Doe');
                 $message->to($emailtujuan, $namatujuan);
@@ -70,7 +74,7 @@ class JobhunAcademyController extends Controller
                 // $message->replyTo('john@johndoe.com', 'John Doe');
                 $message->subject('Jobhun Academy');
                 // $message->priority(3);
-                // $message->attach('pathToFile');
+                $message->attachData($pdf->output(),'kwitansi.pdf');
             });
 
 //================================================== KIRIM PESAN KE ADMIN ====================================================

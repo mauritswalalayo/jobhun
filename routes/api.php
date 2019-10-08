@@ -18,7 +18,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 Route::group(["middleware" => ['cors']],function (){
     Route::get('job/filter/{per_page}', 'JobController@apiCareerHub');
+
     Route::post('post/jobs/premium','JobController@add')->name('post.jobs.premium');
+    
     Route::post('post/jobs/reguler','JobController@add')->name('post.jobs.reguler');
 
 });
