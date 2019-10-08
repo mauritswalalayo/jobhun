@@ -50,8 +50,13 @@ class JobhunAcademyController extends Controller
             $kelas = $jobhunacademy->class;
 
             $bulan = $jobhunacademy->created_at->format('m');
-            
-            $nomorkwitansi = $jobhunacademy->id.'/'.$bulan;
+
+            $dafatarbulanromawi = ['I', 'II', 'III', 'IV', 'V', 'VI', 
+                                    'VII' ,'VIII', 'IX' ,'X' ,'XI', 'XII'];
+
+            $dafatarbulanromawi[$bulan-1]; 
+
+            $nomorkwitansi = $jobhunacademy->id.'/'.$dafatarbulanromawi;
             
             $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 
                     'date' => $jobhunacademy->created_at->format('d F Y'), 'nomor_kwitansi' => $nomorkwitansi];
