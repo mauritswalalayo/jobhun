@@ -111,6 +111,11 @@ class JobController extends Controller
                 // $message->priority(3);
                 // $message->attach('pathToFile');
             });
+
+            if($request->ajax()){
+                    return response()->json(['message'=> 'berhasil tambah loker' ]);                    
+
+            }
         
             return redirect()->route('index')->with('berhasil', '.');
 
