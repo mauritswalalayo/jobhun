@@ -5,11 +5,11 @@ Vue.use(Vuex)
 const state = {
 	session:{
 	},
-	apiUrl: 'http://localhost/projek/jobhun/public/api/',
+	apiUrl: 'http://localhost:8000/api/',
 	overlay: false,
 	isLoading: false
 }
-const getters = {	
+const getters = {
 	username: state => state.session.name,
 	isLoading: state => state.isLoading
 }
