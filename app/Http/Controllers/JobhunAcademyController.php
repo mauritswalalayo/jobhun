@@ -61,11 +61,11 @@ class JobhunAcademyController extends Controller
             $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 
                      'date' => $jobhunacademy->created_at->format('d F Y'), 'nomor_kwitansi' => $nomorkwitansi];
 
-            $pdf = PDF::loadview('content.email.kwitansi_jobhun', $data);
+            $pdf = PDF::loadview('content.email.kwitansi_tes', $data)->setOptions(['isHtml5ParserEnablet' => true]);
 
                     
         
-            Mail::send('content.email.kwitansi_jobhun', $data, function ($message) use($emailtujuan,$namatujuan,$pdf) {
+            Mail::send('content.email.kwitansi_tes', $data, function ($message) use($emailtujuan,$namatujuan,$pdf) {
                 $message->from('jobhun.id@gmail.com', 'Jobhun');
                 // $message->sender('john@johndoe.com', 'John Doe');
                 $message->to($emailtujuan, $namatujuan);

@@ -272,3 +272,9 @@ Route::get('/tesvuejs', function () {
 
 // Verifikasi Email
 Route::post('/register-user', 'UserController@store');
+
+//
+
+Route::get('/contoh-kwitansi', function () {
+    return view('content/email/contoh_kwitansi');
+})->name('kwitansi_tes');
