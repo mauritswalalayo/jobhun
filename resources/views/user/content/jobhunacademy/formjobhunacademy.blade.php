@@ -63,7 +63,7 @@
                         				<div class="col-lg-12">
 					 						<span class="pf-title">Pilih Kelas</span>
 					 						<div class="pf-field">
-					 							<select data-placeholder="Allow In Search" name="class" class="chosen">
+					 							<select data-placeholder="Allow In Search" name="class_name" class="chosen">
 													<option>Jobhun Academy: Content Writer‎</option>
 													<option>Jobhun Academy: Graphic Designer‎</option>
 													<option>Jobhun Academy: Videographer‎</option>

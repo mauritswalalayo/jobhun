@@ -8,7 +8,7 @@ class Jobhunacademy extends Model
 {
     protected $fillable = [
         'name',
-        'class',
+        'class_name',
         'email_address',
         'phone',
         'evidence_transfer',

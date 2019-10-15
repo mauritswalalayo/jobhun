@@ -22,7 +22,7 @@ class JobhunAcademyController extends Controller
                 $request->all(),
                 [
                     'name' => 'required',
-                    'class' => 'required',
+                    'class_name' => 'required',
                     'email_address'=> 'required',
                     'phone' => 'required',
                     'evidence_transfer'=> 'required',
@@ -48,7 +48,7 @@ class JobhunAcademyController extends Controller
             $emailtujuan = $jobhunacademy->email_address;
             $namatujuan = $jobhunacademy->name;
             $no_telp = $jobhunacademy->phone;
-            $kelas = $jobhunacademy->class;
+            $kelas = $jobhunacademy->class_name;
 
             $bulan = intval($jobhunacademy->created_at->format('m'));
             $tahun = intval($jobhunacademy->created_at->format('Y'));
@@ -61,7 +61,8 @@ class JobhunAcademyController extends Controller
             $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 
                      'date' => $jobhunacademy->created_at->format('d F Y'), 'nomor_kwitansi' => $nomorkwitansi];
 
-            $pdf = PDF::loadview('content.email.kwitansi_tes', $data)->setOptions(['isHtml5ParserEnablet' => true]);
+            $pdf = PDF::loadview('content.email.contoh_kwitansi', $data)->setOptions(['isHtml5ParserEnabled' => true, 
+                   'isRemoteEnabled' => true]);
 
                     
         

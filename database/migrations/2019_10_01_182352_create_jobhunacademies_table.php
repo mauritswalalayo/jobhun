@@ -16,7 +16,7 @@ class CreateJobhunacademiesTable extends Migration
         Schema::create('jobhunacademies', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->string('class');
+            $table->string('class_name');
             $table->string('email_address');
             $table->integer('phone');
             $table->string('evidence_transfer');
