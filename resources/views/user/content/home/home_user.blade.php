@@ -117,7 +117,7 @@
                     <div class="reviews-sec" id="reviews-carousel">
                         @foreach($daftar_testimoni as $testimoni)
                         <div class="col-lg-6">
-                            <div class="reviews">
+                            <div class="reviews" style="text-align: justify;">
                                 <img src="{{asset ('image/testimoni/'.$testimoni->foto)}}" alt="">
                                 <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
                                 <p>{{$testimoni->testimoni}}</p>
