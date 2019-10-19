@@ -31,7 +31,7 @@
 			<div class="row">
 				<div class="col-lg-12 column">
 					<div class="blog-single">
-						<div class="bs-thumb"><img src="http://placehold.it/834x340" alt="" /></div>
+						<div class="bs-thumb"><img src="{{asset ('image/post/'.$post->feature_image)}}" alt="" /></div>
 						<ul class="post-metas">
 							<li><a href="#" title=""><img src="http://placehold.it/40x40" alt="" width="40px" height="40px" />{{$post->user->name}}</a></li>
 							<li><a href="#" title=""><i class="la la-calendar-o"></i>{{$post->created_at}}</a></li>
@@ -40,7 +40,7 @@
 							<li><a href="#" title=""><i class="la la-file-text"></i>Travel, Skill, Jobs</a></li>
 						</ul>
 
-						<h3 style="color:black;">{!!$post->content!!}</h3>
+						<h3 style="color:black; text-align:justify">{!!$post->content!!}</h3>
 
 						<div class="tags-share">
 							<div class="tags_widget">

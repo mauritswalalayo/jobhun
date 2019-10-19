@@ -71,11 +71,11 @@
                         <div class="row">
 
                             @foreach($daftar_post as $post)
-
+                            {{-- width="322" height="280" --}}
                             <div class="col-lg-4">
                                 <div class="my-blog">
                                     <div class="blog-thumb">
-                                        <a href="#" title=""><img width="322" height="280"
+                                        <a href="#" title=""><img 
                                                 src="{{asset ('image/post/'.$post->feature_image)}}" alt="" /></a>
                                         <div class="blog-metas">
                                             <a href="#" title="">{{$post->created_at}}</a>
@@ -119,7 +119,7 @@
                         <div class="col-lg-6">
                             <div class="reviews" style="text-align: justify;">
                                 <img src="{{asset ('image/testimoni/'.$testimoni->foto)}}" alt="">
-                                <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
+                                <h3>{{$testimoni->name}}<br/><span>{{$testimoni->profesi}}</span></h3>
                                 <p>{{$testimoni->testimoni}}</p>
                             </div><!-- Reviews -->
                         </div>

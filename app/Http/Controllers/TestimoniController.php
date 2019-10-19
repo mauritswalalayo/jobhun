@@ -33,7 +33,7 @@ class TestimoniController extends Controller
         $validator = validator::make($request->all(),
         ['name' => 'required',
         'profesi' => 'required',
-        'foto' => 'required|image|mimes:jpeg,png,jpg|max:30',
+        'foto' => 'required|image|mimes:jpeg,png,jpg|max:1000',
         'testimoni'=>'required']);
 
         if ($validator->fails())
