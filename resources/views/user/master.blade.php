@@ -35,13 +35,13 @@
 				</div>
 				<div class="cfield">
 					<input type="password" id="password" placeholder="********" />
-					<i class="la la-key"></i>
+					<i class="fa fa-eye" id="eyes"></i>
 				</div>
 				<p class="remember-label">
-					<input type="checkbox" name="cb" id="cb1"><label for="cb1">Remember me</label>
+					<input type="checkbox" name="cb" id="cb1"><label for="cb1">Ingat kata sandi</label>
 				</p>
-				<a href="#" title="">Forgot Password?</a>
-				<button type="submit" id="loginsubmit">Login</button>
+				<a href="#" title="">Lupa kata sandi ?</a>
+				<button type="submit" id="loginsubmit">Masuk</button>
 			</form>
 		</div>
 	</div><!-- LOGIN POPUP -->
@@ -58,7 +58,7 @@
 				</div>
 				<div class="cfield">
 					<input type="password" id="password_regis" placeholder="********" />
-					<i class="la la-key"></i>
+					<i class="fa fa-eye" id="eye"></i>
 				</div>
 				<div class="cfield">
 					<input type="text" id="email_regis" placeholder="Email" />
@@ -170,6 +170,36 @@
 		});
 
 </script>
+
+
+
+<script>
+
+	var pwd = document.getElementById('password_regis');
+	var eye = document.getElementById('eye');
+
+	eye.addEventListener('click', togglePass);
+
+	function togglePass(){
+		eye.classList.toggle('active');
+		(pwd.type == 'password') ? pwd.type = 'text' : pwd.type = 'password'
+	}
+
+</script>
+
+<script>
+
+		var pwds = document.getElementById('password');
+		var eyes = document.getElementById('eyes');
+	
+		eyes.addEventListener('click', togglePass);
+	
+		function togglePass(){
+			eyes.classList.toggle('active');
+			(pwds.type == 'password') ? pwds.type = 'text' : pwds.type = 'password'
+		}
+	
+	</script>
 
 
 

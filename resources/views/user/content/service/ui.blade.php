@@ -142,12 +142,6 @@
                                 </ul>
                             </p>
                         </div>
-                        <div class="share-bar">
-                            <span>Share</span><a href="https://id-id.facebook.com/login/" target="_blank" title=""
-                                class="share-fb"><i class="fa fa-facebook"></i></a><a
-                                href="https://twitter.com/login?lang=id" target="_blank" title=""
-                                class="share-twitter"><i class="fa fa-twitter"></i></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 column">

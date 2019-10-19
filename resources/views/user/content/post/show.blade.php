@@ -33,7 +33,7 @@
 					<div class="blog-single">
 						<div class="bs-thumb"><img src="http://placehold.it/834x340" alt="" /></div>
 						<ul class="post-metas">
-							<li><a href="#" title=""><img src="http://placehold.it/40x40" alt="" />Ali TUFAN</a></li>
+							<li><a href="#" title=""><img src="http://placehold.it/40x40" alt="" width="40px" height="40px" />{{$post->user->name}}</a></li>
 							<li><a href="#" title=""><i class="la la-calendar-o"></i>{{$post->created_at}}</a></li>
 							<li><a class="metascomment" href="#" title=""><i class="la la-comments"></i>4 comments</a>
 							</li>

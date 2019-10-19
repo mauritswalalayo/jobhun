@@ -122,7 +122,7 @@ class UserController extends Controller
         'phone' =>'required']);
         if ($validator->fails())
         {
-            return response()->json(['pesan'=>'maaf semua data wajib diisi'],401);
+            return response()->json(['pesan'=>'Maaf semua data wajib diisi'],401);
         }
 
         $email = User::where('email',$request->email)->first();
@@ -148,18 +148,18 @@ class UserController extends Controller
         $data = ['name' => $namatujuan,'link_registrasi' => $link];
 
         Mail::send('content.email.email_verified_users', $data, function ($message) use($emailtujuan,$namatujuan) {
-        $message->from('jobhun.id@gmail.com', 'Johana');
+        $message->from('jobhun.id@gmail.com', 'Jobhun');
         // $message->sender('john@johndoe.com', 'John Doe');
         $message->to($emailtujuan, $namatujuan);
         // $message->cc('john@johndoe.com', 'John Doe');
         // $message->bcc('john@johndoe.com', 'John Doe');
         // $message->replyTo('john@johndoe.com', 'John Doe');
-        $message->subject('Verified');
+        $message->subject('Verifikasi Email-mu dulu yuk!”');
         // $message->priority(3);
         // $message->attach('pathToFile');
     });
 
-        return response()->json(['pesan'=>'Selamat anda berhasil sign up']);
+        return response()->json(['pesan'=>'Selamat, email-mu sudah terdaftar di Jobhun! Silakan cek email untuk verifikasi']);
 
     }
 

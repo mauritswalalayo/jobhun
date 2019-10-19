@@ -37,8 +37,8 @@
                         <div class="about_widget">
                             <span>Jobhun – CV Sindikat Kreasi Digital.</span>
                             <hr>
-                            <span>Geco Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel, Wonokromo,
-                                Surabaya, Jawa Timur, Indonesia 60246.</span>
+                            <span>Geco Coworking Space, Kompleks AJBS, </span> 
+                            <span> Jl. Ratna 14, Ngagel, Wonokromo, Surabaya, Jawa Timur, Indonesia 60246.</span>
                             <span>E-mail: info@jobhun.id</span>
                             <span>Telp. & WA: 08113235533.</span>
                         </div><!-- About Widget -->
@@ -49,12 +49,15 @@
                         <h3 class="footer-title">Media Sosial Jobhun</h3>
                         <div class="about_widget">
                             <div class="social">
-                                <a href="https://www.youtube.com/channel/UCCzKrMp711xzX8nI8zempKw?view_as=subscriber"
-                                    target="_blank" title=""><i class="fa fa-youtube"></i></a>
-                                <a href="https://www.instagram.com/jobhun/" target="_blank" title=""><i
+                                    <a href="https://www.instagram.com/jobhun/" target="_blank" title=""><i
                                         class="fa fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/company/jobhun-surabaya/" target="_blank" title=""><i
-                                        class="fa fa-linkedin"></i></a>
+                                        <a href="https://www.linkedin.com/company/jobhun-surabaya/" target="_blank" title=""><i
+                                            class="fa fa-linkedin"></i></a>
+                                            <a href="https://www.youtube.com/channel/UCCzKrMp711xzX8nI8zempKw?view_as=subscriber"
+                                    target="_blank" title=""><i class="fa fa-youtube"></i></a>
+                                
+                                
+                                
                             </div>
                         </div><!-- About Widget -->
                         {{-- <div class="about_widget">
@@ -74,7 +77,7 @@
         </div>
     </div>
     <div class="bottom-line">
-        <span>©Copyright 2019 Jobhun. All Rights Reserved.</span>
+        <span>©Copyright 2019. Jobhun. All Rights Reserved.</span>
         <a href="#scrollup" class="scrollup" title=""><i class="la la-arrow-up"></i></a>
     </div>
 </footer>

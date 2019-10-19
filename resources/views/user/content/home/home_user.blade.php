@@ -57,7 +57,7 @@
 <section>
     <div class="block">
         <div data-velocity="-.1"
-            style="background: url(http://placehold.it/1920x655) repeat scroll 50% 422.28px transparent;"
+            style="background-color :honeydew;"
             class="parallax scrolly-invisible no-parallax"></div><!-- PARALLAX BACKGROUND IMAGE -->
         <div class="container">
             <div class="row">
@@ -104,7 +104,7 @@
 <section>
     <div class="block">
         <div data-velocity="-.1"
-            style="background: url(http://placehold.it/1920x1000) repeat scroll 50% 422.28px transparent;"
+            style="background:purple repeat scroll 50% 422.28px transparent;"
             class="parallax scrolly-invisible layer color light"></div><!-- PARALLAX BACKGROUND IMAGE -->
         <div class="container">
             <div class="row">
@@ -139,8 +139,6 @@
                 <div class="col-lg-12">
                     <div class="heading">
                         <h2>Pernah diliput di</h2>
-                        <span>Beberapa perusahaan telah membantu merekrut pelamar yang sangat baik selama
-                            bertahun-tahun.</span>
                     </div><!-- Heading -->
                     <div class="comp-sec">
                         <div class="company-img">

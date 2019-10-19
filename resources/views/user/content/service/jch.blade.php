@@ -71,6 +71,25 @@
 							</select>
 						</div>
 					</div>
+
+
+					<div class="heading">
+						<h2 style="text-align:left;">Jobhun Career Hub</h2>
+						<br>
+						<br>
+						<div class="blog-posthumb"> <img width="1300" height="900"
+								src="{{ asset ('user/images/WEB_BANNER.jpg')}}" alt="" />
+						</div>
+							<div class="col-lg-12">
+								<div class="simple-text-block">
+									<a href="{{route('typeposting')}}" title="" class="btn btn-warning btn-lg" role="button"><h5><b>Cari Pekerja</b></h5></a>
+								</div>
+							</div>
+							
+
+
+					</div><!-- Heading -->
+
 					<div class="job-grid-sec">
 						<div class="row">
 
