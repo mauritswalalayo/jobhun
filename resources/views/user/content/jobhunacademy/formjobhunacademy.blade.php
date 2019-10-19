@@ -17,7 +17,7 @@
                     <div class="col-lg-9 column">
 				 		<div class="padding-left">
 					 		<div class="profile-title">
-								 <h3>Formulir Jobhun Academy</h3>
+								 <h3>Formulir pendaftaran Jobhun Academy</h3>
 
 								 @if ($errors->any())
         							<div class="alert alert-danger">
@@ -56,14 +56,14 @@
 											<div class="col-lg-12">
 													<span class="pf-title">Nama Lengkap</span>
 													<div class="pf-field">
-														<input type="text" name="name" placeholder="" />
+														<input type="text" name="name" placeholder="Tulis nama lengkapmu di sini" />
 													</div>
 												</div>
 
                         				<div class="col-lg-12">
 					 						<span class="pf-title">Pilih Kelas</span>
 					 						<div class="pf-field">
-					 							<select data-placeholder="Allow In Search" name="class_name" class="chosen">
+					 							<select placeholder="Allow In Search" name="class_name" class="chosen">
 													<option>Jobhun Academy: Content Writer‎</option>
 													<option>Jobhun Academy: Graphic Designer‎</option>
 													<option>Jobhun Academy: Videographer‎</option>
@@ -84,14 +84,14 @@
                                          <div class="col-lg-12">
 					 						<span class="pf-title">Alamat Email</span>
 					 						<div class="pf-field">
-					 							<input type="text" name="email_address" placeholder="Tulis nama perusahaan/komunitas/organisasi yang menyelenggarakan acara" />
+					 							<input type="text" name="email_address" placeholder="Tulis alamat emailmu di sini" />
 					 						</div>
                                          </div>
 
                                          <div class="col-lg-12">
                                                 <span class="pf-title">Nomor HP</span>
                                                 <div class="pf-field">
-                                                    <input type="text" name="phone" placeholder="Tulis nama, kontak, dan email narahubung" />
+                                                    <input type="text" name="phone" placeholder="Tulis nomor HP-mu di sini" />
                                                 </div>
                                         </div>
                                         
@@ -99,9 +99,6 @@
                                              <span class="pf-title">Bukti Transfer</span>
                                              <div class="">
                                                 <input type="file" class="form-control-file" name="evidence_transfer">
-                                                <p><span>Silakan transfer Rp50.000,- (per posisi pekerjaan) ke 
-													rekening BCA a/n Cynthia Cecilia 0373393328, 
-													kemudian lampirkan bukti transfer di sini.</span></p>
                                                     
                                             </div>
 										</div>
@@ -110,8 +107,8 @@
 											<span class="pf-title">Status Pembayaran</span>
 											
 											<select data-placeholder="Allow In Search" name="payment_status" class="chosen">
-													<option>LUNAS</option>
-													<option>BELUM LUNAS / CICIL</option>
+													<option value="1">LUNAS</option>
+													<option value="0">DICICIL</option>
 											</select>
 											
 										</div>
@@ -120,12 +117,10 @@
 										<div class="col-lg-12">
 												<span class="pf-title">Keterangan</span>
                                                 <div class="pf-field">
-														<p><span>Silakan transfer dengan nominal pembayaran yang kamu pilih (Lunas atau cicil) 
-															ke rekening BCA a/n Cynthia Cecilia 0373393328, kemudian lampirkan bukti transfer di sini. 
-															Contoh: Pembayaran lunas sebesar Rp1.500.000,- atau Pembayaran dicicil. 
-															Saya transfer nominal sesuai dengan DP</span></p>
-
-                                                    <textarea type="text" name="information" placeholder=""></textarea>
+													<textarea type="text" name="information" placeholder=""></textarea>
+													<p><span>Silakan transfer dengan nominal pembayaran yang kamu pilih (Lunas atau cicil) ke rekening BCA a/n CV Sindikat Kreasi Digital 010.9393.993, 
+															kemudian lampirkan bukti transfer di sini. Contoh: "Pembayaran lunas sebesar Rp1.500.000,-" atau 
+															"Pembayaran dicicil. Saya transfer nominal sesuai dengan DP"</span></p>
                                                 </div>
                                         </div>
                                     

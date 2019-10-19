@@ -13,7 +13,7 @@
                 <div class="col-lg-8 column">
                     <div class="job-single-sec">
                         <div class="job-single-head">
-                            <div class="job-thumb"> <img src="{{ asset ('user/images/web.jpeg')}}" alt="" /> </div>
+                            <div class="job-thumb"> <img src="{{ asset ('user/images/wd-1.jpg')}}" alt="" /> </div>
                         </div><!-- Job Head -->
                         <div class="job-details">
                             <h3>Deskripsi</h3>
@@ -174,7 +174,7 @@
                                     </div>
                                     <div class="col-lg-4 column">
                                             <div class="job-single-head style2">
-                                                <a href="{{ route ('ja')}}" title="" class="viewall-jobs">Lihat Semua Akademi</a>
+                                                <a href="{{ route ('ja')}}" title="" class="viewall-jobs">Lihat Semua Kelas di Jobhun Academy</a>
                                             </div><!-- Job Head -->
                                     </div>
                                 </div>
