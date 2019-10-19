@@ -110,23 +110,23 @@
                                     <p align="justify" style="font-size:20px"><b>
                                             Alur Kerja Sama Media Partner</b>
                                             <ul>
-                                                    <li><h6>1. Memilih paket kerja sama media partner.<h6></li>
-                                                    <li><h6>2. Klik ‘daftar’ pada paket kerja sama media partner yang dipilih.</h6></li>
-                                                    <li><h6>3. Isi lengkap formulir kerja sama media partner dan ikuti instruksi.</h6></li>
-                                                    <li><h6>4. Menunggu konfirmasi dari pihak Jobhun terkait persetujuan dan tanggal yang tersedia untuk memposting promosi acara tersebut.</h6></li>
-                                                    <li><h6>5. Poster akan diupload di website dan akun Instagram Jobhun sesuai dengan jadwal yang telah disepakati.</h6></li>
+                                                    <li><h6>1. Memilih paket kerja sama media partner<h6></li>
+                                                    <li><h6>2. Klik ‘daftar’ pada paket kerja sama media partner yang dipilih</h6></li>
+                                                    <li><h6>3. Isi lengkap formulir kerja sama media partner dan ikuti instruksi</h6></li>
+                                                    <li><h6>4. Menunggu konfirmasi dari pihak Jobhun terkait persetujuan dan tanggal yang tersedia untuk memposting promosi acara tersebut</h6></li>
+                                                    <li><h6>5. Poster akan diupload di website dan akun Instagram Jobhun sesuai dengan jadwal yang telah disepakati</h6></li>
                                                     
                                             </ul>
                                     </p>
                                     <p style="font-size:20px"><b>
                                             Catatan :
                                             </b>
-                                            <ul style="margin-left:50px">
-                                                    <li><h6>1. Harga premium media partner berlaku mulai 1 Januari 2019.<h6></li>
-                                                    <li><h6>2. Klik ‘daftar’ pada paket kerja sama media partner yang dipilih.</h6></li>
-                                                    <li><h6>3. Isi lengkap formulir kerja sama media partner dan ikuti instruksi.</h6></li>
-                                                    <li><h6>4. Menunggu konfirmasi dari pihak Jobhun terkait persetujuan dan tanggal yang tersedia untuk memposting promosi acara tersebut.</h6></li>
-                                                    <li><h6>5. Poster akan diupload di website dan akun Instagram Jobhun sesuai dengan jadwal yang telah disepakati.</h6></li>
+                                            <ul style="margin-left:40px;">
+                                                    <li><h6>1. Harga premium media partner berlaku mulai 1 Januari 2019<h6></li>
+                                                    <li><h6>2. Detail paket, harga, dan ketentuan dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya.</h6></li>
+                                                    <li><h6>3. Dengan membaca dan mengirimkan formulir ini, maka penyelenggara acara atau yang disebut sebagai pengiklan akan tunduk, 
+                                                                mematuhi, dan setuju pada syarat dan peraturan yang dibuat Jobhun.</h6></li>
+                                                    <li><h6>4. Informasi lebih lanjut mengenai kerja sama media partner bisa menghubungi tim Jobhun melalui email di info@jobhun.id atau 08113235533 (Cynthia)</h6></li>
                                                     
                                             </ul>
                                     </p>

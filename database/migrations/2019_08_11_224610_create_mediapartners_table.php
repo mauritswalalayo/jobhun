@@ -16,6 +16,7 @@ class CreateMediapartnersTable extends Migration
         Schema::create('mediapartners', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('type_mediapartner');
+            $table->string('email');
             $table->string('event_name');
             $table->string('event_organizer');
             $table->string('contact_event');
@@ -23,7 +24,7 @@ class CreateMediapartnersTable extends Migration
             $table->string('event_venue');
             $table->string('event_details');
             
-            $table->string('evidence_transfer');
+            // $table->string('evidence_transfer');
             $table->smallInteger('verified_mediapartner')->default(0);
 
             $table->timestamps();

@@ -14,7 +14,7 @@ class Mediapartner extends Model
         'event_date',
         'event_venue',
         'event_details',
-        'evidence_transfer'
+        'email',
     ];
 
     public $timestamps = true;
