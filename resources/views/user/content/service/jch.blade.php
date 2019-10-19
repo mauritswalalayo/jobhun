@@ -74,7 +74,7 @@
 
 
 					<div class="heading">
-						<h2 style="text-align:left;">Jobhun Career Hub</h2>
+						{{-- <h2 style="text-align:left;">Jobhun Career Hub</h2> --}}
 						<br>
 						<br>
 						<div class="blog-posthumb"> <img width="1300" height="900"
