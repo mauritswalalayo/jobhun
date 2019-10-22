@@ -146,7 +146,7 @@ Route::get('mediapartner/table', 'JobController@view_mediapartner')->name('media
 
 Route::get('/', 'Homepage_UserController@index')->name('index');
 
-Route::get('/about', 'Homepage_UserController@tentang')->name('about');
+Route::get('about', 'Homepage_UserController@tentang')->name('about');
 
 // Layanan
 Route::get('/jobhun-careerhub', 'Homepage_UserController@jch')->name('jch');

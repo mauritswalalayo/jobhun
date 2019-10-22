@@ -1948,6 +1948,211 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/front/postingcareerhub.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/front/postingcareerhub.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      type_loker: '',
+      company_name: '',
+      company_tagline: '',
+      description_company: '',
+      company_address: '',
+      company_website: '',
+      company_email: '',
+      company_phone: '',
+      position_sought: '',
+      type_work: '',
+      description_job: '',
+      recruit_process: '',
+      logo_url: '',
+      upload_poster: '',
+      evidence_transfer: ''
+    };
+  },
+  methods: {
+    changeLogoUrl: func
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -38860,6 +39065,569 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/front/postingcareerhub.vue?vue&type=template&id=8c107534&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/front/postingcareerhub.vue?vue&type=template&id=8c107534& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "col-lg-9 column" }, [
+      _c("div", { staticClass: "padding-left" }, [
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "profile-form-edit" }, [
+          _c("form", [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Tipe Posting Job")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c(
+                    "select",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.type_loker,
+                          expression: "type_loker"
+                        }
+                      ],
+                      staticClass: "chosen",
+                      attrs: { "data-placeholder": "Allow In Search" },
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.type_loker = $event.target.multiple
+                            ? $$selectedVal
+                            : $$selectedVal[0]
+                        }
+                      }
+                    },
+                    [
+                      _c("option", { attrs: { selected: "" } }, [
+                        _vm._v("Jobhun Career Hub Reguler")
+                      ])
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Nama Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.company_name,
+                        expression: "company_name"
+                      }
+                    ],
+                    attrs: { type: "text", placeholder: "Jobhun" },
+                    domProps: { value: _vm.company_name },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.company_name = $event.target.value
+                      }
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Tagline Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.company_tagline,
+                        expression: "company_tagline"
+                      }
+                    ],
+                    attrs: {
+                      type: "text",
+                      placeholder: "Career Development for Millenials"
+                    },
+                    domProps: { value: _vm.company_tagline },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.company_tagline = $event.target.value
+                      }
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Informasi Tentang Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c("textarea", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.description_company,
+                        expression: "description_company"
+                      }
+                    ],
+                    attrs: {
+                      type: "text",
+                      placeholder:
+                        "Jobhun merupakan startup pendukung perkembangan karier masyarakat Indonesia. Kami memiliki layanan utama berupa Jobhun Career Hub dan Jobhun Academy. Melalui platform ini, kami akan mempertemukan pencari kerja dan pemberi kerja dengan cara yang cepat dan mudah. Pencari kerja dapat melamar kerja dengan mudah, sedangkan perusahaan dapat menemukan kandidat yang tepat. Sedangkan Jobhun Academy dibuat guna membekali para calon pekerja dan pekerja dengan berbagai skill yang saat ini sedang dibutuhkan di dunia kerja. Nantinya mereka akan disalurkan oleh Jobhun pada beberapa perusahaan partner Jobhun yang sedang mencari tenaga kerja atau talent."
+                    },
+                    domProps: { value: _vm.description_company },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.description_company = $event.target.value
+                      }
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Alamat Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.company_address,
+                        expression: "company_address"
+                      }
+                    ],
+                    attrs: {
+                      type: "text",
+                      placeholder:
+                        "Geco Coworking Space, Kompleks AJBS, Jl. Ratna 14, Ngagel, Wonokromo, Surabaya, Jawa Timur, Indonesia 60246"
+                    },
+                    domProps: { value: _vm.company_address },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.company_address = $event.target.value
+                      }
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Website Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.company_website,
+                        expression: "company_website"
+                      }
+                    ],
+                    attrs: { type: "text", placeholder: "www.jobhun.id" },
+                    domProps: { value: _vm.company_website },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.company_website = $event.target.value
+                      }
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Email Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.company_email,
+                        expression: "company_email"
+                      }
+                    ],
+                    attrs: { type: "text", placeholder: "jobhun@jobhun.id" },
+                    domProps: { value: _vm.company_email },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.company_email = $event.target.value
+                      }
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Nomor Telepon Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.company_phone,
+                        expression: "company_phone"
+                      }
+                    ],
+                    attrs: { type: "text", placeholder: "08113235533" },
+                    domProps: { value: _vm.company_phone },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.company_phone = $event.target.value
+                      }
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Posisi Yang Dicari")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.position_sought,
+                        expression: "position_sought"
+                      }
+                    ],
+                    attrs: { type: "text", placeholder: "Programmer" },
+                    domProps: { value: _vm.position_sought },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.position_sought = $event.target.value
+                      }
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Jenis Pekerjaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c(
+                    "select",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.type_work,
+                          expression: "type_work"
+                        }
+                      ],
+                      staticClass: "chosen",
+                      attrs: { "data-placeholder": "Allow In Search" },
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.type_work = $event.target.multiple
+                            ? $$selectedVal
+                            : $$selectedVal[0]
+                        }
+                      }
+                    },
+                    [
+                      _c("option", [_vm._v("Full time")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Part time")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Freelance")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Internship")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Volunteer")])
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Deskripsi Masing-masing Pekerjaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c(
+                    "textarea",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.description_job,
+                          expression: "description_job"
+                        }
+                      ],
+                      attrs: { type: "text" },
+                      domProps: { value: _vm.description_job },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.description_job = $event.target.value
+                        }
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "Syarat dan kualifikasi :\nKemampuan dan kompetensi yang harus dimiliki :\nLokasi kerja :\nWaktu bekerja :\nGaya berpakaian :\nBahasa yang digunakan :\nTunjangan :\nBesar gaji : "
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Tentang Proses Rekrut")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "pf-field" }, [
+                  _c(
+                    "textarea",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.recruit_process,
+                          expression: "recruit_process"
+                        }
+                      ],
+                      attrs: { type: "text" },
+                      domProps: { value: _vm.recruit_process },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.recruit_process = $event.target.value
+                        }
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "Cara mengirimkan lamaran :\nBatas waktu melamar :\nWaktu proses rekrut.\n\t\t\t\t\t\t\t\t\t\t\t\t\t"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-12" }, [
+                _c("span", { staticClass: "pf-title" }, [
+                  _vm._v("Unggah Logo Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "upload-info" }, [
+                  _c("input", {
+                    staticClass: "form-control-file",
+                    attrs: { type: "file", id: "logo_url" },
+                    on: { change: _vm.changeLogoUrl }
+                  }),
+                  _vm._v(" "),
+                  _c("span", [
+                    _vm._v(
+                      "Klik tombol 'Upload', kemudian pilih logo perusahaan yang ingin kamu unggah."
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._v(" "),
+              _vm._m(3),
+              _vm._v(" "),
+              _vm._m(4)
+            ])
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", [
+      _c("div", { staticClass: "block gray" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "inner2" })
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "profile-title" }, [
+      _c("h3", [_vm._v("Formulir Jobhun Career Hub Reguler")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-12" }, [
+      _c("span", { staticClass: "pf-title" }, [_vm._v("Unggah Poster")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "upload-info" }, [
+        _c("input", {
+          staticClass: "form-control-file",
+          attrs: { type: "file", name: "upload_poster" }
+        }),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            "Klik tombol 'Upload', kemudian pilih poster yang ingin kamu unggah."
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-12" }, [
+      _c("span", { staticClass: "pf-title" }, [_vm._v("Bukti Transfer")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "upload-info" }, [
+        _c("input", {
+          staticClass: "form-control-file",
+          attrs: { type: "file", name: "evidence_transfer" }
+        }),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            "Silakan transfer Rp50.000,- (per posisi pekerjaan) ke rekening BCA a/n Cynthia Cecilia 0373393328, kemudian lampirkan bukti transfer di sini."
+          )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _c("br"),
+        _vm._v(" "),
+        _c("br")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-12" }, [
+      _c("button", { attrs: { type: "submit" } }, [_vm._v("Pasang Loker")]),
+      _vm._v(" "),
+      _c("br"),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _c("br")
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -52112,7 +52880,9 @@ Vue.component('loading-component', __webpack_require__(/*! ./components/Loading.
 
 Vue.component('back-user-table', __webpack_require__(/*! ./components/back/user/Table.vue */ "./resources/js/components/back/user/Table.vue")["default"]); // Mendeklarasikan tag search careerhub
 
-Vue.component('front-careerhub', __webpack_require__(/*! ./components/front/careerhub.vue */ "./resources/js/components/front/careerhub.vue")["default"]);
+Vue.component('front-careerhub', __webpack_require__(/*! ./components/front/careerhub.vue */ "./resources/js/components/front/careerhub.vue")["default"]); // Mendeklarasikan Posting Career Hub
+
+Vue.component('posting-careerhub', __webpack_require__(/*! ./components/front/postingcareerhub.vue */ "./resources/js/components/front/postingcareerhub.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -52460,6 +53230,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/front/postingcareerhub.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/front/postingcareerhub.vue ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _postingcareerhub_vue_vue_type_template_id_8c107534___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./postingcareerhub.vue?vue&type=template&id=8c107534& */ "./resources/js/components/front/postingcareerhub.vue?vue&type=template&id=8c107534&");
+/* harmony import */ var _postingcareerhub_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./postingcareerhub.vue?vue&type=script&lang=js& */ "./resources/js/components/front/postingcareerhub.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _postingcareerhub_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _postingcareerhub_vue_vue_type_template_id_8c107534___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _postingcareerhub_vue_vue_type_template_id_8c107534___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/front/postingcareerhub.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/front/postingcareerhub.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/front/postingcareerhub.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_postingcareerhub_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./postingcareerhub.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/front/postingcareerhub.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_postingcareerhub_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/front/postingcareerhub.vue?vue&type=template&id=8c107534&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/front/postingcareerhub.vue?vue&type=template&id=8c107534& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_postingcareerhub_vue_vue_type_template_id_8c107534___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./postingcareerhub.vue?vue&type=template&id=8c107534& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/front/postingcareerhub.vue?vue&type=template&id=8c107534&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_postingcareerhub_vue_vue_type_template_id_8c107534___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_postingcareerhub_vue_vue_type_template_id_8c107534___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/interceptors.js":
 /*!**************************************!*\
   !*** ./resources/js/interceptors.js ***!
@@ -52626,8 +53465,8 @@ var actions = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! c:\xampp\htdocs\jobhun\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! c:\xampp\htdocs\jobhun\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Github\jobhun\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Github\jobhun\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
