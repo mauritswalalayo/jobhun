@@ -191,7 +191,8 @@ export default {
     methods: {
         changeLogoUrl() {
             this.logo_url = this.$refs.ref_logo_url.files[0]
-        }
+        },
+        
     }
 
 }
