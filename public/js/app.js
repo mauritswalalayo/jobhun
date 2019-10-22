@@ -2147,7 +2147,9 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   methods: {
-    changeLogoUrl: func
+    changeLogoUrl: function changeLogoUrl() {
+      this.logo_url = this.$refs.ref_logo_url.files[0];
+    }
   }
 });
 
@@ -39506,26 +39508,21 @@ var render = function() {
                   _vm._v("Unggah Logo Perusahaan")
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "upload-info" }, [
-                  _c("input", {
-                    staticClass: "form-control-file",
-                    attrs: { type: "file", id: "logo_url" },
-                    on: { change: _vm.changeLogoUrl }
-                  }),
-                  _vm._v(" "),
-                  _c("span", [
-                    _vm._v(
-                      "Klik tombol 'Upload', kemudian pilih logo perusahaan yang ingin kamu unggah."
-                    )
-                  ])
-                ])
+                _c("input", {
+                  ref: "ref_logo_url",
+                  staticClass: "form-control-file",
+                  attrs: { type: "file", id: "logo_url" },
+                  on: { change: _vm.changeLogoUrl }
+                }),
+                _vm._v(" "),
+                _vm._m(2)
               ]),
-              _vm._v(" "),
-              _vm._m(2),
               _vm._v(" "),
               _vm._m(3),
               _vm._v(" "),
-              _vm._m(4)
+              _vm._m(4),
+              _vm._v(" "),
+              _vm._m(5)
             ])
           ])
         ])
@@ -39556,6 +39553,18 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "profile-title" }, [
       _c("h3", [_vm._v("Formulir Jobhun Career Hub Reguler")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "upload-info" }, [
+      _c("span", [
+        _vm._v(
+          "Klik tombol 'Upload', kemudian pilih logo perusahaan yang ingin kamu unggah."
+        )
+      ])
     ])
   },
   function() {

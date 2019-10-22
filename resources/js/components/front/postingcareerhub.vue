@@ -126,8 +126,8 @@ Waktu proses rekrut.
 
 										   <div class="col-lg-12">
 												<span class="pf-title">Unggah Logo Perusahaan</span>
+												   <input type="file" @change="changeLogoUrl" id="logo_url" ref="ref_logo_url" class="form-control-file">
 												<div class="upload-info">
-												   <input type="file" @change="changeLogoUrl" id="logo_url" class="form-control-file">
 												   <span>Klik tombol 'Upload', kemudian pilih logo perusahaan yang ingin kamu unggah.</span>
 											   </div>
 										   </div>
@@ -189,7 +189,9 @@ export default {
         }
     },
     methods: {
-        changeLogoUrl: func
+        changeLogoUrl() {
+            this.logo_url = this.$refs.ref_logo_url.files[0]
+        }
     }
 
 }
