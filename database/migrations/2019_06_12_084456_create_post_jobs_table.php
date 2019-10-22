@@ -15,25 +15,22 @@ class CreatePostJobsTable extends Migration
     {
         Schema::create('jobs', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('type_loker');
-            $table->string('company_name');
-            $table->string('company_tagline');
-            $table->text('description_company');
-            $table->text('company_address');
-            $table->string('company_website');
-            $table->string('company_email');
-            $table->string('company_phone');
-            $table->string('position_sought');
-            $table->string('type_work');
-            $table->text('description_job');
-            $table->string('recruit_process');
-
-            $table->string('logo_url')->nullable();
-            $table->string('upload_poster')->nullable();
-            $table->string('evidence_transfer');
-            $table->smallInteger('verified_job')->default(0);
-
-
+            $table->string('job_service');//type_loker
+            $table->string('job_company_name');//company_name
+            $table->string('job_company_tagline');//company_tagline
+            $table->text('job_company_description');//description_company
+            $table->text('job_company_address');//company_address
+            $table->string('job_company_website');//company_website
+            $table->string('job_company_email');//company_email
+            $table->string('job_company_phone');//company_phone
+            $table->string('job_position_sought');//position_sought
+            $table->string('job_type');//type_work
+            $table->text('job_description');//description_job
+            $table->string('job_recruit_process');//recruit_process
+            $table->string('job_logo_url')->nullable();//logo_url
+            $table->string('job_poster_url')->nullable();//upload_poster
+            $table->string('job_transfer_url');//evidence_transfer
+            $table->smallInteger('job_verified')->default(0);//verified_job
             $table->timestamps();
         });
     }
