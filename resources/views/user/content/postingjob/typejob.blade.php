@@ -25,7 +25,7 @@
 						<br>
 						<br>
 						<div class="blog-posthumb"> <img width="1300" height="900"
-								src="{{ asset ('user/images/jch.png')}}" alt="" />
+								src="{{ asset ('user/images/WEB_BANNER.jpg')}}" alt="" />
 						</div>
 						<p style="font-size:20px">Jobhun Career Hub menjadi solusi bagi perusahaan,
 							instansi, lembaga, maupun organisasi yang sedang mencari kandidat terbaik.
@@ -40,8 +40,8 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="job-grid border">
 										<div class="job-title-sec">
-											<h3>Membantu menghemat waktu dan biaya</h3>
-											<p align="left">Perusahaan bisa merekrut kandidat terbaik dengan cara yang
+											<h3 style="text-align:center;"><b> Menghemat waktu dan biaya</b></h3>
+											<p align="center">Perusahaan bisa merekrut kandidat terbaik dengan cara yang
 												mudah dan cepat. meminimalkan sumber daya manusia internal serta
 												menghemat biaya untuk melakukan perekrutan</p>
 										</div>
@@ -50,8 +50,8 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="job-grid border">
 										<div class="job-title-sec">
-											<h3>Menemukan kandidat terbaik yang potensial</h3>
-											<p align="left">Khusus untuk Jobhun Career Hub Premium, tim rekrutmen
+											<h3 style="text-align:center;"><b>Menemukan kandidat terbaik yang potensial</b></h3>
+											<p align="center">Khusus untuk Jobhun Career Hub Premium, tim rekrutmen
 												profesional Jobhun yang akan melakukan screening terhadap para kandidat.
 												Hanya kandidat potensial terbaik dan sesuai dengan kualifikasi yang akan
 												dipilih. Perusahaan akan menerima database kandidat yang telah siap
@@ -62,8 +62,8 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="job-grid border">
 										<div class="job-title-sec">
-											<h3>Menggunakan <i>channel</i> yang beragam</h3>
-											<p align="left">Perusahaan bisa merekrut kandidat terbaik dengan cara yang
+											<h3 style="text-align:center;"><b>Menggunakan <i>channel</i> yang beragam</b></h3>
+											<p align="center">Perusahaan bisa merekrut kandidat terbaik dengan cara yang
 												mudah dan cepat. meminimalkan sumber daya manusia internal serta
 												menghemat biaya untuk melakukan perekrutan.</p>
 										</div>
@@ -74,8 +74,8 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="job-grid border">
 										<div class="job-title-sec">
-											<h3>Memiliki jaringan yang luas</h3>
-											<p align="left">Jobhun memiliki kerja sama dengan beragam komunitas,
+											<h3 style="text-align:center;"><b> Jaringan yang luas</b></h3>
+											<p align="center">Jobhun memiliki kerja sama dengan beragam komunitas,
 												organisasi, maupun instansi, sehingga dapat memudahkan pencarian
 												kandidat sesuai dengan kualifikasi yang dibutuhkan.</p>
 										</div>
@@ -84,8 +84,8 @@
 								<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 									<div class="job-grid border">
 										<div class="job-title-sec">
-											<h3>Memberikan garansi</h3>
-											<p align="left">Ketika kandidat yang dipilih melalui layanan Jobhun Career
+											<h3 style="text-align:center;"><b> Memberikan garansi</b></h3>
+											<p align="center">Ketika kandidat yang dipilih melalui layanan Jobhun Career
 												Hub Premium dirasa belum sesuai, maka Jobhun akan memberikan garansi
 												untuk mencari kandidat lain (dengan perpanjangan waktu), tanpa dipungut
 												biaya. Syarat dan ketentuan berlaku</p>

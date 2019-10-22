@@ -235,13 +235,13 @@ public function not_verified($id)
                 $request->all(),
                 [
                     'type_mediapartner' => 'required',
+                    'email'=>'required',
                     'event_name' => 'required',
                     'event_organizer'=> 'required',
                     'contact_event' => 'required',
                     'event_date' => 'required',
                     'event_venue'=> 'required',
                     'event_details' => 'required',
-                    'evidence_transfer' => 'required',
                     
                 ]
             );
@@ -251,14 +251,34 @@ public function not_verified($id)
 
             $mediapartner = Mediapartner::create($request->all());
 
-            $image_bukti = $mediapartner->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
-            $request->file('evidence_transfer')->move(public_path('image/bukti_transfer'),$image_bukti);
-            $mediapartner->evidence_transfer = $image_bukti;
+            // $image_bukti = $mediapartner->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
+            // $request->file('evidence_transfer')->move(public_path('image/bukti_transfer'),$image_bukti);
+            // $mediapartner->evidence_transfer = $image_bukti;
 
             $mediapartner->save();
+
+//======================= KIRIM EMAIL ==========================
+
+            $emailtujuan = $mediapartner->email;
+            // $namatujuan = $mediapartner->name;
+            $data= ['name_admin' => 'Johana'];
+
+            Mail::send('content.mediapartner.email',$data, function ($message) use($emailtujuan) {
+                $message->from('jobhun.id@gmail.com', 'Jobhun');
+                // $message->sender('john@johndoe.com', 'John Doe');
+                $message->to($emailtujuan);
+                // $message->cc('john@johndoe.com', 'John Doe');
+                // $message->bcc('john@johndoe.com', 'John Doe');
+                // $message->replyTo('john@johndoe.com', 'John Doe');
+                $message->subject('konfimasi Media Partner');
+                // $message->priority(3);
+                // $message->attach('pathToFile');
+            });
         
             return redirect()->route('index')->with('berhasil', '.');
         }
+
+//################################ DELETE ############################################
 
         public function delete_mediapartner($id)
         {
@@ -267,6 +287,7 @@ public function not_verified($id)
             return redirect()->route('mediapartner.table');        
         }
 
+//############################## VERIFIED MEDIA PARTNER ############################
         public function verified_mediapartner($id)
         {
             $mediapartner = Mediapartner::findOrfail($id);

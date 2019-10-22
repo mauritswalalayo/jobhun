@@ -13,7 +13,7 @@ class Homepage_UserController extends Controller
     {
         $job = Job::where('verified_job',1)->paginate(5);
         $post = Post::simplepaginate(10);
-        $testimoni = Testimoni::simplepaginate(1);
+        $testimoni = Testimoni::simplepaginate(10);
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
         return view('user.content.home.home_user', ['daftar_job' => $job, 'daftar_post' => $post ,'daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }

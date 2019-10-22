@@ -13,7 +13,7 @@
                 <div class="col-lg-8 column">
                     <div class="job-single-sec">
                         <div class="job-single-head">
-                            <div class="job-thumb"> <img src="{{ asset ('user/images/video.jpeg')}}" alt="" /> </div>
+                            <div class="job-thumb"> <img src="{{ asset ('user/images/vg-1.jpg')}}" alt="" /> </div>
                         </div><!-- Job Head -->
                         <div class="job-details">
                             <h3>Deskripsi</h3>
@@ -156,12 +156,6 @@
                                 </ul>
                             </p>
                         </div>
-                        <div class="share-bar">
-                            <span>Share</span><a href="https://id-id.facebook.com/login/" target="_blank" title=""
-                                class="share-fb"><i class="fa fa-facebook"></i></a><a
-                                href="https://twitter.com/login?lang=id" target="_blank" title=""
-                                class="share-twitter"><i class="fa fa-twitter"></i></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 column">
@@ -223,7 +217,7 @@
                                     </div>
                                     <div class="col-lg-4 column">
                                             <div class="job-single-head style2">
-                                                <a href="{{ route ('ja')}}" title="" class="viewall-jobs">Lihat Semua Akademi</a>
+                                                <a href="{{ route ('ja')}}" title="" class="viewall-jobs">Lihat Semua Kelas di Jobhun Academy</a>
                                             </div><!-- Job Head -->
                                     </div>
                                 </div>

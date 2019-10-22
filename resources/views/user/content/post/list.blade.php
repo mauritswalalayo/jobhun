@@ -81,9 +81,9 @@
 				<div class="col-lg-12">
 						@foreach ($daftar_post as $post)
                         <div class="blogpost style2">
-								<div class="blog-posthumb"> <a href="#" title=""><img width="322" height="280" src="{{asset ('image/post/'.$post->feature_image)}}" 
+								<div class="blog-posthumb"> <a href="#" title=""><img  src="{{asset ('image/post/'.$post->feature_image)}}" 
 									alt="" /></a> </div>
-
+									{{-- width="322" height="280" --}}
                                 <div class="blog-postdetail">
                                     <ul class="post-metas">
                                         <li><a href="#" title=""><i class="la la-pencil"></i>{{$post->user->name}}</a></li>

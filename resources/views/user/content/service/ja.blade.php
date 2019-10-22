@@ -24,8 +24,11 @@
                 <div class="col-lg-12">
                     <div class="about-us">
                         <div class="row">
-                            <div class="col-lg-12">
-                            </div>
+
+						<div class="blog-posthumb"> <img width="1300" height="900"
+                            src="{{ asset ('user/images/WEB_BANNER-02.jpg')}}" alt="" />
+                        </div>
+
                             <div class="col-lg-7">
                             </div>
                             <div class="col-lg-12">
@@ -155,7 +158,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/cw.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/cw-1.jpg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
@@ -167,7 +170,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/desain.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/gd-1.jpg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
@@ -179,7 +182,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/video.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                                                    <img src="{{ asset ('user/images/vg-1.jpg')}}" alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
                                         </div>
@@ -192,7 +195,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/web.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/wd-1.jpg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
@@ -204,7 +207,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/android.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/ad-1.jpg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
@@ -216,7 +219,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/ui.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/ui-1.jpg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
@@ -230,7 +233,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/cw2.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/cw-3.jpg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
@@ -242,7 +245,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/public.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/ps.jpg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
@@ -254,7 +257,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/social_media.jpeg')}}" alt="Gambar Testimoni Jobhun Academy" />
+                                                    <img src="{{ asset ('user/images/sms.jpg')}}" alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>
                                         </div>
@@ -267,7 +270,7 @@
                                         <div class="job-grid border">
                                             <div class="job-title-sec">
                                                 <div class="bs-thumb">
-                                                    <img src="{{ asset ('user/images/startup.jpeg')}}"
+                                                    <img src="{{ asset ('user/images/sf.jpg')}}"
                                                         alt="Gambar Testimoni Jobhun Academy" />
                                                 </div>
                                             </div>

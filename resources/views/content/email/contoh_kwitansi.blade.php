@@ -51,20 +51,6 @@
 </head>
 <body bgcolor="#F7ECAC">
     <div class="kotaktengah">
-        <div class="center">
-        <img src="{{asset('user/images/jobhun.png')}}" width="180px" height="80px">
-        </div>
-
-        <div class="salam" style="text-align: justify; line-height: 23px;">
-            <p>Hai, {{$name}}<br/>
-                    Terima kasih telah mendaftar di Jobhun Academy. 
-                    Kami lampirkan kwitansi pembayaran. Setelah ini kami 
-                    akan mengundang kamu untuk bergabung di grup WhatsApp, 
-                    terkait jadwal dan persiapan kelas. </p>
-                    
-                    <p>Salam, <br/>Tim Jobhun</p>
-        </div>
-        <hr>
 
         <div class="kwitansi">
                 <div class="left">
@@ -91,7 +77,7 @@
                                     <tr>
                                         <td>Untuk Pembayaran</td>
                                         <td>:</td>
-                                        <td>Pelunasan {{$kelas}}</td>
+                                        <td>{{$kelas}}</td>
                                     </tr>
                                 
                         </table>

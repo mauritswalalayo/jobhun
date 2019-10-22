@@ -57,7 +57,7 @@
 <section>
     <div class="block">
         <div data-velocity="-.1"
-            style="background: url(http://placehold.it/1920x655) repeat scroll 50% 422.28px transparent;"
+            style="background-color :honeydew;"
             class="parallax scrolly-invisible no-parallax"></div><!-- PARALLAX BACKGROUND IMAGE -->
         <div class="container">
             <div class="row">
@@ -71,11 +71,11 @@
                         <div class="row">
 
                             @foreach($daftar_post as $post)
-
+                            {{-- width="322" height="280" --}}
                             <div class="col-lg-4">
                                 <div class="my-blog">
                                     <div class="blog-thumb">
-                                        <a href="#" title=""><img width="322" height="280"
+                                        <a href="#" title=""><img 
                                                 src="{{asset ('image/post/'.$post->feature_image)}}" alt="" /></a>
                                         <div class="blog-metas">
                                             <a href="#" title="">{{$post->created_at}}</a>
@@ -104,7 +104,7 @@
 <section>
     <div class="block">
         <div data-velocity="-.1"
-            style="background: url(http://placehold.it/1920x1000) repeat scroll 50% 422.28px transparent;"
+            style="background:purple repeat scroll 50% 422.28px transparent;"
             class="parallax scrolly-invisible layer color light"></div><!-- PARALLAX BACKGROUND IMAGE -->
         <div class="container">
             <div class="row">
@@ -117,9 +117,9 @@
                     <div class="reviews-sec" id="reviews-carousel">
                         @foreach($daftar_testimoni as $testimoni)
                         <div class="col-lg-6">
-                            <div class="reviews">
+                            <div class="reviews" style="text-align: justify;">
                                 <img src="{{asset ('image/testimoni/'.$testimoni->foto)}}" alt="">
-                                <h3>{{$testimoni->name}} <span>{{$testimoni->profesi}}</span></h3>
+                                <h3>{{$testimoni->name}}<br/><span>{{$testimoni->profesi}}</span></h3>
                                 <p>{{$testimoni->testimoni}}</p>
                             </div><!-- Reviews -->
                         </div>
@@ -139,8 +139,6 @@
                 <div class="col-lg-12">
                     <div class="heading">
                         <h2>Pernah diliput di</h2>
-                        <span>Beberapa perusahaan telah membantu merekrut pelamar yang sangat baik selama
-                            bertahun-tahun.</span>
                     </div><!-- Heading -->
                     <div class="comp-sec">
                         <div class="company-img">

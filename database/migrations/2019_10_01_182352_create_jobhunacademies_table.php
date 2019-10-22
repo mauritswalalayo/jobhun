@@ -18,7 +18,7 @@ class CreateJobhunacademiesTable extends Migration
             $table->string('name');
             $table->string('class_name');
             $table->string('email_address');
-            $table->integer('phone');
+            $table->string('phone');
             $table->string('evidence_transfer');
             $table->string('payment_status');
             $table->string('information');

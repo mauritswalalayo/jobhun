@@ -50,6 +50,16 @@ class JobhunAcademyController extends Controller
             $no_telp = $jobhunacademy->phone;
             $kelas = $jobhunacademy->class_name;
 
+            if ($jobhunacademy->payment_status==1)
+            {
+                $status_pembayaran= 'Pelunasan '.$kelas;
+            }
+            else 
+            {
+                $status_pembayaran = 'Cicilan '.$kelas;
+            }
+            
+
             $bulan = intval($jobhunacademy->created_at->format('m'));
             $tahun = intval($jobhunacademy->created_at->format('Y'));
 
@@ -58,7 +68,7 @@ class JobhunAcademyController extends Controller
 
             $nomorkwitansi = $jobhunacademy->id.'/'.$dafatarbulanromawi[$bulan-1].'/'.$tahun;
 
-            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $kelas, 
+            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $status_pembayaran, 
                      'date' => $jobhunacademy->created_at->format('d F Y'), 'nomor_kwitansi' => $nomorkwitansi];
 
             $pdf = PDF::loadview('content.email.contoh_kwitansi', $data)->setOptions(['isHtml5ParserEnabled' => true, 
