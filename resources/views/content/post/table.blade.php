@@ -3,6 +3,9 @@
 @section('title','Post')
 
 @section('content')
+
+<back-post-table></back-post-table>
+
 <div class="box box-primary">
     <div class="box-header with-border">
         <a href="{{route('post.form')}}" class="btn btn-primary">Tambah Post</a>
@@ -39,4 +42,5 @@
     <div class="box-footer">
     </div>
 </div>
+
 @endsection
