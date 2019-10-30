@@ -14,6 +14,11 @@ use App\Http\Controllers\CollaborateController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('mobile', function (){
+    return view('mobile.template');
+});
+
 //----------------  Route Home
 Route::get('/', function () {
     return redirect()->route('beranda');
@@ -281,3 +286,4 @@ Route::post('/register-user', 'UserController@store');
 Route::get('/contoh-kwitansi', function () {
     return view('content/email/contoh_kwitansi');
 })->name('kwitansi_tes');
+
