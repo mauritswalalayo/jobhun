@@ -15,7 +15,7 @@ use App\Http\Controllers\CollaborateController;
 |
 */
 
-Route::get('mobile', function (){
+Route::get('apps', function (){
     return view('mobile.template');
 });
 

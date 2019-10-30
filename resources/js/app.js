@@ -11,16 +11,11 @@ window.Vue = require('vue');
 import Loading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
 import store from './store.js';
-<<<<<<< HEAD
 import VueSwal from 'vue-swal';
 import VModal from 'vue-js-modal';
 import routes from './routes.js';
 import VueRouter from 'vue-router';
  
-=======
-import VueSwal from 'vue-swal'
-
->>>>>>> 76a4b74fac34d9a3a6ddc3363635664688055664
 Vue.use(VueSwal);
 Vue.component('pagination', require('laravel-vue-pagination'));
 Vue.use(VueRouter)
