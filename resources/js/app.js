@@ -12,7 +12,7 @@ import Loading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
 import store from './store.js';
 import VueSwal from 'vue-swal'
- 
+
 Vue.use(VueSwal);
 Vue.component('pagination', require('laravel-vue-pagination'));
 
@@ -41,6 +41,9 @@ Vue.component('front-careerhub', require('./components/front/careerhub.vue').def
 
 // Mendeklarasikan Posting Career Hub
 Vue.component('front-posting-careerhub', require('./components/front/postingcareerhub.vue').default);
+
+// Mendeklarasikan Bagian Back Post
+Vue.component('back-post-table', require('./components/back/post/table.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

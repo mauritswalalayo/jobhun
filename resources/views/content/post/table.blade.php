@@ -3,7 +3,10 @@
 @section('title','Post')
 
 @section('content')
-<div class="box box-primary">
+
+<back-post-table></back-post-table>
+
+{{-- <div class="box box-primary">
     <div class="box-header with-border">
         <a href="{{route('post.form')}}" class="btn btn-primary">Tambah Post</a>
     </div>
@@ -38,5 +41,6 @@
     </div>
     <div class="box-footer">
     </div>
-</div>
+</div> --}}
+
 @endsection
