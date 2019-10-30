@@ -63,8 +63,6 @@ Route::group(["middleware" => ['admin']],function (){
     Route::patch('user/update/{id}', 'UserController@update');
 
     Route::get('user/hapus/{id}', 'UserController@delete');
-
-
 });
 
 //========================== Route Post =============================
