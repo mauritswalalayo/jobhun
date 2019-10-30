@@ -43,7 +43,7 @@ Vue.component('front-careerhub', require('./components/front/careerhub.vue').def
 Vue.component('front-posting-careerhub', require('./components/front/postingcareerhub.vue').default);
 
 // Mendeklarasikan Bagian Back Post
-Vue.component('back-post-table', require('./components/back/post/table.vue').default);
+Vue.component('back-post-table', require('./components/back/post/Table.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
