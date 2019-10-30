@@ -11,7 +11,9 @@ window.Vue = require('vue');
 import Loading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
 import store from './store.js';
-
+import VueSwal from 'vue-swal'
+ 
+Vue.use(VueSwal);
 Vue.component('pagination', require('laravel-vue-pagination'));
 
 import interceptorsSetup from './interceptors'
@@ -38,7 +40,7 @@ Vue.component('back-user-table', require('./components/back/user/Table.vue').def
 Vue.component('front-careerhub', require('./components/front/careerhub.vue').default);
 
 // Mendeklarasikan Posting Career Hub
-Vue.component('posting-careerhub', require('./components/front/postingcareerhub.vue').default);
+Vue.component('front-posting-careerhub', require('./components/front/postingcareerhub.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

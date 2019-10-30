@@ -1,5 +1,5 @@
 @extends('user.master')
 
 @section('content')
-<posting-careerhub></posting-careerhub>
+<front-posting-careerhub></front-posting-careerhub>
 @endsection

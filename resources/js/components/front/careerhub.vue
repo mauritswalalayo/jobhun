@@ -77,7 +77,7 @@ export default{
     },
     methods: {
         getJobs: function(page = 1){
-            axios.get(this.$store.state.apiUrl + 'job/filter/' + this.perPage + '?page=' + page).then(response=>{
+            axios.get(this.$store.state.apiUrl + 'api/job/filter/' + this.perPage + '?page=' + page).then(response=>{
                 this.jobs = response.data.jobs;
                 console.log(this.jobs);
             });

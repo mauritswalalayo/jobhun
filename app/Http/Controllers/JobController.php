@@ -52,43 +52,44 @@ class JobController extends Controller
             $validator = validator::make(
                 $request->all(),
                 [
-                    'type_loker' => 'required',
-                    'company_name' => 'required',
-                    'company_tagline'=> 'required',
-                    'description_company' => 'required',
-                    'company_address' => 'required',
-                    'company_website'=> 'required',
-                    'company_email' => 'required',
-                    'company_phone' => 'required',
-                    'position_sought'=> 'required',
-                    'type_work' => 'required',
-                    'description_job'=> 'required',
-                    'recruit_process' => 'required',
+                    'job_service' => 'required',
+                    'job_company_name' => 'required',
+                    'job_company_tagline'=> 'required',
+                    'job_company_description' => 'required',
+                    'job_company_address' => 'required',
+                    'job_company_website'=> 'required',
+                    'job_company_email' => 'required',
+                    'job_company_phone' => 'required',
+                    'job_position_sought'=> 'required',
+                    'job_type' => 'required',
+                    'job_description'=> 'required',
+                    'job_recruit_process' => 'required',
 
                     // 'logo_url' => 'required',
-                    'evidence_transfer'=> 'required',
+                    'job_transfer_url'=> 'required',
                     
                 ]
             );
             if ($validator->fails()) {
-                return back()->withErrors($validator)->withInput();
+                return response()->json(['message'=> 'gagal tambah loker. cek inputan anda', 
+                                        'error'=>$validator->getMessageBag()->toArray()],422); 
             }
-
+/*
             $job = Job::create($request->all());
 
-            $image_bukti = $job->id.'.'.$request->file('evidence_transfer')->getClientOriginalExtension();
-            $request->file('evidence_transfer')->move(public_path('image/bukti_transfer'),$image_bukti);
-            $job->evidence_transfer = $image_bukti;
+            $job_transfer_url = $job->id.'.'.$request->file('job_transfer_url')->getClientOriginalExtension();
+            $request->file('job_transfer_url')->move(public_path('image/bukti_transfer'),$job_transfer_url);
+            $job->job_transfer_url = $job_transfer_url;
             
-            if($request->hasFile('upload_poster')){
-                $image_poster = $job->id.'.'.$request->file('upload_poster')->getClientOriginalExtension();
-                $request->file('upload_poster')->move(public_path('image/poster'),$image_poster);
-                $job->upload_poster = $image_poster;
+            if($request->hasFile('job_poster_url')){
+                $job_poster_url = $job->id.'.'.$request->file('job_poster_url')->getClientOriginalExtension();
+                $request->file('job_poster_url')->move(public_path('image/poster'),$job_poster_url);
+                $job->job_poster_url = $job_poster_url;
             }
-            if($request->hasFile('logo_url')){
-            $image_logo = $job->id.'.'.$request->file('logo_url')->getClientOriginalExtension();
-            $request->file('logo_url')->move(public_path('image/logo_perusahaan'),$image_logo);
-            $job->logo_url = $image_logo;
+            if($request->hasFile('job_logo_url')){
+            $job_logo_url = $job->id.'.'.$request->file('job_logo_url')->getClientOriginalExtension();
+            $request->file('job_logo_url')->move(public_path('image/logo_perusahaan'),$job_logo_url);
+            $job->job_logo_url = $job_logo_url;
                 
             };
             
@@ -96,14 +97,14 @@ class JobController extends Controller
             $job->save();
 
 //=================================== email =======================================================
-            $emailtujuan = $job->company_email;
-            $namatujuan = 'Maurits Oces';
-            $data = ['name' => 'Johana','body' => 'ada Loker baru dari '.$job->company_name];
+            $destinationemail = $job->job_company_email;
+            $destionationname = 'Maurits Oces';
+            $data = ['name' => 'Johana','body' => 'ada Loker baru dari '.$job->job_company_name];
 
-            Mail::send('content.email.email', $data, function ($message) use($emailtujuan,$namatujuan) {
+            Mail::send('content.email.email', $data, function ($message) use($destinationemail,$destionationname) {
                 $message->from('jobhun.id@gmail.com', 'Johana');
                 // $message->sender('john@johndoe.com', 'John Doe');
-                $message->to($emailtujuan, $namatujuan);
+                $message->to($destinationemail, $destionationname);
                 // $message->cc('john@johndoe.com', 'John Doe');
                 // $message->bcc('john@johndoe.com', 'John Doe');
                 // $message->replyTo('john@johndoe.com', 'John Doe');
@@ -118,6 +119,7 @@ class JobController extends Controller
             }
         
             return redirect()->route('index')->with('berhasil', '.');
+            */
 
         }
 //=========================================== form verified ===============================================
