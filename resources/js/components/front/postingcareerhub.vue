@@ -135,7 +135,7 @@ Waktu proses rekrut.
                                         <div class="col-lg-12">
                                              <span class="pf-title">Unggah Poster</span>
                                              <div class="upload-info">
-                                                <input type="file" class="form-control-file" name="upload_poster">
+                                                <input type="file" @change="changeUploadPoster" id="upload_poster" ref="ref_upload_poster" class="form-control-file" name="upload_poster">
                                                 <span>Klik tombol 'Upload', kemudian pilih poster yang ingin kamu unggah.</span>
                                             </div>
                                         </div>
@@ -192,7 +192,9 @@ export default {
         changeLogoUrl() {
             this.logo_url = this.$refs.ref_logo_url.files[0]
         },
-        
+        changeUploadPoster() {
+            this.upload_poster = this.$refs.ref_upload_poster.files[0]
+        },
     }
 
 }
