@@ -5,7 +5,7 @@ Vue.use(Vuex)
 const state = {
 	session:{
 	},
-	apiUrl: 'http://localhost/jobhun/public/',
+	apiUrl: 'http://localhost/webjobhun/public/',
 	overlay: false,
 	isLoading: false
 }
