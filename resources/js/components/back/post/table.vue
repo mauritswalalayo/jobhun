@@ -2,7 +2,7 @@
     <div>
         <div class="box box-primary">
     <div class="box-header with-border">
-        <a href="" class="btn btn-primary">Tambah Post</a>
+        <a @click="addData" class="btn btn-primary">Tambah Post</a>
     </div>
     <div class="box-body">
         <table class="table table-bordered">
