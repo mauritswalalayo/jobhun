@@ -38864,70 +38864,72 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("div", { staticClass: "box box-primary" }, [
+      _c("div", { staticClass: "box-header with-border" }, [
+        _c(
+          "a",
+          { staticClass: "btn btn-primary", on: { click: _vm.addData } },
+          [_vm._v("Tambah Post")]
+        )
+      ]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "box-footer" })
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "box box-primary" }, [
-        _c("div", { staticClass: "box-header with-border" }, [
-          _c("a", { staticClass: "btn btn-primary", attrs: { href: "" } }, [
-            _vm._v("Tambah Post")
+    return _c("div", { staticClass: "box-body" }, [
+      _c("table", { staticClass: "table table-bordered" }, [
+        _c("thead", [
+          _c("tr", [
+            _c("th", [_vm._v("No.")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("Judul")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("Url")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("Opsi")])
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "box-body" }, [
-          _c("table", { staticClass: "table table-bordered" }, [
-            _c("thead", [
-              _c("tr", [
-                _c("th", [_vm._v("No.")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Judul")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Url")]),
-                _vm._v(" "),
-                _c("th", [_vm._v("Opsi")])
-              ])
-            ]),
+        _c("tbody", [
+          _c("tr", [
+            _c("td"),
             _vm._v(" "),
-            _c("tbody", [
-              _c("tr", [
-                _c("td"),
-                _vm._v(" "),
-                _c("td"),
-                _vm._v(" "),
-                _c("td"),
-                _vm._v(" "),
-                _c("td", [
-                  _c(
-                    "a",
-                    {
-                      staticClass:
-                        "btn btn-warning btn-sm glyphicon glyphicon-pencil",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("Edit")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass:
-                        "btn btn-danger btn-sm glyphicon glyphicon-trash",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("Delete")]
-                  )
-                ])
-              ])
+            _c("td"),
+            _vm._v(" "),
+            _c("td"),
+            _vm._v(" "),
+            _c("td", [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "btn btn-warning btn-sm glyphicon glyphicon-pencil",
+                  attrs: { href: "" }
+                },
+                [_vm._v("Edit")]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "btn btn-danger btn-sm glyphicon glyphicon-trash",
+                  attrs: { href: "" }
+                },
+                [_vm._v("Delete")]
+              )
             ])
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "box-footer" })
+        ])
       ])
     ])
   }
