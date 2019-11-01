@@ -5,7 +5,6 @@
 @section('content')
 <div class="box box-primary">
     <div class="box-header with-border">
-        <a href="{{route('post.form')}}" class="btn btn-primary">Tambah Post</a>
     </div>
     <div class="box-body">
         <table class="table table-bordered">
@@ -30,8 +29,8 @@
                     <td>{{$jobhunacademy->class_name}}</td>
                     <td>{{$jobhunacademy->payment_status}}</td>
                     <td>
-                        {{-- <a href="{{url('post/'.'edit/'.$post->id)}}" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">Edit</a>
-                        <a href="{{url('post/'.'hapus/'.$post->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a> --}}
+                        <a href="" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">View</a>
+                        <a href="{{url('jobhun-academy/'.'table/'.'delete/'.$jobhunacademy->id)}}" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
                     </td>
                 </tr>
                 @endforeach

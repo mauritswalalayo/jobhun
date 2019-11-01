@@ -4,7 +4,6 @@
     <div class="box-header with-border">
         <a :href="$store.state.apiUrl + 'post/form'" class="btn btn-primary">Tambah Post</a>
 
-
     </div>
     <div class="box-body">
         <table class="table table-bordered">

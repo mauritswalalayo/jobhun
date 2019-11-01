@@ -227,6 +227,8 @@ Route::post('form/jobhun-academy/daftar','JobhunAcademyController@add')->name('a
 
 Route::get('jobhun-academy/table', 'JobhunAcademyController@table')->name('jobhunacademy.table');
 
+Route::get('jobhun-academy/table/delete/{id}', 'JobhunAcademyController@delete')->name('jobhunacademy.delete');
+
 //Talent Pool
 Route::post('post/talent-pool/','TalentpoolController@add')->name('post.talentpool');
 
