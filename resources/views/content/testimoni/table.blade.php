@@ -3,7 +3,9 @@
 @section('title','Testimoni')
 
 @section('content')
-<div class="box box-primary">
+
+<back-testimoni-table></back-testimoni-table>
+{{-- <div class="box box-primary">
     <div class="box-header with-border">
         <a href="{{route('testimoni.form')}}" class="btn btn-primary">Tambah Testimoni</a>
     </div>
@@ -39,5 +41,5 @@
     <div class="box-footer">
         Footer
     </div>
-</div>
+</div> --}}
 @endsection
