@@ -11,7 +11,7 @@ class Homepage_UserController extends Controller
 {
     public function index()
     {
-        $job = Job::where('verified_job',1)->paginate(5);
+        $job = Job::where('job_verified',1)->paginate(5);
         $post = Post::simplepaginate(10);
         $testimoni = Testimoni::simplepaginate(10);
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
