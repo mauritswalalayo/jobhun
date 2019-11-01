@@ -129,4 +129,11 @@ public function view_jobhunacademy ($payment_status)
         $first_index = $jobhunacademy->currentPage() * $jobhunacademy->perPage() - $jobhunacademy->perPage() + 1;
         return view('user.content.jobhunacademy.table',['daftar_jobhunacademy' => $jobhunacademy, 'first_index' => $first_index]);
     }
+
+    public function delete ($id)
+    {
+        $jobhunacademy = Jobhunacademy::FindOrFail($id);
+        $jobhunacademy->delete();
+        return redirect()->route('jobhunacademy.table');
+    }
 }
