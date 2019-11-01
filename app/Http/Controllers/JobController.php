@@ -334,7 +334,7 @@ public function not_verified($id)
         }
 
     public function apiCareerHub($per_page){
-        $jobs = Job::where('verified_job',1)->orderBy('created_at','desc')->paginate($per_page);
+        $jobs = Job::where('job_verified',1)->orderBy('created_at','desc')->paginate($per_page);
         return response()->json(["jobs"=>$jobs]);
     }
 
