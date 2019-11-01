@@ -62956,7 +62956,15 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var state = {
   session: {},
+<<<<<<< HEAD
   apiUrl: 'http://localhost:8080/',
+=======
+<<<<<<< HEAD
+  apiUrl: 'http://localhost/jobhun/public/',
+=======
+  apiUrl: 'http://localhost:8000/',
+>>>>>>> 50aa85e33b97c76e0884ada2e332eda6b593cc1d
+>>>>>>> cd9cba89d90c6ae4c6ca986e49bff1f4767c6438
   overlay: false,
   isLoading: false
 };
@@ -63035,8 +63043,18 @@ var actions = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 __webpack_require__(/*! C:\xampp\htdocs\projek\jobhun\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\xampp\htdocs\projek\jobhun\resources\sass\app.scss */"./resources/sass/app.scss");
+=======
+<<<<<<< HEAD
+__webpack_require__(/*! c:\xampp\htdocs\jobhun\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! c:\xampp\htdocs\jobhun\resources\sass\app.scss */"./resources/sass/app.scss");
+=======
+__webpack_require__(/*! C:\xampp\htdocs\Github\jobhun\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Github\jobhun\resources\sass\app.scss */"./resources/sass/app.scss");
+>>>>>>> 50aa85e33b97c76e0884ada2e332eda6b593cc1d
+>>>>>>> cd9cba89d90c6ae4c6ca986e49bff1f4767c6438
 
 
 /***/ })
