@@ -3,7 +3,8 @@
 @section('title', 'Form Collaborate')
 
 @section('content')
-<div class="box box-primary">
+
+{{-- <div class="box box-primary">
     <div class="box-header with-border">
         <a href="{{route('collaborate.table')}}" class="btn btn-danger">Kembali</a>
     </div>
@@ -48,5 +49,5 @@
 
         </div>
     </form>
-</div>
+</div> --}}
 @endsection
