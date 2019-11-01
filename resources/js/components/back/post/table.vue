@@ -2,7 +2,9 @@
     <div>
         <div class="box box-primary">
     <div class="box-header with-border">
-        <a @click="addData" class="btn btn-primary">Tambah Post</a>
+        <a :href="$store.state.apiUrl + 'post/form'" class="btn btn-primary">Tambah Post</a>
+
+
     </div>
     <div class="box-body">
         <table class="table table-bordered">

@@ -82,8 +82,8 @@
             </li>
 
             <li class="treeview">
-                <a href="#">
-                    <i class="glyphicon glyphicon-briefcase"></i> <span>Jobhun Academy</span>
+            <a href="{{route('jobhunacademy.table')}}">
+                    <i class="glyphicon glyphicon-education"></i> <span>Jobhun Academy</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>

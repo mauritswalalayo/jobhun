@@ -122,4 +122,11 @@ public function view_jobhunacademy ($payment_status)
             return view('content.loker.table_terverifikasi',['datajob' => $jobhunacademy, 'first_index' => $first_index]);
 
     }
+
+    public function table ()
+    {
+        $jobhunacademy = Jobhunacademy::paginate(10);
+        $first_index = $jobhunacademy->currentPage() * $jobhunacademy->perPage() - $jobhunacademy->perPage() + 1;
+        return view('user.content.jobhunacademy.table',['daftar_jobhunacademy' => $jobhunacademy, 'first_index' => $first_index]);
+    }
 }
