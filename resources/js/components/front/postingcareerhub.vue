@@ -191,15 +191,15 @@ export default {
     },
     methods: {
         changeLogoUrl: function() {
-            this.logo_url = this.$refs.ref_job_logo_url.files[0];
+            this.job_logo_url = this.$refs.ref_job_logo_url.files[0];
             console.log(this.logo_url);
         },
         changePosterUrl: function(){
-            this.poster_url = this.$refs.ref_job_poster_url.files[0];
+            this.job_poster_url = this.$refs.ref_job_poster_url.files[0];
             console.log(this.poster_url);
         },
         changeTransferUrl: function(){
-            this.transfer_url = this.$refs.ref_job_transfer_url.files[0];
+            this.job_transfer_url = this.$refs.ref_job_transfer_url.files[0];
             console.log(this.transfer_url);
         },
         addJob: function(){
