@@ -111,8 +111,12 @@ class JobController extends Controller
                 $message->subject('Loker Baru');
                 // $message->priority(3);
                 // $message->attach('pathToFile');
+
             });
 */
+
+
+
             if($request->ajax()){
                     return response()->json(['message'=> 'berhasil tambah loker' ]);                    
 
