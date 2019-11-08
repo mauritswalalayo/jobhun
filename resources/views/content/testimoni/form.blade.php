@@ -3,7 +3,10 @@
 @section('title', 'Form Testimoni')
 
 @section('content')
-<div class="box box-primary">
+
+<back-testimoni-form></back-testimoni-form>
+
+{{-- <div class="box box-primary">
     <div class="box-header with-border">
         <a href="{{route('testimoni.table')}}" class="btn btn-danger">Kembali</a>
     </div>
@@ -71,5 +74,5 @@
 
         </div>
     </form>
-</div>
+</div> --}}
 @endsection
