@@ -5,35 +5,25 @@
                 <a href="" class="btn btn-danger">Kembali</a>
             </div>
             <div class="box-body">
-                @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
-                        @foreach ($errors->all() as $error)
-                        <li>{{$error}}</li>
-                        @endforeach
+                        <li></li>
                     </ul>
                 </div>
-                @endif
 
             </div>
 
-            @if(isset($edittestimoni))
-
-            <form action="{{url('testimoni/'.'update/'.$edittestimoni->id)}}" method="PATCH">
+            <form action="" method="PATCH">
                 <input type="hidden" name="_method" value="PATCH">
 
-                @else
-                <form action="{{route('testimoni.add')}}" method="POST" enctype="multipart/form-data">
+                <form action="" method="POST" enctype="multipart/form-data">
 
-                    @endisset
-
-                    <input type="hidden" name="_token" value="{{ csrf_token()}}">
+                    <input type="hidden" name="_token" value="">
                     <div class="box-body">
                         <div class="form-group">
                             <label for="title">Nama :</label>
                             <input name="name" value=" {{old('name')}} " type="text" id="name" class="form-control"
-                                placeholder="Masukan Nama Anda......" @if (isset($edittestimoni))
-                                value="{{$edittestimoni->name}}" @endif>
+                                placeholder="Masukan Nama Anda......">
                         </div>
                     </div>
 
