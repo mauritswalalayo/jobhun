@@ -74,7 +74,7 @@ class JobController extends Controller
                 return response()->json(['message'=> 'gagal tambah loker. cek inputan anda', 
                                         'error'=>$validator->getMessageBag()->toArray()],422); 
             }
-/*
+
             $job = Job::create($request->all());
 
             $job_transfer_url = $job->id.'.'.$request->file('job_transfer_url')->getClientOriginalExtension();
@@ -95,7 +95,7 @@ class JobController extends Controller
             
 
             $job->save();
-
+/*
 //=================================== email =======================================================
             $destinationemail = $job->job_company_email;
             $destionationname = 'Maurits Oces';
@@ -111,7 +111,11 @@ class JobController extends Controller
                 $message->subject('Loker Baru');
                 // $message->priority(3);
                 // $message->attach('pathToFile');
+
             });
+*/
+
+
 
             if($request->ajax()){
                     return response()->json(['message'=> 'berhasil tambah loker' ]);                    
@@ -119,7 +123,7 @@ class JobController extends Controller
             }
         
             return redirect()->route('index')->with('berhasil', '.');
-            */
+            
 
         }
 //=========================================== form verified ===============================================

@@ -47,6 +47,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapMediaPartnerRoutes();
         $this->mapTagRoutes();
         $this->mapTestimoniRoutes();
+        $this->mapTalentPoolRoutes();
     }
 
     /**
@@ -174,6 +175,34 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
              ->namespace($this->namespace)
              ->group(base_path('routes/partial/testimoni.php'));
+    }
+
+    /**
+     * Define the "web" routes for the application.
+     *
+     * These routes all receive session state, CSRF protection, etc.
+     *
+     * @return void
+     */
+    protected function mapTalentPoolRoutes()
+    {
+        Route::middleware('web')
+             ->namespace($this->namespace)
+             ->group(base_path('routes/partial/talent-pool.php'));
+    }
+
+    /**
+     * Define the "web" routes for the application.
+     *
+     * These routes all receive session state, CSRF protection, etc.
+     *
+     * @return void
+     */
+    protected function mapJobVisitRoutes()
+    {
+        Route::middleware('web')
+             ->namespace($this->namespace)
+             ->group(base_path('routes/partial/job-visit.php'));
     }
 }
 

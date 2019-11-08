@@ -4,7 +4,7 @@
         <div class="col-lg-12">
             <div class="heading">
                 <h2>Jobhun Career Hub</h2>
-             </div><!-- Heading -->
+            </div><!-- Heading -->
 
             <div class="heading">
                 <form >
@@ -27,8 +27,8 @@
             <div class="job-listings-sec">
                 <div class="job-grid-sec">
                     <div class="row">
-                        <div class="row" v-if="jobs.data.length > 0">                     
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" v-for="(job,index) in jobs.data">
+                        <div class="row" v-if="jobs.data.length > 0">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" v-for="job in jobs.data" :key="job">
                                 <div class="job-grid border">
                                     <div class="job-title-sec">
                                         <div class="c-logo"> <img width="300" height="300" :src="'image/logo_perusahaan/' + job.logo_url" alt=""></div>

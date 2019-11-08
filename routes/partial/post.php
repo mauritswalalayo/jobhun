@@ -17,3 +17,7 @@ Route::get('post/edit/{id}', 'PostController@edit');
 Route::patch('post/update/{id}', 'PostController@update');
 
 Route::get('post/hapus/{id}', 'PostController@delete');
+
+Route::get('/post/{filter}', 'PostController@post')->name('post');
+
+Route::get('/post/show/{url}' , 'PostController@show' );

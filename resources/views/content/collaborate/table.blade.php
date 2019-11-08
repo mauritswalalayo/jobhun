@@ -3,7 +3,9 @@
 @section('title','Collaborate')
 
 @section('content')
-<div class="box box-primary">
+
+<back-collaborate-table></back-collaborate-table>
+{{-- <div class="box box-primary">
     <div class="box-header with-border">
         <a href="{{route('collaborate.form')}}" class="btn btn-primary">Tambah Collaborate</a>
     </div>
@@ -18,7 +20,7 @@
             </thead>
             <tbody>
 
-                    @php $i = $first_index; @endphp  
+                    @php $i = $first_index; @endphp
                     @foreach ($datacollaborate as $collaborate)
                 <tr>
                     <td>{{ $i++ }}</td>
@@ -37,5 +39,5 @@
     <div class="box-footer">
         Footer
     </div>
-</div>
+</div> --}}
 @endsection

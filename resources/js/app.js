@@ -15,7 +15,7 @@ import VueSwal from 'vue-swal';
 import VModal from 'vue-js-modal';
 import routes from './routes.js';
 import VueRouter from 'vue-router';
- 
+
 Vue.use(VueSwal);
 Vue.component('pagination', require('laravel-vue-pagination'));
 Vue.use(VueRouter)
@@ -48,6 +48,15 @@ Vue.component('front-posting-careerhub', require('./components/front/postingcare
 
 // Mendeklarasikan Bagian Back Post
 Vue.component('back-post-table', require('./components/back/post/Table.vue').default);
+
+// Mendeklarasikan Bagian Back Tag
+Vue.component('back-tag-table', require('./components/back/tag/Table.vue').default);
+
+// Mendeklarasikan Bagian Back Tag
+Vue.component('back-testimoni-table', require('./components/back/testimoni/Table.vue').default);
+
+// Mendeklarasikan Bagian Back Tag
+Vue.component('back-collaborate-table', require('./components/back/collaborate/Table.vue').default);
 /**
  * Next, we will create a fresh Vue mobilelication instance and attach it to
  * the page. Then, you may begin adding components to this mobilelication

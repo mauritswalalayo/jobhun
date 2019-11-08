@@ -23,6 +23,12 @@ Route::get('loker/verified/{id}', 'JobController@verified')->name('verified_job'
 
 Route::get('loker/delete/{id}', 'JobController@delete')->name('delete_job');
 
+Route::get('/jobhun-careerhub', 'Homepage_UserController@jch')->name('jch');
+
+Route::get('/loker/show/{id}', 'Homepage_UserController@spek_jch')->name('spek_jch');
+
+Route::post('/search','JobController@cari')->name('cari.loker');
+
 
 //================================ Route Posting Job ===============================
 

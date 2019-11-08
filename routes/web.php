@@ -65,61 +65,11 @@ Route::group(["middleware" => ['admin']],function (){
     Route::get('user/hapus/{id}', 'UserController@delete');
 });
 
-//========================== Route Lowongan Kerja =================================
-
-
-Route::get('mediapartner/table', 'JobController@view_mediapartner')->name('mediapartner.table');
-
-
-//=========================================================================================================================
-
-
-
-
 // =========================== Route Homepage User Bagian Depan ===========================
 
 Route::get('/', 'Homepage_UserController@index')->name('index');
 
 Route::get('about', 'Homepage_UserController@tentang')->name('about');
-
-// Layanan
-Route::get('/jobhun-careerhub', 'Homepage_UserController@jch')->name('jch');
-
-Route::get('/loker/show/{id}', 'Homepage_UserController@spek_jch')->name('spek_jch');
-
-
-
-
-
-
-Route::get('/jobhun-talent-pool', 'Homepage_UserController@jtp')->name('jtp');
-// Program
-
-Route::get('/jobhun-visit', 'Homepage_UserController@jv')->name('jv');
-
-// Blog
-Route::get('/post/{filter}', 'PostController@post')->name('post');
-
-Route::get('/post/show/{url}' , 'PostController@show' );
-
-
-
-
-
-
-
-
-//Talent Pool
-Route::post('post/talent-pool/','TalentpoolController@add')->name('post.talentpool');
-
-
-
-//search data
-
-Route::post('/search','JobController@cari')->name('cari.loker');
-
-
-
 
 
 

@@ -10,6 +10,8 @@ Route::post('form/jobhun-academy/daftar','JobhunAcademyController@add')->name('a
 
 Route::get('jobhun-academy/table', 'JobhunAcademyController@table')->name('jobhunacademy.table');
 
+Route::get('jobhun-academy/table/delete/{id}', 'JobhunAcademyController@delete')->name('jobhunacademy.delete');
+
 Route::get('/jobhun-academy', 'Homepage_UserController@ja')->name('ja');
 
 Route::get('/jobhun-academy-content-writer', 'Homepage_UserController@content_writer')->name('content-writer');
