@@ -16,7 +16,6 @@ Route::post('post/jobs/premium','JobController@add')->name('post.jobs.premium');
 
 Route::get('loker/not-verified/{id}','JobController@not_verified')->name('loker.notverifikasi');
 
-
 Route::patch('loker/verified-loker/{id}', 'JobController@verified_loker')->name('verified_loker');
 
 Route::get('loker/verified/{id}', 'JobController@verified')->name('verified_job');

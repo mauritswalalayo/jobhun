@@ -48,6 +48,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapTagRoutes();
         $this->mapTestimoniRoutes();
         $this->mapTalentPoolRoutes();
+        $this->mapJobhunVisitRoutes();
     }
 
     /**
@@ -198,11 +199,11 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function mapJobVisitRoutes()
+    protected function mapJobhunVisitRoutes()
     {
         Route::middleware('web')
              ->namespace($this->namespace)
-             ->group(base_path('routes/partial/job-visit.php'));
+             ->group(base_path('routes/partial/jobhun-visit.php'));
     }
 }
 

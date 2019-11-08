@@ -34,7 +34,9 @@ class TalentpoolController extends Controller
                 ]
             );
             if ($validator->fails()) {
-                return back()->withErrors($validator)->withInput();
+                //return back()->withErrors($validator)->withInput();
+                return response()->json(['message'=> 'gagal tambah talent pool. cek inputan anda', 
+                                        'error'=>$validator->getMessageBag()->toArray()],422);
             }
 
             $talentpool = Talentpool::create($request->all());
@@ -62,7 +64,11 @@ class TalentpoolController extends Controller
                 // $message->priority(3);
                 // $message->attach('pathToFile');
             });
-        
+            
+            if($request->ajax()){
+                return response()->json(['message'=> 'berhasil tambah Talent Pool' ]);
+            }
+
             return redirect()->route('index')->with('berhasil', '.');
         }
 }
