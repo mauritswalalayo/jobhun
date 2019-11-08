@@ -87,12 +87,12 @@
 					 					<div class="col-lg-12">
 					 						<span class="pf-title">Jenis Pekerjaan</span>
 					 						<div class="pf-field">
-					 							<select data-placeholder="Job Type" v-model="job_type" class="chosen">
-													<option>Full time</option>
-                                                    <option>Part time</option>
-                                                    <option>Freelance</option>
-                                                    <option>Internship</option>
-                                                    <option>Volunteer</option>
+					 							<select @change="testin" v-model="job_type">
+													<option value="Full Time">Full time</option>
+                                                    <option value="Part Time">Part time</option>
+                                                    <option value="Freelance">Freelance</option>
+                                                    <option value="Internship">Internship</option>
+                                                    <option value="Volunteer">Volunteer</option>
 												</select>
 					 						</div>
                                          </div>
@@ -154,9 +154,6 @@ Waktu proses rekrut.">
 
                                              <br><br> <br> <br><br>
                                          </div>
-
-
-
 					 				</div>
 					 			</form>
                              </div>
@@ -191,15 +188,15 @@ export default {
     },
     methods: {
         changeLogoUrl: function() {
-            this.logo_url = this.$refs.ref_job_logo_url.files[0];
+            this.job_logo_url = this.$refs.ref_job_logo_url.files[0];
             console.log(this.logo_url);
         },
         changePosterUrl: function(){
-            this.poster_url = this.$refs.ref_job_poster_url.files[0];
+            this.job_poster_url = this.$refs.ref_job_poster_url.files[0];
             console.log(this.poster_url);
         },
         changeTransferUrl: function(){
-            this.transfer_url = this.$refs.ref_job_transfer_url.files[0];
+            this.job_transfer_url = this.$refs.ref_job_transfer_url.files[0];
             console.log(this.transfer_url);
         },
         addJob: function(){
@@ -235,6 +232,9 @@ export default {
                 });
               });
 
+        },
+        testin: function(){
+            alert("wow");
         }
     }
 }

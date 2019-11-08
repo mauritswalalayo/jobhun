@@ -20,7 +20,6 @@ class Job extends Model
         'job_type',
         'job_description',
         'job_recruit_process',
-
         'job_logo_url',
         'job_poster_url',
         'job_transfer_url'
