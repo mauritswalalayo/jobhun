@@ -31,16 +31,14 @@
                         <div class="form-group">
                             <label for="title">Profesi :</label>
                             <input name="profesi" value=" {{old('profesi')}} " type="text" id="profesi"
-                                class="form-control" placeholder="Masukan Profesi Anda......" @if
-                                (isset($edittestimoni)) value="{{$edittestimoni->profesi}}" @endif>
+                                class="form-control" placeholder="Masukan Profesi Anda......">
                         </div>
                     </div>
 
                     <div class="box-body">
                         <div class="form-group">
                             <label for="title">Testimoni :</label>
-                            <textarea name="testimoni" id="testimoni" cols="30" rows="10" class="form-control"> {{old('testimoni')}}
-                @if(isset($edittestimoni)) {{$edittestimoni->testimoni}} @endif </textarea>
+                            <textarea name="testimoni" id="testimoni" cols="30" rows="10" class="form-control">  </textarea>
                         </div>
                     </div>
 
@@ -52,12 +50,8 @@
                     </div>
 
                     <div class="box-footer">
-                        @if(isset($edittestimoni))
                         <button type="submit" class="btn btn-info pull-right">Update</button>
-                        @else
                         <button type="submit" class="btn btn-info pull-right">Submit</button>
-                        @endif
-
                     </div>
                 </form>
         </div>
