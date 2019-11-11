@@ -23,12 +23,6 @@
                                         <option value="null" disabled selected>Kategori pekerjaan</option>
                                         <option v-for="opt in makes_options" :key="opt.id" :value="opt.id">{{opt.text}}
                                         </option>
-                                        <!-- <option selected>category</option> 
-                                        <option>Full Time</option>
-                                        <option>Frelance</option>
-                                        <option>Internship</option>
-                                        <option>Part Time</option>
-                                        <option>Volunter</option> -->
                                     </select>
                                 </div>
                                 <div class="col-md-4 mb-3">
@@ -36,10 +30,6 @@
                                         <option value="null" disabled selected>Kota</option>
                                         <option v-for="citys in citys_options" :key="citys.id" :value="citys.id">
                                             {{citys.text}}</option>
-                                        <!-- <option selected>Kota</option>
-                                        <option>Surabaya</option>
-                                        <option>jakarta </option>
-                                        -->
                                     </select>
                                 </div>
                                 <div class="col-md-3">
@@ -54,63 +44,23 @@
 
                 </div>
             </div>
-            <!-- <div class="card-deck wow fadeIn" data-wow-delay="0.4s"> -->
-
-                <!-- <div v-for="job in jobs.data" :key="job.id" class="col-md-4 ">
-                    <div class="card">
-                        <img class="card-img-top" height="70px" :src="'asset/img/logo_perusahaan/' + job.logo_url"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">{{job.company_name}}</h5>
-                            <p><i class="fas fa-map-marker-alt"></i> Bali</p> -->
-                            <!-- <p class="card-text">{{job.description_job}}</p> -->
-                            <!-- <a href="#" class="btn btn-success">{{job.type_work}}</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <div class="container">
                 <div v-for="job in jobs.data" :key="job.id" class="card flex-row flex-wrap">
-                <div class="card-header border-0">
-                    <img :src="'asset/img/logo_perusahaan/' + job.logo_url" style="width:100px;height:100px" alt="">
-                </div>
-                <div class="card-block px-2">
-                    <h4 class="card-title"><b>{{job.company_name}}</b></h4>
-                    <p class="card-text"><i class="fas fa-map-marker-alt"></i> Surabaya<br>Posisi: {{job.position_sought}}</p>
-                    <a href="#" class="btn btn-primary btn-sm">{{job.type_work}}</a>
-                    <p></p>
-                </div>
-                <div class="w-100"></div>
-                <div class="card-footer w-100 text-muted">
-                    
+                    <div class="card-header border-0">
+                        <img :src="$store.state.apiUrl + 'image/logo_perusahaan/' + job.job_logo_url" style="width:100px;height:100px" alt="">
+                    </div>
+                    <div class="card-block px-2">
+                        <h4 class="card-title"><b>{{job.job_company_name}}</b></h4>
+                        <p class="card-text"><i class="fas fa-map-marker-alt"></i> Surabaya<br>Posisi: {{job.job_position_sought}}</p>
+                        <a href="#" class="btn btn-primary btn-sm">{{job.job_type}}</a>
+                        <p></p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="card-footer w-100 text-muted">
+                        
+                    </div>
                 </div>
             </div>
-
-            </div>
-            
-            
-
-            <!-- <table>
-                <thead>
-                    <tr>
-                        <th>Perusahaan</th>
-                        <th>Lokasi</th>
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr v-for="job in jobs.data" :key="job.id">
-                        <td>{{job.company_name}}</td>
-                        <td>{{job.company_address}}</td>
-                    </tr>
-                </tbody>
-            </table> -->
-            <!-- <div>
-                <pagination :data="jobs" @pagination-change-page="getData"></pagination>
-            </div> -->
             <div class="col text-center">
                 <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button>
                 </router-link>
