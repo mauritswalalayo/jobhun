@@ -63763,7 +63763,7 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var state = {
   session: {},
-  apiUrl: 'http://localhost:8080/projek/jobhun/public/',
+  apiUrl: 'http://localhost:8000/',
   overlay: false,
   isLoading: false
 };
