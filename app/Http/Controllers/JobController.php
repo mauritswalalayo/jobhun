@@ -92,7 +92,8 @@ class JobController extends Controller
             $job->job_logo_url = $job_logo_url;
                 
             };
-            
+            //nanti tolong dihapus
+            $job->job_verified = 1;
 
             $job->save();
 /*

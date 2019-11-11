@@ -31,15 +31,15 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" v-for="job in jobs.data" :key="job">
                                 <div class="job-grid border">
                                     <div class="job-title-sec">
-                                        <div class="c-logo"> <img width="300" height="300" :src="'image/logo_perusahaan/' + job.logo_url" alt=""></div>
+                                        <div class="c-logo"> <img width="300" height="300" :src="'image/logo_perusahaan/' + job.job_logo_url" alt=""></div>
                                     <h3><a :href="$store.state.apiUrl + 'loker/show/' + job.id" title="">{{job.company_name}}</a></h3>
                                         <ul class="tags-jobs">
-                                        <li><i class="la la-map-marker"></i>{{job.company_address}}</li>
-                                            <li><i class="la la-calendar-o"></i> Post Date: July 29, 2017</li>
+                                        <li><i class="la la-map-marker"></i>{{job.job_company_address}}</li>
+                                            <li><i class="la la-calendar-o"></i> Post Date: {{job.created_at}}</li>
                                         </ul>
                                         <span class="fav-job"><i class="la la-heart-o"></i></span>
                                     </div>
-                                <span class="job-lctn">{{job.description_company.substring(0,200)}}</span>
+                                <span class="job-lctn">{{job.job_company_description.substring(0,200)}}</span>
                                     <a :href="$store.state.apiUrl + 'loker/show/' + job.id" title="">Selengkapnya</a>
                                 </div><!-- JOB Grid -->
                             </div><br />
