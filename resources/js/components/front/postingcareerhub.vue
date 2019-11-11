@@ -141,8 +141,8 @@ Waktu proses rekrut.">
                                         </div>
 
                                         <div class="col-lg-12">
-                                             <span class="pf-title">Bukti Transfer</span>
-                                             <div class="upload-info">
+                                            <span class="pf-title">Bukti Transfer</span>
+                                            <div class="upload-info">
                                                 <input type="file" @change="changeTransferUrl" ref="ref_job_transfer_url" class="form-control-file">
                                                 <span>Silakan transfer Rp50.000,- (per posisi pekerjaan) ke rekening BCA a/n Cynthia Cecilia 0373393328, kemudian lampirkan bukti transfer di sini.</span>
                                                     <br><br> <br>
