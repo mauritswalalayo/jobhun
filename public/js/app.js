@@ -1833,10 +1833,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-<<<<<<< HEAD
-//
-=======
->>>>>>> 61b4818e1b5473ee60937a76442b67d1083d28b0
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -63767,11 +63763,7 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var state = {
   session: {},
-<<<<<<< HEAD
-  apiUrl: 'http://localhost:8000/',
-=======
   apiUrl: 'http://localhost:8080/projek/jobhun/public/',
->>>>>>> 61b4818e1b5473ee60937a76442b67d1083d28b0
   overlay: false,
   isLoading: false
 };
@@ -63850,13 +63842,8 @@ var actions = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 __webpack_require__(/*! C:\xampp\htdocs\jobhun\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhun\resources\sass\app.scss */"./resources/sass/app.scss");
-=======
-__webpack_require__(/*! C:\xampp\htdocs\Github\jobhun\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Github\jobhun\resources\sass\app.scss */"./resources/sass/app.scss");
->>>>>>> 61b4818e1b5473ee60937a76442b67d1083d28b0
 
 
 /***/ })
