@@ -13,16 +13,15 @@
 
             </div>
 
-            <form action="" method="PATCH">
-                <input type="hidden" name="_method" value="PATCH">
+            <form action="">
+                <!-- <input type="hidden" name="_method" value="PATCH"> -->
 
-                <form action="" method="POST" enctype="multipart/form-data">
-
+                <!-- <form action="" method="POST" enctype="multipart/form-data"> -->
                     <input type="hidden" name="_token" value="">
                     <div class="box-body">
                         <div class="form-group">
                             <label for="title">Nama :</label>
-                            <input name="name" value=" {{old('name')}} " type="text" id="name" class="form-control"
+                            <input name="name" type="text" id="name" class="form-control"
                                 placeholder="Masukan Nama Anda......">
                         </div>
                     </div>
@@ -30,7 +29,7 @@
                     <div class="box-body">
                         <div class="form-group">
                             <label for="title">Profesi :</label>
-                            <input name="profesi" value=" {{old('profesi')}} " type="text" id="profesi"
+                            <input name="profesi"  type="text" id="profesi"
                                 class="form-control" placeholder="Masukan Profesi Anda......">
                         </div>
                     </div>
@@ -51,8 +50,6 @@
 
                     <div class="box-footer">
                         <button type="submit" class="btn btn-info pull-right">Update</button>
-                        <button type="submit" class="btn btn-info pull-right">Submit</button>
-
                     </div>
                 </form>
         </div>
