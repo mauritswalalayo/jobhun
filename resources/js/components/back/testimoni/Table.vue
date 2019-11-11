@@ -16,10 +16,10 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                        <tr v-for="testimoni in testimonis.data" :key="testimoni.id">
+                            <td> {{testimoni.name}} </td>
+                            <td> {{testimoni.testimoni}} </td>
+                            <td> {{testimoni.profesi}} </td>
                             <td></td>
                             <td>
                                 <a href=""
@@ -36,3 +36,16 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            testimonis: {},
+        }
+    },
+    mounted() {
+        this.getData();
+    },
+}
+</script>

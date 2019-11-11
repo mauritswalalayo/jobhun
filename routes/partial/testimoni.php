@@ -6,7 +6,7 @@ use App\Http\Controllers\CollaborateController;
 //=========================== Route Testimoni ==============================
 Route::get('testimoni/table', 'TestimoniController@index')->name('testimoni.table');
 
-Route::get('/testimoni/form', 'TestimoniController@form')->name('testimoni.form');
+Route::get('testimoni/form', 'TestimoniController@form')->name('testimoni.form');
 
 Route::post('testimoni/add', 'TestimoniController@add')->name('testimoni.add');
 
