@@ -3008,56 +3008,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -40729,122 +40679,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "box box-primary" }, [
-      _c("div", { staticClass: "box-header with-border" }, [
-        _c(
-          "a",
-          {
-            staticClass: "btn btn-danger",
-            attrs: { href: _vm.$store.state.apiUrl + "testimoni/table" }
-          },
-          [_vm._v("Kembali")]
-        )
-      ]),
-      _vm._v(" "),
-      _vm._m(0),
-      _vm._v(" "),
-      _vm._m(1)
-    ])
-  ])
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "box-body" }, [
-      _c("div", { staticClass: "alert alert-danger" }, [_c("ul", [_c("li")])])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("form", { attrs: { action: "" } }, [
-      _c("input"),
-      _vm._v(" "),
-      _c("div", { staticClass: "box-body" }, [
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "title" } }, [_vm._v("Nama :")]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: {
-              name: "name",
-              type: "text",
-              id: "name",
-              placeholder: "Masukan Nama Anda......"
-            }
-          })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "box-body" }, [
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "title" } }, [_vm._v("Profesi :")]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: {
-              name: "profesi",
-              type: "text",
-              id: "profesi",
-              placeholder: "Masukan Profesi Anda......"
-            }
-          })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "box-body" }, [
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "title" } }, [_vm._v("Testimoni :")]),
-          _vm._v(" "),
-          _c("textarea", {
-            staticClass: "form-control",
-            attrs: {
-              name: "testimoni",
-              id: "testimoni",
-              cols: "30",
-              rows: "10"
-            }
-          })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "box-body" }, [
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "title" } }, [_vm._v("Foto :")]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: {
-              type: "file",
-              name: "foto",
-              id: "foto",
-              cols: "30",
-              rows: "10"
-            }
-          })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "box-footer" }, [
-        _c(
-          "button",
-          { staticClass: "btn btn-info pull-right", attrs: { type: "submit" } },
-          [_vm._v("Update")]
-        ),
-        _vm._v(" "),
-        _c(
-          "button",
-          { staticClass: "btn btn-info pull-right", attrs: { type: "submit" } },
-          [_vm._v("Submit")]
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -41097,7 +40934,8 @@ var render = function() {
                                       width: "300",
                                       height: "300",
                                       src:
-                                        "image/logo_perusahaan/" + job.logo_url,
+                                        "image/logo_perusahaan/" +
+                                        job.job_logo_url,
                                       alt: ""
                                     }
                                   })
@@ -41124,19 +40962,29 @@ var render = function() {
                                     _c("i", {
                                       staticClass: "la la-map-marker"
                                     }),
-                                    _vm._v(_vm._s(job.company_address))
+                                    _vm._v(_vm._s(job.job_company_address))
                                   ]),
                                   _vm._v(" "),
-                                  _vm._m(2, true)
+                                  _c("li", [
+                                    _c("i", {
+                                      staticClass: "la la-calendar-o"
+                                    }),
+                                    _vm._v(
+                                      " Post Date: " + _vm._s(job.created_at)
+                                    )
+                                  ])
                                 ]),
                                 _vm._v(" "),
-                                _vm._m(3, true)
+                                _vm._m(2, true)
                               ]),
                               _vm._v(" "),
                               _c("span", { staticClass: "job-lctn" }, [
                                 _vm._v(
                                   _vm._s(
-                                    job.description_company.substring(0, 200)
+                                    job.job_company_description.substring(
+                                      0,
+                                      200
+                                    )
                                   )
                                 )
                               ]),
@@ -41167,14 +41015,14 @@ var render = function() {
                     ],
                     2
                   )
-                : _c("div", [_vm._m(4)])
+                : _c("div", [_vm._m(3)])
             ])
           ])
         ])
       ]),
       _vm._v(" "),
       _vm.jobs.data.length > 0
-        ? _c("div", { staticClass: "col-lg-12" }, [_vm._m(5)])
+        ? _c("div", { staticClass: "col-lg-12" }, [_vm._m(4)])
         : _vm._e()
     ])
   ])
@@ -41220,15 +41068,6 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-lg-3 col-md-3" })
         ])
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [
-      _c("i", { staticClass: "la la-calendar-o" }),
-      _vm._v(" Post Date: July 29, 2017")
     ])
   },
   function() {
@@ -43665,7 +43504,10 @@ var render = function() {
                 _c("img", {
                   staticStyle: { width: "100px", height: "100px" },
                   attrs: {
-                    src: "asset/img/logo_perusahaan/" + job.logo_url,
+                    src:
+                      _vm.$store.state.apiUrl +
+                      "image/logo_perusahaan/" +
+                      job.job_logo_url,
                     alt: ""
                   }
                 })
@@ -43673,14 +43515,14 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "card-block px-2" }, [
                 _c("h4", { staticClass: "card-title" }, [
-                  _c("b", [_vm._v(_vm._s(job.company_name))])
+                  _c("b", [_vm._v(_vm._s(job.job_company_name))])
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "card-text" }, [
                   _c("i", { staticClass: "fas fa-map-marker-alt" }),
                   _vm._v(" Surabaya"),
                   _c("br"),
-                  _vm._v("Posisi: " + _vm._s(job.position_sought))
+                  _vm._v("Posisi: " + _vm._s(job.job_position_sought))
                 ]),
                 _vm._v(" "),
                 _c(
@@ -43689,7 +43531,7 @@ var render = function() {
                     staticClass: "btn btn-primary btn-sm",
                     attrs: { href: "#" }
                   },
-                  [_vm._v(_vm._s(job.type_work))]
+                  [_vm._v(_vm._s(job.job_type))]
                 ),
                 _vm._v(" "),
                 _c("p")
