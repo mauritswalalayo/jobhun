@@ -20,9 +20,10 @@ Route::group(["middleware" => ['cors']],function (){
     Route::get('job/filter/{per_page}', 'JobController@apiCareerHub');
 
     Route::post('post/jobs/premium','JobController@add')->name('post.jobs.premium');
-    
+
     Route::post('post/jobs','JobController@add')->name('post.jobs.reguler');
 
+    Route::get('testimoni', 'TestimoniController@index')->name('testimoni.index');
 });
 
 
