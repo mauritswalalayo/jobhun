@@ -1,3 +1,7 @@
 <template>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 </template>
