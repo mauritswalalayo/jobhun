@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 <div>
             <div>
 
@@ -42,4 +43,7 @@
                 </form>
         </div>
     </div>
+=======
+  
+>>>>>>> terserah
 </template>
