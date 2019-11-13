@@ -343,5 +343,10 @@ public function not_verified($id)
         return response()->json(["jobs"=>$jobs]);
     }
 
+    public function show($id){
+        $job = Job::findOrFail($id);
+        return response()->json(["job"=>$job]);
+    }
+
 }
 
