@@ -52,7 +52,10 @@
                     <div class="card-block px-2">
                         <h4 class="card-title"><b>{{job.job_company_name}}</b></h4>
                         <p class="card-text"><i class="fas fa-map-marker-alt"></i> Surabaya<br>Posisi: {{job.job_position_sought}}</p>
+                        <router-link to="carrerHubDetail" >
                         <a href="#" class="btn btn-primary btn-sm">{{job.job_type}}</a>
+                        </router-link>
+
                         <p></p>
                     </div>
                     <div class="w-100"></div>
