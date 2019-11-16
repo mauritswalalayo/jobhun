@@ -23,6 +23,9 @@ Route::group(["middleware" => ['cors']],function (){
     
     Route::post('post/jobs','JobController@add')->name('post.jobs.reguler');
 
+    
+    Route::get('job/{id}', 'JobController@show');
+
 });
 
 
