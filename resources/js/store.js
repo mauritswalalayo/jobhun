@@ -6,7 +6,7 @@ const state = {
 	session:{
 	},
 
-	apiUrl: 'http://localhost:8000/projek/jobhun/public/',
+	apiUrl: 'http://localhost:8080/projek/jobhun/public/',
 	overlay: false,
 	isLoading: false
 }

@@ -26,6 +26,8 @@ Route::group(["middleware" => ['cors']],function (){
     
     Route::get('job/{id}', 'JobController@show');
 
+    Route::get('jobhunacademystudents', 'JobhunAcademyController@apiJobhunAcademyStudents');
+
 });
 
 

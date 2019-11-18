@@ -139,4 +139,9 @@ public function view_jobhunacademy ($payment_status)
         $jobhunacademy->delete();
         return redirect()->route('jobhunacademy.table');
     }
+
+    public function apiJobhunAcademyStudents(){
+        $jobhunacademystudents = Jobhunacademy::all();
+        return response()->json(['jobhunacademystudent'=>$jobhunacademystudents]);
+    }
 }
