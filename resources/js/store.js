@@ -5,10 +5,6 @@ Vue.use(Vuex)
 const state = {
 	session:{
 	},
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 	apiUrl: 'http://localhost:8000/',
 	overlay: false,
 	isLoading: false

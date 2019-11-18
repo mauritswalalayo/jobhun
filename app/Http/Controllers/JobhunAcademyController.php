@@ -106,6 +106,9 @@ class JobhunAcademyController extends Controller
                 // $message->attach('pathToFile');
             });
 
+            if($request->ajax()){
+                return response()->json(['pesan'=>"Berhasil Daftar Jobhun Academy. Silakan tunggu konfirmasi dari tim Jobhun"]);
+            }
             return redirect()->route('index')->with('berhasil', '.');
 
         }

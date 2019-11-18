@@ -84,9 +84,9 @@
             <li class="treeview">
             <a href="{{route('jobhunacademy.table')}}">
                     <i class="glyphicon glyphicon-education"></i> <span>Jobhun Academy</span>
-                    <span class="pull-right-container">
+                    {{-- <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
-                    </span>
+                    </span> --}}
                 </a>
 
                 {{-- <ul class="treeview-menu">
