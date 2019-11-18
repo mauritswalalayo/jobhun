@@ -1,8 +1,7 @@
-<template>
+<template><!--
     <div>
         <div>
             <form action="">
-                <!-- <form action="" method="POST" enctype="multipart/form-data"> -->
                 <input value="">
                 <div class="box-body">
                     <div class="form-group">
@@ -39,5 +38,5 @@
                 </div>
             </form>
         </div>
-    </div>
+    </div>-->
 </template>
