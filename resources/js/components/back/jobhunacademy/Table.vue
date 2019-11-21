@@ -28,6 +28,14 @@
                         </tr>
                     </tbody>
                 </table>
+                <!--
+                <input type="text" v-model="gantikelas">
+                <button @click="gantikelasbuton">Ganti Kelas</button>
+
+                <button :class="kelasbuton">hasil</button>
+                <p>gantikelasbuton = {{gantikelas}}</p>
+                
+                <p>kelasbuton = {{kelasbuton}}</p>-->
             </div>
             <div v-else>
                 <p>Tidak ada Data Pendaftar</p>
@@ -36,7 +44,7 @@
         <div class="box-footer">
         </div>
 
-        <modal name="data">
+        <modal name="data" height="auto" :resizable="true">
         
             <h2 class="text-center">Konfirmasi Pendaftar</h2>
             <form>
@@ -48,6 +56,18 @@
                 <div class="form-group">
                     <label for="title">Kelas</label>
                     <input v-model="pendaftar.class_name" type="text"  class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="title">Alamat Email</label>
+                    <input v-model="pendaftar.email_address" type="text"  class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="title">Nomor HP</label>
+                    <input v-model="pendaftar.phone" type="text"  class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="title">Bukti Transfer</label>
+                    <img :src="$store.state.apiUrl + 'image/jobhun_academy/bukti_transfer/' + pendaftar.evidence_transfer">
                 </div>
 
                     <!--<a @click="save" class="btn btn-info btn-sm glyphicon glyphicon-floppy-disk">Save</a></td>-->
@@ -69,7 +89,9 @@ export default{
     data(){
         return {
             daftarsiswa: [],
-            pendaftar: {}
+            pendaftar: {},
+            gantikelas: '',
+            kelasbuton: ''
         }
     },
     mounted(){
@@ -80,7 +102,9 @@ export default{
             this.pendaftar=_.clone(siswa);
             this.$modal.show("data");
         },
-
+        gantikelasbuton: function(){
+            this.kelasbuton = this.gantikelas;
+        },
         deleteData: function(siswa){
             this.$swal({
                     title: "Konfirmasi",
