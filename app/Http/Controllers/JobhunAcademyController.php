@@ -144,4 +144,10 @@ public function view_jobhunacademy ($payment_status)
         $jobhunacademystudents = Jobhunacademy::all();
         return response()->json(['jobhunacademystudent'=>$jobhunacademystudents]);
     }
+
+    public function apiJobhunAcademyStudentsDelete($id){
+        $jobhunacademystudents = Jobhunacademy::findOrFail($id);
+        $jobhunacademystudents->delete();
+        return response()->json(['message'=>'Data berhasil dihapus']);
+    }
 }
