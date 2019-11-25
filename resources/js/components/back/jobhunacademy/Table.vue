@@ -23,6 +23,7 @@
                             <td>
                                 <a @click="showModalnya(siswa)" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">View</a>
                                 <a @click="deleteData(siswa)" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
+                                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal-info">Launch Info Modal</button>
                             </td>
 
                         </tr>
@@ -44,10 +45,17 @@
         <div class="box-footer">
         </div>
 
-        <modal name="data" height="auto" :resizable
-        ="true">
-        
-            <h2 class="text-center">Konfirmasi Pendaftar</h2>
+        <!-- /.modal -->
+        <div class="modal modal-info fade" id="modal-info">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Info Modal</h4>
+              </div>
+              <div class="modal-body">
+                <h2 class="text-center">Konfirmasi Pendaftar</h2>
             <form>
             <div class="box-body">
                 <div class="form-group">
@@ -77,9 +85,55 @@
 
 
             </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline">Save changes</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
+        <!--
+        <modal name="data" height="auto" :resizable="true">
+        
+            <h2 class="text-center">Konfirmasi Pendaftar</h2>
+            <form>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="title">Nama</label>
+                    <input v-model="pendaftar.name" type="text"  class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="title">Kelas</label>
+                    <input v-model="pendaftar.class_name" type="text"  class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="title">Alamat Email</label>
+                    <input v-model="pendaftar.email_address" type="text"  class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="title">Nomor HP</label>
+                    <input v-model="pendaftar.phone" type="text"  class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="title">Bukti Transfer</label>
+                    <img :src="$store.state.apiUrl + 'image/jobhun_academy/bukti_transfer/' + pendaftar.evidence_transfer">
+                </div>-->
+
+                    <!--<a @click="save" class="btn btn-info btn-sm glyphicon glyphicon-floppy-disk">Save</a></td>-->
+
+            <!--
+            </div>
+
+
+            </form>
             
         
-        </modal>
+        </modal>-->
 
     </div>
 
@@ -101,7 +155,9 @@ export default{
     methods:{
         showModalnya: function(siswa){
             this.pendaftar=_.clone(siswa);
-            this.$modal.show("data");
+            //this.pendaftar = siswa;
+            $('#modal-info').modal('show');
+            //this.$modal.show("data");
         },
         gantikelasbuton: function(){
             this.kelasbuton = this.gantikelas;
@@ -143,3 +199,4 @@ export default{
     }
 }
 </script>
+
