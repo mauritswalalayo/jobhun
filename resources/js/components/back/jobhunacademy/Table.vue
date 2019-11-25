@@ -44,7 +44,8 @@
         <div class="box-footer">
         </div>
 
-        <modal name="data" height="auto" :resizable="true">
+        <modal name="data" height="auto" :resizable
+        ="true">
         
             <h2 class="text-center">Konfirmasi Pendaftar</h2>
             <form>
