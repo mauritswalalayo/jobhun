@@ -56,7 +56,7 @@ Vue.component('back-tag-table', require('./components/back/tag/Table.vue').defau
 Vue.component('back-testimoni-table', require('./components/back/testimoni/Table.vue').default);
 
 // Mendeklarasikan Bagian Back Testimoni
-Vue.component('back-testimoni-form', require('./components/back/testimoni/Form.vue').default);
+//Vue.component('back-testimoni-form', require('./components/back/testimoni/Form.vue').default);
 
 // Mendeklarasikan Bagian Back Tag
 Vue.component('back-collaborate-table', require('./components/back/collaborate/Table.vue').default);

@@ -68,7 +68,7 @@ let routes=[
     component: require('./components/mobile/content/carrerHubReg').default
   }, 
   {
-    path : '/carrerHubDetail',
+    path : '/carrerHubDetail/:idprek',
     name : 'carrerHubDetail',
     component :require ('./components/mobile/content/carrerHubDetail').default
   }
