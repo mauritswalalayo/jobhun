@@ -66,6 +66,11 @@ let routes=[
     path: '/carrerHubReg',
     name: 'carrerHubReg',
     component: require('./components/mobile/content/carrerHubReg').default
+  }, 
+  {
+    path : '/carrerHubDetail/:idprek',
+    name : 'carrerHubDetail',
+    component :require ('./components/mobile/content/carrerHubDetail').default
   }
   ];
   export default routes
