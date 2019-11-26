@@ -23,8 +23,7 @@
                                 <option value="jobhun Academy: Android Developer‎">Android Developer‎</option>
                                 <option value="jobhun Academy: UI/UX Designer‎">UI/UX Designer‎</option>
                                 <option value="jobhun Academy: Copywriter‎">Copywriter‎</option>
-                                <option value="jobhun Academy: Social Media Specialist‎‎">Social Media Specialist‎
-                                </option>
+                                <option value="jobhun Academy: Social Media Specialist‎‎">Social Media Specialist‎</option>
                                 <option value="jobhun Academy: Public Speaker‎">Public Speaker‎</option>
                                 <option value="jobhun Academy: Startup Founder‎‎">Startup Founder‎</option>
                             </select>
