@@ -15,7 +15,7 @@ class JobController extends Controller
 
     public function view_loker ($verified_status)
     {
-        $job = Job::where('verified_job',$verified_status)->paginate(5);
+        $job = Job::where('job_verified',$verified_status)->paginate(5);
         $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
         if($verified_status == 0)
             return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
@@ -92,10 +92,11 @@ class JobController extends Controller
             $job->job_logo_url = $job_logo_url;
                 
             };
-            
+            //nanti tolong dihapus
+            $job->job_verified = 1;
 
             $job->save();
-/*
+
 //=================================== email =======================================================
             $destinationemail = $job->job_company_email;
             $destionationname = 'Maurits Oces';
@@ -113,7 +114,7 @@ class JobController extends Controller
                 // $message->attach('pathToFile');
 
             });
-*/
+
 
 
 
@@ -340,6 +341,11 @@ public function not_verified($id)
     public function apiCareerHub($per_page){
         $jobs = Job::where('job_verified',1)->orderBy('created_at','desc')->paginate($per_page);
         return response()->json(["jobs"=>$jobs]);
+    }
+
+    public function show($id){
+        $job = Job::findOrFail($id);
+        return response()->json(["job"=>$job]);
     }
 
 }

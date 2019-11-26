@@ -26,7 +26,7 @@ class Homepage_UserController extends Controller
     // Layanan
     public function jch()
     {
-        $job = Job::where('verified_job',1)->paginate(5);
+        $job = Job::where('job_verified',1)->paginate(5);
         $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
         return view('user.content.service.jch',['daftar_job' => $job]);
     }

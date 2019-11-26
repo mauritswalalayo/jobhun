@@ -106,6 +106,9 @@ class JobhunAcademyController extends Controller
                 // $message->attach('pathToFile');
             });
 
+            if($request->ajax()){
+                return response()->json(['pesan'=>"Berhasil Daftar Jobhun Academy. Silakan tunggu konfirmasi dari tim Jobhun"]);
+            }
             return redirect()->route('index')->with('berhasil', '.');
 
         }
@@ -135,5 +138,10 @@ public function view_jobhunacademy ($payment_status)
         $jobhunacademy = Jobhunacademy::FindOrFail($id);
         $jobhunacademy->delete();
         return redirect()->route('jobhunacademy.table');
+    }
+
+    public function apiJobhunAcademyStudents(){
+        $jobhunacademystudents = Jobhunacademy::all();
+        return response()->json(['jobhunacademystudent'=>$jobhunacademystudents]);
     }
 }
