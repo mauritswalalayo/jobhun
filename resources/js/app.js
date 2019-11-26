@@ -17,6 +17,7 @@ import routes from './routes.js';
 import VueRouter from 'vue-router';
 
 Vue.use(VueSwal);
+Vue.use(VModal);
 Vue.component('pagination', require('laravel-vue-pagination'));
 Vue.use(VueRouter)
 const router = new VueRouter({
@@ -56,15 +57,13 @@ Vue.component('back-tag-table', require('./components/back/tag/Table.vue').defau
 Vue.component('back-testimoni-table', require('./components/back/testimoni/Table.vue').default);
 
 // Mendeklarasikan Bagian Back Testimoni
-Vue.component('back-testimoni-form', require('./components/back/testimoni/Form.vue').default);
+//Vue.component('back-testimoni-form', require('./components/back/testimoni/Form.vue').default);
 
 // Mendeklarasikan Bagian Back Tag
 Vue.component('back-collaborate-table', require('./components/back/collaborate/Table.vue').default);
-/**
- * Next, we will create a fresh Vue mobilelication instance and attach it to
- * the page. Then, you may begin adding components to this mobilelication
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+
+// Mendeklarasikan Bagian Back Tag
+Vue.component('back-jobhunacademy-table', require('./components/back/jobhunacademy/Table.vue').default);
 
 const mobile = new Vue({
     store,
