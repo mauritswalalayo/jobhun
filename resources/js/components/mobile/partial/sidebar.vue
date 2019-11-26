@@ -33,20 +33,20 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <!-- <h6 class="collapse-header">Custom Components:</h6> -->
-                        <router-link to="jobhun-careerHub">
-                            <a class="collapse-item">Jobhun Career Hub</a>
+                        <router-link to="jobhun-careerHub" class="collapse-item">
+                            Jobhun Career Hub
                         </router-link>
 
-                        <router-link to="jobhun-academy">
-                            <a class="collapse-item" href="">Jobhun Academy</a>
+                        <router-link to="/jobhun-academy"  class="collapse-item" >
+                            Jobhun Academy
                         </router-link>
 
-                        <router-link to="jobhun-mediaPatner">
-                            <a class="collapse-item" href="">Media Partner</a>
+                        <router-link to="/jobhun-mediaPatner" class="collapse-item">
+                            Media Partner
                         </router-link>
                         
-                        <router-link to="jobhun-talentPool">
-                            <a class="collapse-item" href="">Jobhun Talent Pool</a>
+                        <router-link to="/jobhun-talentPool" class="collapse-item">
+                            Jobhun Talent Pool
                         </router-link>
 
                     </div>
