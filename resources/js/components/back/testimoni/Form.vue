@@ -49,7 +49,8 @@
                     </div>
 
                     <div class="box-footer">
-                        <button type="submit" class="btn btn-info pull-right">Tambah</button>
+                        <!-- <button type="submit" class="btn btn-info pull-right">Tambah</button> -->
+                        <a :href="$store.state.apiUrl + 'testimoni/table'" class="btn btn-primary" type="submit">Tambah Testimoni</a>
                     </div>
                 </form>
         </div>

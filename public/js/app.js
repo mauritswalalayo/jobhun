@@ -1904,6 +1904,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -1991,20 +1992,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      testimonis: {}
+      testimonis: []
     };
   },
   mounted: function mounted() {
     this.getData();
+  },
+  methods: {
+    getData: function getData() {
+      axios.get();
+    }
   }
 });
 
@@ -41035,7 +41035,19 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _vm._m(1)
+          _c("div", { staticClass: "box-footer" }, [
+            _c(
+              "a",
+              {
+                staticClass: "btn btn-primary",
+                attrs: {
+                  href: _vm.$store.state.apiUrl + "testimoni/table",
+                  type: "submit"
+                }
+              },
+              [_vm._v("Tambah Testimoni")]
+            )
+          ])
         ]
       )
     ])
@@ -41048,18 +41060,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "box-body" }, [
       _c("div", { staticClass: "alert alert-danger" }, [_c("ul", [_c("li")])])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "box-footer" }, [
-      _c(
-        "button",
-        { staticClass: "btn btn-info pull-right", attrs: { type: "submit" } },
-        [_vm._v("Tambah")]
-      )
     ])
   }
 ]
@@ -41111,18 +41111,12 @@ var render = function() {
                 _vm._v(" "),
                 _c("td", [_vm._v(" " + _vm._s(testimoni.profesi) + " ")]),
                 _vm._v(" "),
-                _c("td"),
-                _vm._v(" "),
                 _vm._m(1, true)
               ])
             }),
             0
           )
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "box-footer" }, [
-        _vm._v("\n            Footer\n        ")
       ])
     ])
   ])
