@@ -16,8 +16,8 @@
     <div class="card">
     <div class="card-header">carrerhubDetail</div>
     <div class="card-body">
-         <img class="card-img-top" :src="$store.state.apiUrl + 'image/logo_perusahaan/' + job.job_logo_url" style="width:100%">
-         <br> <br>
+         <img class="card-img-top" :src="$store.state.apiUrl + 'image/logo_perusahaan/' + job.job_logo_url" style="display: block;margin-left: auto;margin-right: auto">
+         
          
   <table class="table text-center">
     <tr>{{job.job_company_name}}</tr>
