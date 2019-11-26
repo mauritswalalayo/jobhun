@@ -1,4 +1,5 @@
 <template>
+    <div>
     <div class="container">
         <!-- <p>{{job.id}}</p>
         <p>{{job.job_company_name}}</p>
@@ -53,7 +54,7 @@
         <button class="btn btn-secondary btn-lg btn-block">Daftar</button>
     
     </div>
-  
+  </div>
     
 </template>
 
