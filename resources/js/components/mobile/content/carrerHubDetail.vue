@@ -50,8 +50,9 @@
     </div>
     
     <br>
-        <button class="btn btn-success btn-lg btn-block">Daftar</button>
-        <button class="btn btn-secondary btn-lg btn-block">Daftar</button>
+
+        <router-link to="//jobhun-careerHub" class="btn btn-secondary btn-lg btn-block">Lamar Sekarang</router-link>
+        <router-link to="//jobhun-careerHub" class="btn btn-secondary btn-lg btn-block">Lihat lowongan lain</router-link>
     
     </div>
   </div>
