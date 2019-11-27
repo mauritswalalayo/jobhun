@@ -144,15 +144,15 @@ Waktu proses rekrut:</textarea>
         methods: {
         changeLogoUrl: function() {
             this.job_logo_url = this.$refs.ref_job_logo_url.files[0];
-            console.log(this.logo_url);
+            console.log(this.job_logo_url);
         },
         changePosterUrl: function(){
             this.job_poster_url = this.$refs.ref_job_poster_url.files[0];
-            console.log(this.poster_url);
+            console.log(this.job_poster_url);
         },
         changeTransferUrl: function(){
             this.job_transfer_url = this.$refs.ref_job_transfer_url.files[0];
-            console.log(this.transfer_url);
+            console.log(this.job_transfer_url);
         },
         addJob: function(){
             let formData = new FormData();

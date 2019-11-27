@@ -23,15 +23,13 @@ Route::group(["middleware" => ['cors']],function (){
 
     Route::post('post/jobs','JobController@add')->name('post.jobs.reguler');
 
-<<<<<<< HEAD
     Route::get('testimoni', 'TestimoniController@index')->name('testimoni.index');
-=======
-    
+
     Route::get('job/{id}', 'JobController@show');
 
     Route::get('jobhunacademystudents', 'JobhunAcademyController@apiJobhunAcademyStudents');
 
->>>>>>> master
+    Route::delete('jobhunacademystudents/{id}', 'JobhunAcademyController@apiJobhunAcademyStudentsDelete');
 });
 
 

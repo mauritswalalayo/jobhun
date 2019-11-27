@@ -5,12 +5,12 @@ Vue.use(Vuex)
 const state = {
 	session:{
 	},
-<<<<<<< HEAD
 	apiUrl: 'http://localhost:8000/',
-=======
 
 	apiUrl: 'http://localhost:8080/projek/jobhun/public/',
->>>>>>> master
+
+	apiUrl: 'http://localhost:8000/',
+
 	overlay: false,
 	isLoading: false
 }
