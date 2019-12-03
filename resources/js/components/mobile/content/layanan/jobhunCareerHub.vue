@@ -46,11 +46,11 @@
             <div class="container">
                 <div v-for="job in jobs.data" :key="job.id" class="card flex-row flex-wrap">
                     <div class="card-header border-0">
-                        <img :src="$store.state.apiUrl + 'image/logo_perusahaan/' + job.job_logo_url" style="width:100px;height:100px" alt="">
+                        <img :src="$store.state.apiUrl + 'image/logo_perusahaan/' + job.job_logo_url" style="width:85x;height:85px" alt="">
                     </div>
                     <div class="card-block px-2">
                         <h4 class="card-title"><b>{{job.job_company_name}}</b></h4>
-                        <p class="card-text"><i class="fas fa-map-marker-alt"></i> Surabaya<br>Posisi: {{job.job_position_sought}}</p>
+                        <p class="card-text"><i class="fas fa-map-marker-alt"></i> Surabaya<br><i class="fas fa-briefcase"></i> {{job.job_position_sought}}</p>
                         <router-link :to="'carrerHubDetail/' + job.id" class="btn btn-primary btn-sm">
                             {{job.job_type}}
                         </router-link>

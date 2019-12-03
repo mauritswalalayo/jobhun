@@ -67,7 +67,7 @@
             <!-- Nav Item - Pages Collapse Menu -->
 
             <li class="nav-item active wow fadeInLeft" data-wow-delay="0.8s">
-                <router-link to="pasang-loker">
+                <router-link to="/pasang-loker">
                     <a class="nav-link" href="">
                     <i class="fas fa-users-cog"></i>
                     <span>Pasang Loker</span></a>
