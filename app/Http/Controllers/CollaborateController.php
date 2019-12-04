@@ -10,14 +10,14 @@ class CollaborateController extends Controller
 
     public function index()
     {
-        $collaborate = Collaborate::paginate(3);
-        $first_index = $collaborate->currentPage() * $collaborate->perPage() - $collaborate->perPage() + 1;
-        return view('content.collaborate.table',['datacollaborate' => $collaborate, 'first_index' => $first_index]);
+        $datacollaborate = Collaborate::paginate(3);
+        $first_index = $datacollaborate->currentPage() * $datacollaborate->perPage() - $datacollaborate->perPage() + 1;
+        return view('back.content.collaborate.table', compact('datacollaborate','first_index'));
     }
- 
+
     public function form ()
     {
-        return view ('content.collaborate.form');
+        return view ('back.content.collaborate.form');
     }
 
     public function add (Request $request)
@@ -38,8 +38,8 @@ class CollaborateController extends Controller
 
     public function edit ($id)
     {
-        $collaborate = Collaborate::find($id);
-        return view('content.collaborate.form',['editcollaborate'=> $collaborate]);
+        $editcollaborate = Collaborate::find($id);
+        return view('back.content.collaborate.form', compact('editcollaborate'));
     }
 
     public function update (Request $request, $id)

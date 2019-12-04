@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
         <div class="box box-primary">
             <div class="box-header with-border">
@@ -30,4 +30,4 @@
             </div>
         </div>
     </div>
-</template>
+</template> -->

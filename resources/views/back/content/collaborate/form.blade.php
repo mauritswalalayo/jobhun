@@ -34,7 +34,7 @@
         <div class="box-body">
             <div class="form-group">
                 <label for="title">Nama Perusahaan :</label>
-                <input name="name" value=" {{old('name')}} " type="text" id="name" class="form-control" placeholder="Masukan Nama Perusahaan Anda......"
+                <input name="name" type="text" id="name" class="form-control" placeholder="Masukan Nama Perusahaan Anda......"
                 @if(isset($editcollaborate)) value="{{$editcollaborate->name}}" @endisset>
             </div>
         </div>
