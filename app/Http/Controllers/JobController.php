@@ -15,20 +15,20 @@ class JobController extends Controller
 
     public function view_loker ($verified_status)
     {
-        $job = Job::where('job_verified',$verified_status)->paginate(5);
-        $first_index = $job->currentPage() * $job->perPage() - $job->perPage() + 1;
+        $datajob = Job::where('job_verified',$verified_status)->paginate(5);
+        $first_index = $datajob->currentPage() * $datajob->perPage() - $datajob->perPage() + 1;
         if($verified_status == 0)
-            return view('content.loker.table',['datajob' => $job, 'first_index' => $first_index]);
+            return view('back.content.loker.table', compact('datajob','first_index'));
         else
-            return view('content.loker.table_terverifikasi',['datajob' => $job, 'first_index' => $first_index]);
+            return view('back.content.loker.table_terverifikasi', compact('datajob','first_index'));
 
     }
 
     public function view_mediapartner ()
     {
-        $mediapartner = Mediapartner::paginate(10);
-        $first_index = $mediapartner->currentPage() * $mediapartner->perPage() - $mediapartner->perPage() + 1;
-        return view('content.mediapartner.table',['data_mediapartner' => $mediapartner, 'first_index' => $first_index]);
+        $data_mediapartner = Mediapartner::paginate(10);
+        $first_index = $data_mediapartner->currentPage() * $data_mediapartner->perPage() - $data_mediapartner->perPage() + 1;
+        return view('back.content.mediapartner.table',compact('data_mediapartner','first_index'));
     }
 
     public function form_reguler ()
@@ -43,7 +43,7 @@ class JobController extends Controller
 
     public function indextype ()
     {
-        
+
         return view('user.content.postingjob.typejob');
     }
 
@@ -67,12 +67,12 @@ class JobController extends Controller
 
                     // 'logo_url' => 'required',
                     'job_transfer_url'=> 'required',
-                    
+
                 ]
             );
             if ($validator->fails()) {
-                return response()->json(['message'=> 'gagal tambah loker. cek inputan anda', 
-                                        'error'=>$validator->getMessageBag()->toArray()],422); 
+                return response()->json(['message'=> 'gagal tambah loker. cek inputan anda',
+                                        'error'=>$validator->getMessageBag()->toArray()],422);
             }
 
             $job = Job::create($request->all());
@@ -80,7 +80,7 @@ class JobController extends Controller
             $job_transfer_url = $job->id.'.'.$request->file('job_transfer_url')->getClientOriginalExtension();
             $request->file('job_transfer_url')->move(public_path('image/bukti_transfer'),$job_transfer_url);
             $job->job_transfer_url = $job_transfer_url;
-            
+
             if($request->hasFile('job_poster_url')){
                 $job_poster_url = $job->id.'.'.$request->file('job_poster_url')->getClientOriginalExtension();
                 $request->file('job_poster_url')->move(public_path('image/poster'),$job_poster_url);
@@ -90,8 +90,8 @@ class JobController extends Controller
             $job_logo_url = $job->id.'.'.$request->file('job_logo_url')->getClientOriginalExtension();
             $request->file('job_logo_url')->move(public_path('image/logo_perusahaan'),$job_logo_url);
             $job->job_logo_url = $job_logo_url;
-                
             };
+
             //nanti tolong dihapus
             $job->job_verified = 1;
 
@@ -112,26 +112,19 @@ class JobController extends Controller
                 $message->subject('Loker Baru');
                 // $message->priority(3);
                 // $message->attach('pathToFile');
-
             });
 
-
-
-
             if($request->ajax()){
-                    return response()->json(['message'=> 'berhasil tambah loker' ]);                    
-
+                    return response()->json(['message'=> 'berhasil tambah loker' ]);
             }
-        
             return redirect()->route('index')->with('berhasil', '.');
-            
-
         }
+
 //=========================================== form verified ===============================================
         public function verified($id)
         {
-            $job = Job::findOrfail($id);
-            return view('content.loker.verified',['verified' => $job]);
+            $verified = Job::findOrfail($id);
+            return view('back.content.loker.verified',compact('verified'));
         }
 
 //=========================================== verified loker ======================================================
@@ -157,13 +150,10 @@ public function verified_loker(Request $request, $id)
     if ($validator->fails()) {
         return back()->withErrors($validator)->withInput();
     }
-
     $loker = Job::find($id);
-
 
     $loker->update($request->all());
     $loker->verified_job =1;
-
     $loker->save();
 
 //======================================= Pesan verifikasi=============================================
@@ -172,7 +162,7 @@ public function verified_loker(Request $request, $id)
     $namatujuan = $loker->company_name;
     $data = ['name' => $namatujuan];
 
-    Mail::send('content.email.email_verified', $data, function ($message) use($emailtujuan,$namatujuan) {
+    Mail::send('back.content.email.email_verified', $data, function ($message) use($emailtujuan,$namatujuan) {
         $message->from('jobhun.id@gmail.com', 'Johana');
         // $message->sender('john@johndoe.com', 'John Doe');
         $message->to($emailtujuan, $namatujuan);
@@ -183,11 +173,7 @@ public function verified_loker(Request $request, $id)
         // $message->priority(3);
         // $message->attach('pathToFile');
     });
-
-
     return redirect()->route('loker.table',['verified_status'=>0]);
-
-    
 
 }
 
@@ -201,7 +187,7 @@ public function not_verified($id)
     $namatujuan = $loker->company_name;
     $data = ['name' => $namatujuan];
 
-    Mail::send('content.email.email_notverified', $data, function ($message) use($emailtujuan,$namatujuan) {
+    Mail::send('back.content.email.email_notverified', $data, function ($message) use($emailtujuan,$namatujuan) {
         $message->from('jobhun.id@gmail.com', 'Johana');
         // $message->sender('john@johndoe.com', 'John Doe');
         $message->to($emailtujuan, $namatujuan);
@@ -215,9 +201,7 @@ public function not_verified($id)
 
     $loker->delete();
 
-
     return redirect()->route('loker.table',['verified_status'=>0]);
-
 }
 
 //========================================== Delete Loker =======================================================
@@ -226,7 +210,7 @@ public function not_verified($id)
         {
             $job = Job::findOrFail($id);
             $job->delete();
-            return redirect()->route('loker.table',['verified_status'=>0]);        
+            return redirect()->route('loker.table',['verified_status'=>0]);
         }
 
 //========================================= Media Partner ===============================================================
@@ -249,7 +233,6 @@ public function not_verified($id)
                     'event_date' => 'required',
                     'event_venue'=> 'required',
                     'event_details' => 'required',
-                    
                 ]
             );
             if ($validator->fails()) {
@@ -270,7 +253,7 @@ public function not_verified($id)
             // $namatujuan = $mediapartner->name;
             $data= ['name_admin' => 'Johana'];
 
-            Mail::send('content.mediapartner.email',$data, function ($message) use($emailtujuan) {
+            Mail::send('back.content.mediapartner.email',$data, function ($message) use($emailtujuan) {
                 $message->from('jobhun.id@gmail.com', 'Jobhun');
                 // $message->sender('john@johndoe.com', 'John Doe');
                 $message->to($emailtujuan);
@@ -281,7 +264,7 @@ public function not_verified($id)
                 // $message->priority(3);
                 // $message->attach('pathToFile');
             });
-        
+
             return redirect()->route('index')->with('berhasil', '.');
         }
 
@@ -291,14 +274,14 @@ public function not_verified($id)
         {
             $mediapartner = Mediapartner::findOrFail($id);
             $mediapartner->delete();
-            return redirect()->route('mediapartner.table');        
+            return redirect()->route('mediapartner.table');
         }
 
 //############################## VERIFIED MEDIA PARTNER ############################
         public function verified_mediapartner($id)
         {
-            $mediapartner = Mediapartner::findOrfail($id);
-            return view('content.mediapartner.verified',['verified' => $mediapartner]);
+            $verified = Mediapartner::findOrfail($id);
+            return view('back.content.mediapartner.verified',compact('verified'));
         }
 
 //============================================== search loker =====================================================
@@ -312,7 +295,7 @@ public function not_verified($id)
                 {
                     $data_cari = Job::where('company_name' , 'like', '%'.$cari.'%')->paginate(5);
 
-                    return response()->json(['data'=> $data_cari]);                    
+                    return response()->json(['data'=> $data_cari]);
 
                     // echo json_encode($data);
                 }
@@ -321,16 +304,16 @@ public function not_verified($id)
                 {
                     return response()->json(['pesan'=>'Data tidak tersedia'],401);
                 }
-            
+
 
             return response()->json(['pesan'=>'Kesalahan'],401);
 
-        
+
 
             // $loker = Job::where('company_name', 'like', '%'.$cari.'%')->paginate(5);
 
             // return view('user.content.home.home_user',['loker'=> $loker]);
-            
+
             // ->orWhere('company_name' , 'like', '%'.$cari.'%')
             // ->orWhere('company_tagline' , 'like', '%'.$cari.'%')
             // ->orWhere('company_address' , 'like', '%'.$cari.'%')
@@ -347,6 +330,4 @@ public function not_verified($id)
         $job = Job::findOrFail($id);
         return response()->json(["job"=>$job]);
     }
-
 }
-

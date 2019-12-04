@@ -15,7 +15,7 @@ class Homepage_UserController extends Controller
         $post = Post::simplepaginate(10);
         $testimoni = Testimoni::simplepaginate(10);
         $first_index = $testimoni->currentPage() * $testimoni->perPage() - $testimoni->perPage() + 1;
-        return view('user.content.home.home_user', ['daftar_job' => $job, 'daftar_post' => $post ,'daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
+        return view('user.content.home.home_user', ['daftar_job' => $job, 'daftar_post' => $post, 'daftar_testimoni' => $testimoni, 'first_index' => $first_index]);
     }
 
     public function tentang()

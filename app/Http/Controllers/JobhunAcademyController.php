@@ -28,7 +28,6 @@ class JobhunAcademyController extends Controller
                     'evidence_transfer'=> 'required',
                     'payment_status' => 'required',
                     'information' => 'required',
-
                 ]
             );
             if ($validator->fails()) {
@@ -54,28 +53,23 @@ class JobhunAcademyController extends Controller
             {
                 $status_pembayaran= 'Pelunasan '.$kelas;
             }
-            else 
+            else
             {
                 $status_pembayaran = 'Cicilan '.$kelas;
             }
-            
 
             $bulan = intval($jobhunacademy->created_at->format('m'));
             $tahun = intval($jobhunacademy->created_at->format('Y'));
-
-            $dafatarbulanromawi = ['I', 'II', 'III', 'IV', 'V', 'VI', 
+            $dafatarbulanromawi = ['I', 'II', 'III', 'IV', 'V', 'VI',
                                     'VII' ,'VIII', 'IX' ,'X' ,'XI', 'XII'];
-
             $nomorkwitansi = $jobhunacademy->id.'/'.$dafatarbulanromawi[$bulan-1].'/'.$tahun;
 
-            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $status_pembayaran, 
+            $data = ['name' => $namatujuan, 'no_telp' => $no_telp, 'kelas' => $status_pembayaran,
                      'date' => $jobhunacademy->created_at->format('d F Y'), 'nomor_kwitansi' => $nomorkwitansi];
 
-            $pdf = PDF::loadview('content.email.contoh_kwitansi', $data)->setOptions(['isHtml5ParserEnabled' => true, 
+            $pdf = PDF::loadview('content.email.contoh_kwitansi', $data)->setOptions(['isHtml5ParserEnabled' => true,
                    'isRemoteEnabled' => true]);
 
-                    
-        
             Mail::send('content.email.kwitansi_tes', $data, function ($message) use($emailtujuan,$namatujuan,$pdf) {
                 $message->from('jobhun.id@gmail.com', 'Jobhun');
                 // $message->sender('john@johndoe.com', 'John Doe');
