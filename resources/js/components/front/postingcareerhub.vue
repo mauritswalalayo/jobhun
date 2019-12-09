@@ -225,10 +225,13 @@ export default {
                 }
               }).then(response=>{
                 let msg = response.data.message;
+                let urlnya = this.$store.state.apiUrl;
                 this.$swal({
                   title: "Berhasil",
                   text: msg,
                   icon: "success"
+                }).then(value=>{
+                    window.location.replace(urlnya);
                 });
               });
 
