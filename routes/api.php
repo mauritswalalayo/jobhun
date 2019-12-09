@@ -20,16 +20,16 @@ Route::group(["middleware" => ['cors']],function (){
     Route::get('job/filter/{per_page}', 'JobController@apiCareerHub');
 
     Route::post('post/jobs/premium','JobController@add')->name('post.jobs.premium');
-    
+
     Route::post('post/jobs','JobController@add')->name('post.jobs.reguler');
 
-    
+    Route::get('testimoni', 'TestimoniController@index')->name('testimoni.index');
+
     Route::get('job/{id}', 'JobController@show');
 
     Route::get('jobhunacademystudents', 'JobhunAcademyController@apiJobhunAcademyStudents');
+
     Route::delete('jobhunacademystudents/{id}', 'JobhunAcademyController@apiJobhunAcademyStudentsDelete');
-
-
 });
 
 
