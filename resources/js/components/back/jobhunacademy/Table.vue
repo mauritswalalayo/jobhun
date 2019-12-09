@@ -23,7 +23,6 @@
                             <td>
                                 <a @click="showModalnya(siswa)" class="btn btn-warning btn-sm glyphicon glyphicon-pencil">View</a>
                                 <a @click="deleteData(siswa)" class="btn btn-danger btn-sm glyphicon glyphicon-trash">Delete</a>
-                                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal-info">Launch Info Modal</button>
                             </td>
 
                         </tr>
@@ -75,8 +74,17 @@
                     <input v-model="pendaftar.phone" type="text"  class="form-control" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="title">Bukti Transfer</label>
-                    <img :src="$store.state.apiUrl + 'image/jobhun_academy/bukti_transfer/' + pendaftar.evidence_transfer">
+                    <label for="title">Bukti Transfer</label></br>
+                    <img :src="$store.state.apiUrl + 'image/jobhun_academy/bukti_transfer/' + pendaftar.evidence_transfer" 
+                     height="800px" with="1000px">
+                </div>
+                <div class="form-group">
+                    <label for="title">Status Pembayaran</label>
+                    <input v-model="pendaftar.payment_status" type="text"  class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="title">Informasi</label>
+                    <input v-model="pendaftar.information" type="text"  class="form-control" placeholder="">
                 </div>
 
                     <!--<a @click="save" class="btn btn-info btn-sm glyphicon glyphicon-floppy-disk">Save</a></td>-->
@@ -88,7 +96,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-outline">Save changes</button>
+                <!--<button type="button" class="btn btn-outline">Save changes</button>-->
               </div>
             </div>
             <!-- /.modal-content -->

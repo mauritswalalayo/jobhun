@@ -2,7 +2,7 @@
 <div class="col-lg-9 column">
 	<div class="padding-left">
 		<div class="profile-title">
-			<h3>Formulir Jobhun Career Hub Reguler</h3>
+			<h3>Formulir Jobhun Career Hub XX</h3>
 		</div>
 		 
 		<div class="profile-form-edit">

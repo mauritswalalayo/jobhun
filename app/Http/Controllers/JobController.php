@@ -92,28 +92,26 @@ class JobController extends Controller
             $job->job_logo_url = $job_logo_url;
                 
             };
-            //nanti tolong dihapus
-            $job->job_verified = 1;
 
             $job->save();
 
 //=================================== email =======================================================
-            $destinationemail = $job->job_company_email;
-            $destionationname = 'Maurits Oces';
-            $data = ['name' => 'Johana','body' => 'ada Loker baru dari '.$job->job_company_name];
+            // $destinationemail = 'walalayooces@gmail.com';
+            // $destionationname = 'Maurits Oces';
+            // $data = ['name' => 'Johana','body' => 'ada Loker baru dari '.$job->job_company_name];
 
-            Mail::send('content.email.email', $data, function ($message) use($destinationemail,$destionationname) {
-                $message->from('jobhun.id@gmail.com', 'Johana');
-                // $message->sender('john@johndoe.com', 'John Doe');
-                $message->to($destinationemail, $destionationname);
-                // $message->cc('john@johndoe.com', 'John Doe');
-                // $message->bcc('john@johndoe.com', 'John Doe');
-                // $message->replyTo('john@johndoe.com', 'John Doe');
-                $message->subject('Loker Baru');
-                // $message->priority(3);
-                // $message->attach('pathToFile');
+            // Mail::send('content.email.email', $data, function ($message) use($destinationemail,$destionationname) {
+            //     $message->from('jobhun.id@gmail.com', 'Johana');
+            //     // $message->sender('john@johndoe.com', 'John Doe');
+            //     $message->to($destinationemail, $destionationname);
+            //     // $message->cc('john@johndoe.com', 'John Doe');
+            //     // $message->bcc('john@johndoe.com', 'John Doe');
+            //     // $message->replyTo('john@johndoe.com', 'John Doe');
+            //     $message->subject('Loker Baru');
+            //     // $message->priority(3);
+            //     // $message->attach('pathToFile');
 
-            });
+            // });
 
 
 

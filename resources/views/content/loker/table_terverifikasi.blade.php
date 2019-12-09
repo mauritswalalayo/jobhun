@@ -25,10 +25,10 @@
                     @foreach ($datajob as $job)
                 <tr>
                     <td>{{ $i++ }}</td>
-                    <td>{{$job->type_loker}}</td>
-                    <td>{{$job->company_name}}</td>
-                    <td>{{$job->company_address}}</td>
-                    <td>{{$job->company_phone}}</td>
+                    <td>{{$job->job_service}}</td>
+                    <td>{{$job->job_company_name}}</td>
+                    <td>{{$job->job_company_address}}</td>
+                    <td>{{$job->job_company_phone}}</td>
 
                     <td>
                             {{-- {{url('loker/'.'delete/'.$job->id)}} --}}

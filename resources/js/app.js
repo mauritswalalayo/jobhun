@@ -62,7 +62,10 @@ Vue.component('back-testimoni-table', require('./components/back/testimoni/Table
 // Mendeklarasikan Bagian Back Tag
 Vue.component('back-collaborate-table', require('./components/back/collaborate/Table.vue').default);
 
-// Mendeklarasikan Bagian Back Tag
+// Mendeklarasikan Bagian Back Jobhun Academy
+Vue.component('back-jobhunacademy-table', require('./components/back/jobhunacademy/Table.vue').default);
+
+// Mendeklarasikan Bagian Back Form Carrer Hub Premium
 Vue.component('back-jobhunacademy-table', require('./components/back/jobhunacademy/Table.vue').default);
 
 const mobile = new Vue({
